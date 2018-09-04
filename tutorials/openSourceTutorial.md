@@ -50,9 +50,20 @@ Once a copyright is declared, the copyright holder may inform readers and users 
 If you do decide to use anything done by a third-party within your work, except for public domain works, you are required (both legally and morally) to cite the source. This is called **attribution**, and a general rule of thumb is that you should include references to all of the code you are using. We will get more into this later on in the tutorial, because there are different requirements depending upon the domain of the resource being attributed.
 
 ### "Free/Libre and Open Source Software"
-There is a perpetual discussion by the FLOSS hardliners about the degree of openness inherent in "open" source, but it is probably a good idea to go back in time to 1998 to [read this article](https://opensource.com/article/18/2/coining-term-open-source-software) by the woman who came up with the name "open source": Christine Peterson. Although Richard Stallman and Linus Torvalds are two of the most visible and vocal proponents of the  on the matter, the point is that even though the term began as a "marketing device", it stuck and changed the lives of everyone on the planet.
+> The term "open source" refers to something people can modify and share because its design is publicly accessible.
+> 
+> https://opensource.com/resources/what-open-source
 
+There is a perpetual discussion by the FLOSS hardliners about the degree of openness inherent in "open" source - and even what "freedom" means. However, it is probably a good idea to go back in time to 1998 and [read this article](https://opensource.com/article/18/2/coining-term-open-source-software) by the woman who came up with the name "open source": Christine Peterson. Although Richard Stallman and Linus Torvalds are two of the most successful, visible and vocal proponents on the matter; the point is that even though the term began as a "marketing device", it stuck and changed the lives of everyone on the planet - arguably for the better. 
 
+Stallman and his "camp" will define freedom as an important part of open source, because your freedom to use the code and change it is also a responsibility that you bear in the name of the entire community. (In an interesting irony, the Gnu Public License isn't ABSOLUTELY free, because it comes with the requirement that you must return changes that you make to the code back to the community.)
+
+In fact, there is often a great deal of discussion around "how free to make the code". I propose that you ask yourself three questions:
+1. Do you prefer to work alone?
+2. Are you worried about people stealing your idea?
+3. 
+
+If you answered yes to 
 
 ### MIT versus GPL
 
