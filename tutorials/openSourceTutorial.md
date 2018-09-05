@@ -42,9 +42,19 @@ https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSou
 > 
 > Our hope is that you will gain deeper insight into all of the great things (and potential pitfalls) surrounding licenses in the world of open-source software. The Introduction is a great place to start, as it defines some of the terms this tutorial will constantly return to. It will also teach you about some simple methods for making sure that your contributions are compliant with the licensing scheme taken by the project you are working with. Then it will go into depth about various domains of licensing, including code, copy, design and fonts. Finally, it wraps up with a discussion about your identity and your rights.
 
+## Preface
+> Some software has source code that only the person, team, or organization who created it—and maintains exclusive control over it—can modify. People call this kind of software "proprietary" or "closed source" software.
+> ...
+> Open source software is different. Its authors [make its source code available](https://opensource.com/business/13/5/open-source-your-code) to others who would like to view that code, copy it, learn from it, alter it, or share it. [LibreOffice](https://www.libreoffice.org/) and the [GNU Image Manipulation Program](http://www.gimp.org/) are examples of open source software.
+
+https://opensource.com/resources/what-open-source
+
+Every act of creativity can be attributed to someone or to a group of people working together. In fact, it is actually quite silly to think that anything exists in a vacuum. We are all connected, and ideas are things that often take on a life of its own. However, in these modern times many people have started protecting their ideas from being stolen (or worse) by claiming copyright and publishing their work in a way that enables other people to contribute to the project - or even take it in an entirely different direction.
+
+Not unlike the way that guilds of centuries past protected their trade-secrets, this "mafia-like" protection of ideas and their enshrinement in legislation as "property" can directly be traced to many of the problems that turbo-capitalism has unleashed on our planet. But guess what - there is something you can do. You can participate in the open-source movement.
+
 ## Introduction
 ### Copyright, Licensing and Attribution
-Every act of creativity can be attributed to someone or to a group of people working together. In fact, it is actually quite silly to think that anything exists in a vacuum. We are all connected, and ideas are things that often take lives of their own. However, in these modern times many people have started protecting their ideas from being stolen (or worse) by claiming copyright and publishing their work in a way that enables other people to contribute to the project - or even take it in an entirely different direction.
 
 It is generally accepted that a notice of copyright is required as a preface for all licenses, because someone has to be responsible for declaring how the thing being licensed can be used. In a strange (but somehow logical) twist, if you wish to share your work as Public Domain, Copyleft or CC0, you have to first declare that you are the owner of your work (and that everyone who contributed to it agrees with you on that matter).
 
@@ -61,7 +71,7 @@ There is a perpetual discussion by the FLOSS hardliners about the degree of open
 
 Stallman and his "camp" will define freedom as an important part of open source, because your freedom to use the code and change it is also a responsibility that you bear in the name of the entire community.
 
-Depending upon your perspective, the Gnu Public License isn't ABSOLUTELY free, because it comes with the requirement that you must return changes that you make to the code back to the community. 
+> Depending upon your perspective, the Gnu Public License isn't ABSOLUTELY free, because it comes with the requirement that you must return changes that you make to the code back to the community - and freedom would mean you get to decide how to work. However the inverse argument could be made with MIT, because 
 
 In fact, there is often a great deal of discussion around "how free to make the code". I propose that you ask yourself four questions:
 1. Do you prefer to work alone?
