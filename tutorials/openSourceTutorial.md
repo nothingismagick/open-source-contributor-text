@@ -1,16 +1,16 @@
-*=> A general introduction to Open Source with specific examples taken from the approach used by the Quasar Framework, as we intend to use this tutorial as training and reference for all forthcoming (and existing) contributors.*
+*=> An in-depth introduction to Open Source with specific examples taken from the approach used by the Quasar Framework, as we intend to use this tutorial as training and reference for all forthcoming (and existing) contributors.*
 
-#### Repository
+### Repository 
 https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSourceTutorial.md
 
-#### What Will Be Discussed?
-> You will learn the basics about licenses in Open Source software and best practices to make sure that your contributions are compliant.
+### What Will Be Discussed?
+> You will learn the basics about licensing in Open Source software and best practices to make sure that your contributions are compliant.
 
 **Introduction**
 - You will learn about the difference between copyright, licensing and attribution
 - You will discover the meaning of "Free/Libre and Open Source Software"
 - You will find out what is meant by "GPL compatibility"
-- You will learn about license discovery
+- You will learn about license discovery and licensing agreements
 - You will learn how to use code and other assets that are open-source
 
 **License Types**
@@ -20,18 +20,20 @@ https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSou
 - Licenses for fonts
 
 **Your Identity and Rights**
-- You will learn about Contributor License Agreements (CLA)
+- You will learn about "Non-Disclosure Agreements" (NDA)
+- You will learn about "Contributor License Agreements" (CLA)
 - You will learn how to become a "verified" contributor
 - You will learn why "developer certificates of origin" are used
 - You will learn what "signed-off-by" means
-- You will learn 
+- You will learn about "release" forms
+- You will learn about "provenance"
 
-#### Requirements
+### Requirements
 - You must speak English proficiently
 - A basic understanding of `git`  
 - Knowledge of file types relevant to your field of activity 
 
-#### Difficulty
+### Difficulty
 - Basic to medium
 
 # Tutorial Contents
@@ -56,26 +58,55 @@ If you do decide to use anything done by a third-party within your work, except 
 
 There is a perpetual discussion by the FLOSS hardliners about the degree of openness inherent in "open" source - and even what "freedom" means. However, it is probably a good idea to go back in time to 1998 and [read this article](https://opensource.com/article/18/2/coining-term-open-source-software) by the woman who came up with the name "open source": Christine Peterson. Although Richard Stallman and Linus Torvalds are two of the most successful, visible and vocal proponents on the matter; the point is that even though the term began as a "marketing device", it stuck and changed the lives of everyone on the planet - arguably for the better. 
 
-Stallman and his "camp" will define freedom as an important part of open source, because your freedom to use the code and change it is also a responsibility that you bear in the name of the entire community. (In an interesting irony, the Gnu Public License isn't ABSOLUTELY free, because it comes with the requirement that you must return changes that you make to the code back to the community.)
+Stallman and his "camp" will define freedom as an important part of open source, because your freedom to use the code and change it is also a responsibility that you bear in the name of the entire community.
 
-In fact, there is often a great deal of discussion around "how free to make the code". I propose that you ask yourself three questions:
+Depending upon your perspective, the Gnu Public License isn't ABSOLUTELY free, because it comes with the requirement that you must return changes that you make to the code back to the community. 
+
+In fact, there is often a great deal of discussion around "how free to make the code". I propose that you ask yourself four questions:
 1. Do you prefer to work alone?
 2. Are you worried about people stealing your idea?
-3. 
+3. Have you written all of the code yourself, including the libraries?
+4. Have you signed any type of Non Disclosure Agreement regarding the work in question?
 
-If you answered yes to 
+If you answered **no** to any of these questions, then you should really use an open source license for your work. 
+
+If you answered **yes** to all of these questions, then using open-source is probably still one of the best ways to protect your work. 
 
 ### MIT versus GPL
+One of the common misconceptions about licensing your project with GPL is that it will prevent corporations from taking your idea and using it to make money - all without giving you any cut of the profits. This is patently untrue. If someone wants to steal your code and break the law, they will. If this is your biggest concern, then stop reading right now. Open source is not for you.
+
+GPL and MIT both allow anyone to use the code published. The biggest issue is what happens when 
+
+GPL compatibility 
 
 
 ### License discovery and licensing requirements
 Using open-source software in your projects is a great thing, but you need to stay diligent, especially when you are contributing work to another project. And this is doubly true if you are required to do reporting about license compliance (for example in the case of public agencies or within corporate legal firewalls). In any case, it can be a bit of a hassle to manually go through and track down all the license files.
 
-A great project that solves this quite elegantly is [https://fossa.io/](https://fossa.io/ "https://fossa.io/") and specifically [their free **CLI** that does not require registration](https://github.com/fossas/fossa-cli). If you want to see a license report generated by their **CLI** in your repository, after following their install instructions, you can just use this command:
+There are a few projects that treat this issue of discovery, such as [nlf](https://www.npmjs.com/package/nlf) and [https://fossa.io/](https://fossa.io/ "https://fossa.io/") and specifically [their free **CLI** that does not require registration](https://github.com/fossas/fossa-cli). 
+```
+$ nlf --summary detail > nlf.txt
+```
+[Here is a report made from the Quasar repo using the **nlf** approach.]( https://raw.githubusercontent.com/nothingismagick/quasar-articles/master/tutorials/nlf_report_licenses_quasar.txt.md)
+
+If you want to see a license report generated by the **fossa CLI** in your repository, after following their install instructions, you can just use this command:
 ```
 $ fossa report licenses > fossa.txt
 ```
-[Here is a report made from the Quasar repo using this technique.]( https://raw.githubusercontent.com/nothingismagick/quasar-articles/master/fossa_report_licenses_quasar.txt.md) As you can see, the great majority of modules use the MIT license, but several are not clear from the report alone. As you can see, 15 of the projects were not autodetected by fossa. I followed each of the links, tracked down their licenses, and made a note not only of the license but that I was the one who did it.
+[Here is a report made from the Quasar repo using the **fossa cli** approach.]( https://raw.githubusercontent.com/nothingismagick/quasar-articles/master/tutorials/fossa_report_licenses_quasar.txt.md) As you can see, the great majority of modules use the MIT license, but several are not clear from the report alone: 15 of the projects were not autodetected by **fossa**. I followed each of the links, tracked down their licenses, and made a note not only of the license, but that I was the one who did it. That is what you will need to do as well. Should a license file not be included in the project, and you cannot find one, it is wise to contact the author.
+
+### Using open-source
+If you use anything that is open-source, you must declare it and make the original licenses easily accessible. If you are using, for example, node modules in your project, then these modules are available in the source code of the project when someone downloads the project files and "installs" the dependencies. 
+
+In the case of images, you should either:
+1. Cite the image sources / licenses directly after the image
+2. Put this same information in a footnote / endnote / linked document
+3. Put it in a watermark in the file
+4. Inject the information into the metadata of the file
+
+Generally this is enough, however if you make any changes to the original library, you may be required to notify and/or submit these changes back to the community. This depends on the license type, and we will cover this in the next section.
+
+> **Stack Overflow**: A common pitfall is to merely copy and paste things that you find on stackoverflow.com - but this is dangerous, because even though it is implied that the user is sharing this information, you do not know with 100% certainty that it is appropriate (or permitted) to use the code example 1 to 1. The common practice of citing the resource is better than nothing, but you should really consider rewriting the example to fit your code style, the needs of your project AND reference the source as "inspiration".
 
 # License Types
 
@@ -112,17 +143,27 @@ https://developercertificate.org/
 ## What does "signed-off-by" mean, and how to do it
 https://stackoverflow.com/questions/1962094/what-is-the-sign-off-feature-in-git-for
 
+## When do I need to get "release" forms
+A release form is generally required when making photographs of people and private property - and using them for any non-private purpose. Although specifics vary from jurisdiction to jurisdiction, it is very important that you get people to sign a release form, and if it is clear WHERE the picture was taken, then you might need to get permission of the owner.
+
+> One clever way to deal with a release form for humans (if they genuinely want to support you) is a so-called "reciprocal pay". Before the photo-shooting, prepare two receipts. On one receipt you pay them e.g. 5 EUR for being a model. On the other receipt, they pay you e.g. 5 EUR for a copy of the photograph. The rule (got the cash, keep the copy) applies, so each party has one original receipt and one copy receipt. You send them a digital copy of the final image as a link to the open-source repository where it was used, and note this on the copy of the receipt they gave you. Keep this in your own records, and everybody is happy.
+
+If you do use photographs of people that you have made and submit them to open source projects, you need to be able to prove that the person  
+
+
 # Final Words
-Just because you "open" your work to collaboration from others, this is not the end of the story. 
+Just because you "open" your work to collaboration from others, this is not the end of the story. Just because you slap a Creative Commons license on a photoshop file does not mean it is open and free. The degree of openness of an asset or project is just as determined by the operating system and the software needed to use and or modify the file. 
 
 # Further Resources
 In case you want to go more into depth about these topics, we have a few additional resources that we highly recommend:
 - Stallman's distinction between [FLOSS and FOSS](https://www.gnu.org/philosophy/floss-and-foss.en.html)
 - This chapter of the [ZeroMQ Guide](http://zguide.zeromq.org/page:all#toc141) goes into great detail about governance in open-source projects with the specific example of their community
-https://stackoverflow.com/questions/1962094/what-is-the-sign-off-feature-in-git-for
 
 
-#### Proof of Work Done
-This article is entirely the work of @nothingismagick https://github.com/nothingismagick
+#### Proof of Work Done (Authorship)
+The original version of this article is entirely the work of @nothingismagick https://github.com/nothingismagick
+
+#### License
+This work and all derivatives are [licensed under the FDL 1.3](https://github.com/nothingismagick/quasar-articles/blob/master/LICENSE).
 
 > Written with [StackEdit](https://stackedit.io/).
