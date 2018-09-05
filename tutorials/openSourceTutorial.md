@@ -4,7 +4,7 @@
 https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSourceTutorial.md
 
 ### What Will Be Discussed?
-> You will learn the basics about licensing in Open Source software and best practices to make sure that your contributions are compliant.
+> You will learn about Open Source and best-practices to make sure that your contributions are compliant.
 
 **Introduction**
 - You will learn about the difference between copyright, licensing and attribution
@@ -12,12 +12,6 @@ https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSou
 - You will find out what is meant by "GPL compatibility"
 - You will learn about license discovery and licensing agreements
 - You will learn how to use code and other assets that are open-source
-
-**License Types**
-- Licenses for code
-- Licenses for text / documentation
-- Licenses for artwork / design / video
-- Licenses for fonts
 
 **Your Identity and Rights**
 - You will learn about "Non-Disclosure Agreements" (NDA)
@@ -28,6 +22,12 @@ https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSou
 - You will learn about "release" forms
 - You will learn about "provenance"
 - You will learn about "changing licenses"
+
+**License Types**
+- Licenses for code
+- Licenses for text / documentation
+- Licenses for artwork / design / video
+- Licenses for fonts
 
 ### Requirements
 - You must speak English proficiently
@@ -79,11 +79,11 @@ In fact, there is often a great deal of discussion around "how free to make the 
 3. Have you written all of the code yourself, including the libraries?
 4. Have you signed any type of Non Disclosure Agreement regarding the work in question?
 
-If you answered **no** to any of these questions, then you should really use an open source license for your work. 
+If you answered **no** to any of these questions, then using an open source license for your work is a great way to go. 
 
-If you answered **yes** to all of these questions, then using open-source is probably still one of the best ways to protect your work. :D
+If you answered **yes** to all of these questions, then considering licensing your work as open-source is probably still one of the best ways to protect your work and make sure that it has an impact on the rest of the world. Just think of it this way: if all of the software around you today was not open source, would you still be able to work as you do? Don't you owe it to the community to share your work? 
 
-### MIT versus GPL
+### MIT and GPL
 One of the common misconceptions about licensing your project with GPL is that it will prevent corporations from taking your idea and using it to make money - all without giving you any cut of the profits. This is patently untrue. If someone wants to steal your code and break the law, they will. If this is your biggest concern, then stop reading right now. Open source is not for you.
 
 GPL and MIT both allow anyone to use the code published. The biggest issue is what happens when 
@@ -114,63 +114,74 @@ Furthermore, I detected that only one of our libraries (stylint) is requires a G
 
 
 ### Using open-source
-If you use anything that is open-source, you must declare it and make the original licenses easily accessible. If you are using, for example, node modules in your project, then these modules are available in the source code of the project when someone downloads the project files and "installs" the dependencies. 
+If you use anything that is open-source, you must declare it and make the original licenses easily accessible. If you are using, for example, node modules in your project, then these licenses are available in the source code of the project when someone downloads the project files and "installs" the dependencies. You can usually find it as a file named `LICENSE` in the root folder or in the "license" field in the `package.json`
 
-In the case of images, you should either:
-1. Cite the image sources / licenses directly after the image
-2. Put this same information in a footnote / endnote / linked document
-3. Put it in a watermark in the file
-4. Inject the information into the metadata of the file
+In the case of images, you should do one or more of the following:
+
+1. Name the file accordingly
+2. Put it in a watermark in the file
+3. Inject the information into the metadata of the file
+4. Cite the image sources / licenses directly after the image
+5. Put this same information in a footnote / endnote / linked document
+6. Place license information or licenses and release form-cover-sheets in the repository in the same folder as the image or some other delegated location
+
 
 Generally this is enough, however if you make any changes to the original library, you may be required to notify and/or submit these changes back to the community. This depends on the license type, and we will cover this in the next section.
 
 > **Stack Overflow**: A common pitfall is to merely copy and paste things that you find on stackoverflow.com - but this is dangerous, because even though it is implied that the user is sharing this information, you do not know with 100% certainty that it is appropriate (or permitted) to use the code example 1 to 1. The common practice of citing the resource is better than nothing, but you should really consider rewriting the example to fit your code style, the needs of your project AND reference the source as "inspiration".
 
-# License Types
+
+### Your Identity and Rights
+- You will learn about "Non-Disclosure Agreements" (NDA)
 
 
-## Major licenses for code
-- [Github's License Helper](https://choosealicense.com/)
-- [The exhaustive list by the GNU Foundation](https://www.gnu.org/licenses/license-list.html)
-## Important licenses for text / documentation
-- Creative Commons
-- Free Documentation License https://www.gnu.org/licenses/fdl.html
-## Licensing artwork / design / video
-- Copyright
-- Release forms (Right to the person)
-- 
-### Considerations about your place of residence
-### Consideration of the contents of your work
-## Font licenses
-Of the hundreds of fonts listed at [Google Fonts](https://fonts.google.com/attribution), there are exactly two different licenses used: Either the Apache License v2, or the SIL Open Font License v1.1. The vast majority are OFL
-#### SIL Open Font License (OFL)
-
-- ![OFL](https://scripts.sil.org/cms/sites/nrsi/media/OFL_logo_rect_color.png) [OFL-FAQ web version (1.1-update5)](https://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web)
-#### 
-
-# Your Identity and Rights
-## What is a Contributor License Agreement (CLA)
+### What is a Contributor License Agreement (CLA)
 
 
-## Become a "verified" contributor
+### Become a "verified" contributor
 https://stackoverflow.com/questions/10161198/is-there-a-way-to-autosign-commits-in-git-with-a-gpg-key
 
-## What is a "developer certificate of origin"
+### What is a "developer certificate of origin"
 https://developercertificate.org/
 
-## What does "signed-off-by" mean, and how to do it
+### What does "signed-off-by" mean, and how to do it
 https://stackoverflow.com/questions/1962094/what-is-the-sign-off-feature-in-git-for
 
-## When do I need to get "release" forms
+### When do I need to get "release" forms
 A release form is generally required when making photographs of people and private property - and using them for any non-private purpose. Although specifics vary from jurisdiction to jurisdiction, it is very important that you get people to sign a release form, and if it is clear WHERE the picture was taken, then you might need to get permission of the owner.
 
 > One clever way to deal with a release form for humans (if they genuinely want to support you) is a so-called "reciprocal pay". Before the photo-shooting, prepare two receipts. On one receipt you pay them e.g. 5 EUR for being a model. On the other receipt, they pay you e.g. 5 EUR for a copy of the photograph. The rule (got the cash, keep the copy) applies, so each party has one original receipt and one copy receipt. You send them a digital copy of the final image as a link to the open-source repository where it was used, and note this on the copy of the receipt they gave you. Keep this in your own records, and everybody is happy.
 
 If you do use photographs of people that you have made and submit them to open source projects, you need to be able to prove that the person  
 
+###  What is "provenance"
+
+### Can you change licenses?
+
+## License Types
+
+
+### Major licenses for code
+- [Github's License Helper](https://choosealicense.com/)
+- [The exhaustive list by the GNU Foundation](https://www.gnu.org/licenses/license-list.html)
+### Important licenses for text / documentation
+- Creative Commons
+- Free Documentation License https://www.gnu.org/licenses/fdl.html
+### Licensing artwork / design / video
+- Copyright
+- Release forms (Right to the person)
+- 
+#### Considerations about your place of residence
+#### Consideration of the contents of your work
+
+### Font licenses
+Of the hundreds of fonts listed at [Google Fonts](https://fonts.google.com/attribution), there are exactly two different licenses used: Either the Apache License v2, or the SIL Open Font License v1.1. The vast majority are OFL
+#### SIL Open Font License (OFL)
+
+- ![OFL](https://scripts.sil.org/cms/sites/nrsi/media/OFL_logo_rect_color.png) [OFL-FAQ web version (1.1-update5)](https://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web)
 
 # Final Words
-Just because you "open" your work to collaboration from others, this is not the end of the story. Just because you slap a Creative Commons license on a photoshop file does not mean it is open and free. The degree of openness of an asset or project is just as determined by the operating system and the software needed to use and or modify the file. 
+Just because you "open" your work to collaboration from others, this is not the end of the story. Just because you slap a Creative Commons license on a photoshop file does not mean it is open and free. The degree of openness of an asset or project is also determined by the operating system and the software needed to use and or modify the file. Please consider publishing not only the results of the process of your work, but also inform people about how you did it.
 
 # Further Resources
 In case you want to go more into depth about these topics, we have a few additional resources that we highly recommend:
@@ -179,7 +190,7 @@ In case you want to go more into depth about these topics, we have a few additio
 
 
 #### Proof of Work Done (Authorship)
-The original version of this article is entirely the work of @nothingismagick https://github.com/nothingismagick
+The original version of this article has been compiled and written by @nothingismagick https://github.com/nothingismagick
 
 #### License
 This work and all derivatives are [licensed under the FDL 1.3](https://github.com/nothingismagick/quasar-articles/blob/master/LICENSE).
