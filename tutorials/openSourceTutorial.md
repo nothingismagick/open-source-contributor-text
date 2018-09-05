@@ -74,11 +74,14 @@ There is a perpetual discussion by FLOSS hardliners about the degree of **freedo
 Stallman and the "Free Software Foundation" (FSF), who have arguably been around the longest, will define freedom as an important part of open source, because your freedom to use the code and change it is also a responsibility that you bear in the name of the entire community. In fact, if it is not totally free, 
 
 <center><strong>What is free? What is libre?</strong></center>
-If one ignores for a moment the annoying fact that "free" also means doesn't cost any money (which is the main argument for adding the word libre), there is still an unresolved semantic issue, in fact, one that will likely never resolve: 
- 
-Depending upon your perspective, the Gnu Public License isn't ABSOLUTELY free, because it comes with the requirement that you must return changes that you make to the code back to the community - and being free would mean you get to decide how to work and what to do with the code you use. At the same time and on a different spectrum, those who consider that MIT is not entirely free do so because there are circumstances where the code can be permissibly changed and not returned to the community.
 
-In fact, there is often a great deal of discussion around "how free to make the code". I propose that you ask yourself four questions:
+If one ignores for a moment the annoying fact that *free* also means "doesn't cost any money" (which is the main argument for adding the word libre), there is still an unresolved semantic issue, in fact, one that will likely never resolve: 
+ 
+Depending upon your perspective, the Gnu Public License isn't ABSOLUTELY free, because it comes with the requirement that you must return changes that you make to the code back to the community - and being free would mean you get to decide how to work and what to do with the code you use. At the same time and on a different spectrum, there are those who consider the MIT license not to be entirely free. They do so because there are circumstances where the code can be permissibly changed and not returned to the community - in a sense "imprisoning" the code.
+
+> There is no right or wrong answer here, because it is a matter of perspective - however every developer and every organisation needs to decide for themselves where they want to put the focus of their attention. At the Quasar Framework, we are not purists in the sense that we believe Code is in and of itself a spiritual being deserving of transferrable rights. If perhaps we were working on the Linux kernel that might be different - but we are more concerned with the human side of code and believe that the people who use our project should have the ultimate freedom of choice to do what they want. 
+
+There is often a great deal of discussion around "how free to make the code". I propose that you ask yourself four questions:
 1. Do you prefer to work alone?
 2. Are you worried about people stealing your idea?
 3. Have you written all of the code yourself, including the libraries?
@@ -88,10 +91,10 @@ If you answered **no** to any of these questions, then using an open source lice
 
 If you answered **yes** to all of these questions, then considering licensing your work as open-source is probably still one of the best ways to protect your work and make sure that it has an impact on the rest of the world. Just think of it this way: if all of the software around you today was not open source, would you still be able to work as you do? Don't you owe it to the community to share your work? 
 
-### MIT and GPL
-One of the common misconceptions about licensing your project with GPL is that it will prevent corporations from taking your idea and using it to make money - all without giving you any cut of the profits. This is patently untrue. If someone wants to steal your code and break the law, they will. If this is your biggest concern, then stop reading right now. Open source is not for you.
+### MIT vs GPL
+One of the common misconceptions about licensing your project with GPL is that it will prevent corporations from taking your idea and using it to make money - all without giving you any cut of the profits. This is patently untrue. If someone wants to steal your code and break the law, they will. If a corporation wants your GPL library, they can isolate it from the rest of their system and reveal nothing of their proprietary code. If this is your biggest concern, then stop, go back to the beginning of this tutorial and start from the beginning. 
 
-GPL and MIT both allow anyone to use the code published. The biggest issue is what happens when 
+The biggest issue is what happens when you include GPL-licensed code in your project, because GPL is very strict and can actually force you to reveal your code. Contrary to popular belief, 
 
 GPL compatibility 
 
@@ -121,22 +124,20 @@ Furthermore, I detected that only one of our libraries (stylint) is requires a G
 ### Using open-source
 If you use anything that is open-source, you must declare it and make the original licenses easily accessible. If you are using, for example, node modules in your project, then these licenses are available in the source code of the project when someone downloads the project files and "installs" the dependencies. You can usually find it as a file named `LICENSE` in the root folder or in the "license" field in the `package.json`
 
-In the case of images, you should do one or more of the following:
-
-1. Name the file accordingly
-2. Put it in a watermark in the file
-3. Inject the information into the metadata of the file
-4. Cite the image sources / licenses directly after the image
-5. Put this same information in a footnote / endnote / linked document
-6. Place license information or licenses and release form-cover-sheets in the repository in the same folder as the image or some other delegated location
-
-
-Generally this is enough, however if you make any changes to the original library, you may be required to notify and/or submit these changes back to the community. This depends on the license type, and we will cover this in the next section.
+Generally this is enough, however if you make any changes to the original library, you may be required to notify and / or submit these changes back to the community. This depends on the license type, but we will cover licensing specifics in the final section.
 
 > **Stack Overflow**: A common pitfall is to merely copy and paste things that you find on stackoverflow.com - but this is dangerous, because even though it is implied that the user is sharing this information, you do not know with 100% certainty that it is appropriate (or permitted) to use the code example 1 to 1. The common practice of citing the resource is better than nothing, but you should really consider rewriting the example to fit your code style, the needs of your project AND reference the source as "inspiration".
 
+In the case of images, you should do one or more of the following:
 
-### Your Identity and Rights
+1. Name the file accordingly
+2. Put license information in a watermark in the file
+3. Inject the information into the metadata of the file
+4. Cite the image sources / licenses directly after the image if possible
+5. Put this same information in a footnote / endnote / linked document
+6. Place license information or licenses and release form-cover-sheets in the repository in the same folder as the image or some other delegated location
+
+## Your Identity and Rights
 - You will learn about "Non-Disclosure Agreements" (NDA)
 
 
@@ -175,7 +176,14 @@ If you do use photographs of people that you have made and submit them to open s
 ### Licensing artwork / design / video
 - Copyright
 - Release forms (Right to the person)
-- 
+- Notification
+1. Name the file accordingly
+2. Put license information in a watermark in the file
+3. Inject the information into the metadata of the file
+4. Cite the image sources / licenses directly after the image if possible
+5. Put this same information in a footnote / endnote / linked document
+6. Place license information or licenses and release form-cover-sheets in the repository in the same folder as the image or some other delegated location
+
 #### Considerations about your place of residence
 #### Consideration of the contents of your work
 
