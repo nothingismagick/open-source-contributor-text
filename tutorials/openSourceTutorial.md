@@ -3,7 +3,7 @@
 #### Repository
 https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSourceTutorial.md
 
-#### What Will I Learn?
+#### What Will Be Discussed?
 > You will learn the basics about licenses in Open Source software and best practices to make sure that your contributions are compliant.
 
 **Introduction**
@@ -75,7 +75,7 @@ A great project that solves this quite elegantly is [https://fossa.io/](https://
 ```
 $ fossa report licenses > fossa.txt
 ```
-[Here is a report made from the Quasar repo using this technique.]( https://raw.githubusercontent.com/nothingismagick/quasar-articles/master/fossa_report_licenses_quasar.txt.md) As you can see, the great majority of modules use the MIT license, but several are not clear from the report alone. One of the things we are currently working on is tracking down the licenses of these 15 projects as Quasar moves toward absolute compliance with the 1.0 release.
+[Here is a report made from the Quasar repo using this technique.]( https://raw.githubusercontent.com/nothingismagick/quasar-articles/master/fossa_report_licenses_quasar.txt.md) As you can see, the great majority of modules use the MIT license, but several are not clear from the report alone. As you can see, 15 of the projects were not autodetected by fossa. I followed each of the links, tracked down their licenses, and made a note not only of the license but that I was the one who did it.
 
 # License Types
 
