@@ -1293,13 +1293,25 @@ The following software have components provided under the terms of this license:
 - htmlparser2 (from https://github.com/fb55/htmlparser2#readme) MIT  
 - js-yaml (from https://github.com/nodeca/js-yaml) MIT  
 - json-schema (from http://github.com/kriszyp/json-schema) AFL 2.1 / BSD (choose)  
-- node-forge (from https://github.com/digitalbazaar/forge) GPLv2  
+- node-forge (from https://github.com/digitalbazaar/forge) BSD or GPLv2 (choose) 
 - prelude-ls (from http://preludels.com) MIT  
 - querystring (from http://github.com/Gozala/querystring/issues/) MIT  
 - querystring-es3 (from https://github.com/mike-spainhower/querystring) MIT  
 - repeat-element (from https://github.com/jonschlinkert/repeat-element) MIT  
 - timers-browserify (from https://github.com/jryans/timers-browserify) MIT  
 - underscore (from http://underscorejs.org) MIT  
-  
-Sourced and checked by D.C. Thompson, 2018
+```
+Unknown license due-diligence:
+- sourced and checked by D.C. Thompson, 2018
+
+GPL license compliance:
+```
+├─┬ GPL  
+│ ├── node-forge@0.7.5  (we are using BSD-2)
+│ ├── sax@0.5.8  (we are using BSD-2)
+│ └── spdx-expression-parse@3.0.0 (we are using BSD-3)
+├─┬ GPL-3.0  
+│ └── stylint@1.5.9 (unclear license, cannot be both GPL2 & GPL3)
+├─┬ LGPL  
+│ └── spdx-expression-parse@3.0.0  (MIT, others are false positives)
 ```
