@@ -56,23 +56,25 @@ Not unlike the way that guilds of centuries past protected their trade-secrets, 
 ## Introduction
 ### Copyright, Licensing and Attribution
 
-It is generally accepted in modern democratic society, that a notice of copyright is required as a preface for all licenses, because someone has to be responsible for declaring how the thing being licensed can be used. In a strange (but somehow logical) twist, if you wish to share your work as Public Domain, Copyleft or CC0, you have to first declare that you are the owner of your work (and that everyone who contributed to it agrees with you on that matter). 
+It is generally accepted in modern democratic society that a notice of copyright is required as a preface for all licenses, because someone has to be responsible for declaring how the thing being licensed can be used. In a strange (but somehow logical) twist, if you wish to share your work as Public Domain, Copyleft or CC0, you have to first declare that you are the owner of your work (and that everyone who contributed to it agrees with you on that matter). 
 
-Once a copyright is declared, the copyright holder may inform readers and users of the code / text / art under which circumstances it is appropriate to use it. No matter what licensing approach the original author / copyright holder uses, it is always appropriate to retain copies of these licenses in the repository  hosting your work. It is never ok to remove or edit license files or license references in the headers or metadata of files - because that is basically stealing and a form of plagiarism.
+Once a copyright is declared, the copyright holder may inform readers and users of the code / text / art under which circumstances it is appropriate to use it. No matter what licensing approach the original author / copyright holder takes, it is always appropriate to retain copies of these licenses in the repository  hosting your work should it use open-source licensed works of third parties. It is never ok to remove or edit license files or license references in the headers or metadata of source files - because that is literally stealing and a form of plagiarism. 
 
-If you do decide to use anything done by a third-party within your work, except for public domain works, you are required (both legally and morally) to cite the source. This is called **attribution**, and a general rule of thumb is that you should include references to all of the code you are using. We will get more into this later on in the tutorial, because there are different requirements depending upon the domain of the resource being attributed.
+As long as "consumers" of your built artefacts (website, app, etc.) are informed to where they can see the licenses of the third-party projects that you have used to build your project, you can avoid shipping them.
+
+If you do decide to use anything done by a third-party within your work, except for public domain works (which I personally believe you should also cite), you are required (both legally and morally) to cite the source. This is called **attribution**, and a general rule of thumb is that you should include references to all of the code you are using. We will get more into this later on in the tutorial, because there are different requirements depending upon the domain of the resource being attributed.
 
 ### "Free/Libre and Open Source Software"
 > The term "open source" refers to something people can modify and share because its design is publicly accessible.
 > 
 > https://opensource.com/resources/what-open-source
 
-There is a perpetual discussion by the FLOSS hardliners about the degree of openness inherent in "open" source - and even what "freedom" means. However, it is probably a good idea to go back in time to 1998 and [read this article](https://opensource.com/article/18/2/coining-term-open-source-software) by the woman who came up with the name "open source": Christine Peterson. Although Richard Stallman and Linus Torvalds are two of the most successful, visible and vocal proponents on the matter; the point is that even though the term began as a "marketing device", it stuck and changed the lives of everyone on the planet - arguably for the better. 
+There is a perpetual discussion by FLOSS hardliners about the degree of **freedom** inherent in "open" source - and even what **free** means. However, it is probably a good idea to go back in time to 1998 and [read this article](https://opensource.com/article/18/2/coining-term-open-source-software) by the woman who came up with the name "open source": Christine Peterson. Although Richard Stallman and Linus Torvalds are two of the most successful, visible and vocal proponents on the matter; the point is that even though the term began as a "marketing device", it stuck and changed the lives of everyone on the planet - arguably for the better. 
 
 Stallman and the "Free Software Foundation" (FSF), who have arguably been around the longest, will define freedom as an important part of open source, because your freedom to use the code and change it is also a responsibility that you bear in the name of the entire community. In fact, if it is not totally free, 
 
-<center><strong>But what is free?</strong></center>
-If one ignores for a moment the annoying fact that "free" also means doesn't cost any money, there is still an unresolved semantic issue, in fact, one that will likely never resolve: 
+<center><strong>What is free? What is libre?</strong></center>
+If one ignores for a moment the annoying fact that "free" also means doesn't cost any money (which is the main argument for adding the word libre), there is still an unresolved semantic issue, in fact, one that will likely never resolve: 
  
 Depending upon your perspective, the Gnu Public License isn't ABSOLUTELY free, because it comes with the requirement that you must return changes that you make to the code back to the community - and being free would mean you get to decide how to work and what to do with the code you use. At the same time and on a different spectrum, those who consider that MIT is not entirely free do so because there are circumstances where the code can be permissibly changed and not returned to the community.
 
@@ -157,7 +159,7 @@ A release form is generally required when making photographs of people and priva
 
 If you do use photographs of people that you have made and submit them to open source projects, you need to be able to prove that the person  
 
-###  What is "provenance"
+###  How can I document "provenance"
 
 ### Can you change licenses?
 
