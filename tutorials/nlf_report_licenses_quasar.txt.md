@@ -5723,3 +5723,11 @@ LICENSES:
 └─┬ Unlicense  
   └── tweetnacl@0.14.5
   ```
+  Unknown license due-diligence:
+- sourced and checked by D.C. Thompson, 2018
+- colors@0.6.2  (MIT)
+- domelementtype@1.3.0 (BSD-2)
+- domhandler@2.1.0  (BSD-2)
+- domutils@1.5.1 (BSD-2)
+
+
