@@ -1,4 +1,4 @@
-*=> An in-depth introduction to Open Source with specific examples taken from the approach used by the Quasar Framework, as we intend to use this tutorial as training and reference for all forthcoming (and existing) contributors.*
+*=> An in-depth introduction to Open Source with some specific examples taken from the approach used by the Quasar Framework, as we intend to use this tutorial as training and reference for all forthcoming (and existing) contributors.*
 
 ### Repository 
 https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSourceTutorial.md
@@ -30,7 +30,7 @@ https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSou
 - Licenses for fonts
 
 ### Requirements
-- You must speak English proficiently
+- You must read English proficiently
 - A basic understanding of `git`  
 - Knowledge of file types relevant to your field of activity 
 
@@ -49,16 +49,16 @@ https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSou
 
 https://opensource.com/resources/what-open-source
 
-Every act of creativity can be attributed to someone or to a group of people working together. In fact, it is actually quite silly to think that anything exists in a vacuum. We are all connected, and ideas are things that often take on a life of its own. However, in these modern times many people have started protecting their ideas from being stolen (or worse) by claiming copyright and publishing their work in a way that enables other people to contribute to the project - or even take it in an entirely different direction.
+Every act of creativity can be attributed to someone or to a group of people working together. In fact, it is actually quite silly to think that anything exists in a vacuum. We are all connected, and ideas are things that often take on a life of its own. However, in these modern times many people have started protecting their ideas from being stolen by giving it away - by publishing their work so  that other people are empowered and invited to contribute to the project - or even take it in an entirely different direction.
 
-Not unlike the way that guilds of centuries past protected their trade-secrets, this "mafia-like" protection of ideas and their enshrinement in legislation as "property" can directly be traced to many of the problems that turbo-capitalism has unleashed on our planet. But guess what - there is something you can do. You can participate in the open-source movement.
+Not unlike the way that guilds of centuries past protected their trade-secrets, the excuse of a "proprietary" protection of ideas and an enshrinement of "closed source" in legislation and free-trade agreements can directly be traced to many of the problems that turbo-capitalism has unleashed on our planet. But guess what - there is something you can do. You can participate in the open-source movement.
 
 ## Introduction
 ### Copyright, Licensing and Attribution
 
-It is generally accepted that a notice of copyright is required as a preface for all licenses, because someone has to be responsible for declaring how the thing being licensed can be used. In a strange (but somehow logical) twist, if you wish to share your work as Public Domain, Copyleft or CC0, you have to first declare that you are the owner of your work (and that everyone who contributed to it agrees with you on that matter).
+It is generally accepted in modern democratic society, that a notice of copyright is required as a preface for all licenses, because someone has to be responsible for declaring how the thing being licensed can be used. In a strange (but somehow logical) twist, if you wish to share your work as Public Domain, Copyleft or CC0, you have to first declare that you are the owner of your work (and that everyone who contributed to it agrees with you on that matter). 
 
-Once a copyright is declared, the copyright holder may inform readers and users of the code / text / art under which circumstances it is appropriate to use it. No matter what licensing approach the original author / copyright holder uses, it is always appropriate to retain copies of these licenses in the repository hosting your work. 
+Once a copyright is declared, the copyright holder may inform readers and users of the code / text / art under which circumstances it is appropriate to use it. No matter what licensing approach the original author / copyright holder uses, it is always appropriate to retain copies of these licenses in the repository  hosting your work. It is never ok to remove or edit license files or license references in the headers or metadata of files - because that is basically stealing and a form of plagiarism.
 
 If you do decide to use anything done by a third-party within your work, except for public domain works, you are required (both legally and morally) to cite the source. This is called **attribution**, and a general rule of thumb is that you should include references to all of the code you are using. We will get more into this later on in the tutorial, because there are different requirements depending upon the domain of the resource being attributed.
 
@@ -69,9 +69,12 @@ If you do decide to use anything done by a third-party within your work, except 
 
 There is a perpetual discussion by the FLOSS hardliners about the degree of openness inherent in "open" source - and even what "freedom" means. However, it is probably a good idea to go back in time to 1998 and [read this article](https://opensource.com/article/18/2/coining-term-open-source-software) by the woman who came up with the name "open source": Christine Peterson. Although Richard Stallman and Linus Torvalds are two of the most successful, visible and vocal proponents on the matter; the point is that even though the term began as a "marketing device", it stuck and changed the lives of everyone on the planet - arguably for the better. 
 
-Stallman and his "camp" will define freedom as an important part of open source, because your freedom to use the code and change it is also a responsibility that you bear in the name of the entire community.
+Stallman and the "Free Software Foundation" (FSF), who have arguably been around the longest, will define freedom as an important part of open source, because your freedom to use the code and change it is also a responsibility that you bear in the name of the entire community. In fact, if it is not totally free, 
 
-> Depending upon your perspective, the Gnu Public License isn't ABSOLUTELY free, because it comes with the requirement that you must return changes that you make to the code back to the community - and freedom would mean you get to decide how to work. However the inverse argument could be made with MIT, because 
+<center><strong>But what is free?</strong></center>
+If one ignores for a moment the annoying fact that "free" also means doesn't cost any money, there is still an unresolved semantic issue, in fact, one that will likely never resolve: 
+ 
+Depending upon your perspective, the Gnu Public License isn't ABSOLUTELY free, because it comes with the requirement that you must return changes that you make to the code back to the community - and being free would mean you get to decide how to work and what to do with the code you use. At the same time and on a different spectrum, those who consider that MIT is not entirely free do so because there are circumstances where the code can be permissibly changed and not returned to the community.
 
 In fact, there is often a great deal of discussion around "how free to make the code". I propose that you ask yourself four questions:
 1. Do you prefer to work alone?
