@@ -79,7 +79,7 @@ If one ignores for a moment the annoying fact that *free* also means "doesn't co
  
 Depending upon your perspective, the Gnu Public License isn't ABSOLUTELY free, because it comes with the requirement that you must return changes that you make to the code back to the community - and being free would mean you get to decide how to work and what to do with the code you use. At the same time and on a different spectrum, there are those who consider the MIT license not to be entirely free. They do so because there are circumstances where the code can be permissibly changed and not returned to the community - in a sense "imprisoning" the code.
 
-> There is no right or wrong answer here, because it is a matter of perspective - however every developer and every organisation needs to decide for themselves where they want to put the focus of their attention. At the Quasar Framework, we are not purists in the sense that we believe Code is in and of itself a spiritual being deserving of transferrable rights. If perhaps we were working on the Linux kernel that might be different - but we are more concerned with the human side of code and believe that the people who use our project should have the ultimate freedom of choice to do what they want. 
+> There is no right or wrong answer here, because it is a matter of perspective - however every developer and every organisation needs to decide for themselves where they want to put the focus of their attention. At the Quasar Framework, we are not purists in the sense that we believe Code is in and of itself a spiritual being deserving of transferrable rights. If perhaps we were working on the Linux kernel that might be different - but we are more concerned with the human side of code and believe that the people who use our project should have the ultimate freedom of choice to do what they want. This is why we have taken the "permissive" approach and chosen the MIT license. 
 
 There is often a great deal of discussion around "how free to make the code". I propose that you ask yourself four questions:
 1. Do you prefer to work alone?
@@ -91,8 +91,10 @@ If you answered **no** to any of these questions, then using an open source lice
 
 If you answered **yes** to all of these questions, then considering licensing your work as open-source is probably still one of the best ways to protect your work and make sure that it has an impact on the rest of the world. Just think of it this way: if all of the software around you today was not open source, would you still be able to work as you do? Don't you owe it to the community to share your work? 
 
-### MIT vs GPL
-One of the common misconceptions about licensing your project with GPL is that it will prevent corporations from taking your idea and using it to make money - all without giving you any cut of the profits. This is patently untrue. If someone wants to steal your code and break the law, they will. If a corporation wants your GPL library, they can isolate it from the rest of their system and reveal nothing of their proprietary code. If this is your biggest concern, then stop, go back to the beginning of this tutorial and start from the beginning. 
+### Permissive vs. Copyleft licensing
+One of the common misconceptions about licensing your project with GPL is that it will prevent corporations from taking your idea and using it to make money - all without giving you any cut of the profits. This is patently untrue. If someone wants to steal your code and break the law, they will. If a corporation wants to use your GPL library, they can isolate it from the rest of their system and reveal nothing of their proprietary code. If this is your biggest concern, then stop, go back to the beginning of this tutorial and start from the beginning. 
+
+
 
 The biggest issue is what happens when you include GPL-licensed code in your project, because GPL is very strict and can actually force you to reveal your code. Contrary to popular belief, 
 
