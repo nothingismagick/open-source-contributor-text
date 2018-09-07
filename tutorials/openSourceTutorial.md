@@ -3,17 +3,19 @@
 ### Repository 
 https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSourceTutorial.md
 
+<center>![GPL_MIT_glow.png](https://ipfs.busy.org/ipfs/QmNh5ir9k6hrJNZNnhYXKgvMGfAzUPWFiVyDmss2J3kacJ)</center>
+
 ### What Will Be Discussed?
 > You will learn about Open Source and best-practices to make sure that your contributions are compliant.
 
-**Introduction**
+#### **Introduction**
 - You will learn about the difference between copyright, licensing and attribution
 - You will discover the meaning of "Free/Libre and Open Source Software"
 - You will find out what the difference is between "Permissive" and "Protective" licenses
 - You will learn about license discovery and licensing agreements
 - You will learn how to use code and other assets that are open-source
 
-**Your Identity and Rights**
+#### **Your Identity and Rights**
 - You will learn about "Non-Disclosure Agreements" (NDA)
 - You will learn about "Contributor License Agreements" (CLA)
 - You will learn how to become a "verified" contributor
@@ -22,7 +24,7 @@ https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSou
 - You will learn about "release" forms
 - You will learn about "provenance"
 
-**License Types**
+#### **License Types**
 - Licenses for code
 - Licenses for text / documentation
 - Licenses for artwork / design / video
