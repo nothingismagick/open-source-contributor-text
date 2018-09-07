@@ -173,24 +173,41 @@ If you do use photographs of people that you have made and submit them to open s
 ###  How can I document "provenance"
 Provenance is a word that describes the history of a work. Code that is shared under an open-source license and within the context of a git repository is more or less self-documenting. Images, however, especially digital-collage combining a number of resources are not clear-cut. 
 
-Dealing with provenance 
+Dealing with provenance for designers is important, as rights to visual images are hotly contested and often times lead to legal battles. Even if only public-domain resources are being used, it is still a good practice to record your work in a provenance document. This type of document is like the bibliography in a scientific paper, in which the ideas and authors are recorded. Although there is no "standardised" approach, the best method is to not only record the sources and the times accessed, but also track down the licenses for each component. If you want an example of this, feel free to look at the citations section [in this graphics breakdown](https://busy.org/@nothingismagick/qcensus2018-campaign-graphics-breakdown) written in the @utopian-io style.
+
+> The last thing anyone wants is a legal battle because it drains resources like time and money. If you are contributing to an open-source project, make sure that you are not putting them in hot-water. At Quasar, you can rest assured that the Art Department takes this VERY seriously, and violations of this trust are likely to lead to blacklisting or hammerbanning.
 
 ## License Types
 
-
 ### Major licenses for code
-This introduction cannot possibly explain the subtle differences between all of the different licenses for code, because there are dozens. At Quasar, our code is licensed under MIT. If you skipped ahead and didn't read the earlier chapters,  
+This introduction cannot possibly explain the subtle differences between all of the different licenses for code, because there are dozens. A license is added to code by either placing a reference to it in the header of the file being licensed in the case of distributables, in a LICENSE file in the root level of a repository, in the README about the project and potentially in the package.json (if using node).
 
+If you skipped ahead and didn't read the earlier chapters, here is a quick recap of the three main license types and a popular example of each, along with two links that go into more detail and analysis.
+
+- **Permissive**: [MIT](http://www.opensource.org/licenses/MIT)
+- **Protective**: [GPL-3](https://www.gnu.org/licenses/gpl-3.0.en.html)
+- **Public Domain**: [WTFPL](http://www.wtfpl.net/)
 - [Github's License Helper](https://choosealicense.com/)
 - [The exhaustive list by the GNU Foundation](https://www.gnu.org/licenses/license-list.html)
 
+> At the Quasar Framework all contributions to the core libraries are required to be MIT. By contributing anything, you are agreeing to this license.
+
 ### Important licenses for text / documentation
-- Creative Commons
-- Free Documentation License https://www.gnu.org/licenses/fdl.html
+Text and documentation is also a creative work, and is also generally protected under copyright laws. You can transfer these rights to third parties or to project owners to whom you will be giving your contributions by choosing either a Creative Commons resource or the Free Document License.
+
+It is considered best practice to name the license and author(s) at the end of the document being licensed.
+
+- [Creative Commons](https://creativecommons.org/)
+- [Free Documentation License](https://www.gnu.org/licenses/fdl.html)
+
+> At the Quasar Framework all documentation is (or will be) licensed under the FDL. 
+
+
 ### Licensing artwork / design / video
-- Copyright
-- Release forms (Right to the person)
-- Notification
+There are literally as many legal regulations for this type of contribution as there are countries on the planet, so it is absolutely inappropriate to go into detail about how things are different from nation to nation. No matter what, the person that made the image can never lose the right to say that they were the owner (unless an absolutely draconian contract prevents it - and in some cases this won't stand up in court). This is why there is one common rule that will : Cite the author and name the license. If you can't do that, then don't use the asset.
+
+Depending on where and how the contribution is to be used, there are a number of ways in which this citation can be made:
+
 1. Name the file accordingly
 2. Put license information in a watermark in the file
 3. Inject the information into the metadata of the file
@@ -198,17 +215,26 @@ This introduction cannot possibly explain the subtle differences between all of 
 5. Put this same information in a footnote / endnote / linked document
 6. Place license information or licenses and release form-cover-sheets in the repository in the same folder as the image or some other delegated location
 
-#### Considerations about your place of residence
-#### Consideration of the contents of your work
+Common licenses to use for Images / Designs / Videos are:
+- [Creative Commons](https://creativecommons.org/)
+- [Public Domain / CC0](https://creativecommons.org/share-your-work/public-domain/cc0/)
+- [Apache v2](https://apache.org/licenses/LICENSE-2.0)
 
 ### Font licenses
-Of the hundreds of fonts listed at [Google Fonts](https://fonts.google.com/attribution), there are exactly two different licenses used: Either the Apache License v2, or the SIL Open Font License v1.1. The vast majority are OFL
-#### SIL Open Font License (OFL)
+Of the hundreds of fonts listed at [Google Fonts](https://fonts.google.com/attribution), there are exactly two different licenses used: Either the Apache License v2, or the SIL Open Font License v1.1. The vast majority are OFL, and it is basically the same type of permissive license as MIT.
 
-- ![OFL](https://scripts.sil.org/cms/sites/nrsi/media/OFL_logo_rect_color.png) [OFL-FAQ web version (1.1-update5)](https://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web)
+If you are using a font, you need to make sure that you really have the license for it, as some professional font forges will sell different types of licenses depending on the application. (As in one license for desktop publishing, another for websites, etc.) If you are using an open-source font, best-practice is to put a copy of the license in the folder where you are maintaining your fonts.
+
+Furthermore, some services like FontSquirrel offer a [WebfontGenerator](https://www.fontsquirrel.com/tools/webfont-generator) that enables designers to make a set of font-files so that individual browsers can select the type that they are most well-equipped to use. They require you to verify that you have the right to convert the font to other formats. The SIL OFL does permit this. If there is no license that you can find, assume that you do not have the right to use the font.
+
+- [OFL-FAQ web version (1.1-update5)](https://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web)
+
+
 
 # Final Words
 Just because you "open" your work to collaboration from others, this is not the end of the story. Just because you slap a Creative Commons license on a photoshop file does not mean it is open and free. The degree of openness of an asset or project is also determined by the operating system and the software needed to use and or modify the file. Please consider publishing not only the results of the process of your work, but also inform people about how you did it.
+
+Furthermore, please do not use pirated software when working on open-source projects. Not only is it "uncool" and damaging to the honour of the entire open-source community, you are putting yourself and your colleagues at risk, especially if you have high-value credentials, like server logins etc. There is no better way to get yourself (and possibly your team) hacked than to use cracks.
 
 # Further Resources
 In case you want to go more into depth about these topics, we have a few additional resources that we highly recommend:
