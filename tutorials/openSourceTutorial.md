@@ -21,7 +21,6 @@ https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSou
 - You will learn what "signed-off-by" means
 - You will learn about "release" forms
 - You will learn about "provenance"
-- You will learn about "changing licenses"
 
 **License Types**
 - Licenses for code
@@ -132,20 +131,37 @@ Generally this is enough, however if you make any changes to the original librar
 
 
 ## Your Identity and Rights
-- You will learn about "Non-Disclosure Agreements" (NDA)
+### What is a "Non-Disclosure Agreement" (NDA)
+A non-disclosure agreement is a contract that you may be required to sign if you will be working with an organisation that has trade-secrets to protect. As the signee of the NDA, you will be bound by the contract to maintain secrecy about the information you have been given, and it may include clauses about non-competition in a similar industry for a specific amount of time. Although this is generally uncommon in the open-source industry, it may be required if you are given access to "secrets" like API keys, logins and the like.
 
+> If you are presented with a NDA, as with any contract, it is wise to read everything, ask questions and ask a lawyer for their opinion. 
 
-### What is a Contributor License Agreement (CLA)
+### What is a "Contributor License Agreement" (CLA)
+A Contributor License Agreement is a contract between the owner of a project and code contributors. As opposed to an NDA (which is restrictive), a CLA is "reciprocal" in that it is actually there to protect the rights of both owner and contributor. With a CLA, contributors explicitly give the owner permission to use the contribution, and owners explicitly permit the contributor to use their contributions as they see fit.
 
+However, many developers consider a CLA to be problematic because of the rights that they confer upon the owner, which include the ability to change the license of the code. [Here is a great writeup by gitlab](https://about.gitlab.com/2017/11/01/gitlab-switches-to-dco-license/) about why they switched from a CLA to a DCO - and here is their [in-depth analysis from a project-management perspective](https://docs.google.com/a/gitlab.com/document/d/1zpjDzL7yhGBZz3_7jCjWLfRQ1Jryg1mlIVmG8y6B1_Q/edit?usp=sharing).
+
+### What is a "Developer Certificate of Origin" (DCO)
+A Developer Certificate of Origin is a legal statement made by a contributor where they certify that they themselves have authored the contribution and that they have legal authority to contribute this code. As with the Gitlab example above, this is usually made in combination with a license such as MIT or Apache. You can read the entire license here (it's brief):  https://developercertificate.org/
+
+By adding the `signed-off-by` flag to your git commit, you are saying that you are acting in accordance with the DCO. Although not necessary for every commit, it is there to provide a sort of "blame-chain" in case things go wrong. Best practice suggests using the real name of the contributor. You can read more about the details of doing this here:  https://stackoverflow.com/a/1962112
+
+Some IDE's, like [Webstorm](https://www.jetbrains.com/help/webstorm/2017.2/using-git-integration.html#commit), offer you the ability to add this flag directly from the commit window when you are reviewing your code. It will add the following line to the end of the commit message: `Signed off by: <username>`
+
+Please note, if the managers of the project you are working on ask you to sign off, check to make sure that they really want you to sign off with every commit, or if it is enough to sign-off on tags or PR's. Technically speaking, the person doing the merge is the one who is required to sign-off, but by adding your name to the individual commits it becomes clear who was really responsible for which changes. It is a matter of preference. 
+
+> At Quasar we ask you to sign-off on all commits.
 
 ### Become a "verified" contributor
-https://stackoverflow.com/questions/10161198/is-there-a-way-to-autosign-commits-in-git-with-a-gpg-key
+Verified contributors on Github or Gitlab are developers who have added a GPG key to their account and use this GPG key to sign their commits. Although it is not necessary for integration, some project managers may require it - especially since it is easier to steal someone's login credentials and modify a critical repository than it is steal their GPG key.
 
-### What is a "developer certificate of origin"
-https://developercertificate.org/
+The following links will show you how to create a GPG key and use them with Github or Gitlab, as needed.
 
-### What does "signed-off-by" mean, and how to do it
-https://stackoverflow.com/questions/1962094/what-is-the-sign-off-feature-in-git-for
+- [Add a GPG Key to Github](https://help.github.com/articles/adding-a-new-gpg-key-to-your-github-account/)
+- [Signing commits on Gitlab](https://docs.gitlab.com/ee/user/project/repository/gpg_signed_commits/index.html)
+- https://blog.github.com/2016-04-05-gpg-signature-verification/
+- https://stackoverflow.com/questions/10161198/is-there-a-way-to-autosign-commits-in-git-with-a-gpg-key
+
 
 ### When do I need to get "release" forms
 A release form is generally required when making photographs of people and private property - and using them for any non-private purpose. Although specifics vary from jurisdiction to jurisdiction, it is very important that you get people to sign a release form, and if it is clear WHERE the picture was taken, then you might need to get permission of the owner.
@@ -155,14 +171,15 @@ A release form is generally required when making photographs of people and priva
 If you do use photographs of people that you have made and submit them to open source projects, you need to be able to prove that the person  
 
 ###  How can I document "provenance"
+Provenance is a word that describes the history of a work. Code that is shared under an open-source license and within the context of a git repository is more or less self-documenting. Images, however, especially digital-collage combining a number of resources are not clear-cut. 
 
-### Can you change licenses?
+Dealing with provenance 
 
 ## License Types
 
 
 ### Major licenses for code
-This introduction cannot possibly explain the subtle differences between all of the different licenses for code, because there are dozens. At Quasar, our code is licensed under MIT, and . 
+This introduction cannot possibly explain the subtle differences between all of the different licenses for code, because there are dozens. At Quasar, our code is licensed under MIT. If you skipped ahead and didn't read the earlier chapters,  
 
 - [Github's License Helper](https://choosealicense.com/)
 - [The exhaustive list by the GNU Foundation](https://www.gnu.org/licenses/license-list.html)
