@@ -3,7 +3,7 @@
 ### Repository 
 https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSourceTutorial.md
 
-<center>![GPL_MIT_glow.png](https://ipfs.busy.org/ipfs/QmNh5ir9k6hrJNZNnhYXKgvMGfAzUPWFiVyDmss2J3kacJ)Image by @nothingismagick </center>
+<center>![GPL_MIT_glow.png](https://ipfs.busy.org/ipfs/QmNh5ir9k6hrJNZNnhYXKgvMGfAzUPWFiVyDmss2J3kacJ)Image: CC0 by @nothingismagick </center>
 
 ### What Will Be Discussed?
 > You will learn about Open Source and best-practices to make sure that your contributions are compliant.
