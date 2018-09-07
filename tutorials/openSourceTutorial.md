@@ -9,7 +9,7 @@ https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSou
 **Introduction**
 - You will learn about the difference between copyright, licensing and attribution
 - You will discover the meaning of "Free/Libre and Open Source Software"
-- You will find out what is meant by "GPL compatibility"
+- You will find out what the difference is between "Permissive" and "Protective" licenses
 - You will learn about license discovery and licensing agreements
 - You will learn how to use code and other assets that are open-source
 
@@ -91,15 +91,15 @@ If you answered **no** to any of these questions, then using an open source lice
 
 If you answered **yes** to all of these questions, then considering licensing your work as open-source is probably still one of the best ways to protect your work and make sure that it has an impact on the rest of the world. Just think of it this way: if all of the software around you today was not open source, would you still be able to work as you do? Don't you owe it to the community to share your work? 
 
-### Permissive vs. Copyleft licensing
-One of the common misconceptions about licensing your project with GPL is that it will prevent corporations from taking your idea and using it to make money - all without giving you any cut of the profits. This is patently untrue. If someone wants to steal your code and break the law, they will. If a corporation wants to use your GPL library, they can isolate it from the rest of their system and reveal nothing of their proprietary code. If this is your biggest concern, then stop, go back to the beginning of this tutorial and start from the beginning. 
+### Permissive vs. Protective licensing
+One of the common misconceptions about licensing your project with GPL is that it will prevent corporations from taking your idea and using it to make money - all without giving you any cut of the profits. This is patently untrue. If someone wants to steal your code and break the law, they will. If a corporation wants to use your GPL library, they can isolate it from the rest of their system and reveal nothing of their proprietary code. They can take your code, reverse engineer it and rewrite it. If this is your biggest concern, then stop, go back to the beginning of this tutorial and read carefully to decide if you want to participate in open-source - or merely profit from it. 
 
+MIT, BSD and Apache are what the open-source software community calls "permissive" licenses. Permissive means that the author is permitting you a great deal of rights to use the software they are sharing, even the right to use it for making a profit and changing it to suit your purposes. As long as you retain copies of the original license and inform those who are interested that you are using that particular software, then you can do anything with the code - even change it and not tell anyone you have done so. 
 
+> Copyleft is the practice of offering people the right to freely distribute copies and modified versions of a work with the stipulation that the same rights be preserved in [derivative works](https://en.wikipedia.org/wiki/Derivative_works) created later. 
+> https://en.wikipedia.org/wiki/Copyleft
 
-The biggest issue is what happens when you include GPL-licensed code in your project, because GPL is very strict and can actually force you to reveal your code. Contrary to popular belief, 
-
-GPL compatibility 
-
+This type of "protective" licensing goes beyond the "permissive" licensing seen with MIT and APACHE by seeking to protect the code and the community's rights.  Any modifications made to the source code must be returned to the community, and you may not sublicense the code. GPL and CC-SA are two licenses that do this.
 
 ### License discovery and licensing requirements
 Using open-source software in your projects is a great thing, but you need to stay diligent, especially when you are contributing work to another project. And this is doubly true if you are required to do reporting about license compliance (for example in the case of public agencies or within corporate legal firewalls). In any case, it can be a bit of a hassle to manually go through and track down all the license files.
@@ -130,14 +130,6 @@ Generally this is enough, however if you make any changes to the original librar
 
 > **Stack Overflow**: A common pitfall is to merely copy and paste things that you find on stackoverflow.com - but this is dangerous, because even though it is implied that the user is sharing this information, you do not know with 100% certainty that it is appropriate (or permitted) to use the code example 1 to 1. The common practice of citing the resource is better than nothing, but you should really consider rewriting the example to fit your code style, the needs of your project AND reference the source as "inspiration".
 
-In the case of images, you should do one or more of the following:
-
-1. Name the file accordingly
-2. Put license information in a watermark in the file
-3. Inject the information into the metadata of the file
-4. Cite the image sources / licenses directly after the image if possible
-5. Put this same information in a footnote / endnote / linked document
-6. Place license information or licenses and release form-cover-sheets in the repository in the same folder as the image or some other delegated location
 
 ## Your Identity and Rights
 - You will learn about "Non-Disclosure Agreements" (NDA)
@@ -170,8 +162,11 @@ If you do use photographs of people that you have made and submit them to open s
 
 
 ### Major licenses for code
+This introduction cannot possibly explain the subtle differences between all of the different licenses for code, because there are dozens. At Quasar, our code is licensed under MIT, and . 
+
 - [Github's License Helper](https://choosealicense.com/)
 - [The exhaustive list by the GNU Foundation](https://www.gnu.org/licenses/license-list.html)
+
 ### Important licenses for text / documentation
 - Creative Commons
 - Free Documentation License https://www.gnu.org/licenses/fdl.html
