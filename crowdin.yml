@@ -1,0 +1,3 @@
+files:
+  - source: /tutorials/openSourceTutorial.md
+    translation: /tutorials/%original_file_name%_%locale_with_underscore%
