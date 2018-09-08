@@ -1,5 +1,5 @@
 
-*=> An in-depth introduction to Open-Source with some specific examples taken from the approach used by the Quasar Framework, as we intend to use this tutorial as training and reference for all forthcoming (and existing) contributors.*
+*An in-depth introduction to Open-Source with some specific examples taken from the approach used by the Quasar Framework, as we intend to use this tutorial as training and reference for all forthcoming (and existing) contributors.*
 
 ### Repository 
 https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSourceTutorial.md
@@ -119,7 +119,7 @@ $ fossa report licenses > fossa.txt
 ```
 [Here is a report made from the Quasar repo using the **fossa cli** approach.]( https://raw.githubusercontent.com/nothingismagick/quasar-articles/master/tutorials/fossa_report_licenses_quasar.txt.md) As you can see, the great majority of modules use the MIT license, but several are not clear from the report alone: 15 of the projects were not autodetected by **fossa**. I followed each of the links, tracked down their licenses, and made a note not only of the license, but that I was the one who did it. 
 
-Furthermore, I detected that only one of our libraries (stylint) is requires a GPL license, but the developers have a license conflict in the declaration in the  package.json (GPL-2) and the actual license file (GPL-3).  
+Furthermore, I detected that only one of our libraries (stylint) requires a GPL license, but the developers have a license conflict in the declaration in the  package.json (GPL-2) and the actual license file (GPL-3).  
 
  That is what you will need to do as well. Should a license file not be included in the project, and you cannot find one, it is wise to contact the author.
 
@@ -175,7 +175,7 @@ A release form is generally required when making photographs of people and priva
 If you do use photographs of people that you have made and submit them to open source projects, you need to be able to prove that the person gave you permission, and you should keep their release form on file and available.
 
 ###  How can I document "provenance"
-Provenance is a word that describes the history of a work. Code that is shared under an open-source license and within the context of a git repository is more or less self-documenting. Images, however, especially digital-collage combining a number of resources are not clear-cut. 
+Provenance is a word that describes the history of a work. Code that is shared under an open-source license and within the context of a git repository is more or less self-documenting. Images are less obvious, and it is especially tricky with digital-collage works that combine a number of resources. 
 
 Dealing with provenance for designers is important, as rights to visual images are hotly contested and often times lead to legal battles. Even if only public-domain resources are being used, it is still a good practice to record your work in a provenance document. This type of document is like the bibliography in a scientific paper, in which the ideas and authors are recorded. Although there is no "standardised" approach, the best method is to not only record the sources and the times accessed, but also track down the licenses for each component. If you want an example of this, feel free to look at the citations section [in this graphics breakdown](https://busy.org/@nothingismagick/qcensus2018-campaign-graphics-breakdown) written in the @utopian-io style.
 
