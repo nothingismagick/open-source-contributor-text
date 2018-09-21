@@ -40,7 +40,7 @@ https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSou
 ### المتطلبات
 
 - يجب أن تكون قادرًا على قراءة اللغة الإنجليزية ببراعة
-- A basic understanding of `git` 
+- معرفة أساسية بـ `git` 
 - معرفة لأنواع الملفات ذات الصلة بالمجال الذي تنشط فيه 
 
 ### Difficulty
@@ -51,11 +51,11 @@ https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSou
 
 > This tutorial is a primer for those who are interested in contributing to open-source projects. وقد يكون مفيدًا أيضًا للمساهمين النشطين الذين لطالما كان لديهم فضول حول المواضيع الأكثر تقدما. وأخيرًا، نظرًا لأن قضية الترخيص يمكن أن تكون موضوعًا مثيرًا للجدل، فهذا النص يساعد ايضا المهتمين بهذه القضايا في فتح وبدء النقاش حول موضوع المصدر المفتوح. Although we are using specific examples from the "Quasar Framework", the issues herein are relevant across the spectrum of open-source software development.
 > 
-> نحن نأمل أنك ستتمكن من الحصول على المعنى والرؤى العميقة لكل الأشياء العظيمة (والصعوبات المحتملة) التي تحيط بموضوع التراخيص في عالم البرمجيات المفتوحة المصدر. تمثل المقدمة نقطة بداية جيدة، حيث أنها تحدد بعض المصطلحات التي سيعود إليها هذا البرنامج التعليمي باستمرار. بالإضافة إلى ذلك، ستعلمك بعض الطرق البسيطة لضمان توافق مساهماتك مع نظام الترخيص الذي يعتمده المشروع الذي تعمل عليه. Then, it begins a discussion about you, the contributor, and the rights and responsibilities that you have. Finally, it will go into depth about various domains of licensing, including code, copy, design and fonts.
+> نحن نأمل أنك ستتمكن من الحصول على المعنى والرؤى العميقة لكل الأشياء العظيمة (والصعوبات المحتملة) التي تحيط بموضوع التراخيص في عالم البرمجيات المفتوحة المصدر. تمثل المقدمة نقطة بداية جيدة، حيث أنها تحدد بعض المصطلحات التي سيعود إليها هذا البرنامج التعليمي باستمرار. بالإضافة إلى ذلك، ستعلمك بعض الطرق البسيطة لضمان توافق مساهماتك مع نظام الترخيص الذي يعتمده المشروع الذي تعمل عليه. ثم بعد ذلك، سيبدا النقاش حولك، حول المساهم، وحول الحقوق والمسؤوليات الموجودة لديك. Finally, it will go into depth about various domains of licensing, including code, copy, design and fonts.
 
 ## Preface
 
-> Some software has source code that only the person, team, or organization who created it—and maintains exclusive control over it—can modify. People call this kind of software "proprietary" or "closed source" software. ... Open source software is different. Its authors [make its source code available](https://opensource.com/business/13/5/open-source-your-code) to others who would like to view that code, copy it, learn from it, alter it, or share it. [LibreOffice](https://www.libreoffice.org/) and the [GNU Image Manipulation Program](http://www.gimp.org/) are examples of open source software.
+> تحتوي بعض البرمجيات على شفرة مصدر لا يمكن تعديلها إلا من قِبل الشخص، أو الفريق، أو المؤسسة التي قامت بإنشائها، ولها سيطرة حصرية عليها. يطلق الناس على هذا النوع من البرمجيات "البرمجيات الاحتكارية" أو البرمجيات "المغلقة المصدر". ... Open source software is different. Its authors [make its source code available](https://opensource.com/business/13/5/open-source-your-code) to others who would like to view that code, copy it, learn from it, alter it, or share it. [LibreOffice](https://www.libreoffice.org/) and the [GNU Image Manipulation Program](http://www.gimp.org/) are examples of open source software.
 
 https://opensource.com/resources/what-open-source
 
