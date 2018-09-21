@@ -5,17 +5,17 @@
 https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSourceTutorial.md
 
 <center>
-  <img src="https://ipfs.busy.org/ipfs/QmNh5ir9k6hrJNZNnhYXKgvMGfAzUPWFiVyDmss2J3kacJ" alt="GPL_MIT_glow.png" /> Image: CC0 by @nothingismagick
+  <img src="https://ipfs.busy.org/ipfs/QmNh5ir9k6hrJNZNnhYXKgvMGfAzUPWFiVyDmss2J3kacJ" alt="GPL_MIT_glow.png" /> الصورة: من طرف nothingismagick@ وفق المشاع الإبداعي CC0
 </center>
 
-### What Will Be Discussed?
+### ما الذي سيتم مناقشته؟
 
-> You will learn about Open Source and best-practices to make sure that your contributions are compliant.
+> سوف تتعلم معلومات حول مفهوم المصدر المفتوح، كما ستتعلم أيضا أفضل الممارسات التي من شأنها أن تجعل مساهماتك تتوافق وذلك المفهوم.
 
-#### **Introduction**
+#### **مقدمة**
 
-- You will learn about the difference between copyright, licensing and attribution
-- You will discover the meaning of "Free/Libre and Open Source Software"
+- سوف تتعلم عن الفرق بين حقوق التأليف والنشر والترخيص والإسناد
+- سوف تكتشف معنى "البرمجيات المجانية،الحرة، والمفتوحة المصدر"
 - You will find out what the difference is between "Permissive" and "Protective" licenses
 - You will learn about license discovery and licensing agreements
 - You will learn how to use code and other assets that are open-source
