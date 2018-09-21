@@ -140,9 +140,9 @@ Questo è ciò che dovreste fare anche voi. Se un file di licenza non dovesse es
 
 ### Utilizzando l'open-source
 
-Se stai utilizzando qualsiasi cosa che è open-source, è necessario dichiarare il suo utilizzo e rendere le licenze originali facilmente accessibili. If you are using, for example, node modules in your project, then these licenses are available in the source code of the project when someone downloads the project files and "installs" the dependencies. You can usually find it as a file named `LICENSE` in the root folder or in the "license" field in the `package.json`
+Se stai utilizzando qualsiasi cosa che è open-source, è necessario dichiarare il suo utilizzo e rendere le licenze originali facilmente accessibili. Se, per esempio, stai utilizzando, moduli di nodo nel tuo progetto, allora queste licenze sono disponibili nel codice sorgente del progetto quando qualcuno scarica i file del progetto ed "installa" le dipendenze. Di solito puoi trovarla come un file chiamato `LICENSE` nella cartella principale oppure nel campo "license" nel `package.json`
 
-Generally this is enough, however if you make any changes to the original library, you may be required to notify and / or submit these changes back to the community. This depends on the license type, but we will cover licensing specifics in the final section.
+Normalmente questo è sufficiente, tuttavia, se si apportano modifiche alla libreria originale, potrebbe essere necessario avvisare e/o inviare queste modifiche alla comunità. Questo dipende dal tipo di licenza, ma tratteremo le specifiche per la concessione della licenza nella sezione finale.
 
 > **Stack Overflow**: A common pitfall is to merely copy and paste things that you find on stackoverflow.com - but this is dangerous, because even though it is implied that the user is sharing this information, you do not know with 100% certainty that it is appropriate (or permitted) to use the code example 1 to 1. The common practice of citing the resource is better than nothing, but you should really consider rewriting the example to fit your code style, the needs of your project AND reference the source as "inspiration".
 
