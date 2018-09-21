@@ -43,7 +43,7 @@ https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSou
 - معرفة أساسية بـ `git` 
 - معرفة لأنواع الملفات ذات الصلة بالمجال الذي تنشط فيه 
 
-### Difficulty
+### الصعوبه
 
 - Basic to medium
 
@@ -51,15 +51,15 @@ https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSou
 
 > This tutorial is a primer for those who are interested in contributing to open-source projects. وقد يكون مفيدًا أيضًا للمساهمين النشطين الذين لطالما كان لديهم فضول حول المواضيع الأكثر تقدما. وأخيرًا، نظرًا لأن قضية الترخيص يمكن أن تكون موضوعًا مثيرًا للجدل، فهذا النص يساعد ايضا المهتمين بهذه القضايا في فتح وبدء النقاش حول موضوع المصدر المفتوح. Although we are using specific examples from the "Quasar Framework", the issues herein are relevant across the spectrum of open-source software development.
 > 
-> نحن نأمل أنك ستتمكن من الحصول على المعنى والرؤى العميقة لكل الأشياء العظيمة (والصعوبات المحتملة) التي تحيط بموضوع التراخيص في عالم البرمجيات المفتوحة المصدر. تمثل المقدمة نقطة بداية جيدة، حيث أنها تحدد بعض المصطلحات التي سيعود إليها هذا البرنامج التعليمي باستمرار. بالإضافة إلى ذلك، ستعلمك بعض الطرق البسيطة لضمان توافق مساهماتك مع نظام الترخيص الذي يعتمده المشروع الذي تعمل عليه. ثم بعد ذلك، سيبدا النقاش حولك، حول المساهم، وحول الحقوق والمسؤوليات الموجودة لديك. Finally, it will go into depth about various domains of licensing, including code, copy, design and fonts.
+> نحن نأمل أنك ستتمكن من الحصول على المعنى والرؤى العميقة لكل الأشياء العظيمة (والصعوبات المحتملة) التي تحيط بموضوع التراخيص في عالم البرمجيات المفتوحة المصدر. تمثل المقدمة نقطة بداية جيدة، حيث أنها تحدد بعض المصطلحات التي سيعود إليها هذا البرنامج التعليمي باستمرار. بالإضافة إلى ذلك، ستعلمك بعض الطرق البسيطة لضمان توافق مساهماتك مع نظام الترخيص الذي يعتمده المشروع الذي تعمل عليه. ثم بعد ذلك، سيبدا النقاش حولك، حول المساهم، وحول الحقوق والمسؤوليات الموجودة لديك. وأخيرًا، سيذهب النقاش إلى أعمق من ذلك عبر عرض مجالات التراخيص، بما في ذلك التعليمات البرمجية، والنسخ، والتصميم، والخطوط.
 
-## Preface
+## تمهيد
 
-> تحتوي بعض البرمجيات على شفرة مصدر لا يمكن تعديلها إلا من قِبل الشخص، أو الفريق، أو المؤسسة التي قامت بإنشائها، ولها سيطرة حصرية عليها. يطلق الناس على هذا النوع من البرمجيات "البرمجيات الاحتكارية" أو البرمجيات "المغلقة المصدر". ... Open source software is different. مطوروها [يجعلون شفرة مصدرها متاحة](https://opensource.com/business/13/5/open-source-your-code) لأولئك الذين يرغبون في عرضها أو نسخها أو التعلم منها أو تعديلها أو مشاركتها. [LibreOffice](https://www.libreoffice.org/) and the [GNU Image Manipulation Program](http://www.gimp.org/) are examples of open source software.
+> تحتوي بعض البرمجيات على شفرة مصدر لا يمكن تعديلها إلا من قِبل الشخص، أو الفريق، أو المؤسسة التي قامت بإنشائها، ولها سيطرة حصرية عليها. يطلق الناس على هذا النوع من البرمجيات "البرمجيات الاحتكارية" أو البرمجيات "المغلقة المصدر". ... Open source software is different. مطوروها [يجعلون شفرة مصدرها متاحة](https://opensource.com/business/13/5/open-source-your-code) لأولئك الذين يرغبون في عرضها أو نسخها أو التعلم منها أو تعديلها أو مشاركتها. [LibreOffice](https://www.libreoffice.org/) و [GNU Image Manipulation Program](http://www.gimp.org/) هي أمثلة على البرمجيات المفتوحة المصدر.
 
 https://opensource.com/resources/what-open-source
 
-يمكن أن ينسب كل عمل إبداعي إلى شخص ما أو مجموعة من الأشخاص الذين يعملون معًا. في الواقع، من السخيف أن نفكر أن أي شيء موجود في فراغ. We are all connected, and ideas are things that often take on lives of their own. However, in these modern times many people have started protecting their ideas from being stolen by giving them away - by publishing their work so that other people are empowered and invited to contribute to the project - or even take it in an entirely different direction.
+يمكن أن ينسب كل عمل إبداعي إلى شخص ما أو مجموعة من الأشخاص الذين يعملون معًا. في الواقع، من السخيف أن نفكر أن أي شيء موجود في فراغ. We are all connected, and ideas are things that often take on lives of their own. ومع ذلك، في الوقت الحاضر، بدأ العديد من الناس في حماية أفكارهم من السرقة من خلال التخلي عنها - عن طريق نشر أعمالهم لتشجيع الآخرين وتحفيزهم على المساهمة في المشروع - أو حتى أخذها في اتجاه مختلف تمامًا.
 
 Not unlike the way that guilds of centuries past protected their trade-secrets, the excuse of a "proprietary" protection of ideas and an enshrinement of "closed source" in legislation and free-trade agreements can directly be traced to many of the problems that turbo-capitalism has unleashed on our planet. But guess what - there is something you can do. You can participate in the open-source movement.
 
