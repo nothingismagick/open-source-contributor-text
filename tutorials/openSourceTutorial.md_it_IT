@@ -136,11 +136,11 @@ Inoltre, ho notato che solo una delle nostre librerie (stylint) richiede una lic
 
 Questo è ciò che dovreste fare anche voi. Se un file di licenza non dovesse essere incluso nel progetto, è non riesci a trovarne uno, sarebbe opportuno contattare l'autore.
 
-**Un avvertimento**: Questi sistemi automatizzati non sono infallibili (ad esempio un modulo di ricerca potrebbe rilevare molteplici licenze, anche se lui stesso ne sta utilizzando un’altra). Se siete vincolati dalle normative, è necessario esaminarli tutti manualmente - e non abbiate paura di contattare l'autore se avete bisogno di chiarimenti - o persino di una licenza diversa. A volte può capitare. Just remember, it's better to ask permission than forgiveness.
+**Un avvertimento**: Questi sistemi automatizzati non sono infallibili (ad esempio un modulo di ricerca potrebbe rilevare molteplici licenze, anche se lui stesso ne sta utilizzando un’altra). Se siete vincolati dalle normative, è necessario esaminarli tutti manualmente - e non abbiate paura di contattare l'autore se avete bisogno di chiarimenti - o persino di una licenza diversa. A volte può capitare. Ricorda, è meglio chiedere il permesso piuttosto che chiedere scusa.
 
-### Using open-source
+### Utilizzando l'open-source
 
-If you use anything that is open-source, you must declare its use and make the original licenses easily accessible. If you are using, for example, node modules in your project, then these licenses are available in the source code of the project when someone downloads the project files and "installs" the dependencies. You can usually find it as a file named `LICENSE` in the root folder or in the "license" field in the `package.json`
+Se stai utilizzando qualsiasi cosa che è open-source, è necessario dichiarare il suo utilizzo e rendere le licenze originali facilmente accessibili. If you are using, for example, node modules in your project, then these licenses are available in the source code of the project when someone downloads the project files and "installs" the dependencies. You can usually find it as a file named `LICENSE` in the root folder or in the "license" field in the `package.json`
 
 Generally this is enough, however if you make any changes to the original library, you may be required to notify and / or submit these changes back to the community. This depends on the license type, but we will cover licensing specifics in the final section.
 
