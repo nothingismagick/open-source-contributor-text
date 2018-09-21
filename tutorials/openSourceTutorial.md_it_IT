@@ -144,15 +144,15 @@ Se stai utilizzando qualsiasi cosa che è open-source, è necessario dichiarare 
 
 Normalmente questo è sufficiente, tuttavia, se si apportano modifiche alla libreria originale, potrebbe essere necessario avvisare e/o inviare queste modifiche alla comunità. Questo dipende dal tipo di licenza, ma tratteremo le specifiche per la concessione della licenza nella sezione finale.
 
-> **Stack Overflow**: A common pitfall is to merely copy and paste things that you find on stackoverflow.com - but this is dangerous, because even though it is implied that the user is sharing this information, you do not know with 100% certainty that it is appropriate (or permitted) to use the code example 1 to 1. The common practice of citing the resource is better than nothing, but you should really consider rewriting the example to fit your code style, the needs of your project AND reference the source as "inspiration".
+> **Stack Overflow**: Un errore comune è semplicemente copiare e incollare le cose che si trovano su stackoverflow.com - ma questo è pericoloso, perché anche se è sottinteso che l'utente sta condividendo queste informazioni, non si sa con certezza al 100% se è opportuno (o permesso) usare l'esempio di codice 1 a 1. La pratica comune di citare la fonte è meglio di niente, ma dovresti davvero considerare la possibilità di riscrivere l'esempio per adattarlo al tuo stile di codice, alle esigenze del tuo progetto E citare la fonte come "ispirazione".
 
-## Your Identity and Rights
+## La tua Identità e i tuoi Diritti
 
-### What is a "Non-Disclosure Agreement" (NDA)
+### Cos’è un "Accordo di Non Divulgazione" (NDA)
 
-A non-disclosure agreement is a contract that you may be required to sign if you will be working with an organisation that has trade secrets to protect. As the signee of the NDA, you will be bound by the contract to maintain secrecy about the information you have been given, and it may include clauses about non-competition in a similar industry for a specific amount of time. Although this is generally uncommon in the open-source industry, it may be required if you are given access to "secrets" like API keys, logins and the like.
+Un accordo di non divulgazione è un contratto che vi potrebbe essere richiesto di firmare se lavorerete con un'organizzazione che ha segreti commerciali da proteggere. In qualità di firmatario dell'accordo di non divulgazione, sarete vincolati dal contratto a mantenere la segretezza sulle informazioni che vi sono state fornite, e può includere clausole di non concorrenza in un settore simile per un determinato periodo di tempo. Anche se questo è solitamente raro nel settore open-source, può essere richiesto se si ha accesso a "segreti" come chiavi API, credenziali di accesso e simili.
 
-> If you are presented with a NDA, as with any contract, it is wise to read everything, ask questions and ask a lawyer for their opinion. Quasar will never require you to sign an NDA.
+> Se vi viene presentato un accordo di non divulgazione, come per qualsiasi contratto, è una scelta saggia leggere tutto, fare domande e chiedere il parere di un avvocato. Quasar non ti chiederà mai di firmare un accordo di non divulgazione.
 
 ### What is a "Contributor License Agreement" (CLA)
 
