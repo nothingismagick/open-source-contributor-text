@@ -15,7 +15,7 @@ https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSou
 #### **مقدمة**
 
 - سوف تتعلم عن الفرق بين حقوق التأليف والنشر، والترخيص، والإسناد
-- You will discover the meaning of "Free/Libre and Open Source Software"
+- سوف تكتشف معنى "البرمجيات المجانية، الحرة، والمفتوحة المصدر"
 - سوف تتعرف على الفرق بين رخص البرمجيات الحرة المتساهلة "Permissive"، ورخص البرمجيات الحرة المحمية "Protective"
 - You will learn about license discovery and licensing agreements
 - سوف تتعلم استخدام التعليمات البرمجية والموارد الأخرى المفتوحة المصدر
@@ -24,7 +24,7 @@ https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSou
 
 - سوف تتعلم عن "اتفاقيات عدم الإفصاح" (NDA)
 - سوف تتعلم عن "اتفاقيات ترخيص المساهمين" (CLA)
-- You will learn how to become a "verified" contributor
+- ستتعلم كيف تصبح "مساهم موثوق"
 - سوف تتعلم لماذا يتم استخدام "شهادات المنشأ للمطور"
 - ستتعلم ماذا تعني "signed-off-by"
 - You will learn about "release" forms
@@ -49,7 +49,7 @@ https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSou
 
 # محتويات البرنامج التعليمي
 
-> This tutorial is a primer for those who are interested in contributing to open-source projects. وقد يكون مفيدًا أيضًا للمساهمين النشطين الذين لطالما كان لديهم فضول حول المواضيع الأكثر تقدما. وأخيرًا، نظرًا لأن قضية الترخيص يمكن أن تكون موضوعًا مثيرًا للجدل، فهذا النص يساعد ايضا المهتمين بهذه القضايا في فتح وبدء النقاش حول موضوع المصدر المفتوح. Although we are using specific examples from the "Quasar Framework", the issues herein are relevant across the spectrum of open-source software development.
+> هذا البرنامج التعليمي هو عبارة عن تمهيد للذين يرغبون في المساهمة في المشاريع المفتوحة المصدر. وقد يكون مفيدًا أيضًا للمساهمين النشطين الذين لطالما كان لديهم فضول حول المواضيع الأكثر تقدما. وأخيرًا، نظرًا لأن قضية الترخيص يمكن أن تكون موضوعًا مثيرًا للجدل، فهذا النص يساعد ايضا المهتمين بهذه القضايا في فتح وبدء النقاش حول موضوع المصدر المفتوح. Although we are using specific examples from the "Quasar Framework", the issues herein are relevant across the spectrum of open-source software development.
 > 
 > نحن نأمل أنك ستتمكن من الحصول على المعنى والرؤى العميقة لكل الأشياء العظيمة (والصعوبات المحتملة) التي تحيط بموضوع التراخيص في عالم البرمجيات المفتوحة المصدر. تمثل المقدمة نقطة بداية جيدة، حيث أنها تحدد بعض المصطلحات التي سيعود إليها هذا البرنامج التعليمي باستمرار. بالإضافة إلى ذلك، ستعلمك بعض الطرق البسيطة لضمان توافق مساهماتك مع نظام الترخيص الذي يعتمده المشروع الذي تعمل عليه. ثم بعد ذلك، سيبدا النقاش حولك، حول المساهم، وحول الحقوق والمسؤوليات الموجودة لديك. وأخيرًا، سيذهب النقاش إلى أعمق من ذلك عبر عرض مجالات التراخيص، بما في ذلك التعليمات البرمجية، والنسخ، والتصميم، والخطوط.
 
