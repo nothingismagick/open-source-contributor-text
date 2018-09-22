@@ -14,8 +14,8 @@ https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSou
 
 #### **مقدمة**
 
-- سوف تتعلم عن الفرق بين حقوق التأليف والنشر والترخيص والإسناد
-- سوف تكتشف معنى "البرمجيات المجانية،الحرة، والمفتوحة المصدر"
+- سوف تتعلم عن الفرق بين حقوق التأليف والنشر، والترخيص، والإسناد
+- You will discover the meaning of "Free/Libre and Open Source Software"
 - سوف تتعرف على الفرق بين رخص البرمجيات الحرة المتساهلة "Permissive"، ورخص البرمجيات الحرة المحمية "Protective"
 - You will learn about license discovery and licensing agreements
 - سوف تتعلم استخدام التعليمات البرمجية والموارد الأخرى المفتوحة المصدر
@@ -23,7 +23,7 @@ https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSou
 #### **هويتك وحقوقك الخاص**
 
 - سوف تتعلم عن "اتفاقيات عدم الإفصاح" (NDA)
-- You will learn about "Contributor License Agreements" (CLA)
+- سوف تتعلم عن "اتفاقيات ترخيص المساهمين" (CLA)
 - You will learn how to become a "verified" contributor
 - You will learn why "developer certificates of origin" are used
 - You will learn what "signed-off-by" means
