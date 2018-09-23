@@ -67,9 +67,9 @@ https://opensource.com/resources/what-open-source
 
 ### حقوق التأليف والنشر، الترخيص، والإسناد
 
-It is generally accepted in modern democratic society that a notice of copyright is required as a preface for all licenses, because someone has to be responsible for declaring how the thing being licensed can be used. In a strange (but somehow logical) twist, if you wish to share your work as Public Domain or Copyleft, you have to first declare that you are the owner of your work (and that everyone who contributed to it agrees with you on that matter).
+من المقبول عموما في أي مجتمع ديمقراطي حديث، أن يكون إشعار حقوق التأليف والنشر مطلوبًا كتمهيد لجميع التراخيص، لأن شخصًا ما يجب أن يكون مسؤولاً عن إعلان كيفية استخدام الشيء الذي تم إصدار الترخيص له. في تطور غريب (لكن منطقي)، إذا كنت ترغب في مشاركة عملك وفقا للملكية العامة أو وفقا للحقوق المتروكة (copyleft)، فسيتوجب عليك أولا التصريح بملكية العمل الذي تريد عرضه أو مشاركته (وأن كل شخص ساهم في هذا العمل يتفق معك في هذا الأمر).
 
-Once a copyright is declared, the copyright holder may inform readers and users of the code / text / art under which circumstances it is appropriate to use it. No matter what licensing approach the original author / copyright holder takes, it is always appropriate to retain copies of these licenses in the repository hosting your work should it use open-source licensed works of third parties. It is never ok to remove or edit license files or license references in the headers or metadata of source files - because that is literally stealing and a form of plagiarism.
+بمجرد التصريح عن حقوق التأليف والنشر، يمكن لمالك حقوق التأليف والنشر إبلاغ القراء ومستخدمي الشفرة / النص / العمل الفني، عن تحت اي ضروف يكون الاستخدام فيها ملائمًا. No matter what licensing approach the original author / copyright holder takes, it is always appropriate to retain copies of these licenses in the repository hosting your work should it use open-source licensed works of third parties. It is never ok to remove or edit license files or license references in the headers or metadata of source files - because that is literally stealing and a form of plagiarism.
 
 As long as "consumers" of your built artefacts (website, app, etc.) are informed to where they can see the licenses of the third-party projects that you have used to build your project, you can avoid shipping these licenses.
 
