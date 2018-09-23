@@ -73,7 +73,7 @@ https://opensource.com/resources/what-open-source
 
 طالما يتم إعلام عملاء إبداعاتك (موقع ويب، تطبيق، إلخ) بالأماكن التي يمكنهم فيها رؤية والإطلاع على مختلف تراخيص مشاريع الأطراف الثالثة التي إستخدمتها لبناء مشروعك، فإنه بإمكانك عندها تجنب إرسال هذه التراخيص.
 
-إذا قررت استخدام أي شيء تم إنشاؤه من قبل أطراف ثالثة داخل مشروعك، باستثناء أعمال المجال العام (التي أعتقد شخصيا أنه ما زال عليك ذكر المصدر فيها)، فأنت ملزم (سواء من الناحية القانونية أو الأخلاقية) بالإشارة إلى المصدر. This is called **attribution**, and a general rule of thumb is that you should include references to all of the code you are using. We will get more into this later on in the tutorial, because there are different requirements depending upon the domain of the resource being attributed.
+إذا قررت استخدام أي شيء تم إنشاؤه من قبل أطراف ثالثة داخل مشروعك، باستثناء أعمال المجال العام (التي أعتقد شخصيا أنه ما زال عليك ذكر المصدر فيها)، فأنت ملزم (سواء من الناحية القانونية أو الأخلاقية) بالإشارة إلى المصدر. هذا يسمى **إسناد** والقاعدة الأساسية هي أنه يجب عليك تضمين مراجع لأي شِفْرَة برمجية تستخدمها. We will get more into this later on in the tutorial, because there are different requirements depending upon the domain of the resource being attributed.
 
 ### "البرمجيات المجانية، الحرة، والمفتوحة المصدر"
 
