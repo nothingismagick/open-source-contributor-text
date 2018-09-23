@@ -73,7 +73,7 @@ https://opensource.com/resources/what-open-source
 
 As long as "consumers" of your built artefacts (website, app, etc.) are informed to where they can see the licenses of the third-party projects that you have used to build your project, you can avoid shipping these licenses.
 
-If you do decide to use anything done by a third-party within your work, except for public domain works (which I personally believe you should also cite), you are required (both legally and morally) to cite the source. This is called **attribution**, and a general rule of thumb is that you should include references to all of the code you are using. We will get more into this later on in the tutorial, because there are different requirements depending upon the domain of the resource being attributed.
+إذا قررت استخدام أي شيء تم إنشاؤه من قبل أطراف ثالثة داخل مشروعك، باستثناء أعمال المجال العام (التي أعتقد شخصيا أنه ما زال عليك ذكر المصدر فيها)، فأنت ملزم (سواء من الناحية القانونية أو الأخلاقية) بالإشارة إلى المصدر. This is called **attribution**, and a general rule of thumb is that you should include references to all of the code you are using. We will get more into this later on in the tutorial, because there are different requirements depending upon the domain of the resource being attributed.
 
 ### "البرمجيات المجانية، الحرة، والمفتوحة المصدر"
 
