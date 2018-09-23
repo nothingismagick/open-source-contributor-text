@@ -71,7 +71,7 @@ https://opensource.com/resources/what-open-source
 
 بمجرد التصريح عن حقوق التأليف والنشر، يمكن لمالك حقوق التأليف والنشر إبلاغ القراء ومستخدمي الشفرة / النص / العمل الفني، عن تحت اي ضروف يكون الاستخدام فيها ملائمًا. بغض النظر عن نوع المنهج الذي تم إعتماده لمنح الترخيص من طرف المؤلف الأصلي / مالك حقوق التأليف والنشر، يفترض دائما الإحتفاظ بنسخ التراخيص داخل المستودع المستضيف لعملك في حالة ما إذا تم إستخدام تراخيص من أطراف ثالثة. ليس مناسبا في أي حال من الأحوال إزالة أو تعديل ملفات الترخيص أو مراجع التراخيص في الرؤوس أو البيانات الوصفية لملفات المصدر - لأن هذا يعد حرفيا بمثابة سرقة ونوع من الانتحال.
 
-As long as "consumers" of your built artefacts (website, app, etc.) are informed to where they can see the licenses of the third-party projects that you have used to build your project, you can avoid shipping these licenses.
+طالما يتم إعلام عملاء إبداعاتك (موقع ويب، تطبيق، إلخ) بالأماكن التي يمكنهم فيها رؤية والإطلاع على مختلف تراخيص مشاريع الأطراف الثالثة التي إستخدمتها لبناء مشروعك، فإنه بإمكانك عندها تجنب إرسال هذه التراخيص.
 
 إذا قررت استخدام أي شيء تم إنشاؤه من قبل أطراف ثالثة داخل مشروعك، باستثناء أعمال المجال العام (التي أعتقد شخصيا أنه ما زال عليك ذكر المصدر فيها)، فأنت ملزم (سواء من الناحية القانونية أو الأخلاقية) بالإشارة إلى المصدر. This is called **attribution**, and a general rule of thumb is that you should include references to all of the code you are using. We will get more into this later on in the tutorial, because there are different requirements depending upon the domain of the resource being attributed.
 
