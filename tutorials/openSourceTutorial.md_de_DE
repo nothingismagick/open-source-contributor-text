@@ -59,31 +59,31 @@ https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSou
 
 https://opensource.com/resources/what-open-source
 
-Jeder Akt der Kreativität kann jemandem oder einer Gruppe von Menschen attributiert werden, die zusammenarbeiten. Eigentlich ist es ziemlich einfältig zu glauben, dass irgendetwas in einem Vakuum existiert. Wir sind alle verbunden und Ideen sind Dinge, die oftmals ein Eigenleben entwickeln. In der heutigen Zeit haben jedoch viele Menschen damit begonnen, ihre Ideen vor dem Diebstahl zu schützen, indem sie diese weitergeben - indem sie ihre Arbeit so veröffentlichen, dass andere Menschen in die Lage versetzt und dazu aufgerufen werden, zum Projekt beizutragen - oder es sogar in eine ganz andere Richtung zu lenken.
+Jeder Akt der Kreativität kann jemandem oder einer Gruppe von Menschen attribuiert werden, die zusammenarbeiten. Eigentlich ist es ziemlich einfältig zu glauben, dass irgendetwas in einem Vakuum existiert. Wir sind alle verbunden und Ideen sind Dinge, die oftmals ein Eigenleben entwickeln. In der heutigen Zeit haben jedoch viele Menschen damit begonnen, ihre Ideen vor dem Diebstahl zu schützen, indem sie diese weitergeben - indem sie ihre Arbeit so veröffentlichen, dass andere Menschen in die Lage versetzt und dazu aufgerufen werden, zum Projekt beizutragen - oder es sogar in eine ganz andere Richtung zu lenken.
 
-Vergleichbar mit der Art und Weise in der Gilden vergangener Jahrhunderte ihre Geschäftsgeheimnisse geschützt haben, kann die Rechtfertigung eines "urheberrechtlichen" Schutzes von Ideen und eine Verehrung von "Closed-Source" in Gesetzgebung und Freihandelsabkommen direkt auf viele Probleme, die Turbo-Kapitalismus auf unseren Planeten freigelassen hat, zurückgeführt werden. Aber - es gibt etwas, das Sie tun können. You can participate in the open-source movement.
+Vergleichbar mit der Art und Weise in der Gilden vergangener Jahrhunderte ihre Geschäftsgeheimnisse geschützt haben, kann die Rechtfertigung eines "urheberrechtlichen" Schutzes von Ideen und eine Verehrung von "Closed-Source" in Gesetzgebung und Freihandelsabkommen direkt auf viele Probleme, die Turbo-Kapitalismus auf unseren Planeten freigelassen hat, zurückgeführt werden. Aber - es gibt etwas, das Sie tun können. Sie können an der Open-Source-Bewegung teilnehmen.
 
-## Introduction
+## Einführung
 
-### Copyright, Licensing and Attribution
+### Urheberrecht, Lizenzierung und Attribution
 
-It is generally accepted in modern democratic society that a notice of copyright is required as a preface for all licenses, because someone has to be responsible for declaring how the thing being licensed can be used. In a strange (but somehow logical) twist, if you wish to share your work as Public Domain or Copyleft, you have to first declare that you are the owner of your work (and that everyone who contributed to it agrees with you on that matter).
+Es wird in der modernen demokratischen Gesellschaft generell akzeptiert, dass ein Urheberrechtsvermerk als Vorwort für alle Lizenzen benötigt wird, um festzulegen, wie das Objekt, welches lizensiert wird, verwendet werden kann. In einer merkwürdigen (aber dennoch logischen) Wendung, wenn Sie Ihr Werk als Public Domain oder Copyleft teilen möchten, müssen Sie zuerst angeben, dass Sie der Besitzer Ihres Werkes sind (und dass jeder, der etwas beigetragen hat, mit Ihnen einig ist).
 
-Once a copyright is declared, the copyright holder may inform readers and users of the code / text / art under which circumstances it is appropriate to use it. No matter what licensing approach the original author / copyright holder takes, it is always appropriate to retain copies of these licenses in the repository hosting your work should it use open-source licensed works of third parties. It is never ok to remove or edit license files or license references in the headers or metadata of source files - because that is literally stealing and a form of plagiarism.
+Sobald ein Urheberrecht angegeben wird, kann der Urheberrechtsinhaber den Lesern des Codes / Artikels / Kunstwerks informieren, unter welchen Umständen eine Verwendung angemessen ist. Egal welchen Lizenzierungs-Ansatz der ursprüngliche Autor / Urheberrechtsinhaber wählt, es ist immer angemessen, Kopien dieser Lizenzen in dem Repository, welches Ihre Arbeit enthält, zu speichern, sollte es Open-Source-lizenzierte Werke von Dritten enthalten. Es ist niemals in Ordnung Lizenzdateien oder Lizenzreferenzen in den Kopfzeilen oder Metadaten der Open-Source-Dateien zu löschen oder zu bearbeiten.
 
-As long as "consumers" of your built artefacts (website, app, etc.) are informed to where they can see the licenses of the third-party projects that you have used to build your project, you can avoid shipping these licenses.
+Solange "Verbraucher" Ihrer erbauten Artefakte (Webseite, App, usw.) informiert werden, wo sie die Lizenzen der Projekte Dritter, die Sie verwendet haben, um Ihr Projekt zu bauen, einsehen können, können Sie vermeiden diese Lizenzen zu versenden.
 
-If you do decide to use anything done by a third-party within your work, except for public domain works (which I personally believe you should also cite), you are required (both legally and morally) to cite the source. This is called **attribution**, and a general rule of thumb is that you should include references to all of the code you are using. We will get more into this later on in the tutorial, because there are different requirements depending upon the domain of the resource being attributed.
+Wenn Sie sich entscheiden irgendetwas von Dritten in Ihrer Arbeit zu verwenden, ausgeschlossen von lizenzfreien Werken (welche ich persönlich auch zitieren würde), sind Sie angehalten (sowohl legal als moralisch) diese in der Quelle zu zitieren. Dies wird **Attribution** genannt und eine Faustregel besagt, dass Sie Quellenangaben zu sämtlichem Code angeben sollten, den Sie verwenden. Wir werden später in diesem Tutorial näher auf dieses Thema eingehen, da es verschiedene Voraussetzungen gibt, je nach Domain der attribuierten Quelle.
 
-### "Free/Libre and Open Source Software"
+### "Freier/Libre- und Open-Source-Software"
 
-> The term "open source" refers to something people can modify and share because its design is publicly accessible.
+> Der Begriff "Open-Source" bezieht sich auf etwas, das Menschen modifizieren und teilen können, weil das Design öffentlich erhältlich ist.
 > 
 > https://opensource.com/resources/what-open-source
 
-There is a perpetual discussion by FLOSS hardliners about the degree of **freedom** inherent in "open" source - and even what **free** means. However, it is probably a good idea to go back in time to 1998 and [read this article](https://opensource.com/article/18/2/coining-term-open-source-software) by the woman who came up with the name "open source": Christine Peterson. Although Richard Stallman and Linus Torvalds are two of the most successful, visible and vocal proponents on the matter; the point is that even though the term began as a "marketing device", it stuck and changed the lives of everyone on the planet - arguably for the better.
+Es gibt andauernde Diskussionen unter FLOSS-Hardlinern über das Ausmaß von **Freiheit** welche "Open"-Source innewohnt - und sogar was **frei** bedeutet. Es ist wahrscheinlich dennoch eine gute Idee in der Zeit zurück nach 1998 zu reisen und [diesen Artikel zu lesen](https://opensource.com/article/18/2/coining-term-open-source-software), welcher von der Frau verfasst wurde, die den Namen "Open-Source" erfand: Christine Peterson. Auch wenn Richard Stallman und Linus Torvald zwei der erfolgreichsten, sichtbarsten und lautstärksten Befürworter diesbezüglich sind, startete der Begriff als "Marketinginstrument". Er bürgerte sich ein und veränderte das Leben aller auf diesem Planeten - vermutlich zum Besseren.
 
-Stallman and the "Free Software Foundation" (FSF), who have arguably been around the longest, will define freedom as an important part of open source, because your freedom to use the code and change it is also a responsibility that you bear in the name of the entire community.
+Stallman und die "Free Software Foundation" (FSF), die wohl am längsten dabei sind, werden Freiheit als einen wichtigen Teil von Open-Source definieren, weil die Freiheit den Code zu verwenden und zu ändern auch eine Verantwortung ist, die Sie im Namen der gesamten Gemeinschaft tragen.
 
 <center><strong>What is free? What is libre?</strong></center>
 
