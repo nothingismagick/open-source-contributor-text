@@ -61,29 +61,29 @@ https://opensource.com/resources/what-open-source
 
 Every act of creativity can be attributed to someone or to a group of people working together. 实际上, 认为物体会存在于真空中是很愚蠢的。 我们都是相互联系的, 想法往往也呈现出自己的生命力。 However, in these modern times many people have started protecting their ideas from being stolen by giving them away - by publishing their work so that other people are empowered and invited to contribute to the project - or even take it in an entirely different direction.
 
-Not unlike the way that guilds of centuries past protected their trade-secrets, the excuse of a "proprietary" protection of ideas and an enshrinement of "closed source" in legislation and free-trade agreements can directly be traced to many of the problems that turbo-capitalism has unleashed on our planet. But guess what - there is something you can do. You can participate in the open-source movement.
+就像过去几个世纪里的行会保护其行业机密的做法, 对想法进行 "专有" 保护，在立法和自由贸易协定中不分享"封闭式源码" ，其理由都可以直接追溯到涡轮式资本主义给世界带来的很多问题上。 但是，你并非束手无策。 你可以参与到开放源码的大潮中来。
 
-## Introduction
+## 介绍
 
-### Copyright, Licensing and Attribution
+### 版权、授权和归属
 
 It is generally accepted in modern democratic society that a notice of copyright is required as a preface for all licenses, because someone has to be responsible for declaring how the thing being licensed can be used. In a strange (but somehow logical) twist, if you wish to share your work as Public Domain or Copyleft, you have to first declare that you are the owner of your work (and that everyone who contributed to it agrees with you on that matter).
 
-Once a copyright is declared, the copyright holder may inform readers and users of the code / text / art under which circumstances it is appropriate to use it. No matter what licensing approach the original author / copyright holder takes, it is always appropriate to retain copies of these licenses in the repository hosting your work should it use open-source licensed works of third parties. It is never ok to remove or edit license files or license references in the headers or metadata of source files - because that is literally stealing and a form of plagiarism.
+Once a copyright is declared, the copyright holder may inform readers and users of the code / text / art under which circumstances it is appropriate to use it. 无论原作者/版权持有人采用什么授权方式, 如果使用第三方经授权的开源素材，就该在代码库中保留这些许可证的副本。 删除或编辑源文件的标题或元数据中的许可证文件或引用文献都是不可以的，因为这种偷盗行为算是剽窃的一种形式。
 
 As long as "consumers" of your built artefacts (website, app, etc.) are informed to where they can see the licenses of the third-party projects that you have used to build your project, you can avoid shipping these licenses.
 
-If you do decide to use anything done by a third-party within your work, except for public domain works (which I personally believe you should also cite), you are required (both legally and morally) to cite the source. This is called **attribution**, and a general rule of thumb is that you should include references to all of the code you are using. We will get more into this later on in the tutorial, because there are different requirements depending upon the domain of the resource being attributed.
+If you do decide to use anything done by a third-party within your work, except for public domain works (which I personally believe you should also cite), you are required (both legally and morally) to cite the source. 这称为 ** 归属 **, 通常的经验法则是, 应该引述所使用的所有代码。 我们稍后会在本教程中对此进行更多的介绍, 因为根据所归属资源的领域，会有不同的要求。
 
-### "Free/Libre and Open Source Software"
+### “自由软件和开源软件”
 
-> The term "open source" refers to something people can modify and share because its design is publicly accessible.
+> "开源" 一词指的是人们可以修改和共享的东西, 因为它的设计是可以公开访问的。
 > 
 > https://opensource.com/resources/what-open-source
 
-There is a perpetual discussion by FLOSS hardliners about the degree of **freedom** inherent in "open" source - and even what **free** means. However, it is probably a good idea to go back in time to 1998 and [read this article](https://opensource.com/article/18/2/coining-term-open-source-software) by the woman who came up with the name "open source": Christine Peterson. Although Richard Stallman and Linus Torvalds are two of the most successful, visible and vocal proponents on the matter; the point is that even though the term began as a "marketing device", it stuck and changed the lives of everyone on the planet - arguably for the better.
+对于 "开" 源中固有的 ** 自由 ** 程度 (甚至 ** 自由 ** 的含义), FLOSS强硬派一直争论不休。 然而, 如果我们回到1998年去，读一读[ 这篇文章 ](https://opensource.com/article/18/2/coining-term-open-source-software)，可能会有所帮助。文中，克莉丝汀·彼得森女士提出了“开源”的概念。 虽然理查德·斯托曼和莱纳斯·托瓦尔兹是关于此种软件的两名最成功、最有名的发声支持者，其关键在于, 即使这个术语最初是作为 "营销手段" , 它仍在持续改变着世界上每个人的生活 —— 可以说是让生活有所改进。
 
-Stallman and the "Free Software Foundation" (FSF), who have arguably been around the longest, will define freedom as an important part of open source, because your freedom to use the code and change it is also a responsibility that you bear in the name of the entire community.
+研究这一领域算是时间最久的斯托曼和 "自由软件基金会" (FSF), 将自由定义为开源的重要组成部分, 因为使用和修改代码的自由同时也是以整个社区的名义所承担的一种责任。
 
 <center><strong>What is free? What is libre?</strong></center>
 
