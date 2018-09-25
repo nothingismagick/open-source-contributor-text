@@ -1,57 +1,57 @@
-*An in-depth introduction to Open-Source with some specific examples taken from the approach used by the Quasar Framework, as we intend to use this tutorial as training and reference for all forthcoming (and existing) contributors.*
+*Eine eingehende Einführung in Open-Source mit einigen konkreten Beispielen aus dem Konzept für das Quasar Framework, da wir diese Einführung als Training und Referenz für alle zukünftigen (und derzeitigen) Beitragenden verwenden möchten.*
 
 ### Repository
 
 https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSourceTutorial.md
 
 <center>
-  <img src="https://ipfs.busy.org/ipfs/QmNh5ir9k6hrJNZNnhYXKgvMGfAzUPWFiVyDmss2J3kacJ" alt="GPL_MIT_glow.png" /> Image: CC0 by @nothingismagick
+  <img src="https://ipfs.busy.org/ipfs/QmNh5ir9k6hrJNZNnhYXKgvMGfAzUPWFiVyDmss2J3kacJ" alt="GPL_MIT_glow.png" /> Abbildung: CC0 von @nothingismagick
 </center>
 
-### What Will Be Discussed?
+### Was wird diskutiert?
 
-> You will learn about Open Source and best-practices to make sure that your contributions are compliant.
+> Sie werden mehr über Open-Source und Best-Practices erfahren, um sicherzustellen, dass Ihre Beträge konform sind.
 
-#### **Introduction**
+#### **Einführung**
 
-- You will learn about the difference between copyright, licensing and attribution
-- You will discover the meaning of "Free/Libre and Open Source Software"
-- You will find out what the difference is between "Permissive" and "Protective" licenses
-- You will learn about license discovery and licensing agreements
-- You will learn how to use code and other assets that are open-source
+- Sie lernen den Unterschied zwischen Urheberrecht, Lizenzierung und Attribution kennen
+- Sie erfahren die Bedeutung von "Freier/Libre- und Open-Source-Software"
+- Sie erfahren den Unterschied zwischen "Freizügigen" und "Nicht-Freizügigen" Lizenzen
+- Sie erfahren mehr über das Auffinden von Lizenzen und Lizenzvereinbarungen
+- Sie lernen, wie Sie Code und andere Assets, die Open-Source sind, verwenden
 
-#### **Your Identity and Rights**
+#### **Ihre Identität und Rechte**
 
-- You will learn about "Non-Disclosure Agreements" (NDA)
-- You will learn about "Contributor License Agreements" (CLA)
-- You will learn how to become a "verified" contributor
-- You will learn why "developer certificates of origin" are used
-- You will learn what "signed-off-by" means
-- You will learn about "release" forms
-- You will learn about "provenance"
+- Sie erfahren mehr über "Vertraulichkeitsvereinbarungen" (NDA)
+- Sie erfahren mehr über "Lizenzvereinbarung des Beitragenden" (CLA)
+- Sie lernen, wie Sie ein "verifizierter" Beitragender werden
+- Sie erfahren, warum "Entwickler-Ursprungsbescheinigungen" verwendet werden
+- Sie erfahren, was "unterzeichnet von" bedeutet
+- Sie erfahren mehr über "Freigabe"-Formen
+- Sie erfahren mehr über "Herkunft"
 
-#### **License Types**
+#### **Lizenztypen**
 
-- Licenses for code
-- Licenses for text / documentation
-- Licenses for artwork / design / video
-- Licenses for fonts
+- Lizenzen für Code
+- Lizenzen für Text / Dokumentation
+- Lizenzen für Kunstwerke / Design / Video
+- Lizenzen für Schriftarten
 
-### Requirements
+### Voraussetzungen
 
-- You must read English proficiently
-- A basic understanding of `git` 
-- Knowledge of file types relevant to your field of activity 
+- Sie müssen fließend Englisch lesen
+- Ein Grundverständnis über `Git` besitzen 
+- Kenntnis über, für Ihr Tätigkeitsfeld relevante, Dateitypen besitzen 
 
-### Difficulty
+### Schwierigkeit
 
-- Basic to medium
+- Einfach bis Mittel
 
-# Tutorial Contents
+# Tutorial-Inhalte
 
-> This tutorial is a primer for those who are interested in contributing to open-source projects. It may also be useful for active contributors who were always curious about advanced topics. And finally, because licensing can be very contentious, this is also a text for those who want to engage in a discussion about open-source. Although we are using specific examples from the "Quasar Framework", the issues herein are relevant across the spectrum of open-source software development.
+> Dieses Tutorial ist eine Einführung für diejenigen, die daran interessiert sind zu Open-Source-Projekten beizutragen. Es mag auch für aktive Beitragende nützlich sein, die schon immer neugierig über fortgeschrittene Themen waren. Und zuletzt, da Lizenzierung sehr umstritten sein kann, ist dies auch ein Text für diejenigen, die an Diskussionen über Open-Source teilnehmen möchten. Obwohl wir konkrete Beispiele aus dem "Quasar Framework" verwenden, sind die hier diskutierten Probleme für das gesamte Spektrum von Open-Source-Softwareentwicklung relevant.
 > 
-> Our hope is that you will gain deeper insight into all of the great things (and potential pitfalls) surrounding licenses in the world of open-source software. The Introduction is a great place to start, as it defines some of the terms this tutorial will constantly return to. It will also teach you about some simple methods for making sure that your contributions are compliant with the licensing scheme taken by the project you are working with. Then, it begins a discussion about you, the contributor, and the rights and responsibilities that you have. Finally, it will go into depth about various domains of licensing, including code, copy, design and fonts.
+> Wir hoffen, dass Sie ein tieferes Verständnis für all die großartigen Dinge (und möglichen Schwierigkeiten) gewinnen, welche die Lizenzen in der Welt von Open-Source-Software umgeben. Die Einführung ist ein ausgezeichneter Start, da hier Begriffe definiert werden, auf welche sich dieses Tutorial stetig bezieht. Desweiteren wird es Ihnen einige einfache Methoden beibringen, um sicherzustellen, dass Ihre Beiträge dem Lizenzsystem entsprechen, welches von dem Projekt, mit dem Sie zusammenarbeiten, bestimmt wurde. Dann beginnt es eine Diskussion über Sie, den Beitragenden, und Ihre Rechte und Verantwortungen. Finally, it will go into depth about various domains of licensing, including code, copy, design and fonts.
 
 ## Preface
 
