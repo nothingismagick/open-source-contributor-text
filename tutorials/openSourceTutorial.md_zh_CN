@@ -1,30 +1,30 @@
 *An in-depth introduction to Open-Source with some specific examples taken from the approach used by the Quasar Framework, as we intend to use this tutorial as training and reference for all forthcoming (and existing) contributors.*
 
-### Repository
+### 代码库
 
 https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSourceTutorial.md
 
 <center>
-  <img src="https://ipfs.busy.org/ipfs/QmNh5ir9k6hrJNZNnhYXKgvMGfAzUPWFiVyDmss2J3kacJ" alt="GPL_MIT_glow.png" /> Image: CC0 by @nothingismagick
+  <img src="https://ipfs.busy.org/ipfs/QmNh5ir9k6hrJNZNnhYXKgvMGfAzUPWFiVyDmss2J3kacJ" alt="GPL_MIT_glow.png" /> 图片：CC0 由@nothingismagick提供
 </center>
 
-### What Will Be Discussed?
+### 将讨论的话题
 
-> You will learn about Open Source and best-practices to make sure that your contributions are compliant.
+> 你将了解“开放源码”和最佳实践, 以确保自己的贡献符合要求。
 
-#### **Introduction**
+#### **简介**
 
-- You will learn about the difference between copyright, licensing and attribution
-- You will discover the meaning of "Free/Libre and Open Source Software"
-- You will find out what the difference is between "Permissive" and "Protective" licenses
-- You will learn about license discovery and licensing agreements
-- You will learn how to use code and other assets that are open-source
+- 你将了解版权、授权和归属的区别
+- 你会理解 "自由软件和开源软件" 的含义
+- 你将明白 "许可性" 和 "保护性" 许可证之间的区别
+- 你会了解许可证的发现和授权协议的相关内容
+- 你将学习使用开源的代码及其他素材
 
-#### **Your Identity and Rights**
+#### **你的身份和权利**
 
-- You will learn about "Non-Disclosure Agreements" (NDA)
-- You will learn about "Contributor License Agreements" (CLA)
-- You will learn how to become a "verified" contributor
+- 你将了解 "保密协议" (NDA) 的相关内容
+- 你将了解 "贡献者许可证协议" (CLA) 的相关内容
+- 你会了解如何成为一名“通过审核”的贡献者
 - You will learn why "developer certificates of origin" are used
 - You will learn what "signed-off-by" means
 - You will learn about "release" forms
