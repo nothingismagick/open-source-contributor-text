@@ -85,9 +85,9 @@ https://opensource.com/resources/what-open-source
 
 Stallman and the "Free Software Foundation" (FSF), who have arguably been around the longest, will define freedom as an important part of open source, because your freedom to use the code and change it is also a responsibility that you bear in the name of the entire community.
 
-<center><strong>What is free? What is libre?</strong></center>
+<center><strong>ما المقصود بـ free ؟ ما المقصود بـ libre ؟</strong></center>
 
-If one ignores for a moment the annoying fact that *free* also means "doesn't cost any money" (which was the main argument for adding the word libre), there is still an unresolved semantic issue, in fact, one that will likely never resolve:
+إذا تجاهل أحدهم للحظة، الحقيقة المزعجة أن كلمة *free* في الإنجليزية تعني كلاً من حر ومجاني (وهي السبب الرئيسي في إضافة عبارة libre)، لا تزال هناك مشكلة دلالية غير محلولة، والحقيقة أنه ربما لن يتم حلها أبداً:
 
 Depending upon your perspective, the Gnu Public License isn't ABSOLUTELY free, because it comes with the requirement that you must return changes that you make to the code back to the community - and being free would mean you get to decide how to work and what to do with the code you use. At the same time and on a different spectrum, there are those who consider the MIT license not to be entirely free. They do so because there are circumstances where the code can be permissibly changed and not returned to the community - in a sense "imprisoning" the code.
 
