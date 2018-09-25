@@ -25,41 +25,41 @@ https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSou
 - 你将了解 "保密协议" (NDA) 的相关内容
 - 你将了解 "贡献者许可证协议" (CLA) 的相关内容
 - 你会了解如何成为一名“通过审核”的贡献者
-- You will learn why "developer certificates of origin" are used
-- You will learn what "signed-off-by" means
+- 你将了解使用 "开发人员原产地证书"的原因
+- 你会知道 "由......签署" 的含义
 - You will learn about "release" forms
-- You will learn about "provenance"
+- 你将了解"出处"的相关内容
 
-#### **License Types**
+#### **许可证类型**
 
-- Licenses for code
-- Licenses for text / documentation
-- Licenses for artwork / design / video
-- Licenses for fonts
+- 代码的许可证
+- 文本/文档的许可证
+- 艺术品/设计/视频的许可证
+- 字体的许可证
 
-### Requirements
+### 要求
 
-- You must read English proficiently
-- A basic understanding of `git` 
-- Knowledge of file types relevant to your field of activity 
+- 能够熟练地阅读英语
+- 对`git`有基本的了解 
+- 了解与你的活动领域相关的文件类型 
 
-### Difficulty
+### 难度
 
-- Basic to medium
+- 基础到中级
 
-# Tutorial Contents
+# 教程内容
 
-> This tutorial is a primer for those who are interested in contributing to open-source projects. It may also be useful for active contributors who were always curious about advanced topics. And finally, because licensing can be very contentious, this is also a text for those who want to engage in a discussion about open-source. Although we are using specific examples from the "Quasar Framework", the issues herein are relevant across the spectrum of open-source software development.
+> 本教程为有兴趣参与开源项目的人提供了入门指南。 对于想了解更高级主题的积极贡献者, 这可能也会有用。 此外, 由于授权许可问题可能会引起争议, 对于那些想参与讨论开源的人来说, 这也是一个参考文本。 虽然我们使用的是 "Quasar框架" 中的具体示例, 但此处的问题广泛适用于开源软件开发的各个方面。
 > 
-> Our hope is that you will gain deeper insight into all of the great things (and potential pitfalls) surrounding licenses in the world of open-source software. The Introduction is a great place to start, as it defines some of the terms this tutorial will constantly return to. It will also teach you about some simple methods for making sure that your contributions are compliant with the licensing scheme taken by the project you are working with. Then, it begins a discussion about you, the contributor, and the rights and responsibilities that you have. Finally, it will go into depth about various domains of licensing, including code, copy, design and fonts.
+> Our hope is that you will gain deeper insight into all of the great things (and potential pitfalls) surrounding licenses in the world of open-source software. 从 “介绍” 开始阅读会很有帮助，因为它定义了本教程将反复提及的一些术语。 它还会教你一些简单的方法, 以确保你的贡献符合参与项目所采取的授权机制。 然后, 会开始讲到你, 也就是贡献者的权利和责任。 Finally, it will go into depth about various domains of licensing, including code, copy, design and fonts.
 
-## Preface
+## 前言
 
-> Some software has source code that only the person, team, or organization who created it—and maintains exclusive control over it—can modify. People call this kind of software "proprietary" or "closed source" software. ... Open source software is different. Its authors [make its source code available](https://opensource.com/business/13/5/open-source-your-code) to others who would like to view that code, copy it, learn from it, alter it, or share it. [LibreOffice](https://www.libreoffice.org/) and the [GNU Image Manipulation Program](http://www.gimp.org/) are examples of open source software.
+> 某些软件的源代码, 只有创建它的具有独家控制权的人员、团队或组织才能进行修改。 这类软件被称为 "专有" 或 "封闭式源码" 软件。 ... 而开源软件就有所不同。 它的作者 [ 使其源代码可用 ](https://opensource.com/business/13/5/open-source-your-code) ，从而让其他人能够查看、复制、学习、更改或分享该代码。 [ LibreOffice ](https://www.libreoffice.org/) 和 [ GNU 图像处理程序 ](http://www.gimp.org/) 是开源软件的示例。
 
 https://opensource.com/resources/what-open-source
 
-Every act of creativity can be attributed to someone or to a group of people working together. In fact, it is actually quite silly to think that anything exists in a vacuum. We are all connected, and ideas are things that often take on lives of their own. However, in these modern times many people have started protecting their ideas from being stolen by giving them away - by publishing their work so that other people are empowered and invited to contribute to the project - or even take it in an entirely different direction.
+Every act of creativity can be attributed to someone or to a group of people working together. 实际上, 认为物体会存在于真空中是很愚蠢的。 我们都是相互联系的, 想法往往也呈现出自己的生命力。 However, in these modern times many people have started protecting their ideas from being stolen by giving them away - by publishing their work so that other people are empowered and invited to contribute to the project - or even take it in an entirely different direction.
 
 Not unlike the way that guilds of centuries past protected their trade-secrets, the excuse of a "proprietary" protection of ideas and an enshrinement of "closed source" in legislation and free-trade agreements can directly be traced to many of the problems that turbo-capitalism has unleashed on our planet. But guess what - there is something you can do. You can participate in the open-source movement.
 
