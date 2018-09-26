@@ -71,7 +71,7 @@ https://opensource.com/resources/what-open-source
 
 一旦完成版权声明, 版权持有人可以通知代码/文本/艺术品的读者和用户，在何种情况下可以正当使用它。 无论原作者/版权持有人采用什么授权方式, 如果使用第三方经授权的开源素材，就该在代码库中保留这些许可证的副本。 删除或编辑源文件的标题或元数据中的许可证文件或引用文献都是不可以的，因为这种偷盗行为算是剽窃的一种形式。
 
-As long as "consumers" of your built artefacts (website, app, etc.) are informed to where they can see the licenses of the third-party projects that you have used to build your project, you can avoid shipping these licenses.
+只要你作品 (网站、应用程序等) 的 "消费者" 被告知在何处可以看到你用于构建工程的第三方项目的许可证, 你就不必提供这些许可证。
 
 如果你在工作时决定使用第三方的任何成果, 除了公有领域的作品 (我个人认为你也应该引述该项), 你需要（在法律上和道义上) 引述其来源。 这称为 ** 归属 **, 通常的经验法则是, 应该引述所使用的所有代码。 我们稍后会在本教程中对此进行更多的介绍, 因为根据所归属资源的领域，会有不同的要求。
 
