@@ -170,54 +170,54 @@ Alcuni IDE, come ad esempio [Webstorm](https://www.jetbrains.com/help/webstorm/2
 
 Nota: se i responsabili del progetto su cui stai lavorando ti chiedono di firmare, controlla se vogliono davvero che tu firmi per ogni commit, oppure se è sufficiente firmare i tag o le PR. Tecnicamente parlando, chi deve firmare è la persona che unifica il codice, ma aggiungendo il tuo nome ai singoli commit diventa chiaro chi sia l’effettivo responsabile di ciascun cambiamento. È una questione di preferenze.
 
-> At Quasar we ask you to sign-off on all commits.
+> Su Quasar vi chiediamo di firmare su tutti i commit.
 
-### Become a "verified" contributor
+### Diventa un collaboratore "verificato"
 
-Verified contributors on Github or Gitlab are developers who have added a GPG key to their account and use this GPG key to sign their commits. Although it is not necessary for integration, some project managers may require it - especially since it is easier to steal someone's login credentials and modify a critical repository than it is steal their GPG key.
+I collaboratori verificati su Github o Gitlab sono sviluppatori che hanno aggiunto una chiave GPG al loro account e utilizzano questa chiave per firmare i loro commit. Anche se non è necessario per l'integrazione, alcuni project manager potrebbero richiederlo - soprattutto perché è più facile rubare le credenziali di accesso di qualcuno e modificare una repository importante, che rubare la loro chiave GPG.
 
-The following links will show you how to create a GPG key and use them with Github or Gitlab, as needed.
+I seguenti link vi mostreranno come creare una chiave GPG e usarla con Github o Gitlab, a seconda delle necessità.
 
-- [Add a GPG Key to Github](https://help.github.com/articles/adding-a-new-gpg-key-to-your-github-account/)
-- [Signing commits on Gitlab](https://docs.gitlab.com/ee/user/project/repository/gpg_signed_commits/index.html)
+- [Aggiungi una chiave GPG a Github](https://help.github.com/articles/adding-a-new-gpg-key-to-your-github-account/)
+- [Firmare i commit su Gitlab](https://docs.gitlab.com/ee/user/project/repository/gpg_signed_commits/index.html)
 - https://blog.github.com/2016-04-05-gpg-signature-verification/
 - https://stackoverflow.com/questions/10161198/is-there-a-way-to-autosign-commits-in-git-with-a-gpg-key
 
-### When do I need to get "release" forms
+### Quando ho bisogno di ottenere "liberatorie"
 
-A release form is generally required when making photographs of people and private property - and using them for any non-private purpose. Although specifics vary from jurisdiction to jurisdiction, it is very important that you get people to sign a release form, and if it is clear WHERE the picture was taken, then you might need to get permission of the owner.
+Una liberatoria è generalmente richiesta quando si realizzano fotografie di persone e proprietà private - e le si utilizza per qualsiasi scopo non privato. Anche se le specifiche variano da giurisdizione a giurisdizione, è molto importante che tu faccia firmare una liberatoria, e se è chiaro DOVE è stata scattata la foto, allora potrebbe essere necessario ottenere il permesso del proprietario.
 
-> One clever way to deal with a release form for humans (if they genuinely want to support you) is a so-called "reciprocal pay". Before the photo-shooting, prepare two receipts. On one receipt you pay them e.g. 5 EUR for being a model. On the other receipt, they pay you e.g. 5 EUR for a copy of the photograph. The rule (got the cash, keep the copy) applies, so each party has one original receipt and one copy receipt. You send them a digital copy of the final image as a link to the open-source repository where it was used, and note this on the copy of the receipt they gave you. Keep this in your own records, and everybody is happy.
+> Un modo intelligente per gestire una liberatoria per le persone fisiche (se vogliono davvero sostenerti) è il cosiddetto "pagamento reciproco". Prima di scattare la foto, preparate due ricevute. Su una ricevuta, voi li pagate ad es. 5 euro per essere un modello. Nella seconda ricevuta, loro vi pagano ad es. 5 euro per una copia della foto. Si applica la regola (hai ricevuto i soldi, tieni la copia), quindi ogni parte ha una ricevuta originale e una copia della ricevuta. Inviate loro una copia digitale dell'immagine finale come link alla repository open-source in cui è stata utilizzata, e annotatelo sulla copia della ricevuta che vi hanno dato. Tenete tutto questo nei vostri archivi, e tutti sono felici.
 
-If you do use photographs of people that you have made and submit them to open source projects, you need to be able to prove that the person gave you permission, and you should keep their release form on file and available.
+Se usate fotografie di persone scattate da voi e le usate nei progetti open source, dovete poter essere in grado di dimostrare che la persona inquadrata vi ha autorizzato e dovreste tenere la loro liberatoria su file e disponibile.
 
-### How can I document "provenance"
+### Come posso documentare la "provenienza"
 
-Provenance is a word that describes the history of a work. Code that is shared under an open-source license and within the context of a git repository is more or less self-documenting. Images are less obvious, and it is especially tricky with digital-collage works that combine a number of resources.
+Provenienza è una parola che descrive la storia di un lavoro. Il codice condiviso sotto licenza open-source e nel contesto di una repository git è più o meno auto-documentante. Le immagini sono meno evidenti, ed è particolarmente difficile con i lavori di collage digitale che combinano una serie di risorse.
 
-Dealing with provenance for designers is important, as rights to visual images are hotly contested and often times lead to legal battles. Even if only public-domain resources are being used, it is still a good practice to record your work in a provenance document. This type of document is like the bibliography in a scientific paper, in which the ideas and authors are recorded. Although there is no "standardised" approach, the best method is to not only record the sources and the times accessed, but also track down the licenses for each component. If you want an example of this, feel free to look at the citations section [in this graphics breakdown](https://busy.org/@nothingismagick/qcensus2018-campaign-graphics-breakdown) written in the @utopian-io style.
+Per i designer è importante gestire la provenienza, in quanto i diritti sulle immagini sono fortemente contestati e spesso portano a battaglie legali. Even if only public-domain resources are being used, it is still a good practice to record your work in a provenance document. Questo tipo di documento è come la bibliografia in un articolo scientifico, in cui sono registrate le idee e gli autori. Anche se non esiste un approccio "standardizzato", il metodo migliore è quello di non solo registrare le fonti e i tempi di accesso, ma anche di rintracciare le licenze per ogni componente. If you want an example of this, feel free to look at the citations section [in this graphics breakdown](https://busy.org/@nothingismagick/qcensus2018-campaign-graphics-breakdown) written in the @utopian-io style.
 
-> The last thing anyone wants is a legal battle because it drains resources like time and money. If you are contributing to an open-source project, make sure that you are not putting them in hot-water. At Quasar, you can rest assured that the Art Department takes this VERY seriously, and violations of this trust are likely to lead to blacklisting or hammerbanning.
+> L'ultima cosa che chiunque desidera è una battaglia legale perché questa drena risorse come tempo e denaro. If you are contributing to an open-source project, make sure that you are not putting them in hot-water. At Quasar, you can rest assured that the Art Department takes this VERY seriously, and violations of this trust are likely to lead to blacklisting or hammerbanning.
 
-## License Types
+## Tipi di Licenza
 
-### Major licenses for code
+### Principali licenze per il codice
 
-This introduction cannot possibly explain the subtle differences between all of the different licenses for code, because there are dozens. A license is added to code by either placing a reference to it in the header of the file being licensed in the case of distributables, in a LICENSE file in the root level of a repository, in the README about the project and potentially in the package.json (if using node).
+Questa introduzione non può spiegare le sottili differenze tra tutte le diverse licenze per il codice, perché ce ne sono decine. Una licenza viene aggiunta al codice inserendo un riferimento ad essa nell'intestazione del file per cui si sta creando la licenza nel caso dei distribuibili, in un file LICENSE nel livello principale di un repository, nel README riguardante il progetto e potenzialmente nel package.json (se si sta usando node).
 
-If you skipped ahead and didn't read the earlier chapters, here is a quick recap of the three main license types and a popular example of each, along with two links that go into more detail and analysis.
+Se avete saltato qualche parte e non avete letto i capitoli precedenti, ecco un rapido riassunto dei tre principali tipi di licenza e un esempio popolare di ciascuno di essi, insieme a due link che vanno più in dettaglio e analisi.
 
-- **Permissive**: [MIT](http://www.opensource.org/licenses/MIT)
-- **Protective**: [GPL-3](https://www.gnu.org/licenses/gpl-3.0.en.html)
-- **Public Domain**: [WTFPL](http://www.wtfpl.net/)
+- **Permissiva**: [MIT](http://www.opensource.org/licenses/MIT)
+- **Protettiva**: [GPL-3](https://www.gnu.org/licenses/gpl-3.0.en.html)
+- **Dominio Pubblico**: [WTFPL](http://www.wtfpl.net/)
 - [Github's License Helper](https://choosealicense.com/)
 - [The exhaustive list by the GNU Foundation](https://www.gnu.org/licenses/license-list.html)
 
-> At the Quasar Framework all contributions to the core libraries are required to be MIT. By contributing anything, you are agreeing to this license.
+> Su Quasar Framework tutti i contributi alle librerie di base devono essere MIT. Contribuendo a qualsiasi cosa, accettate questa licenza.
 
-### Important licenses for text / documentation
+### Licenze importanti per testo / documentazione
 
-Text and documentation is also a creative work, and is also generally protected under copyright laws. You can transfer these rights to third parties or to project owners to whom you will be giving your contributions by choosing either a Creative Commons resource or the Free Document License.
+Anche il testo e la documentazione sono un'opera creativa e sono generalmente protetti dalle leggi sul copyright. Puoi trasferire questi diritti a terzi o a proprietari di progetti a cui darai i tuoi contributi scegliendo o una risorsa Creative Commons o la Licenza Documenti Liberi.
 
 It is considered best practice to name the license and author(s) at the end of the document being licensed.
 
