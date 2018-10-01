@@ -93,16 +93,16 @@ https://opensource.com/resources/what-open-source
 
 > لا توجد إجابة صحيحة أو خاطئة هنا، لأنها مسألة منظور - ذلك أن كل مطور وكل مؤسسة يحتاجون أن يقرروا لأنفسهم أين يريدون تركيز اهتمامهم. نحن في Quasar Framework لسنا نقائيين بالمعنى الذي يرمي إلى أن الشفرة هي بمثابة كيان روحي في حد ذاتها، وتستحق حقوقًا قابلة للنقل. ربما لو كنا نعمل على نواة لينكس، لكان الأمر مختلفًا - لكننا مهتمون أكثر بالجزء البشري من الشِفْرَة، ونعتقد أن الأشخاص الذين يستخدمون مشروعنا يجب أن يتمتعوا بحرية تقرير ما يريدون القيام به. لهذا السبب اعتمدنا نهجا "متساهلا" واخترنا ترخيص معهد ماساتشوستس للتكنولوجيا (MIT license).
 
-There is often a great deal of discussion around "how free to make the code". I propose that you ask yourself four questions:
+غالبا ما يكون هناك قدر كبير من النقاش حول "إلى أي مدى يجب على الشفرة أن تكون حرة". أقترح عليك أن تسأل نفسك أربعة أسئلة:
 
-1. Do you prefer to work alone?
-2. Are you worried about people stealing your idea?
-3. Have you written all of the code yourself, including the libraries?
-4. Have you signed any type of Non Disclosure Agreement regarding the work in question?
+1. هل تفضل العمل بمفردك؟
+2. هل أنت خائف من أن يتمكن شخص ما من سرقة فكرتك؟
+3. هل كتبت كل الشفرات بنفسك، بما في ذلك المكتبات؟
+4. هل وقعت على أي نوع من الإتفاقيات الخاصة بالسرية في ما يخص العمل المعني؟
 
-If you answered **no** to any of these questions, then using an open source license for your work is a great way to go.
+إذا أجبت بـ **لا** على أي من هذه الأسئلة، فإن اختيار ترخيص مفتوح المصدر سيكون مناسب لعملك.
 
-If you answered **yes** to all of these questions, then considering licensing your work as open-source is probably still one of the best ways to protect your work and make sure that it has an impact on the rest of the world. Just think of it this way: if all of the software around you today was not open source, would you still be able to work as you do? Don't you owe it to the community to share your work?
+If you answered **yes** to all of these questions, then considering licensing your work as open-source is probably still one of the best ways to protect your work and make sure that it has an impact on the rest of the world. فقط انظر إلى الأمر على هذا النحو: إذا كانت جميع البرامج الموجودة حولك اليوم غير مفتوحة المصدر، فهل ستظل قادرًا على مواصلة العمل كالمعتاد؟ ألا تدين للمجتمع بمشاركة عملك؟
 
 ### Permissive vs. Protective licensing
 
