@@ -164,11 +164,11 @@ Tuttavia, molti sviluppatori ritengono che un CLA sia problematico a causa dei d
 
 Un Certificato di Origine dello Sviluppatore è una dichiarazione legale fatta da un collaboratore che certifica di essere l'autore del contributo e di avere l'autorità legale per contribuire con questo codice. Come nell'esempio Gitlab visto in precedenza, questo è solitamente combinato con una licenza di tipo MIT o Apache. Potete leggere l'intera licenza qui (è breve): https://developercertificate.org/
 
-Aggiungendo la voce `firmato da` al tuo contributo, stai affermando che stai agendo in conformità al DCO. Nonostante non sia necessaria per ogni contributo, è lì per fornire una sorta di “catena di responsabilità” qualora le cose andassero male. Best practice suggests using the real name of the contributor. You can read more about the details of doing this here: https://stackoverflow.com/a/1962112
+Aggiungendo la voce `firmato da` al tuo contributo, stai affermando che stai agendo in conformità al DCO. Nonostante non sia necessaria per ogni contributo, è lì per fornire una sorta di “catena di responsabilità” qualora le cose andassero male. È buona prassi consigliata usare il nome reale del collaboratore. Puoi approfondire i dettagli di questa operazione qui: https://stackoverflow.com/a/1962112
 
-Some IDE's, like [Webstorm](https://www.jetbrains.com/help/webstorm/2017.2/using-git-integration.html#commit), offer you the ability to add this flag directly from the commit window when you are reviewing your code. It will add the following line to the end of the commit message: `Signed off by: <username>`
+Alcuni IDE, come ad esempio [Webstorm](https://www.jetbrains.com/help/webstorm/2017.2/using-git-integration.html#commit), ti offrono la possibilità di aggiungere questo flag direttamente dalla finestra di commit mentre stai revisionando il tuo codice. Questo aggiungerà la seguente riga alla fine del messaggio di commit: `Firmato da:<username>`
 
-Please note, if the managers of the project you are working on ask you to sign off, check to make sure that they really want you to sign off with every commit, or if it is enough to sign-off on tags or PR's. Technically speaking, the person doing the merge is the one who is required to sign-off, but by adding your name to the individual commits it becomes clear who was really responsible for which changes. It is a matter of preference.
+Nota: se i responsabili del progetto su cui stai lavorando ti chiedono di firmare, controlla se vogliono davvero che tu firmi per ogni commit, oppure se è sufficiente firmare i tag o le PR. Tecnicamente parlando, chi deve firmare è la persona che unifica il codice, ma aggiungendo il tuo nome ai singoli commit diventa chiaro chi sia l’effettivo responsabile di ciascun cambiamento. È una questione di preferenze.
 
 > At Quasar we ask you to sign-off on all commits.
 
