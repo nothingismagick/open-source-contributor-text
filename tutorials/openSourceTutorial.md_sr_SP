@@ -27,7 +27,7 @@ https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSou
 - Научићете како да постанете верификовани сарадник
 - Научићете зашто се користе "сертификати о пореклу"
 - Научићете шта значи "потписано"
-- You will learn about "release" forms
+- Научићете о формама "објављивања"
 - Научићете о "пореклу"
 
 #### **Типови лиценци**
@@ -37,11 +37,11 @@ https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSou
 - Лиценце за цртеж / дизајн / видео
 - Лиценце за фонтове
 
-### Requirements
+### Неопходно
 
 - Добро познавање енглеског језика
 - Основно разумевање како функционише `git` 
-- Knowledge of file types relevant to your field of activity 
+- Познавање типова фајлова који су релевантни за вашу активност 
 
 ### Тежина
 
@@ -51,15 +51,15 @@ https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSou
 
 > Овај приручник је припрема за све оне који су заинтересовани да дају свој допринос отвореним пројектима. Такође може бити користан и за активне учеснике који су одувек били радознали о напредним темама. И на крају, пошто лиценцирање уме да буде прилично спорно, ово је такође текст за све оне који желе да се укључе у дискусију о отвореним пројектима. Иако користимо специфичне примере из "Quasar Framework-a", проблеми одавде су релевантни широм спектра развоја софтвера отворених пројеката.
 > 
-> Надамо се да ћете стећи дубљи увид у све одличне ствари (и потенцијалне замке) у вези са лиценцама у свету софтвера отворених пројеката. Овај увод је одлично место за почетак, јер дефинише неке од термина на које ће се овај приручник стално враћати. Такође ће вас научити једноставним методама којим бисте се осигурали да је ваш допринос у складу са шемом лиценци које су дефинисане у пројекту са којим радите. Then, it begins a discussion about you, the contributor, and the rights and responsibilities that you have. Finally, it will go into depth about various domains of licensing, including code, copy, design and fonts.
+> Надамо се да ћете стећи дубљи увид у све одличне ствари (и потенцијалне замке) у вези са лиценцама у свету софтвера отворених пројеката. Овај увод је одлично место за почетак, јер дефинише неке од термина на које ће се овај приручник стално враћати. Такође ће вас научити једноставним методама којим бисте се осигурали да је ваш допринос у складу са шемом лиценци које су дефинисане у пројекту са којим радите. Затим, дискутује се о вама - сараднику, и о правима и одговорностима које имате. На крају, разматра се детаљно о различитим доменима лиценцирања, укључујући код, копирање, дизајн и фонтове.
 
 ## Предговор
 
-> Неки софтвер има изворни код који само особа, тим или организација која га је креирала - и задржава контролу над њим - може да модификује. Овакав софтвер је познат као "власнички" или софтвер "затвореног кода". ... Софтвер отвореног кода је другачији. Његови аутори су га [оставили доступног](https://opensource.com/business/13/5/open-source-your-code) осталима који би желели да погледају тај код, копирају га, уче из њега, мењају га или га деле даље. [LibreOffice](https://www.libreoffice.org/) and the [GNU Image Manipulation Program](http://www.gimp.org/) are examples of open source software.
+> Неки софтвер има изворни код који само особа, тим или организација која га је креирала - и задржава контролу над њим - може да модификује. Овакав софтвер је познат као "власнички" или софтвер "затвореног кода". ... Софтвер отвореног кода је другачији. Његови аутори су га [оставили доступног](https://opensource.com/business/13/5/open-source-your-code) осталима који би желели да погледају тај код, копирају га, уче из њега, мењају га или га деле даље. [LibreOffice](https://www.libreoffice.org/) и [GNU Image Manipulation Program](http://www.gimp.org/) су примери софтвера отвореног кода.
 
 https://opensource.com/resources/what-open-source
 
-Сваки креативни поступак може бити приписан појединцу или групи људи који раде заједно. У ствари, мало је луцкасто мислити да било шта постоји у вакууму. Сви смо повезани, а идеје су ствари које често заживе на своју руку. However, in these modern times many people have started protecting their ideas from being stolen by giving them away - by publishing their work so that other people are empowered and invited to contribute to the project - or even take it in an entirely different direction.
+Сваки креативни поступак може бити приписан појединцу или групи људи који раде заједно. У ствари, мало је луцкасто мислити да било шта постоји у вакууму. Сви смо повезани, а идеје су ствари које често заживе на своју руку. Meђутим, у овом савременом добу многи људи су почели да штите своје идеје од крађе њиховим одавањем - тј. објављивањем њиховог рада тако да су остали људи позвани и у могућности да допринесу пројекту - или чак да га одведу у потпуно другом смеру.
 
 Not unlike the way that guilds of centuries past protected their trade-secrets, the excuse of a "proprietary" protection of ideas and an enshrinement of "closed source" in legislation and free-trade agreements can directly be traced to many of the problems that turbo-capitalism has unleashed on our planet. Али, погађате - постоји нешто што можете да урадите. Можете да учествујете у покрету отвореног кода.
 
@@ -67,21 +67,21 @@ Not unlike the way that guilds of centuries past protected their trade-secrets, 
 
 ### Ауторска права, лиценцирање и приписивање
 
-It is generally accepted in modern democratic society that a notice of copyright is required as a preface for all licenses, because someone has to be responsible for declaring how the thing being licensed can be used. In a strange (but somehow logical) twist, if you wish to share your work as Public Domain or Copyleft, you have to first declare that you are the owner of your work (and that everyone who contributed to it agrees with you on that matter).
+Опште је прихваћено у модерном демократском друштву да је обавештење о ауторским правима неопходно као предговор свим лиценцама, јер неко мора да буде одговоран за декларисање употребе лиценцираних ствари. У необичном (али на неки начин логичном) заплету, ако желите да поделите свој рад у јавном домену (Public Domain или Copyleft) као доступан свима за употребу, морате прво да се изјасните као власник тог рада (и да се свако ко му је допринео на неки начин, слаже с тим).
 
 Једном када је ауторско право дефинисано, власник истог може обавестити читаоце и кориснике кода / текста / дела под којим околностима је у реду користити то. No matter what licensing approach the original author / copyright holder takes, it is always appropriate to retain copies of these licenses in the repository hosting your work should it use open-source licensed works of third parties. Никада није у реду премештати или мењати фајлове са лиценцама или референце о лиценцама у заглављима или метаподацима изворних фајлова - јер је то буквално крађа и облик плагијаризма.
 
 Докле год су корисници ваших изграђених производа (веб сајтова, апикација итд.) информисани где могу да виде лиценце пројеката које сте користили да направите ваш пројекат, можете избећи слање тих лиценци.
 
-If you do decide to use anything done by a third-party within your work, except for public domain works (which I personally believe you should also cite), you are required (both legally and morally) to cite the source. This is called **attribution**, and a general rule of thumb is that you should include references to all of the code you are using. Размотрићемо детаље касније у овом приручнику, зато што постоје различити захтеви у зависности од домена извора који се приписује.
+Уколико одлучите да искористите било шта што је неко други одрадио у оквиру вашег рада, изузев радова у јавном домену (за које лично верујем да би такође требало да буду наведени), у обавези сте (легалној и моралној) да наведете извор. Ово се зове **приписивање** и опште је правило да би требало да укључите све референце о коду који користите. Размотрићемо детаље касније у овом приручнику, зато што постоје различити захтеви у зависности од домена извора који се приписује.
 
 ### "Слободан софтвер и софтвер отвореног кода"
 
-> The term "open source" refers to something people can modify and share because its design is publicly accessible.
+> Термин "отворени код" значи да људи могу то слободно да мeњају и деле јер је његов дизајн јавно доступан.
 > 
 > https://opensource.com/resources/what-open-source
 
-There is a perpetual discussion by FLOSS hardliners about the degree of **freedom** inherent in "open" source - and even what **free** means. However, it is probably a good idea to go back in time to 1998 and [read this article](https://opensource.com/article/18/2/coining-term-open-source-software) by the woman who came up with the name "open source": Christine Peterson. Although Richard Stallman and Linus Torvalds are two of the most successful, visible and vocal proponents on the matter; the point is that even though the term began as a "marketing device", it stuck and changed the lives of everyone on the planet - arguably for the better.
+Постоји вечна дискусија од стране FLOSS-ovih ватрених присталица о степену **слободе** у отвореном коду - и чак о томе шта **слободно** значи. Meћутим, вероватно је добра идеја да се вратимо у 1998. и [прочитамо овај чланак](https://opensource.com/article/18/2/coining-term-open-source-software) написан од стране жене која је смислила име "отворени код": Christine Peterson. Иако су Richard Stallman и Linus Torvalds међу најуспешнијим, истакнутим и најгласнијим заговорницима ове идеје; суштина је у томе да, иако је термин првобитно настао као "уређај за маркетинг", он се одржао и променио је животе свих људи на планети - дискутабилно на боље.
 
 Stallman and the "Free Software Foundation" (FSF), who have arguably been around the longest, will define freedom as an important part of open source, because your freedom to use the code and change it is also a responsibility that you bear in the name of the entire community.
 
