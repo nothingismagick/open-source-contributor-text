@@ -1,6 +1,6 @@
 *An in-depth introduction to Open-Source with some specific examples taken from the approach used by the Quasar Framework, as we intend to use this tutorial as training and reference for all forthcoming (and existing) contributors.*
 
-### Repository
+### Складиште
 
 https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSourceTutorial.md
 
@@ -8,13 +8,13 @@ https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSou
   <img src="https://ipfs.busy.org/ipfs/QmNh5ir9k6hrJNZNnhYXKgvMGfAzUPWFiVyDmss2J3kacJ" alt="GPL_MIT_glow.png" /> Image: CC0 by @nothingismagick
 </center>
 
-### What Will Be Discussed?
+### О чему ћемо дискутовати?
 
 > You will learn about Open Source and best-practices to make sure that your contributions are compliant.
 
-#### **Introduction**
+#### **Увод**
 
-- You will learn about the difference between copyright, licensing and attribution
+- Научићете разлику између ауторских права, лиценцирања и атрибуције
 - You will discover the meaning of "Free/Libre and Open Source Software"
 - You will find out what the difference is between "Permissive" and "Protective" licenses
 - You will learn about license discovery and licensing agreements
