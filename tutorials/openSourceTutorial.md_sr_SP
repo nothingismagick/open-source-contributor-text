@@ -73,9 +73,9 @@ It is generally accepted in modern democratic society that a notice of copyright
 
 Докле год су корисници ваших изграђених производа (веб сајтова, апикација итд.) информисани где могу да виде лиценце пројеката које сте користили да направите ваш пројекат, можете избећи слање тих лиценци.
 
-If you do decide to use anything done by a third-party within your work, except for public domain works (which I personally believe you should also cite), you are required (both legally and morally) to cite the source. This is called **attribution**, and a general rule of thumb is that you should include references to all of the code you are using. We will get more into this later on in the tutorial, because there are different requirements depending upon the domain of the resource being attributed.
+If you do decide to use anything done by a third-party within your work, except for public domain works (which I personally believe you should also cite), you are required (both legally and morally) to cite the source. This is called **attribution**, and a general rule of thumb is that you should include references to all of the code you are using. Размотрићемо детаље касније у овом приручнику, зато што постоје различити захтеви у зависности од домена извора који се приписује.
 
-### "Free/Libre and Open Source Software"
+### "Слободан софтвер и софтвер отвореног кода"
 
 > The term "open source" refers to something people can modify and share because its design is publicly accessible.
 > 
