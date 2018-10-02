@@ -1,32 +1,32 @@
-*An in-depth introduction to Open-Source with some specific examples taken from the approach used by the Quasar Framework, as we intend to use this tutorial as training and reference for all forthcoming (and existing) contributors.*
+*Ово је детаљно упознавање са отвореним пројектима уз неке специфичне примере који су преузети од Quasar Framework-a, са намером да искористимо овај приручник као тренинг и референцу за све будуће (и постојеће) сараднике.*
 
 ### Складиште
 
 https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSourceTutorial.md
 
 <center>
-  <img src="https://ipfs.busy.org/ipfs/QmNh5ir9k6hrJNZNnhYXKgvMGfAzUPWFiVyDmss2J3kacJ" alt="GPL_MIT_glow.png" /> Image: CC0 by @nothingismagick
+  <img src="https://ipfs.busy.org/ipfs/QmNh5ir9k6hrJNZNnhYXKgvMGfAzUPWFiVyDmss2J3kacJ" alt="GPL_MIT_glow.png" /> Слика: СС0 аутор @nothingismagick
 </center>
 
 ### О чему ћемо дискутовати?
 
-> You will learn about Open Source and best-practices to make sure that your contributions are compliant.
+> Научићете о отвореним пројектима и најбољој пракси која ће осигурати да су ваши доприноси компатибилни.
 
 #### **Увод**
 
 - Научићете разлику између ауторских права, лиценцирања и атрибуције
 - Научићете значење "слободног софтвера и софтвера отворених пројеката"
-- You will find out what the difference is between "Permissive" and "Protective" licenses
+- Открићете разлику између ''пермисивних'' и ''протективних'' лиценци
 - Научићете о проналажењу лиценци и о споразумима о лиценцирању
 - Научићете како да користите код и остале атрибуте који припадају отвореним пројектима
 
-#### **Your Identity and Rights**
+#### **Ваш идентитет и права**
 
 - Научићете о уговорима о поверљивости података (eng. Non-Disclosure Agreements)
-- You will learn about "Contributor License Agreements" (CLA)
+- Научићете о уговорима о лиценцирању доприноса (eng. Contributor License Agreements)
 - Научићете како да постанете верификовани сарадник
 - Научићете зашто се користе "сертификати о пореклу"
-- You will learn what "signed-off-by" means
+- Научићете шта значи "потписано"
 - You will learn about "release" forms
 - Научићете о "пореклу"
 
