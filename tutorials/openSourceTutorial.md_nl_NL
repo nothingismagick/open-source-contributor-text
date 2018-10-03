@@ -1,30 +1,30 @@
-*An in-depth introduction to Open-Source with some specific examples taken from the approach used by the Quasar Framework, as we intend to use this tutorial as training and reference for all forthcoming (and existing) contributors.*
+*Een diepgaande introductie tot Open Source met een aantal specifieke voorbeelden uit de aanpak van het Quasar Framework, omdat we van plan zijn deze tutorial te gebruiken als training en referentie voor alle toekomstige (en bestaande) bijdragers.*
 
 ### Repository
 
 https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSourceTutorial.md
 
 <center>
-  <img src="https://ipfs.busy.org/ipfs/QmNh5ir9k6hrJNZNnhYXKgvMGfAzUPWFiVyDmss2J3kacJ" alt="GPL_MIT_glow.png" /> Image: CC0 by @nothingismagick
+  <img src="https://ipfs.busy.org/ipfs/QmNh5ir9k6hrJNZNnhYXKgvMGfAzUPWFiVyDmss2J3kacJ" alt="GPL_MIT_glow.png" /> Afbeelding: CC0 door @nothingismagick
 </center>
 
-### What Will Be Discussed?
+### Wat wordt er besproken?
 
-> You will learn about Open Source and best-practices to make sure that your contributions are compliant.
+> Je leert over Open Source en best-practices om er zeker van te zijn dat je bijdragen aan de eisen voldoen.
 
-#### **Introduction**
+#### **Introductie**
 
-- You will learn about the difference between copyright, licensing and attribution
-- You will discover the meaning of "Free/Libre and Open Source Software"
-- You will find out what the difference is between "Permissive" and "Protective" licenses
+- Je leert over het verschil tussen auteursrecht, licenties en attributie
+- Je ontdekt de betekenis van "Free/Libre en Open Source Software"
+- Je ontdekt wat het verschil is tussen "Permissive" en "Protective" gebruikslicenties
 - You will learn about license discovery and licensing agreements
-- You will learn how to use code and other assets that are open-source
+- Je leert hoe je code en andere middelen die open source zijn kunt gebruiken
 
-#### **Your Identity and Rights**
+#### **Je identiteit en rechten**
 
-- You will learn about "Non-Disclosure Agreements" (NDA)
-- You will learn about "Contributor License Agreements" (CLA)
-- You will learn how to become a "verified" contributor
+- Je leert over "Non-Disclosure Agreements" (NDA)
+- Je leert over "Contributor License Agreements" (CLA)
+- Je leert hoe je een "geverifieerde" bijdrager kunt worden
 - You will learn why "developer certificates of origin" are used
 - You will learn what "signed-off-by" means
 - You will learn about "release" forms
