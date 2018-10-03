@@ -98,17 +98,17 @@ https://opensource.com/resources/what-open-source
 1. 你更喜欢单独工作吗？
 2. 你担心别人窃取你的主意吗？
 3. 你是否自己编写了所有代码, 包括库？
-4. Have you signed any type of Non Disclosure Agreement regarding the work in question?
+4. 你是否签署了相关工作的任何保密协议？
 
-If you answered **no** to any of these questions, then using an open source license for your work is a great way to go.
+如果你对其中任何一个问题的回答为 ** 否定 **, 那么，为你的工作成果使用开放源码许可证是一个很好的方法。
 
-If you answered **yes** to all of these questions, then considering licensing your work as open-source is probably still one of the best ways to protect your work and make sure that it has an impact on the rest of the world. Just think of it this way: if all of the software around you today was not open source, would you still be able to work as you do? Don't you owe it to the community to share your work?
+如果你对这些问题的回答都为 ** 肯定 **, 那么考虑将你的工作成果授权为开源，可能仍然是保护你的工作成果，并确保它对世界其他地区产生影响的最佳方法之一。 就这样想: 如果当前你周围的所有软件都不是开源的, 你还能像现在一样工作吗？ 难道你不该分享工作成果来回馈社区吗？
 
-### Permissive vs. Protective licensing
+### “宽容性” VS. "保护性" 授权
 
-One of the common misconceptions about licensing your project with GPL is that it will prevent corporations from taking your idea and using it to make money - all without giving you any cut of the profits. This is patently untrue. If someone wants to steal your code and break the law, they will. If a corporation wants to use your GPL library, they can isolate it from the rest of their system and reveal nothing of their proprietary code. They can take your code, reverse engineer it and rewrite it. If this is your biggest concern, then stop, go back to the beginning of this tutorial and read carefully to decide if you want to participate in open-source - or merely profit from it.
+关于使用 GPL 授权项目的常见误解之一是, 它将防止公司窃取你的主意并用它谋利（却不给你任何利益分成）。 这从专利角度看是不正确的。 If someone wants to steal your code and break the law, they will. If a corporation wants to use your GPL library, they can isolate it from the rest of their system and reveal nothing of their proprietary code. 他们可以获取你的代码, 进行逆向拆解和分析并改写它。 如果这是你最大的顾虑, 那就此打住, 回到本教程的开头, 仔细阅读以决定你是否想参与开源, 或者仅仅是从中获利。
 
-MIT, BSD and Apache are what the open-source software community calls "permissive" licenses. Permissive means that the author is permitting you a great deal of rights to use the software they are sharing, even the right to use it for making a profit and changing it to suit your purposes. As long as you retain copies of the original license and inform those who are interested that you are using that particular software, then you can do anything with the code - even change it and not tell anyone you have done so.
+MIT、BSD 和 Apache 是开源软件社区所称的 "宽容性" 许可证。 “宽容性” 意味着作者赋予你很大的权利去使用他们共享的软件, 甚至有权使用它来赚取利润，并根据你的目的去更改它。 只要你保留了原始许可证的副本, 并通知那些对你使用该特定软件感兴趣的人, 那么你就可以对代码进行任何操作，甚至更改它, 而不通知任何人你做了改动。
 
 > Copyleft is the practice of offering people the right to freely distribute copies and modified versions of a work with the stipulation that the same rights be preserved in [derivative works](https://en.wikipedia.org/wiki/Derivative_works) created later. https://en.wikipedia.org/wiki/Copyleft
 
