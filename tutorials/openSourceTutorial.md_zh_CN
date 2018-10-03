@@ -114,7 +114,7 @@ MIT、BSD 和 Apache 是开源软件社区所称的 "宽容性" 许可证。 “
 
 通过寻求保护代码和社区的权利，这类 "保护性" 授权超越了 MIT 和 APACHE 的 "宽容性" 授权。 对源代码所做的任何修改都必须返回给社区, 并且你不得对代码进行重新授权。 GPL 和 CC-SA 是使用这种方式的两种许可证。
 
-### License discovery and licensing requirements
+### 许可证发现和授权要求
 
 在你的项目中使用开源软件是一件很棒的事情, 但是你需要保持勤奋, 尤其是当你在为另一个项目做贡献的时候。 如果你需要做有关许可证合规性的报告 (例如, 在公共机构或企业法定防火墙中), 就更需要这样。 无论如何，手动浏览并查找所有的许可证文档会有点麻烦。
 
@@ -132,9 +132,9 @@ MIT、BSD 和 Apache 是开源软件社区所称的 "宽容性" 许可证。 “
 
 [下面是使用 **fossa cli** 方法从Quasar库中做出的报告。 ](https://raw.githubusercontent.com/nothingismagick/quasar-articles/master/tutorials/fossa_report_licenses_quasar.txt.md)正如你看到的, 大多数模块都使用MIT许可证, 但有几项仅从报告来看并不清楚: 其中有15个项目没有被 **fossa** 自动探测到。 I followed each of the links, tracked down their licenses, and made a note not only of the license, but that I was the one who did it.
 
-Furthermore, I detected that only one of our libraries (stylint) requires a GPL license, but the developers have a license conflict in the declaration in the package.json (GPL-2) and the actual license file (GPL-3).
+此外, 我发现只有我们库中的其中一个 (stylint) 需要 GPL 许可证, 但开发人员在 package.json (GPL-2) 的声明和实际的许可证文件 (GPL-3) 之间存在许可证上的冲突。
 
-That is what you will need to do as well. Should a license file not be included in the project, and you cannot find one, it is wise to contact the author.
+这也是你将需要做的。 如果许可证文件不包含在项目中, 并且你找不到, 那么与作者联系是明智的选择。
 
 **A word of caution**: These automated systems are not foolproof (e.g. a module about license detection may detect multiple licenses, even though it is itself using another license). If you are bound by regulatory compliance, you need to go through them all by hand - and don't be afraid to reach out to the author if you need clarification - or even a different license. This is sometimes possible. Just remember, it's better to ask permission than forgiveness.
 
