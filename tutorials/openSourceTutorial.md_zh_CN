@@ -85,19 +85,19 @@ https://opensource.com/resources/what-open-source
 
 研究这一领域算是时间最久的斯托曼和 "自由软件基金会" (FSF), 将自由定义为开源的重要组成部分, 因为使用和修改代码的自由同时也是以整个社区的名义所承担的一种责任。
 
-<center><strong>What is free? What is libre?</strong></center>
+<center><strong>"free"是什么？ “libre”是什么？</strong></center>
 
-If one ignores for a moment the annoying fact that *free* also means "doesn't cost any money" (which was the main argument for adding the word libre), there is still an unresolved semantic issue, in fact, one that will likely never resolve:
+即使你暂时忽略* free * 也意味着 "不花任何钱" (这是加上 “libre” 的主要原因), 仍然存在一个未解决的语义问题。实际上, 可能永远无法解决:
 
-Depending upon your perspective, the Gnu Public License isn't ABSOLUTELY free, because it comes with the requirement that you must return changes that you make to the code back to the community - and being free would mean you get to decide how to work and what to do with the code you use. At the same time and on a different spectrum, there are those who consider the MIT license not to be entirely free. They do so because there are circumstances where the code can be permissibly changed and not returned to the community - in a sense "imprisoning" the code.
+从你的角度看, Gnu 公有许可证不是绝对免费的, 因为它要求必须将对代码所做的更改返回给社区。而 “free” 则意味着你可以决定怎么做以及如何处理你所使用的代码。 同时，从另一角度看, 有些人认为MIT许可证不完全免费。 他们之所以这么认为, 是因为在某些情况下, 代码可以被获准更改, 而不会返回到社区, 这在某种意义上是 "囚禁" 代码。
 
-> There is no right or wrong answer here, because it is a matter of perspective - however every developer and every organisation needs to decide for themselves where they want to put the focus of their attention. At the Quasar Framework, we are not purists in the sense that we believe Code is in and of itself a spiritual being deserving of transferrable rights. If perhaps we were working on the Linux kernel that might be different - but we are more concerned with the human side of code and believe that the people who use our project should have the ultimate freedom of choice to do what they want. This is why we have taken the "permissive" approach and chosen the MIT license.
+> 对此没有正确或错误的答案, 因为这是一个角度的问题 —— 然而每一位开发者和每一个组织都需要自己决定他们要把注意力放在哪里。 在Quasar框架中, 我们不是静修派，不认为代码本身是一种应得转让权利的精神上的存在。 如果我们是在从事Linux内核编码, 也许有所不同。但是我们更关心代码的人性方面, 并且认为使用我们项目的人应该有最终的选择权去做他们想要做的事情。 这就是为什么我们采取了“宽容”的做法, 并选择了MIT的许可证。
 
-There is often a great deal of discussion around "how free to make the code". I propose that you ask yourself four questions:
+经常有很多关于 "代码应该自由到什么程度" 的讨论。 我建议你问自己四个问题:
 
-1. Do you prefer to work alone?
-2. Are you worried about people stealing your idea?
-3. Have you written all of the code yourself, including the libraries?
+1. 你更喜欢单独工作吗？
+2. 你担心别人窃取你的主意吗？
+3. 你是否自己编写了所有代码, 包括库？
 4. Have you signed any type of Non Disclosure Agreement regarding the work in question?
 
 If you answered **no** to any of these questions, then using an open source license for your work is a great way to go.
