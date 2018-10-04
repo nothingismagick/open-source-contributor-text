@@ -17,7 +17,7 @@ https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSou
 - Je leert over het verschil tussen auteursrecht, licenties en attributie
 - Je ontdekt de betekenis van "Free/Libre en Open Source Software"
 - Je ontdekt wat het verschil is tussen "Permissive" en "Protective" gebruikslicenties
-- You will learn about license discovery and licensing agreements
+- Je leert meer over het ontdekken van licenties en licentieovereenkomsten
 - Je leert hoe je code en andere middelen die open source zijn kunt gebruiken
 
 #### **Je identiteit en rechten**
@@ -25,10 +25,10 @@ https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSou
 - Je leert over "Non-Disclosure Agreements" (NDA)
 - Je leert over "Contributor License Agreements" (CLA)
 - Je leert hoe je een "geverifieerde" bijdrager kunt worden
-- You will learn why "developer certificates of origin" are used
-- You will learn what "signed-off-by" means
-- You will learn about "release" forms
-- You will learn about "provenance"
+- Je leert waarom "developer certificates of origin" worden gebruikt
+- Je leert wat "signed-off-by" betekent
+- Je leert over "release" formulieren
+- Je leert over "provenance"
 
 #### **Licentiesoorten**
 
@@ -47,9 +47,9 @@ https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSou
 
 - Basis tot gemiddeld
 
-# Tutorial Contents
+# Tutorial Inhoud
 
-> This tutorial is a primer for those who are interested in contributing to open-source projects. It may also be useful for active contributors who were always curious about advanced topics. And finally, because licensing can be very contentious, this is also a text for those who want to engage in a discussion about open-source. Although we are using specific examples from the "Quasar Framework", the issues herein are relevant across the spectrum of open-source software development.
+> Deze tutorial is een primer voor degenen die geïnteresseerd zijn in het leveren van een bijdrage aan open source-projecten. It may also be useful for active contributors who were always curious about advanced topics. And finally, because licensing can be very contentious, this is also a text for those who want to engage in a discussion about open-source. Although we are using specific examples from the "Quasar Framework", the issues herein are relevant across the spectrum of open-source software development.
 > 
 > Our hope is that you will gain deeper insight into all of the great things (and potential pitfalls) surrounding licenses in the world of open-source software. The Introduction is a great place to start, as it defines some of the terms this tutorial will constantly return to. It will also teach you about some simple methods for making sure that your contributions are compliant with the licensing scheme taken by the project you are working with. Then, it begins a discussion about you, the contributor, and the rights and responsibilities that you have. Finally, it will go into depth about various domains of licensing, including code, copy, design and fonts.
 
