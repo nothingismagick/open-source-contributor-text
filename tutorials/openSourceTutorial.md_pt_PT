@@ -17,27 +17,27 @@ https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSou
 - Aprenderá sobre a diferença entre direitos de autor, licenciamento e atribuição
 - Descobrirá o significado de "Software Free/Libre e Open Source"
 - Descobrirá qual é a diferença entre licenças "Permissivas" e "Protetoras"
-- You will learn about license discovery and licensing agreements
-- You will learn how to use code and other assets that are open-source
+- Aprenderá sobre a descoberta de licenças e acordos de licenciamento
+- Aprenderá como usar código e outros activos de código-fonte aberto
 
-#### **Your Identity and Rights**
+#### **A sua identidade e direitos**
 
-- You will learn about "Non-Disclosure Agreements" (NDA)
-- You will learn about "Contributor License Agreements" (CLA)
-- You will learn how to become a "verified" contributor
-- You will learn why "developer certificates of origin" are used
-- You will learn what "signed-off-by" means
-- You will learn about "release" forms
-- You will learn about "provenance"
+- Aprenderá sobre "Acordos de não divulgação" (NDA)
+- Aprenderá sobre "Contratos de Licença de Colaborador" (CLA)
+- Aprenderá como tornar-se num colaborador "verificado"
+- Aprenderá porque os "certificados de origem do desenvolvedor" são utilizados
+- Aprenderá o que significa "assinado por"
+- Aprenderá sobre formulários de "lançamento"
+- Aprenderá sobre "proveniência"
 
-#### **License Types**
+#### **Tipos de Licença**
 
-- Licenses for code
-- Licenses for text / documentation
-- Licenses for artwork / design / video
-- Licenses for fonts
+- Licenças para código
+- Licenças para texto / documentação
+- Licenças para arte / design / vídeo
+- Licenças para tipografia
 
-### Requirements
+### Requisitos
 
 - You must read English proficiently
 - A basic understanding of `git` 
