@@ -39,27 +39,27 @@ https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSou
 
 ### Requisitos
 
-- You must read English proficiently
-- A basic understanding of `git` 
-- Knowledge of file types relevant to your field of activity 
+- Deve ler inglês proficientemente
+- Compreensão básica de `git` 
+- Conhecimento dos tipos de ficheiros relevantes para a sua área de actividade 
 
-### Difficulty
+### Dificuldade
 
-- Basic to medium
+- Básico a médio
 
-# Tutorial Contents
+# Conteúdo do Tutorial
 
-> This tutorial is a primer for those who are interested in contributing to open-source projects. It may also be useful for active contributors who were always curious about advanced topics. And finally, because licensing can be very contentious, this is also a text for those who want to engage in a discussion about open-source. Although we are using specific examples from the "Quasar Framework", the issues herein are relevant across the spectrum of open-source software development.
+> Este tutorial é uma iniciação para aqueles que estejam interessados em contribuir para projectos de código-fonte aberto. Também pode ser útil para colaboradores activos que sempre tiveram curiosidade sobre tópicos avançados. E finalmente, porque o licenciamento pode ser muito controverso, este é também um texto para aqueles que querem se envolver numa discussão sobre código-fonte aberto. Embora usemos exemplos específicos do "Quasar Framework", as questões aqui presentes são relevantes através de todo o espectro de desenvolvimento de software de código-fonte aberto.
 > 
-> Our hope is that you will gain deeper insight into all of the great things (and potential pitfalls) surrounding licenses in the world of open-source software. The Introduction is a great place to start, as it defines some of the terms this tutorial will constantly return to. It will also teach you about some simple methods for making sure that your contributions are compliant with the licensing scheme taken by the project you are working with. Then, it begins a discussion about you, the contributor, and the rights and responsibilities that you have. Finally, it will go into depth about various domains of licensing, including code, copy, design and fonts.
+> Esperamos que ganhe uma visão mais aprofundada sobre todas as grandes coisas (e potenciais armadilhas) que existem em torno das licenças no mundo do software de código-fonte aberto. A introdução é um óptimo lugar para se começar, pois esta define alguns dos termos a que este tutorial recorrerá constantemente. Também ensinará sobre alguns métodos simples para garantir que as suas contribuições são complacentes com o plano de licenciamento assumido pelo projecto com o qual trabalhará. Então, tem início uma discussão sobre você, o colaborador, e os direitos e responsabilidades que tem. Finalmente, irá aprofundar-se sobre vários domínios do licenciamento, incluindo código, cópia, design e tipografia.
 
-## Preface
+## Prefácio
 
-> Some software has source code that only the person, team, or organization who created it—and maintains exclusive control over it—can modify. People call this kind of software "proprietary" or "closed source" software. ... Open source software is different. Its authors [make its source code available](https://opensource.com/business/13/5/open-source-your-code) to others who would like to view that code, copy it, learn from it, alter it, or share it. [LibreOffice](https://www.libreoffice.org/) and the [GNU Image Manipulation Program](http://www.gimp.org/) are examples of open source software.
+> Alguns softwares tem código-fonte que apenas a pessoa, equipa, ou organização que o criaram - e mantém controlo exclusivo sobre o mesmo - podem modificar. As pessoas chamam a este software de "proprietário" ou software de "código fonte fechado". ... O software de código-fonte aberto é diferente. Os seus autores [tornam o seu código-fonte disponível](https://opensource.com/business/13/5/open-source-your-code) para outros que pretendam ver esse código, copiá-lo, aprender com ele, alterá-lo, ou partilhá-lo. [LibreOffice](https://www.libreoffice.org/) e o [Programa de Manipulação de Imagem GNU](http://www.gimp.org/) são exemplos de software de código-fonte aberto.
 
 https://opensource.com/resources/what-open-source
 
-Every act of creativity can be attributed to someone or to a group of people working together. In fact, it is actually quite silly to think that anything exists in a vacuum. We are all connected, and ideas are things that often take on lives of their own. However, in these modern times many people have started protecting their ideas from being stolen by giving them away - by publishing their work so that other people are empowered and invited to contribute to the project - or even take it in an entirely different direction.
+Todo o acto criativo pode ser atribuído a alguém ou a um grupo de pessoas a trabalhar em conjunto. De facto, é algo tonto pensar que qualquer coisa existe num vácuo. Estamos todos ligados, e as ideias são coisas que frequentemente seguem as suas próprias vidas. Contudo, nestes tempos modernos muitas pessoas começaram a proteger as suas ideias de serem roubadas doando-as - publicando o seu trabalho para que outras pessoas sejam potencializadas e convidadas a contribuir para o projecto - ou até leva-las numa direcção completamente diferente.
 
 Not unlike the way that guilds of centuries past protected their trade-secrets, the excuse of a "proprietary" protection of ideas and an enshrinement of "closed source" in legislation and free-trade agreements can directly be traced to many of the problems that turbo-capitalism has unleashed on our planet. But guess what - there is something you can do. You can participate in the open-source movement.
 
