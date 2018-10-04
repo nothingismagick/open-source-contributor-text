@@ -106,11 +106,11 @@ https://opensource.com/resources/what-open-source
 
 ### “宽容性” VS. "保护性" 授权
 
-关于使用 GPL 授权项目的常见误解之一是, 它将防止公司窃取你的主意并用它谋利（却不给你任何利益分成）。 这从专利角度看是不正确的。 If someone wants to steal your code and break the law, they will. If a corporation wants to use your GPL library, they can isolate it from the rest of their system and reveal nothing of their proprietary code. 他们可以获取你的代码, 进行逆向拆解和分析并改写它。 如果这是你最大的顾虑, 那就此打住, 回到本教程的开头, 仔细阅读以决定你是否想参与开源, 或者仅仅是从中获利。
+关于使用 GPL 授权项目的常见误解之一是, 它将防止公司窃取你的主意并用它谋利（却不给你任何利益分成）。 这从专利角度看是不正确的。 如果有人想违法窃取你的代码, 他们仍会做的。 如果有公司想使用你的GPL库, 他们可以将它与系统的其余部分隔离开来, 并且不显示其专有代码。 他们可以获取你的代码, 进行逆向拆解和分析并改写它。 如果这是你最大的顾虑, 那就此打住, 回到本教程的开头, 仔细阅读以决定你是否想参与开源, 或者仅仅是从中获利。
 
 MIT、BSD 和 Apache 是开源软件社区所称的 "宽容性" 许可证。 “宽容性” 意味着作者赋予你很大的权利去使用他们共享的软件, 甚至有权使用它来赚取利润，并根据你的目的去更改它。 只要你保留了原始许可证的副本, 并通知那些对你使用该特定软件感兴趣的人, 那么你就可以对代码进行任何操作，甚至更改它, 而不通知任何人你做了改动。
 
-> Copyleft is the practice of offering people the right to freely distribute copies and modified versions of a work with the stipulation that the same rights be preserved in [derivative works](https://en.wikipedia.org/wiki/Derivative_works) created later. https://en.wikipedia.org/wiki/Copyleft
+> 著佐权 (Copyleft) 赋予人们自由分发副本和修改版本的权利，并规定在后来的[衍生品](https://en.wikipedia.org/wiki/Derivative_works)中要保留同样的权利。 https://en.wikipedia.org/wiki/Copyleft
 
 通过寻求保护代码和社区的权利，这类 "保护性" 授权超越了 MIT 和 APACHE 的 "宽容性" 授权。 对源代码所做的任何修改都必须返回给社区, 并且你不得对代码进行重新授权。 GPL 和 CC-SA 是使用这种方式的两种许可证。
 
@@ -130,7 +130,7 @@ MIT、BSD 和 Apache 是开源软件社区所称的 "宽容性" 许可证。 “
     $ fossa report licenses > fossa.txt
     
 
-[下面是使用 **fossa cli** 方法从Quasar库中做出的报告。 ](https://raw.githubusercontent.com/nothingismagick/quasar-articles/master/tutorials/fossa_report_licenses_quasar.txt.md)正如你看到的, 大多数模块都使用MIT许可证, 但有几项仅从报告来看并不清楚: 其中有15个项目没有被 **fossa** 自动探测到。 I followed each of the links, tracked down their licenses, and made a note not only of the license, but that I was the one who did it.
+[下面是使用 **fossa cli** 方法从Quasar库中做出的报告。 ](https://raw.githubusercontent.com/nothingismagick/quasar-articles/master/tutorials/fossa_report_licenses_quasar.txt.md)正如你看到的, 大多数模块都使用MIT许可证, 但有几项仅从报告来看并不清楚: 其中有15个项目没有被 **fossa** 自动探测到。 我跟踪每个链接, 追查它们的许可证, 并不仅记下了许可证，还标出是我做的。
 
 此外, 我发现只有我们库中的其中一个 (stylint) 需要 GPL 许可证, 但开发人员在 package.json (GPL-2) 的声明和实际的许可证文件 (GPL-3) 之间存在许可证上的冲突。
 
