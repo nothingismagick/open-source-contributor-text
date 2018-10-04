@@ -10,7 +10,7 @@ https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSou
 
 ### O que será discutido?
 
-> Você Aprenderá sobre código-fonte aberto e as melhores práticas para assegurar que as suas contribuições são compatíveis.
+> Você Aprenderá sobre código-aberto e as melhores práticas para assegurar que as suas contribuições são compatíveis.
 
 #### **Introdução**
 
@@ -49,7 +49,7 @@ https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSou
 
 # Conteúdo do Tutorial
 
-> Este tutorial é uma iniciação para aqueles que estejam interessados em contribuir para projectos de código-fonte aberto. Também pode ser útil para colaboradores activos que sempre tiveram curiosidade sobre tópicos avançados. E finalmente, porque o licenciamento pode ser muito controverso, este é também um texto para aqueles que querem se envolver numa discussão sobre código-fonte aberto. Embora usemos exemplos específicos do "Quasar Framework", as questões aqui presentes são relevantes através de todo o espectro de desenvolvimento de software de código-fonte aberto.
+> Este tutorial é uma iniciação para aqueles que estejam interessados em contribuir para projectos de código-aberto. Também pode ser útil para colaboradores activos que sempre tiveram curiosidade sobre tópicos avançados. E finalmente, porque o licenciamento pode ser muito controverso, este é também um texto para aqueles que querem se envolver numa discussão sobre código-fonte aberto. Embora usemos exemplos específicos do "Quasar Framework", as questões aqui presentes são relevantes através de todo o espectro de desenvolvimento de software de código-aberto.
 > 
 > Esperamos que ganhe uma visão mais aprofundada sobre todas as grandes coisas (e potenciais armadilhas) que existem em torno das licenças no mundo do software de código-fonte aberto. A introdução é um óptimo lugar para se começar, pois esta define alguns dos termos a que este tutorial recorrerá constantemente. Também ensinará sobre alguns métodos simples para garantir que as suas contribuições são complacentes com o plano de licenciamento assumido pelo projecto com o qual trabalhará. Então, tem início uma discussão sobre você, o colaborador, e os direitos e responsabilidades que tem. Finalmente, irá aprofundar-se sobre vários domínios do licenciamento, incluindo código, cópia, design e tipografia.
 
@@ -61,33 +61,33 @@ https://opensource.com/resources/what-open-source
 
 Todo o acto criativo pode ser atribuído a alguém ou a um grupo de pessoas a trabalhar em conjunto. De facto, é algo tonto pensar que qualquer coisa existe num vácuo. Estamos todos ligados, e as ideias são coisas que frequentemente seguem as suas próprias vidas. Contudo, nestes tempos modernos muitas pessoas começaram a proteger as suas ideias de serem roubadas doando-as - publicando o seu trabalho para que outras pessoas sejam potencializadas e convidadas a contribuir para o projecto - ou até leva-las numa direcção completamente diferente.
 
-Not unlike the way that guilds of centuries past protected their trade-secrets, the excuse of a "proprietary" protection of ideas and an enshrinement of "closed source" in legislation and free-trade agreements can directly be traced to many of the problems that turbo-capitalism has unleashed on our planet. But guess what - there is something you can do. You can participate in the open-source movement.
+Diferente da forma como as corporações dos séculos passados protegiam os seus segredos comerciais, o argumento de uma protecção "proprietária" das ideias e uma santificação do "código fonte fechado" na legislação e nos acordos de livre comércio podem ser rastreadas directamente até muitos dos problemas que o turbo-capitalismo libertou sobre o nosso planeta. Mas adivinhe só - há algo que você pode fazer. Você pode participar no movimento de código-aberto.
 
-## Introduction
+## Introdução
 
-### Copyright, Licensing and Attribution
+### Direitos de Autor, Licenciamento e Atribuição
 
-It is generally accepted in modern democratic society that a notice of copyright is required as a preface for all licenses, because someone has to be responsible for declaring how the thing being licensed can be used. In a strange (but somehow logical) twist, if you wish to share your work as Public Domain or Copyleft, you have to first declare that you are the owner of your work (and that everyone who contributed to it agrees with you on that matter).
+É geralmente aceite na sociedade democrática moderna que um aviso de direitos de autor (copyright) é requerido como um prefácio para todas as licenças, porque alguém tem que ser responsável por declarar como a coisa que está sendo licenciada pode ser usada. Numa estranha (mas de alguma forma lógica) reviravolta, se desejar compartilhar o seu trabalho como de Domínio Público ou Copyleft, tem primeiro que declarar que é o dono do seu trabalho (e que todos os que contribuíram concordam com essa decisão).
 
-Once a copyright is declared, the copyright holder may inform readers and users of the code / text / art under which circumstances it is appropriate to use it. No matter what licensing approach the original author / copyright holder takes, it is always appropriate to retain copies of these licenses in the repository hosting your work should it use open-source licensed works of third parties. It is never ok to remove or edit license files or license references in the headers or metadata of source files - because that is literally stealing and a form of plagiarism.
+Assim que um direito de autor é declarado, o detentor dos direitos de autor pode informar aos leitores e usuários do código / texto / arte sob quais as circunstâncias em que é apropriado usá-lo. Independentemente da abordagem de licenciamento adoptada pelo autor original / detentor dos direitos de autor, é sempre apropriado manter cópias dessas licenças no repositório que hospeda o seu trabalho, caso ele use obras licenciadas de terceiros de código aberto. Nunca é permitido remover ou editar arquivos de licença ou referências de licença nos cabeçalhos ou meta-dados dos arquivos fonte - porque isso é literalmente roubo e uma forma de plágio.
 
-As long as "consumers" of your built artefacts (website, app, etc.) are informed to where they can see the licenses of the third-party projects that you have used to build your project, you can avoid shipping these licenses.
+Enquanto os "consumidores" dos artefactos que contruiu (website, aplicação, etc.) sejam informados de onde podem ver as licenças dos projectos de terceiros que você usou para criar o seu projecto, você pode evitar o envio dessas licenças.
 
-If you do decide to use anything done by a third-party within your work, except for public domain works (which I personally believe you should also cite), you are required (both legally and morally) to cite the source. This is called **attribution**, and a general rule of thumb is that you should include references to all of the code you are using. We will get more into this later on in the tutorial, because there are different requirements depending upon the domain of the resource being attributed.
+Se decidir usar qualquer coisa feita por um terceiro dentro do seu trabalho, excepto para trabalhos de domínio público (que eu pessoalmente acredito que você também deveria citar), é obrigado (legal e moralmente) a citar a fonte. Isto é chamado **atribuição**, e uma regra geral é que deve incluir referências para todo o código que usar. Abordaremos isto melhor mais tarde neste tutorial, porque existem diferentes requisitos dependendo do domínio do recurso a ser atribuído.
 
-### "Free/Libre and Open Source Software"
+### "Software Free/Libre e de Código Aberto"
 
-> The term "open source" refers to something people can modify and share because its design is publicly accessible.
+> O termo "código aberto" refere-se a algo que as pessoas podem modificar e partilhar porque o seu desenho é publico e acessível.
 > 
 > https://opensource.com/resources/what-open-source
 
-There is a perpetual discussion by FLOSS hardliners about the degree of **freedom** inherent in "open" source - and even what **free** means. However, it is probably a good idea to go back in time to 1998 and [read this article](https://opensource.com/article/18/2/coining-term-open-source-software) by the woman who came up with the name "open source": Christine Peterson. Although Richard Stallman and Linus Torvalds are two of the most successful, visible and vocal proponents on the matter; the point is that even though the term began as a "marketing device", it stuck and changed the lives of everyone on the planet - arguably for the better.
+Existe uma discussão perpétua pelos conservadores duros de FLOSS sobre o grau de **liberdade** inerente ao código "aberto" - e até o que significa **livre**. No entanto, é provavelmente uma boa ideia recuar no tempo até 1998 e [ler este artigo](https://opensource.com/article/18/2/coining-term-open-source-software) da autoria da mulher que inventou o nome "código aberto": Christine Peterson. Apesar de Richard Stallman e Linus Torvalds serem dois dos proponentes com maior visibilidade, voz, e sucesso, sobre o assunto; o ponto é que apesar de o termo ter começado como um "mecanismo de marketing", ele pegou e mudou as vidas de todos no planeta - definitivamente para melhor.
 
-Stallman and the "Free Software Foundation" (FSF), who have arguably been around the longest, will define freedom as an important part of open source, because your freedom to use the code and change it is also a responsibility that you bear in the name of the entire community.
+Stallman e a "Free Softwear Foundation" (FSF), a qual definitivamente se tem existido por mais tempo, definirão liberdade como uma parte importante do código aberto, porque a sua liberdade para usar o código e modificá-lo é também uma responsabilidade que você deverá suportar em nome de toda a comunidade.
 
-<center><strong>What is free? What is libre?</strong></center>
+<center><strong>O que é a liberdade? O que é "libre"?</strong></center>
 
-If one ignores for a moment the annoying fact that *free* also means "doesn't cost any money" (which was the main argument for adding the word libre), there is still an unresolved semantic issue, in fact, one that will likely never resolve:
+Se se ignorar por momentos o facto irritante de que *livre* também significa "não custa dinheiro nenhum" (que era o argumento principal para acrescentar a palavra "libre"), existe ainda uma questão semântica por resolver, que de facto, a mesma nunca se resolverá:
 
 Depending upon your perspective, the Gnu Public License isn't ABSOLUTELY free, because it comes with the requirement that you must return changes that you make to the code back to the community - and being free would mean you get to decide how to work and what to do with the code you use. At the same time and on a different spectrum, there are those who consider the MIT license not to be entirely free. They do so because there are circumstances where the code can be permissibly changed and not returned to the community - in a sense "imprisoning" the code.
 
