@@ -91,22 +91,22 @@ Stallman и "Free Software Foundation" (FSF), који се у тој причи
 
 У зависности од ваше тачке гледишта, Gnu Public лиценца није У ПОТПУНОСТИ слободна, зато што садржи захтеве да морате да вратите натраг заједници промене које сте направили у коду - а бити слободан би значило да ви можете да одлучите како да радите и шта да радите са кодом који користите. Истовремено и на другом спектру, неки верују да MIT лиценца није у потпуности бесплатна. То је тако јер постоје околности у којима код може дозвољено да се мења и да се не врати натраг заједници - у смислу ''затварања'' кода.
 
-> There is no right or wrong answer here, because it is a matter of perspective - however every developer and every organisation needs to decide for themselves where they want to put the focus of their attention. At the Quasar Framework, we are not purists in the sense that we believe Code is in and of itself a spiritual being deserving of transferrable rights. If perhaps we were working on the Linux kernel that might be different - but we are more concerned with the human side of code and believe that the people who use our project should have the ultimate freedom of choice to do what they want. This is why we have taken the "permissive" approach and chosen the MIT license.
+> Овде не постоји тачан и погрешан одговор, зато што је све ствар перспективе - како год, сваки девелопер и свака организација морају да одлуче за себе, на шта желе да усмере своју пажњу. У Quasar Framework-у нисмо традиционалисти у смислу да верујемо да је код сам по себи духовни ентитет који заслужује преносива права. Можда би то било другачије ако радимо на Линукс кернелу - али смо више забринути за људски део кода и верујемо да би људи који користе наш пројекат требало да имају слободу да одлуче шта желе. Због тога смо применили ''дозвољени'' приступ и изабрали MIT лиценцу.
 
-There is often a great deal of discussion around "how free to make the code". I propose that you ask yourself four questions:
+There is often a great deal of discussion around "how free to make the code". Предлажем да питате себе ова четири питања:
 
-1. Do you prefer to work alone?
-2. Are you worried about people stealing your idea?
-3. Have you written all of the code yourself, including the libraries?
+1. Да ли више волите да радите сами?
+2. Да ли сте забринути да ће људи украсти вашу идеју?
+3. Да ли сте цео код написали сами, укључујући и библиотеке?
 4. Have you signed any type of Non Disclosure Agreement regarding the work in question?
 
-If you answered **no** to any of these questions, then using an open source license for your work is a great way to go.
+Ако сте одоговорили са **не** на неко од ових питања, онда је коришћење лиценце отвореног кода за ваш рад одличан избор.
 
-If you answered **yes** to all of these questions, then considering licensing your work as open-source is probably still one of the best ways to protect your work and make sure that it has an impact on the rest of the world. Just think of it this way: if all of the software around you today was not open source, would you still be able to work as you do? Don't you owe it to the community to share your work?
+Ако сте одговорили са **да** на сва питања, онда је разматрање о лиценцирању вашег рада као отворени код вероватно и даље један од најбољих начина да заштитите ваш рад и да будете сигурни да ће имати утицај на остатак света. Само размислите овако: да сав софтвер око вас није отвореног кода, да ли бисте и даље могли да радите на исти начин? Зар не дугујете заједници то да поделите свој рад?
 
-### Permissive vs. Protective licensing
+### Пермисивно и протективно лиценцирање
 
-One of the common misconceptions about licensing your project with GPL is that it will prevent corporations from taking your idea and using it to make money - all without giving you any cut of the profits. This is patently untrue. If someone wants to steal your code and break the law, they will. If a corporation wants to use your GPL library, they can isolate it from the rest of their system and reveal nothing of their proprietary code. They can take your code, reverse engineer it and rewrite it. If this is your biggest concern, then stop, go back to the beginning of this tutorial and read carefully to decide if you want to participate in open-source - or merely profit from it.
+Једна од најчешћих заблуда у вези са лиценцирањем вашег пројекта помоћу GPL је та да ће то спречити корпорације од преузимања ваше идеје и њеног коришћења у циљу остваривања профита - без икакве накнаде према вама. То је очигледно неистина. Ако неко жели да украде ваш код и прекрши закон, он ће то свакако урадити. If a corporation wants to use your GPL library, they can isolate it from the rest of their system and reveal nothing of their proprietary code. They can take your code, reverse engineer it and rewrite it. If this is your biggest concern, then stop, go back to the beginning of this tutorial and read carefully to decide if you want to participate in open-source - or merely profit from it.
 
 MIT, BSD and Apache are what the open-source software community calls "permissive" licenses. Permissive means that the author is permitting you a great deal of rights to use the software they are sharing, even the right to use it for making a profit and changing it to suit your purposes. As long as you retain copies of the original license and inform those who are interested that you are using that particular software, then you can do anything with the code - even change it and not tell anyone you have done so.
 
