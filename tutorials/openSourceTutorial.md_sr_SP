@@ -61,7 +61,7 @@ https://opensource.com/resources/what-open-source
 
 Сваки креативни поступак може бити приписан појединцу или групи људи који раде заједно. У ствари, мало је луцкасто мислити да било шта постоји у вакууму. Сви смо повезани, а идеје су ствари које често заживе на своју руку. Meђутим, у овом савременом добу многи људи су почели да штите своје идеје од крађе њиховим одавањем - тј. објављивањем њиховог рада тако да су остали људи позвани и у могућности да допринесу пројекту - или чак да га одведу у потпуно другом смеру.
 
-Not unlike the way that guilds of centuries past protected their trade-secrets, the excuse of a "proprietary" protection of ideas and an enshrinement of "closed source" in legislation and free-trade agreements can directly be traced to many of the problems that turbo-capitalism has unleashed on our planet. Али, погађате - постоји нешто што можете да урадите. Можете да учествујете у покрету отвореног кода.
+Слично како су некада удружења у прошлом веку штитила своје трговачке тајне, изговор о ''власничкој'' заштити идеја и укључивању ''затвореног кода'' у законодавство и споразуме о слободној трговини може директно да доведе до многих проблема које је турбо-капитализам покренуо на свету. Али, погађате - постоји нешто што можете да урадите. Можете да учествујете у покрету отвореног кода.
 
 ## Увод
 
@@ -69,7 +69,7 @@ Not unlike the way that guilds of centuries past protected their trade-secrets, 
 
 Опште је прихваћено у модерном демократском друштву да је обавештење о ауторским правима неопходно као предговор свим лиценцама, јер неко мора да буде одговоран за декларисање употребе лиценцираних ствари. У необичном (али на неки начин логичном) заплету, ако желите да поделите свој рад у јавном домену (Public Domain или Copyleft) као доступан свима за употребу, морате прво да се изјасните као власник тог рада (и да се свако ко му је допринео на неки начин, слаже с тим).
 
-Једном када је ауторско право дефинисано, власник истог може обавестити читаоце и кориснике кода / текста / дела под којим околностима је у реду користити то. No matter what licensing approach the original author / copyright holder takes, it is always appropriate to retain copies of these licenses in the repository hosting your work should it use open-source licensed works of third parties. Никада није у реду премештати или мењати фајлове са лиценцама или референце о лиценцама у заглављима или метаподацима изворних фајлова - јер је то буквално крађа и облик плагијаризма.
+Једном када је ауторско право дефинисано, власник истог може обавестити читаоце и кориснике кода / текста / дела под којим околностима је у реду користити то. Без обзира на врсту приступа коју је оригинални аутор / носилац ауторског права усвојио за издавање дозволе, ако користите радове отвореног кода лиценциране од стране трећих лица, увек је препоручљиво да копије ових лиценци задржите у складишту у ком се налази ваш рад. Никада није у реду премештати или мењати фајлове са лиценцама или референце о лиценцама у заглављима или метаподацима изворних фајлова - јер је то буквално крађа и облик плагијаризма.
 
 Докле год су корисници ваших изграђених производа (веб сајтова, апикација итд.) информисани где могу да виде лиценце пројеката које сте користили да направите ваш пројекат, можете избећи слање тих лиценци.
 
@@ -85,11 +85,11 @@ Not unlike the way that guilds of centuries past protected their trade-secrets, 
 
 Stallman и "Free Software Foundation" (FSF), који се у тој причи налазе најдуже, ће дефинисати слободу као важан део отвореног кода, зато што је ваша слобода да користите код и мењате га, уједно и одговорност коју носите у име целе заједнице.
 
-<center><strong>What is free? What is libre?</strong></center>
+<center><strong>Шта је слободно? Шта је бесплатно?</strong></center>
 
-If one ignores for a moment the annoying fact that *free* also means "doesn't cost any money" (which was the main argument for adding the word libre), there is still an unresolved semantic issue, in fact, one that will likely never resolve:
+Ако на тренутак занемаримо чињеницу да *слободно* такође значи ''не кошта ништа'' (што је и главни разлог за додавање речи бесплатно), још увек постоји нерешен семантички проблем, у ствари, проблем који се вероватно никад неће решити:
 
-Depending upon your perspective, the Gnu Public License isn't ABSOLUTELY free, because it comes with the requirement that you must return changes that you make to the code back to the community - and being free would mean you get to decide how to work and what to do with the code you use. At the same time and on a different spectrum, there are those who consider the MIT license not to be entirely free. They do so because there are circumstances where the code can be permissibly changed and not returned to the community - in a sense "imprisoning" the code.
+У зависности од ваше тачке гледишта, Gnu Public лиценца није У ПОТПУНОСТИ слободна, зато што садржи захтеве да морате да вратите натраг заједници промене које сте направили у коду - а бити слободан би значило да ви можете да одлучите како да радите и шта да радите са кодом који користите. Истовремено и на другом спектру, неки верују да MIT лиценца није у потпуности бесплатна. То је тако јер постоје околности у којима код може дозвољено да се мења и да се не врати натраг заједници - у смислу ''затварања'' кода.
 
 > There is no right or wrong answer here, because it is a matter of perspective - however every developer and every organisation needs to decide for themselves where they want to put the focus of their attention. At the Quasar Framework, we are not purists in the sense that we believe Code is in and of itself a spiritual being deserving of transferrable rights. If perhaps we were working on the Linux kernel that might be different - but we are more concerned with the human side of code and believe that the people who use our project should have the ultimate freedom of choice to do what they want. This is why we have taken the "permissive" approach and chosen the MIT license.
 
