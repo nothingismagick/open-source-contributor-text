@@ -91,7 +91,7 @@ Stallman и "Free Software Foundation" (FSF), који се у тој причи
 
 У зависности од ваше тачке гледишта, Gnu Public лиценца није У ПОТПУНОСТИ слободна, зато што садржи захтеве да морате да вратите натраг заједници промене које сте направили у коду - а бити слободан би значило да ви можете да одлучите како да радите и шта да радите са кодом који користите. Истовремено и на другом спектру, неки верују да MIT лиценца није у потпуности бесплатна. То је тако јер постоје околности у којима код може дозвољено да се мења и да се не врати натраг заједници - у смислу ''затварања'' кода.
 
-> Овде не постоји тачан и погрешан одговор, зато што је све ствар перспективе - како год, сваки девелопер и свака организација морају да одлуче за себе, на шта желе да усмере своју пажњу. У Quasar Framework-у нисмо традиционалисти у смислу да верујемо да је код сам по себи духовни ентитет који заслужује преносива права. Можда би то било другачије ако радимо на Линукс кернелу - али смо више забринути за људски део кода и верујемо да би људи који користе наш пројекат требало да имају слободу да одлуче шта желе. Због тога смо применили ''дозвољени'' приступ и изабрали MIT лиценцу.
+> Овде не постоји тачан и погрешан одговор, зато што је све ствар перспективе - како год, сваки девелопер и свака организација морају да одлуче за себе, на шта желе да усмере своју пажњу. У Quasar Framework-у нисмо традиционалисти у смислу да верујемо да је код сам по себи духовни ентитет који заслужује преносива права. Можда би то било другачије ако радимо на Линукс кернелу - али смо више забринути за људски део кода и верујемо да би људи који користе наш пројекат требало да имају слободу да одлуче шта желе. This is why we have taken the "permissive" approach and chosen the MIT license.
 
 There is often a great deal of discussion around "how free to make the code". Предлажем да питате себе ова четири питања:
 
@@ -106,31 +106,31 @@ There is often a great deal of discussion around "how free to make the code". П
 
 ### Пермисивно и протективно лиценцирање
 
-Једна од најчешћих заблуда у вези са лиценцирањем вашег пројекта помоћу GPL је та да ће то спречити корпорације од преузимања ваше идеје и њеног коришћења у циљу остваривања профита - без икакве накнаде према вама. То је очигледно неистина. Ако неко жели да украде ваш код и прекрши закон, он ће то свакако урадити. If a corporation wants to use your GPL library, they can isolate it from the rest of their system and reveal nothing of their proprietary code. They can take your code, reverse engineer it and rewrite it. If this is your biggest concern, then stop, go back to the beginning of this tutorial and read carefully to decide if you want to participate in open-source - or merely profit from it.
+Једна од најчешћих заблуда у вези са лиценцирањем вашег пројекта помоћу GPL је та да ће то спречити корпорације од преузимања ваше идеје и њеног коришћења у циљу остваривања профита - без икакве накнаде према вама. То је очигледно неистина. Ако неко жели да украде ваш код и прекрши закон, он ће то свакако урадити. Ако корпорација жели да искористи вашу GPL библиотеку, може да је издвоји од остатка система и да не открије ништа о свом власничком коду. Могу да узму ваш код, проуче га и преправе. Ако је то ваша највећа брига, онда можете да станете и да се вратите на почетак овог приручника и да га прочитате пажљиво како бисте одлучили да ли желите да учествујете у отвореном коду - или само желите профит од тога.
 
-MIT, BSD and Apache are what the open-source software community calls "permissive" licenses. Permissive means that the author is permitting you a great deal of rights to use the software they are sharing, even the right to use it for making a profit and changing it to suit your purposes. As long as you retain copies of the original license and inform those who are interested that you are using that particular software, then you can do anything with the code - even change it and not tell anyone you have done so.
+MIT, BSD и Apache су оно што заједница отвореног кода назива ''пермисивне'' лиценце. Пермисивно значи да вам аутор дозвољава добар део права да користите софтвер који је поделио, чак и право да га користите како бисте направили профит и променили га како би одговарао вашим потребама. Све док задржавате копију оригиналне лиценце и кажете онима који су заинтересовани да користите тај, тачно одређени, софтвер, можете да радите било шта са тим кодом - чак и да га мењате и да не кажете никоме да сте то урадили.
 
-> Copyleft is the practice of offering people the right to freely distribute copies and modified versions of a work with the stipulation that the same rights be preserved in [derivative works](https://en.wikipedia.org/wiki/Derivative_works) created later. https://en.wikipedia.org/wiki/Copyleft
+> Copyleft је пракса да се људима понуди право да слободно дистрибуирају копије и модификоване верзије рада са клаузулом да ће та иста права бити очувана у [изведеним радовима](https://en.wikipedia.org/wiki/Derivative_works) који ће се касније креирати. https://en.wikipedia.org/wiki/Copyleft
 
-This type of "protective" licensing goes beyond the "permissive" licensing seen with MIT and APACHE by seeking to protect the code and the community's rights. Any modifications made to the source code must be returned to the community, and you may not sublicense the code. GPL and CC-SA are two licenses that work this way.
+This type of "protective" licensing goes beyond the "permissive" licensing seen with MIT and APACHE by seeking to protect the code and the community's rights. Све модификације изворног кода морају бити враћене натраг заједници и ви не можете подлиценцирати код. GPL и CC-SA су две лиценце које функционишу на тај начин.
 
-### License discovery and licensing requirements
+### Откривање лиценци и захтеви за лиценцирање
 
-Using open-source software in your projects is a great thing, but you need to stay diligent, especially when you are contributing work to another project. And this is doubly true if you are required to do reporting about license compliance (for example in the case of public agencies or within corporate legal firewalls). In any case, it can be a bit of a hassle to manually go through and track down all the license files.
+Using open-source software in your projects is a great thing, but you need to stay diligent, especially when you are contributing work to another project. Ово је нарочито тачно уколико је неопходно да урадите извештај о усаглашености лиценци (на пример у случају јавних агенција или унутар корпоративних правних заштита). У сваком случају, може бити потребно доста вештине како би се ручно испратили и проверили сви фајлови са лиценцама.
 
-There are a few projects that treat this issue of discovery, such as [nlf](https://www.npmjs.com/package/nlf) and [https://fossa.io/](https://fossa.io/ "https://fossa.io/") and specifically [their free **CLI** that does not require registration](https://github.com/fossas/fossa-cli).
+Постоји неколико пројеката који се баве овим проблемом откривања, као што су [nlf](https://www.npmjs.com/package/nlf) и [https://fossa.io/](https://fossa.io/ "https://fossa.io/") и поготово [ њихов слободни **CLI** који не захтева регистрацију](https://github.com/fossas/fossa-cli).
 
     $ nlf --summary detail > nlf.txt
     
 
-[Here is a report made from the Quasar repo using the **nlf** approach.](https://raw.githubusercontent.com/nothingismagick/quasar-articles/master/tutorials/nlf_report_licenses_quasar.txt.md)
+[Ово је извештај који је направљен уз помоћ Quasar-овог складишта користећи **nlf** приступ.](https://raw.githubusercontent.com/nothingismagick/quasar-articles/master/tutorials/nlf_report_licenses_quasar.txt.md)
 
-If you want to see a license report generated by the **fossa CLI** in your repository, after following their install instructions, you can just use this command:
+Уколико желите да видите извештај о лиценци генерисан од стране ** fossa CLI** у свом складишту, након што испратите њихове инструкције о инсталацији, можете једноставно да искористите ову команду:
 
     $ fossa report licenses > fossa.txt
     
 
-[Here is a report made from the Quasar repo using the **fossa cli** approach.](https://raw.githubusercontent.com/nothingismagick/quasar-articles/master/tutorials/fossa_report_licenses_quasar.txt.md) As you can see, the great majority of modules use the MIT license, but several are not clear from the report alone: 15 of the projects were not autodetected by **fossa**. I followed each of the links, tracked down their licenses, and made a note not only of the license, but that I was the one who did it.
+[ Ово је извештај креиран од стране Quasar-овог складишта користећи ** fossa cli ** приступ. ](https://raw.githubusercontent.com/nothingismagick/quasar-articles/master/tutorials/fossa_report_licenses_quasar.txt.md) Као што можете да видите, већина модула користи МИТ лиценцу, али неки нису јасни само из извештаја: 15 пројеката нису аутоматски откривени од стране ** fossa **. Проверио сам сваки од линкова, пратио њихове лиценце и направио обавештење, не само о лиценци, већ да сам ја лично тај који је то урадио.
 
 Furthermore, I detected that only one of our libraries (stylint) requires a GPL license, but the developers have a license conflict in the declaration in the package.json (GPL-2) and the actual license file (GPL-3).
 
