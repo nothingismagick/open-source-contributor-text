@@ -15,20 +15,20 @@ https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSou
 #### **Introductie**
 
 - Je leert over het verschil tussen auteursrecht, licenties en attributie
-- You will discover the meaning of "Free/Libre and Open Source Software"
-- You will find out what the difference is between "Permissive" and "Protective" licenses
+- Je ontdekt de betekenis van "Vrije/Libre en Open Source Software"
+- Je ontdekt wat het verschil is tussen "Soepele" en "Beschermende" gebruikslicenties
 - Je leert meer over het ontdekken van licenties en licentieovereenkomsten
 - Je leert hoe je code en andere middelen die open source zijn kunt gebruiken
 
 #### **Je identiteit en rechten**
 
-- You will learn about "Non-Disclosure Agreements" (NDA)
-- You will learn about "Contributor License Agreements" (CLA)
+- Je leert over "Geheimhoudingsverklaringen" (Non-Disclosure Agreements, NDA)
+- Je leert over Bijdragerslicentieovereenkomsten (Contributor License Agreements, CLA)
 - Je leert hoe je een "geverifieerde" bijdrager kunt worden
-- You will learn why "developer certificates of origin" are used
+- Je leert waarom "ontwikkelaarscertificaten van oorsprong" worden gebruikt
 - Je leert wat "signed-off-by" betekent
-- You will learn about "release" forms
-- You will learn about "provenance"
+- Je leert over "vrijgave"-formulieren
+- Je leert over "herkomst"
 
 #### **Licentiesoorten**
 
@@ -61,15 +61,15 @@ https://opensource.com/resources/what-open-source
 
 Elke daad van creativiteit kan worden toegeschreven aan iemand of aan een groep mensen die samenwerken. Eigenlijk is het vrij gek om te denken dat iets in een vacuüm bestaat. We zijn allemaal met elkaar verbonden en ideeën zijn dingen die vaak een eigen leven gaan leiden. In deze moderne tijd zijn veel mensen echter begonnen hun ideeën te beschermen tegen diefstal door ze weg te geven - door hun werk te publiceren, zodat andere mensen in staat worden gesteld en uitgenodigd om bij te dragen aan het project - of het zelfs in een heel andere richting te nemen.
 
-Vergelijkbaar met de manier waarop gilden in de afgelopen eeuwen hun handelsgeheimen beschermden, kan het excuus van een "proprietary" bescherming van ideeën en een verankering van "closed source" in wetgeving en vrijhandelsakkoorden direct worden teruggevoerd op veel van de problemen die het turbo-kapitalisme op onze planeet heeft losgelaten. But guess what - there is something you can do. Je kunt deelnemen aan de open source-beweging.
+Vergelijkbaar met de manier waarop gilden in de afgelopen eeuwen hun handelsgeheimen beschermden, kan het excuus van een "proprietary" bescherming van ideeën en een verankering van "closed source" in wetgeving en vrijhandelsakkoorden direct worden teruggevoerd op veel van de problemen die het turbo-kapitalisme op onze planeet heeft losgelaten. Maar weet je wat - er is iets wat je kunt doen. Je kunt deelnemen aan de open source-beweging.
 
 ## Introductie
 
 ### Auteursrecht, licenties an attributie
 
-It is generally accepted in modern democratic society that a notice of copyright is required as a preface for all licenses, because someone has to be responsible for declaring how the thing being licensed can be used. In a strange (but somehow logical) twist, if you wish to share your work as Public Domain or Copyleft, you have to first declare that you are the owner of your work (and that everyone who contributed to it agrees with you on that matter).
+Het is algemeen geaccepteerd in de moderne democratische samenleving dat een kennisgeving van het auteursrecht vereist is als voorwoord voor alle licenties, omdat iemand verantwoordelijk moet zijn voor het verklaren van de manier waarop het ding dat gelicenseerd wordt kan worden gebruikt. In een vreemde (maar op de een of andere manier logische) wending, als je je werk als Public Domain of Copyleft wilt delen, moet je eerst verklaren dat je de eigenaar van je werk bent (en dat iedereen die eraan heeft bijgedragen het op dat punt met je eens is).
 
-Zodra een auteursrecht is verklaard, kan de auteursrechthebbende lezers en gebruikers van de code / tekst / kunst informeren onder welke omstandigheden het gepast is te gebruiken. No matter what licensing approach the original author / copyright holder takes, it is always appropriate to retain copies of these licenses in the repository hosting your work should it use open-source licensed works of third parties. It is never ok to remove or edit license files or license references in the headers or metadata of source files - because that is literally stealing and a form of plagiarism.
+Zodra een auteursrecht is verklaard, kan de auteursrechthebbende lezers en gebruikers van de code / tekst / kunst informeren onder welke omstandigheden het gepast is te gebruiken. Het maakt niet uit welke licentie-aanpak de oorspronkelijke auteur / auteursrechthebbende ook kiest, het is altijd gepast om kopieën van deze licenties te bewaren in de repository waar uw werk wordt gehost, mocht het gebruik maken van werken van derden met een open source-licentie. It is never ok to remove or edit license files or license references in the headers or metadata of source files - because that is literally stealing and a form of plagiarism.
 
 As long as "consumers" of your built artefacts (website, app, etc.) are informed to where they can see the licenses of the third-party projects that you have used to build your project, you can avoid shipping these licenses.
 
