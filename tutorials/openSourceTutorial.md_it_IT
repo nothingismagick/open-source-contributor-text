@@ -17,7 +17,7 @@ https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSou
 - Imparerai la differenza tra diritto d'autore, concessione di licenze e attribuzioni
 - Scoprirai il significato di "Software Gratuiti/Liberi e Software Open Source"
 - Scoprirai qual è la differenza tra le licenze "Permissive" e "Protettive"
-- You will learn about license discovery and licensing agreements
+- Imparerai ad individuare la licenza e cosa sono gli accordi per la concessione di una licenza
 - Imparerai ad usare il codice e altre risorse che sono open-source
 
 #### **La tua Identità e i tuoi Diritti**
@@ -237,31 +237,31 @@ A seconda di dove e come il contributo deve essere utilizzato, ci sono diversi m
 3. Iniettare le informazioni nei metadati del file
 4. Se possibile, citare la fonte / le licenze dell'immagine subito dopo l'immagine
 5. Mettere queste stesse informazioni in una nota a piè di pagina / nota finale / documento collegato
-6. Place license information or licenses and release form-cover-sheets in the repository in the same folder as the image or some other delegated location
+6. Inserire le informazioni sulla licenza o le licenze e i moduli di rilascio nella repository nella stessa cartella dell'immagine o in un altra posizione delegata
 
-Common licenses to use for Images / Designs / Videos are:
+Le licenze comuni da usare per Immagini / Design / Video sono:
 
 - [Creative Commons](https://creativecommons.org/)
-- [Public Domain / CC0](https://creativecommons.org/share-your-work/public-domain/cc0/)
+- [Dominio Pubblico / CC0](https://creativecommons.org/share-your-work/public-domain/cc0/)
 - [Apache v2](https://apache.org/licenses/LICENSE-2.0)
 
-> Quasar prefers CC-BY or CC0 licenses.
+> Quasar preferisce le licenze CC-BY oppure CC0.
 
-### Font licenses
+### Licenze per i font
 
-Of the hundreds of fonts listed at [Google Fonts](https://fonts.google.com/attribution), there are exactly two different licenses used: Either the Apache License v2, or the SIL Open Font License v1.1. The vast majority are OFL, and it is basically the same type of permissive license as MIT.
+Delle centinaia di font elencati in [Google Fonts](https://fonts.google.com/attribution), ci sono esattamente due diverse licenze utilizzate: O la licenza Apache v2, o la SIL Open Font License v1.1. La stragrande maggioranza sono OFL, ed è fondamentalmente lo stesso tipo di licenza permissiva della MIT.
 
-If you are using a font, you need to make sure that you really have the license for it, as some professional font forges will sell different types of licenses depending on the application. (As in one license for desktop publishing, another for websites, etc.) If you are using an open-source font, best-practice is to put a copy of the license in the folder where you are maintaining your fonts.
+Se si utilizza un font, è necessario assicurarsi di avere davvero la licenza per esso, in quanto alcune fucine di font professionali venderanno diversi tipi di licenze a seconda dell'applicazione. (Come per una licenza per il desktop publishing, un'altra per i siti web, ecc.) Se si utilizza un font open-source, è buona prassi mettere una copia della licenza nella cartella in cui si mantengono i font.
 
-Furthermore, some services like FontSquirrel offer a [WebfontGenerator](https://www.fontsquirrel.com/tools/webfont-generator) that enables designers to make a set of font-files so that individual browsers can select the type that they are most well-equipped to use. They require you to verify that you have the right to convert the font to other formats. The SIL OFL does permit this. If there is no license that you can find, assume that you do not have the right to use the font.
+Inoltre, alcuni servizi come FontSquirrel offrono un [WebfontGenerator](https://www.fontsquirrel.com/tools/webfont-generator) che permette ai designer di creare un insieme di file di font in modo che i singoli browser possano selezionare il tipo per il quale sono più attrezzati all'utilizzo. Questi ti chiederanno di verificare di avere il diritto di convertire il font in altri formati. Il SIL OFL permette questo. Se non riesci a trovare alcuna licenza, supponi sempre di non avere il diritto di utilizzare il font.
 
-- [OFL-FAQ web version (1.1-update5)](https://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web)
+- [QFL versione web FAQ (1.1-aggiornamento5)](https://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web)
 
-# Final Words
+# Ultime parole
 
-Just because you "open" your work to collaboration from others, this is not the end of the story. Just because you slap a Creative Commons license on a photoshop file does not mean it is open and free. The degree of openness of an asset or project is also determined by the operating system and the software needed to use and or modify the file. Please consider publishing not only the results of the process of your work, but also inform people about how you did it.
+Solo perché "apri" il tuo lavoro alla collaborazione da parte degli altri, la storia non finisce qui. Solo perché schiaffi una licenza Creative Commons su un file photoshop non significa che questo sia aperto e gratuito. Il grado di apertura di un bene o di un progetto è determinato anche dal sistema operativo e dal software necessario per utilizzare e modificare il file. Si prega di considerare la pubblicazione non solo dei risultati del processo del vostro lavoro, ma anche di informare le persone su come lo avete fatto.
 
-Furthermore, please do not use pirated software when working on open-source projects. Not only is it "uncool" and damaging to the honour of the entire open-source community, you are putting yourself and your colleagues at risk, especially if you have high-value credentials, like server logins etc. There is no better way to get yourself (and possibly your team) hacked than to use cracks.
+Inoltre, si prega di non usare software pirata mentre state lavorando a progetti open source. Non solo è "scortese" e dannoso per l'onore dell'intera comunità open-source, ma mettete voi stessi e i vostri colleghi a rischio, soprattutto se avete accesso a credenziali di alto valore, come i login al server, ecc. There is no better way to get yourself (and possibly your team) hacked than to use cracks.
 
 # Further Resources
 
