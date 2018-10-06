@@ -23,7 +23,7 @@ https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSou
 #### **La tua Identità e i tuoi Diritti**
 
 - Imparerai cosa sono gli "accordi di non divulgazione"
-- You will learn about "Contributor License Agreements" (CLA)
+- Imparerai cosa sono i "Contratti di Licenza del Collaboratore" (CLA)
 - Imparerai come si diventa un collaboratore "verificato"
 - Imparerai perché vengono usati i "certificati di origine dello sviluppatore"
 - Imparerai cosa significa "firmato da"
@@ -59,7 +59,7 @@ https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSou
 
 https://opensource.com/resources/what-open-source
 
-Ogni atto creativo può essere attribuito a qualcuno o a un gruppo di persone che lavorano insieme. In fact, it is actually quite silly to think that anything exists in a vacuum. Siamo tutti connessi, e le idee sono cose che spesso prendono vita da sole. Tuttavia, attualmente, molte persone hanno iniziato a proteggere le loro idee dal furto rinunciando ad esse - pubblicando il loro lavoro in modo che altre persone vengano incaricate e incoraggiate a contribuire al progetto - o addirittura a portarlo in una direzione completamente differente.
+Ogni atto creativo può essere attribuito a qualcuno o a un gruppo di persone che lavorano insieme. Effettivamente, è abbastanza sciocco pensare che una qualsiasi cosa possa esistere nel vuoto. Siamo tutti connessi, e le idee sono cose che spesso prendono vita da sole. Tuttavia, attualmente, molte persone hanno iniziato a proteggere le loro idee dal furto rinunciando ad esse - pubblicando il loro lavoro in modo che altre persone vengano incaricate e incoraggiate a contribuire al progetto - o addirittura a portarlo in una direzione completamente differente.
 
 Non diversamente dal modo in cui le corporazioni dei secoli passati proteggevano i loro segreti commerciali, la scusa di una protezione "proprietaria" delle idee e un inglobamento del "closed source" nella legislazione e negli accordi di libero scambio può essere ricondotta direttamente a molti dei problemi che il turbo-capitalismo ha scatenato sul nostro pianeta. Ma indovina un po’ - puoi fare qualcosa. Puoi prendere parte al movimento open-source.
 
@@ -81,7 +81,7 @@ Qualora decidessi di utilizzare qualsiasi cosa creata da terzi all'interno del t
 > 
 > https://opensource.com/resources/what-open-source
 
-There is a perpetual discussion by FLOSS hardliners about the degree of **freedom** inherent in "open" source - and even what **free** means. Comunque, potrebbe essere una buona idea fare un passo indietro nel tempo, tornando al 1998, e [leggere questo articolo](https://opensource.com/article/18/2/coining-term-open-source-software) scritto da Christine Peterson, la donna che ha inventato il nome "open source". Although Richard Stallman and Linus Torvalds are two of the most successful, visible and vocal proponents on the matter; the point is that even though the term began as a "marketing device", it stuck and changed the lives of everyone on the planet - arguably for the better.
+C'è una discussione perpetua da parte dei hardliners FLOSS sul grado di **libertà** insito nell'"open source" - e anche su cosa significa **libero**. Comunque, potrebbe essere una buona idea fare un passo indietro nel tempo, tornando al 1998, e [leggere questo articolo](https://opensource.com/article/18/2/coining-term-open-source-software) scritto da Christine Peterson, la donna che ha inventato il nome "open source". Nonostante Richard Stallman e Linus Torvalds siano due tra i sostenitori più visibili, espressivi e di successo in questo ambito; il punto è che anche se il termine è iniziato come un "espediente di marketing", è rimasto e ha cambiato la vita di tutti sul pianeta - probabilmente in meglio.
 
 Stallman e la "Free Software Foundation" (FSF), che sono probabilmente i più anziani nel campo, definirebbero la libertà come una parte importante dell'open source, perché la libertà di utilizzare e modificare il codice è anche una responsabilità che uno si prende nel nome dell'intera comunità.
 
