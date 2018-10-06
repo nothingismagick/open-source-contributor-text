@@ -91,7 +91,7 @@ Se si ignora per un momento il fastidioso fatto che in inglese *“free”* sign
 
 A seconda del proprio punto di vista, la Gnu Public License non è COMPLETAMENTE libera, perché chiede di restituire alla comunità le modifiche apportate al codice - ed essere liberi significherebbe che si può decidere come lavorare e cosa fare con il codice che si usa. Contemporaneamente e su uno spettro diverso, c'è chi ritiene che la licenza MIT non sia completamente libera. La pensano così perché ci sono alcune circostanze in cui il codice può essere modificato senza poi essere restituito alla comunità - in un certo senso "imprigionando", il codice.
 
-> In questi casi non esiste un pensiero giusto o sbagliato, perché dipende tutto dalla prospettiva con cui si guardano le cose. Comunque ogni sviluppatore e ogni organizzazione devono decidere da soli su cosa vogliono concentrare la propria attenzione. At the Quasar Framework, we are not purists in the sense that we believe Code is in and of itself a spiritual being deserving of transferrable rights. Forse, se stessimo lavorando sul Kernel Linux sarebbe stato diverso - ma noi siamo più preoccupati della parte umana del codice e crediamo che le persone che utilizzano il nostro progetto dovrebbero avere la libertà di decidere che cosa vogliono fare. Per questo motivo abbiamo adottato un approccio "permissivo" e abbiamo scelto la licenza MIT.
+> In questi casi non esiste un pensiero giusto o sbagliato, perché dipende tutto dalla prospettiva con cui si guardano le cose. Comunque ogni sviluppatore e ogni organizzazione devono decidere da soli su cosa vogliono concentrare la propria attenzione. Su Quasar Framework, non siamo puristi a tal punto da credere che il Codice sia, di per sé, un’entità spirituale meritevole di diritti trasferibili. Forse, se stessimo lavorando sul Kernel Linux sarebbe stato diverso - ma noi siamo più preoccupati della parte umana del codice e crediamo che le persone che utilizzano il nostro progetto dovrebbero avere la libertà di decidere che cosa vogliono fare. Per questo motivo abbiamo adottato un approccio "permissivo" e abbiamo scelto la licenza MIT.
 
 Ci sono sempre molte discussioni su "quanto rendere libero il proprio codice". Per questo vi propongo di farvi quattro domande:
 
@@ -195,9 +195,9 @@ Se usate fotografie di persone scattate da voi e le usate nei progetti open sour
 
 Provenienza è una parola che descrive la storia di un lavoro. Il codice condiviso sotto licenza open-source e nel contesto di una repository git è più o meno auto-documentante. Le immagini sono meno evidenti, ed è particolarmente difficile con i lavori di collage digitale che combinano una serie di risorse.
 
-Per i designer è importante gestire la provenienza, in quanto i diritti sulle immagini sono fortemente contestati e spesso portano a battaglie legali. Even if only public-domain resources are being used, it is still a good practice to record your work in a provenance document. Questo tipo di documento è come la bibliografia in un articolo scientifico, in cui sono registrate le idee e gli autori. Anche se non esiste un approccio "standardizzato", il metodo migliore è quello di non solo registrare le fonti e i tempi di accesso, ma anche di rintracciare le licenze per ogni componente. If you want an example of this, feel free to look at the citations section [in this graphics breakdown](https://busy.org/@nothingismagick/qcensus2018-campaign-graphics-breakdown) written in the @utopian-io style.
+Per i designer è importante gestire la provenienza, in quanto i diritti sulle immagini sono fortemente contestati e spesso portano a battaglie legali. Anche se vengono utilizzate solo risorse di pubblico dominio, è comunque una buona pratica registrare il proprio lavoro in un certificato di provenienza. Questo tipo di documento è come la bibliografia in un articolo scientifico, in cui sono registrate le idee e gli autori. Anche se non esiste un approccio "standardizzato", il metodo migliore è quello di non solo registrare le fonti e i tempi di accesso, ma anche di rintracciare le licenze per ogni componente. Se volete un esempio, sentitevi liberi di guardare la sezione citazioni [in questa suddivisione grafica](https://busy.org/@nothingismagick/qcensus2018-campaign-graphics-breakdown) scritta in stile @utopian-io.
 
-> L'ultima cosa che chiunque desidera è una battaglia legale perché questa drena risorse come tempo e denaro. If you are contributing to an open-source project, make sure that you are not putting them in hot-water. At Quasar, you can rest assured that the Art Department takes this VERY seriously, and violations of this trust are likely to lead to blacklisting or hammerbanning.
+> L'ultima cosa che chiunque desidera è una battaglia legale perché questa drena risorse come tempo e denaro. Se state contribuendo ad un progetto open-source, assicuratevi di non metterli in difficoltà. Su Quasar, potete star certi che il Dipartimento Artistico prende la cosa MOLTO seriamente e le violazioni di questo rapporto fiduciario possono portare all’inserimento in una lista nera oppure al ban immediato.
 
 ## Tipi di Licenza
 
@@ -210,8 +210,8 @@ Se avete saltato qualche parte e non avete letto i capitoli precedenti, ecco un 
 - **Permissiva**: [MIT](http://www.opensource.org/licenses/MIT)
 - **Protettiva**: [GPL-3](https://www.gnu.org/licenses/gpl-3.0.en.html)
 - **Dominio Pubblico**: [WTFPL](http://www.wtfpl.net/)
-- [Github's License Helper](https://choosealicense.com/)
-- [The exhaustive list by the GNU Foundation](https://www.gnu.org/licenses/license-list.html)
+- [Helper Licenza di Github](https://choosealicense.com/)
+- [L'elenco completo di GNU Foundation](https://www.gnu.org/licenses/license-list.html)
 
 > Su Quasar Framework tutti i contributi alle librerie di base devono essere MIT. Contribuendo a qualsiasi cosa, accettate questa licenza.
 
@@ -219,24 +219,24 @@ Se avete saltato qualche parte e non avete letto i capitoli precedenti, ecco un 
 
 Anche il testo e la documentazione sono un'opera creativa e sono generalmente protetti dalle leggi sul copyright. Puoi trasferire questi diritti a terzi o a proprietari di progetti a cui darai i tuoi contributi scegliendo o una risorsa Creative Commons o la Licenza Documenti Liberi.
 
-It is considered best practice to name the license and author(s) at the end of the document being licensed.
+Viene considerata una buona prassi nominare la licenza e l'autore(i) alla fine del documento che viene concesso in licenza.
 
 - [Creative Commons](https://creativecommons.org/)
-- [Free Documentation License](https://www.gnu.org/licenses/fdl.html)
+- [Licenza per documentazione libera](https://www.gnu.org/licenses/fdl.html)
 
-> At the Quasar Framework all documentation is (or will be) licensed under the FDL.
+> Su Quasar Framework tutta la documentazione è (oppure sarà) concessa sotto licenza FDL.
 
-### Licensing artwork / design / video
+### Creare una licenza per un'opera d'arte / design / video
 
-There are literally as many legal regulations for this type of contribution as there are countries on the planet, so it is absolutely inappropriate to go into detail about how things are different from nation to nation. No matter what, the person that made the image can never lose the right to say that they were the owner (unless an absolutely draconian contract prevents it - and in some cases this won't stand up in court). This is why there is one common rule that will : Cite the author and name the license. If you can't do that, then don't use the asset.
+Ci sono letteralmente tante norme giuridiche per questo tipo di contributi quanti sono i Paesi del pianeta, quindi è assolutamente inopportuno entrare nel dettaglio su come le cose siano diverse da nazione a nazione. Qualsiasi cosa succeda, la persona che ha realizzato l'immagine non può mai perdere il diritto di dire di esserne il proprietario (a meno che un contratto assolutamente draconiano non glielo impedisca - e in alcuni casi neanche questo reggerà in tribunale). Per questo motivo esiste una regola comune: Citare l'autore e nominare la licenza. Se non puoi farlo, allora non utilizzare la risorsa.
 
-Depending on where and how the contribution is to be used, there are a number of ways in which this citation can be made:
+A seconda di dove e come il contributo deve essere utilizzato, ci sono diversi modi per creare questa citazione:
 
-1. Name the file accordingly
-2. Put license information in a watermark in the file
-3. Inject the information into the metadata of the file
-4. Cite the image sources / licenses directly after the image if possible
-5. Put this same information in a footnote / endnote / linked document
+1. Nominare il file di conseguenza
+2. Mettere le informazioni riguardanti la licenza in un watermark all'interno del file
+3. Iniettare le informazioni nei metadati del file
+4. Se possibile, citare la fonte / le licenze dell'immagine subito dopo l'immagine
+5. Mettere queste stesse informazioni in una nota a piè di pagina / nota finale / documento collegato
 6. Place license information or licenses and release form-cover-sheets in the repository in the same folder as the image or some other delegated location
 
 Common licenses to use for Images / Designs / Videos are:
