@@ -152,11 +152,11 @@ Generally this is enough, however if you make any changes to the original librar
 
 Уговор о поверљивости података је споразум, који ћете можда морати да потпишете, уколико ћете сарађивати са организацијом која има пословне тајне које би желела да заштити. Као један од потписника уговора, бићете у обавези да одржите тајност информација које ће вам бити откривене, а то може да укључи и одредбе о забрани конкурентности у сличној индустрији на неко одређено време. Although this is generally uncommon in the open-source industry, it may be required if you are given access to "secrets" like API keys, logins and the like.
 
-> If you are presented with a NDA, as with any contract, it is wise to read everything, ask questions and ask a lawyer for their opinion. Quasar will never require you to sign an NDA.
+> If you are presented with a NDA, as with any contract, it is wise to read everything, ask questions and ask a lawyer for their opinion. Quasar вам никада неће захтевати да потпишете NDA.
 
-### What is a "Contributor License Agreement" (CLA)
+### Шта је то ''уговор о лиценцирању доприноса'' (eng. Contributor License Agreement)
 
-A Contributor License Agreement is a contract between the owner of a project and code contributors. As opposed to a NDA (which is restrictive), a CLA is "reciprocal" in that it is actually there to protect the rights of both owner and contributor. With a CLA, contributors explicitly give the owner permission to use the contribution, and owners explicitly permit the contributor to use their contributions as they see fit.
+Уговор о лиценцирању доприноса је споразум између власника пројекта и оних који доприносе коду. As opposed to a NDA (which is restrictive), a CLA is "reciprocal" in that it is actually there to protect the rights of both owner and contributor. With a CLA, contributors explicitly give the owner permission to use the contribution, and owners explicitly permit the contributor to use their contributions as they see fit.
 
 However, many developers consider a CLA to be problematic because of the rights that they confer upon the owner, which include the ability to change the license of the code. [Here is a great writeup by gitlab](https://about.gitlab.com/2017/11/01/gitlab-switches-to-dco-license/) about why they switched from a CLA to a DCO - and here is their [in-depth analysis from a project-management perspective](https://docs.google.com/a/gitlab.com/document/d/1zpjDzL7yhGBZz3_7jCjWLfRQ1Jryg1mlIVmG8y6B1_Q/edit?usp=sharing).
 
