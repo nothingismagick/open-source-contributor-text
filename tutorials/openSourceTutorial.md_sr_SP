@@ -132,15 +132,15 @@ MIT, BSD и Apache су оно што заједница отвореног ко
 
 [ Ово је извештај креиран од стране Quasar-овог складишта користећи ** fossa cli ** приступ. ](https://raw.githubusercontent.com/nothingismagick/quasar-articles/master/tutorials/fossa_report_licenses_quasar.txt.md) Као што можете да видите, већина модула користи МИТ лиценцу, али неки нису јасни само из извештаја: 15 пројеката нису аутоматски откривени од стране ** fossa **. Проверио сам сваки од линкова, пратио њихове лиценце и направио обавештење, не само о лиценци, већ да сам ја лично тај који је то урадио.
 
-Furthermore, I detected that only one of our libraries (stylint) requires a GPL license, but the developers have a license conflict in the declaration in the package.json (GPL-2) and the actual license file (GPL-3).
+Даље, приметио сам да само једна од наших библиотека (stylint) захтева GPL лиценцу, а да девелопери имају проблем са лиценцом у декларацији у package.json (GPL-2) и у стварном фајлу (GPL-3).
 
-That is what you will need to do as well. Should a license file not be included in the project, and you cannot find one, it is wise to contact the author.
+То је оно што такође треба да урадите. Ако фајл лиценце није укључен у пројекат и не можете да га пронађете, било би паметно контактирати аутора.
 
-**A word of caution**: These automated systems are not foolproof (e.g. a module about license detection may detect multiple licenses, even though it is itself using another license). If you are bound by regulatory compliance, you need to go through them all by hand - and don't be afraid to reach out to the author if you need clarification - or even a different license. This is sometimes possible. Just remember, it's better to ask permission than forgiveness.
+**A word of caution**: These automated systems are not foolproof (e.g. a module about license detection may detect multiple licenses, even though it is itself using another license). Ако сте се обавезали прописима, морате их све прегледати ручно - и не бојте се да контактирате аутора ако вам треба појашњење - или чак и друга лиценца. Ово је понекад могуће. Само запамтите, боље је да тражите дозволу него опроштај.
 
-### Using open-source
+### Коришћење отвореног кода
 
-If you use anything that is open-source, you must declare its use and make the original licenses easily accessible. If you are using, for example, node modules in your project, then these licenses are available in the source code of the project when someone downloads the project files and "installs" the dependencies. You can usually find it as a file named `LICENSE` in the root folder or in the "license" field in the `package.json`
+Ако користите нешто што је отвореног кода, морате да декларишете његову употребу и да се постарате да су оригиналне лиценце лако доступне. Ако користите, на пример, модуле чворова (енг. node modules) у свом пројекту, тада су ове лиценце доступне у изворном коду пројекта када неко скине са интернета фајлове пројекта и ''инсталира'' зависности. You can usually find it as a file named `LICENSE` in the root folder or in the "license" field in the `package.json`
 
 Generally this is enough, however if you make any changes to the original library, you may be required to notify and / or submit these changes back to the community. This depends on the license type, but we will cover licensing specifics in the final section.
 
