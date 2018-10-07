@@ -144,13 +144,13 @@ MIT, BSD и Apache су оно што заједница отвореног ко
 
 Generally this is enough, however if you make any changes to the original library, you may be required to notify and / or submit these changes back to the community. То зависи од типа лиценце, али ћемо покрити део специфичности лиценцирања у финалном делу.
 
-> **Stack Overflow**: A common pitfall is to merely copy and paste things that you find on stackoverflow.com - but this is dangerous, because even though it is implied that the user is sharing this information, you do not know with 100% certainty that it is appropriate (or permitted) to use the code example 1 to 1. The common practice of citing the resource is better than nothing, but you should really consider rewriting the example to fit your code style, the needs of your project AND reference the source as "inspiration".
+> **Stack Overflow**: A common pitfall is to merely copy and paste things that you find on stackoverflow.com - but this is dangerous, because even though it is implied that the user is sharing this information, you do not know with 100% certainty that it is appropriate (or permitted) to use the code example 1 to 1. Уобичајена пракса цитирања извора је боља него да нема цитирања, али би требало да заиста размотрите поновно писање примера како би се уклопио у ваш код и потребе вашег пројекта И да наведете извор као ''инспирацију''.
 
-## Your Identity and Rights
+## Ваш идентитет и права
 
-### What is a "Non-Disclosure Agreement" (NDA)
+### Шта је то ''уговор о поверљивости података'' (eng. Non-Disclosure Agreement)
 
-A non-disclosure agreement is a contract that you may be required to sign if you will be working with an organisation that has trade secrets to protect. As the signee of the NDA, you will be bound by the contract to maintain secrecy about the information you have been given, and it may include clauses about non-competition in a similar industry for a specific amount of time. Although this is generally uncommon in the open-source industry, it may be required if you are given access to "secrets" like API keys, logins and the like.
+Уговор о поверљивости података је споразум, који ћете можда морати да потпишете, уколико ћете сарађивати са организацијом која има пословне тајне које би желела да заштити. Као један од потписника уговора, бићете у обавези да одржите тајност информација које ће вам бити откривене, а то може да укључи и одредбе о забрани конкурентности у сличној индустрији на неко одређено време. Although this is generally uncommon in the open-source industry, it may be required if you are given access to "secrets" like API keys, logins and the like.
 
 > If you are presented with a NDA, as with any contract, it is wise to read everything, ask questions and ask a lawyer for their opinion. Quasar will never require you to sign an NDA.
 
