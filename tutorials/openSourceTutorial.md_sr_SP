@@ -176,10 +176,10 @@ Please note, if the managers of the project you are working on ask you to sign o
 
 Верификовани сарадници на Github-у или Gitlab-у су девелопери који су додали GPG кључ свом налогу и користе га како би потписали свој допринос. Although it is not necessary for integration, some project managers may require it - especially since it is easier to steal someone's login credentials and modify a critical repository than it is steal their GPG key.
 
-The following links will show you how to create a GPG key and use them with Github or Gitlab, as needed.
+Следећи линкови ће вам показати како да креирате GPG кључ и да га користите на Github-у или Gitlab-у, по потреби.
 
-- [Add a GPG Key to Github](https://help.github.com/articles/adding-a-new-gpg-key-to-your-github-account/)
-- [Signing commits on Gitlab](https://docs.gitlab.com/ee/user/project/repository/gpg_signed_commits/index.html)
+- [Додајте GPG кључ за Github](https://help.github.com/articles/adding-a-new-gpg-key-to-your-github-account/)
+- [Потписивање доприноса на Gitlab-у](https://docs.gitlab.com/ee/user/project/repository/gpg_signed_commits/index.html)
 - https://blog.github.com/2016-04-05-gpg-signature-verification/
 - https://stackoverflow.com/questions/10161198/is-there-a-way-to-autosign-commits-in-git-with-a-gpg-key
 
