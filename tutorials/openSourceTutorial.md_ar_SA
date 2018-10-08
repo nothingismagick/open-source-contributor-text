@@ -108,15 +108,15 @@ https://opensource.com/resources/what-open-source
 
 أحد أكثر المفاهيم الخاطئة انتشارا حول ترخيص مشروعك برخصة جنو العمومية (GPL)، هو أنه سيمنع الشركات من أخذ فكرتك واستخدامها لكسب المال - كل ذلك دون إعطائك أي جزء من الأرباح. هذا ببساطة غير صحيح. إذا أراد شخص ما سرقة شفرتك وخرق القانون، فسوف يفعل ذلك. إذا كانت إحدى الشركات ترغب في استخدام مكتبتك التي لديها رخصة جنو العمومية (GPL)، فيمكنها عزلها عن بقية نظامها وعدم الكشف عن أي شيء خاص بها. يمكنهم أخذ الشفرة الخاصة بك والقيام بهندسة عكسية لإعادة كتابتها. إذا كان هذا هو أكبر مخاوفك، فتوقف، وارجع إلى بداية هذا البرنامج التعليمي واقرأه بعناية مرة أخرى. ثم قرر ما إذا كنت ترغب في المشاركة في المصادر المفتوحة - أو فقط من أجل استغلالها والربح منها.
 
-MIT, BSD and Apache are what the open-source software community calls "permissive" licenses. الترخيص المتساهل يعني أن المؤلف يمنحك جزءًا كبيرًا من حقوق استخدام البرنامج الذي يشاركه، حتى الحق في استخدامه للاستفادة منه وتعديله ليتناسب مع غرضك. طالما أنك تحتفظ بنسخ من الترخيص الأصلي وتعلم المهتمين أنك تستخدم هذا البرنامج بعينه، يمكنك القيام بأي شيء بالشفرة - حتى تعديلها دون إخبار أي شخص بما قمت به.
+ترخيص معهد ماساتشوستس للتكنولوجيا (MIT)، ترخيص BSD (توزيعة برمجيات بيركلي) وترخيص أباتشي (Apache)، هي ما يطلق عليه مجتمع البرامج مفتوحة المصدر بالتراخيص "المتساهلة". الترخيص المتساهل يعني أن المؤلف يمنحك جزءًا كبيرًا من حقوق استخدام البرنامج الذي يشاركه، حتى الحق في استخدامه للاستفادة منه وتعديله ليتناسب مع غرضك. طالما أنك تحتفظ بنسخ من الترخيص الأصلي وتعلم المهتمين أنك تستخدم هذا البرنامج بعينه، يمكنك القيام بأي شيء بالشفرة - حتى تعديلها دون إخبار أي شخص بما قمت به.
 
 > الحقوق المتروكة (Copyleft) هي ممارسة تتمثل في منح الناس الحق في توزيع النسخ والنسخ المعدلة من العمل بحرية مع شرط أن يتم الاحتفاظ بنفس الحقوق في [الأعمال المشتقة](https://en.wikipedia.org/wiki/Derivative_works) التي سيتم إنشاؤها فيما بعد. https://en.wikipedia.org/wiki/Copyleft
 
-This type of "protective" licensing goes beyond the "permissive" licensing seen with MIT and APACHE by seeking to protect the code and the community's rights. Any modifications made to the source code must be returned to the community, and you may not sublicense the code. GPL and CC-SA are two licenses that work this way.
+ويتجاوز هذا النوع من الترخيص "المحمي" الترخيص "المتساهل" الذي يمكن رؤيته في ترخيص معهد ماساتشوستس للتكنولوجيا (MIT) وترخيص أباتشي (APACHE)، في محاولة لحماية الشفرة وحقوق المجتمع. يجب أن يتم إرجاع أية تغييرات تم إجراؤها على الشفرة المصدرية إلى المجتمع، ولا يمكن أن تعيد ترخيص الشفرة. تعتبر رخصة جنو العمومية (GPL) ورخصة المشاع الإبداعي (CC-SA) نوعين من التراخيص التي تعمل بهذه الطريقة.
 
-### License discovery and licensing requirements
+### اكتشاف التراخيص ومتطلباتها
 
-Using open-source software in your projects is a great thing, but you need to stay diligent, especially when you are contributing work to another project. And this is doubly true if you are required to do reporting about license compliance (for example in the case of public agencies or within corporate legal firewalls). In any case, it can be a bit of a hassle to manually go through and track down all the license files.
+يعد استخدام البرمجيات المفتوحة المصدر في مشاريعك أمرًا جيدًا، ولكن يجب أن تظل مجتهدًا، خاصة عندما تكون تساهم في مشروع آخر. And this is doubly true if you are required to do reporting about license compliance (for example in the case of public agencies or within corporate legal firewalls). In any case, it can be a bit of a hassle to manually go through and track down all the license files.
 
 There are a few projects that treat this issue of discovery, such as [nlf](https://www.npmjs.com/package/nlf) and [https://fossa.io/](https://fossa.io/ "https://fossa.io/") and specifically [their free **CLI** that does not require registration](https://github.com/fossas/fossa-cli).
 
