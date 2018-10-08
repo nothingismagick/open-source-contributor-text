@@ -136,45 +136,45 @@ MIT, BSD и Apache су оно што заједница отвореног ко
 
 То је оно што такође треба да урадите. Ако фајл лиценце није укључен у пројекат и не можете да га пронађете, било би паметно контактирати аутора.
 
-**A word of caution**: These automated systems are not foolproof (e.g. a module about license detection may detect multiple licenses, even though it is itself using another license). Ако сте се обавезали прописима, морате их све прегледати ручно - и не бојте се да контактирате аутора ако вам треба појашњење - или чак и друга лиценца. Ово је понекад могуће. Само запамтите, боље је да тражите дозволу него опроштај.
+** Упозорење **: Ови аутоматизовани системи нису непогрешиви (на пример, модул за претрагу лиценци може открити више лиценци, чак и ако сам користи другу лиценцу). Ако сте се обавезали прописима, морате их све прегледати ручно - и не бојте се да контактирате аутора ако вам треба појашњење - или чак и друга лиценца. Ово је понекад могуће. Само запамтите, боље је да тражите дозволу него опроштај.
 
 ### Коришћење отвореног кода
 
-Ако користите нешто што је отвореног кода, морате да декларишете његову употребу и да се постарате да су оригиналне лиценце лако доступне. Ако користите, на пример, модуле чворова (енг. node modules) у свом пројекту, тада су ове лиценце доступне у изворном коду пројекта када неко скине са интернета фајлове пројекта и ''инсталира'' зависности. You can usually find it as a file named `LICENSE` in the root folder or in the "license" field in the `package.json`
+Ако користите нешто што је отвореног кода, морате да декларишете његову употребу и да се постарате да су оригиналне лиценце лако доступне. Ако користите, на пример, модуле чворова (енг. node modules) у свом пројекту, тада су ове лиценце доступне у изворном коду пројекта када неко скине са интернета фајлове пројекта и ''инсталира'' зависности. Обично га можете пронаћи као фајл који се зове `LICENSE` у основном фолдеру или у пољу „лиценца” у `package.json`
 
-Generally this is enough, however if you make any changes to the original library, you may be required to notify and / or submit these changes back to the community. То зависи од типа лиценце, али ћемо покрити део специфичности лиценцирања у финалном делу.
+Ово је углавном довољно, али ако направите неку измену у оригиналној библиотеци, може се од вас захтевати да обавестите и/или пошаљете те промене заједници. То зависи од типа лиценце, али ћемо покрити део специфичности лиценцирања у финалном делу.
 
-> **Stack Overflow**: A common pitfall is to merely copy and paste things that you find on stackoverflow.com - but this is dangerous, because even though it is implied that the user is sharing this information, you do not know with 100% certainty that it is appropriate (or permitted) to use the code example 1 to 1. Уобичајена пракса цитирања извора је боља него да нема цитирања, али би требало да заиста размотрите поновно писање примера како би се уклопио у ваш код и потребе вашег пројекта И да наведете извор као ''инспирацију''.
+> **Stack Overflow**: Уобичајена замка је једноставно копирање ствари које сте нашли на stackoverflow.com - то је опасно, јер чак и ако се подразумева да корисник дели ове информације, не знате са сигурношћу да је прикладно (или дозвољено) користити идентичан пример кодa. Уобичајена пракса цитирања извора је боља него да нема цитирања, али би требало да заиста размотрите поновно писање примера како би се уклопио у ваш код и потребе вашег пројекта И да наведете извор као ''инспирацију''.
 
 ## Ваш идентитет и права
 
 ### Шта је то ''уговор о поверљивости података'' (eng. Non-Disclosure Agreement)
 
-Уговор о поверљивости података је споразум, који ћете можда морати да потпишете, уколико ћете сарађивати са организацијом која има пословне тајне које би желела да заштити. Као један од потписника уговора, бићете у обавези да одржите тајност информација које ће вам бити откривене, а то може да укључи и одредбе о забрани конкурентности у сличној индустрији на неко одређено време. Although this is generally uncommon in the open-source industry, it may be required if you are given access to "secrets" like API keys, logins and the like.
+Уговор о поверљивости података је споразум, који ћете можда морати да потпишете, уколико ћете сарађивати са организацијом која има пословне тајне које би желела да заштити. Као један од потписника уговора, бићете у обавези да одржите тајност информација које ће вам бити откривене, а то може да укључи и одредбе о забрани конкурентности у сличној индустрији на неко одређено време. Иако је то неуобичајено за индустрију са отвореним кодом, може бити неопходно ако вам је дат приступ ''поверљивим стварима'' као што су API кључеви, логовања и слично.
 
-> If you are presented with a NDA, as with any contract, it is wise to read everything, ask questions and ask a lawyer for their opinion. Quasar вам никада неће захтевати да потпишете NDA.
+> Ако сте се сусрели са NDA, као и са сваким уговором, било би паметно да све прочитате и консултујете се са правником за његово мишљење. Quasar вам никада неће захтевати да потпишете NDA.
 
 ### Шта је то ''уговор о лиценцирању доприноса'' (eng. Contributor License Agreement)
 
-Уговор о лиценцирању доприноса је споразум између власника пројекта и оних који доприносе коду. As opposed to a NDA (which is restrictive), a CLA is "reciprocal" in that it is actually there to protect the rights of both owner and contributor. У складу са CLA, сарадници експлицитно дају власнику дозволу да користи њихов допринос и власник експлицитно дозвољава сарадницима да користе њихов допринос на начин који им одговара.
+Уговор о лиценцирању доприноса је споразум између власника пројекта и оних који доприносе коду. Супротно од NDA (који је рестриктиван), CLA је ''обостран'' у смислу да је ту да заштити права и власника и сарадника на пројекту. У складу са CLA, сарадници експлицитно дају власнику дозволу да користи њихов допринос и власник експлицитно дозвољава сарадницима да користе њихов допринос на начин који им одговара.
 
-However, many developers consider a CLA to be problematic because of the rights that they confer upon the owner, which include the ability to change the license of the code. [Here is a great writeup by gitlab](https://about.gitlab.com/2017/11/01/gitlab-switches-to-dco-license/) about why they switched from a CLA to a DCO - and here is their [in-depth analysis from a project-management perspective](https://docs.google.com/a/gitlab.com/document/d/1zpjDzL7yhGBZz3_7jCjWLfRQ1Jryg1mlIVmG8y6B1_Q/edit?usp=sharing).
+Ипак, многи девелопери сматрају CLA проблематичним због права која се преносе на власника, која укључују и могућност измене лиценце кода. [Овде се налази сјајан текст написан од стране gitlab-а](https://about.gitlab.com/2017/11/01/gitlab-switches-to-dco-license/) о томе зашто су се пребацили са CLA на DCO - и овде је њихова <[детаљна анализа из перспективе управљања пројектом](https://docs.google.com/a/gitlab.com/document/d/1zpjDzL7yhGBZz3_7jCjWLfRQ1Jryg1mlIVmG8y6B1_Q/edit?usp=sharing).
 
 ### Шта је то ''сертификат о пореклу'' (eng. Developer Certificate of Origin)
 
 Сертификат о пореклу је правна изјава од стране сарадника, где они потврђују да су лично направили одређени допринос и да имају легално право да допринесу том коду. Као у Gitlab примеру изнад, ово се обично ради у складу са лиценцом као што је MIT или Apache. Можете да прочитате целу лиценцу овде (кратка је): https://developercertificate.org/
 
-By adding the `signed-off-by` flag to your git commit, you are saying that you are acting in accordance with the DCO. Иако није неопходно за сваки допринос, то служи да обезбеди ''ланац одговорности'' у случају да нешто пође наопако. Best practice suggests using the real name of the contributor. Можете детаљније о томе прочитати овде: https://stackoverflow.com/a/1962112
+Додавањем `signed-off-by` ознаке вашем git доприносу, дајете до знања да радите у складу са DCO. Иако није неопходно за сваки допринос, то служи да обезбеди ''ланац одговорности'' у случају да нешто пође наопако. Најбоља пракса је коришћење правог имена сарадника. Можете детаљније о томе прочитати овде: https://stackoverflow.com/a/1962112
 
-Неке врсте IDE као [Webstorm](https://www.jetbrains.com/help/webstorm/2017.2/using-git-integration.html#commit) вам омогућавају да додате ову ознаку директно из радног прозора током прегледања вашег кода. It will add the following line to the end of the commit message: `Signed off by: <username>`
+Неке врсте IDE као [Webstorm](https://www.jetbrains.com/help/webstorm/2017.2/using-git-integration.html#commit) вам омогућавају да додате ову ознаку директно из радног прозора током прегледања вашег кода. То ће додати следећи текст на крају ваше поруке: `Signed off by: <username>`
 
-Please note, if the managers of the project you are working on ask you to sign off, check to make sure that they really want you to sign off with every commit, or if it is enough to sign-off on tags or PR's. Technically speaking, the person doing the merge is the one who is required to sign-off, but by adding your name to the individual commits it becomes clear who was really responsible for which changes. То је ствар укуса.
+Имајте у виду да, ако менаџери пројекта на ком радите желе да одступите, проверите да ли желе да одступите са свега што сте поставили, или је довољно да одступите са ознака или PR-ова. Технички гледано, од особе која обједињује код се захтева да одступи, али додавањем вашег имена на сваки индивидуални допринос, постаје јасно ко је одоговоран за које измене. То је ствар укуса.
 
-> At Quasar we ask you to sign-off on all commits.
+> У Quasar-у тражимо од вас да одступите са свих доприноса.
 
 ### Постаните ''верификован'' сарадник
 
-Верификовани сарадници на Github-у или Gitlab-у су девелопери који су додали GPG кључ свом налогу и користе га како би потписали свој допринос. Although it is not necessary for integration, some project managers may require it - especially since it is easier to steal someone's login credentials and modify a critical repository than it is steal their GPG key.
+Верификовани сарадници на Github-у или Gitlab-у су девелопери који су додали GPG кључ свом налогу и користе га како би потписали свој допринос. Иако није неопходно за интеграцију, неки менаџери могу то да захтевају - нарочито откад је постало лакше украсти нечије податке за пријављивање и изменити кључно складиште него украсти њихов GPG кључ.
 
 Следећи линкови ће вам показати како да креирате GPG кључ и да га користите на Github-у или Gitlab-у, по потреби.
 
@@ -183,9 +183,9 @@ Please note, if the managers of the project you are working on ask you to sign o
 - https://blog.github.com/2016-04-05-gpg-signature-verification/
 - https://stackoverflow.com/questions/10161198/is-there-a-way-to-autosign-commits-in-git-with-a-gpg-key
 
-### When do I need to get "release" forms
+### Када треба да набавим обрасце ''објављивања''
 
-A release form is generally required when making photographs of people and private property - and using them for any non-private purpose. Although specifics vary from jurisdiction to jurisdiction, it is very important that you get people to sign a release form, and if it is clear WHERE the picture was taken, then you might need to get permission of the owner.
+Образац објављивања је углавном неопходан код фотографисања људи и приватне својине - и коришћења тих фотографија у јавне сврхе. Иако се детаљи разликују од надлежности до надлежности, веома је важно да вам људи потпишу образац објављивања, и ако је јасно ГДЕ је фотографија направљена, онда је можда потребно да добијете дозволу власника.
 
 > One clever way to deal with a release form for humans (if they genuinely want to support you) is a so-called "reciprocal pay". Before the photo-shooting, prepare two receipts. On one receipt you pay them e.g. 5 EUR for being a model. On the other receipt, they pay you e.g. 5 EUR for a copy of the photograph. The rule (got the cash, keep the copy) applies, so each party has one original receipt and one copy receipt. You send them a digital copy of the final image as a link to the open-source repository where it was used, and note this on the copy of the receipt they gave you. Keep this in your own records, and everybody is happy.
 
