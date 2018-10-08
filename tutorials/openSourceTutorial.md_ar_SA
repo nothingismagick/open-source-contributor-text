@@ -136,9 +136,9 @@ Furthermore, I detected that only one of our libraries (stylint) requires a GPL 
 
 هذا ما يجب عليك فعله أيضًا. إذا لم يكن ملف الترخيص مدرجًا في المشروع أو لم تتمكنك من العثور عليه، فإن الاتصال بالمؤلف هو خيار حكيم.
 
-**A word of caution**: These automated systems are not foolproof (e.g. a module about license detection may detect multiple licenses, even though it is itself using another license). If you are bound by regulatory compliance, you need to go through them all by hand - and don't be afraid to reach out to the author if you need clarification - or even a different license. This is sometimes possible. Just remember, it's better to ask permission than forgiveness.
+**A word of caution**: These automated systems are not foolproof (e.g. a module about license detection may detect multiple licenses, even though it is itself using another license). إذا كنت مطالبًا بالامتثال لدواعي قانونية، فسيتعين عليك الاطلاع عليها يدويًا - ولا تتردد في التواصل مع المؤلف إذا كنت في حاجة إلى تفسير - أو حتى الحصول على ترخيص مختلف. في بعض الأحيان يمكن أن يحدث هذا. فقط تذكر، أن طلب الإذن يعد أفضل من الإعتذار.
 
-### Using open-source
+### استخدام المصدر المفتوح
 
 If you use anything that is open-source, you must declare its use and make the original licenses easily accessible. If you are using, for example, node modules in your project, then these licenses are available in the source code of the project when someone downloads the project files and "installs" the dependencies. You can usually find it as a file named `LICENSE` in the root folder or in the "license" field in the `package.json`
 
