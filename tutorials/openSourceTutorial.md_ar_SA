@@ -130,11 +130,11 @@ https://opensource.com/resources/what-open-source
     $ fossa report licenses > fossa.txt
     
 
-[هذا تقرير تم إنشاؤه بواسطة مستودع Quasar باستخدام مقاربة **fossa cli**](https://raw.githubusercontent.com/nothingismagick/quasar-articles/master/tutorials/fossa_report_licenses_quasar.txt.md) كما ترون، معظم الوحدات تستخدم ترخيص معهد ماساتشوستس للتكنولوجيا (MIT)، ولكن العديد منها غير واضح من التقرير وحده: لم يتم الكشف عن 15 من المشاريع تلقائيًا بواسطة **fossa**. I followed each of the links, tracked down their licenses, and made a note not only of the license, but that I was the one who did it.
+[هذا تقرير تم إنشاؤه بواسطة مستودع Quasar باستخدام مقاربة **fossa cli**](https://raw.githubusercontent.com/nothingismagick/quasar-articles/master/tutorials/fossa_report_licenses_quasar.txt.md) كما ترون، معظم الوحدات تستخدم ترخيص معهد ماساتشوستس للتكنولوجيا (MIT)، ولكن العديد منها غير واضح من التقرير وحده: لم يتم الكشف عن 15 من المشاريع تلقائيًا بواسطة **fossa**. لقد تابعت كل الروابط، وتتبعت تراخيصها، وقدمت ملاحظة ليس فقط للرخص، ولكن أيضًا عن حقيقة أنني من قام بذلك.
 
 Furthermore, I detected that only one of our libraries (stylint) requires a GPL license, but the developers have a license conflict in the declaration in the package.json (GPL-2) and the actual license file (GPL-3).
 
-That is what you will need to do as well. Should a license file not be included in the project, and you cannot find one, it is wise to contact the author.
+هذا ما يجب عليك فعله أيضًا. إذا لم يكن ملف الترخيص مدرجًا في المشروع أو لم تتمكنك من العثور عليه، فإن الاتصال بالمؤلف هو خيار حكيم.
 
 **A word of caution**: These automated systems are not foolproof (e.g. a module about license detection may detect multiple licenses, even though it is itself using another license). If you are bound by regulatory compliance, you need to go through them all by hand - and don't be afraid to reach out to the author if you need clarification - or even a different license. This is sometimes possible. Just remember, it's better to ask permission than forgiveness.
 
