@@ -140,7 +140,7 @@ Furthermore, I detected that only one of our libraries (stylint) requires a GPL 
 
 ### استخدام المصدر المفتوح
 
-إذا كنت تستخدم أي شيء مفتوح المصدر، عليك بالتصريع عن الأشياء التي يُستخدم فيها، إلى جانب تسهيل عملية الوصول إلى التراخيص الاصلية. If you are using, for example, node modules in your project, then these licenses are available in the source code of the project when someone downloads the project files and "installs" the dependencies. You can usually find it as a file named `LICENSE` in the root folder or in the "license" field in the `package.json`
+إذا كنت تستخدم أي شيء مفتوح المصدر، عليك بالتصريع عن الأشياء التي يُستخدم فيها، إلى جانب تسهيل عملية الوصول إلى التراخيص الاصلية. على سبيل المثال، إذا كنت تستخدم وحدات node في مشروعك، فستكون هذه التراخيص متوفرة في شفرة مصدر المشروع عندما يقوم شخص ما بتنزيل ملفات المشروع و "تثبيت" التبعيات. You can usually find it as a file named `LICENSE` in the root folder or in the "license" field in the `package.json`
 
 Generally this is enough, however if you make any changes to the original library, you may be required to notify and / or submit these changes back to the community. This depends on the license type, but we will cover licensing specifics in the final section.
 
