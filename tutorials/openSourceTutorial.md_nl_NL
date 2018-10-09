@@ -102,19 +102,19 @@ Er is vaak veel discussie over "hoe vrij om de code te maken". Ik stel voor dat 
 
 Als je **nee** hebt geantwoord op een van deze vragen, dan is het gebruik van een open source-licentie voor je werk een goede optie.
 
-If you answered **yes** to all of these questions, then considering licensing your work as open-source is probably still one of the best ways to protect your work and make sure that it has an impact on the rest of the world. Just think of it this way: if all of the software around you today was not open source, would you still be able to work as you do? Don't you owe it to the community to share your work?
+Als je **ja** op al deze vragen hebt geantwoord, dan is het overwegen van het licenseren van je werk als open source waarschijnlijk nog steeds een van de beste manieren om je werk te beschermen en ervoor te zorgen dat het een impact heeft op de rest van de wereld. Denk maar zo: als alle software om je heen niet open source was, zou je dan nog steeds kunnen werken zoals je dat doet? Ben je het niet aan de gemeenschap verplicht om je werk te delen?
 
-### Permissive vs. Protective licensing
+### Soepel versus Beschermend licenseren
 
-One of the common misconceptions about licensing your project with GPL is that it will prevent corporations from taking your idea and using it to make money - all without giving you any cut of the profits. This is patently untrue. If someone wants to steal your code and break the law, they will. If a corporation wants to use your GPL library, they can isolate it from the rest of their system and reveal nothing of their proprietary code. They can take your code, reverse engineer it and rewrite it. If this is your biggest concern, then stop, go back to the beginning of this tutorial and read carefully to decide if you want to participate in open-source - or merely profit from it.
+Een van de meest voorkomende misvattingen over het licenseren van je project met GPL is dat het bedrijven ervan weerhoudt om je idee te pakken en het te gebruiken om geld mee te verdienen - en dat alles zonder jou enige winst te geven. Dit is overduidelijk onwaar. Als iemand je code wil stelen en de wet wil overtreden, zal hij of zij dat toch doen. Als een bedrijf jouw GPL-bibliotheek wil gebruiken, kan het deze isoleren van de rest van het systeem en niets van hun eigen code onthullen. Zij kunnen je code pakken, reverse-engineeren en herschrijven. Als dit je grootste zorg is, stop dan, ga terug naar het begin van deze tutorial en lees zorgvuldig om te beslissen of je wilt deelnemen aan open source - of er alleen maar van wilt profiteren.
 
-MIT, BSD and Apache are what the open-source software community calls "permissive" licenses. Permissive means that the author is permitting you a great deal of rights to use the software they are sharing, even the right to use it for making a profit and changing it to suit your purposes. As long as you retain copies of the original license and inform those who are interested that you are using that particular software, then you can do anything with the code - even change it and not tell anyone you have done so.
+MIT, BSD en Apache zijn wat de open source-softwaregemeenschap "soepele" licenties noemt. Permissive means that the author is permitting you a great deal of rights to use the software they are sharing, even the right to use it for making a profit and changing it to suit your purposes. As long as you retain copies of the original license and inform those who are interested that you are using that particular software, then you can do anything with the code - even change it and not tell anyone you have done so.
 
 > Copyleft is the practice of offering people the right to freely distribute copies and modified versions of a work with the stipulation that the same rights be preserved in [derivative works](https://en.wikipedia.org/wiki/Derivative_works) created later. https://en.wikipedia.org/wiki/Copyleft
 
 This type of "protective" licensing goes beyond the "permissive" licensing seen with MIT and APACHE by seeking to protect the code and the community's rights. Any modifications made to the source code must be returned to the community, and you may not sublicense the code. GPL and CC-SA are two licenses that work this way.
 
-### License discovery and licensing requirements
+### Licenties ontdekken en licentievereisten
 
 Using open-source software in your projects is a great thing, but you need to stay diligent, especially when you are contributing work to another project. And this is doubly true if you are required to do reporting about license compliance (for example in the case of public agencies or within corporate legal firewalls). In any case, it can be a bit of a hassle to manually go through and track down all the license files.
 
