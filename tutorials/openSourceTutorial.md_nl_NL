@@ -89,15 +89,15 @@ Stallman en de "Free Software Foundation" (FSF), die waarschijnlijk het langst b
 
 Als men even voorbijgaat aan het vervelende feit dat *free* ook betekent "kost geen geld" (wat het belangrijkste argument was om het woord libre toe te voegen), is er nog steeds een onopgelost semantisch probleem, wat waarschijnlijk nooit zal worden opgelost:
 
-Afhankelijk van je perspectief is de Gnu Public License niet ABSOLUUT vrij, omdat het wordt geleverd met de eis dat je wijzigingen die je aanbrengt in de code terug moet geven aan de gemeenschap - en vrij zijn zou betekenen dat je kunt beslissen hoe je te werk gaat en wat je doet met de code die je gebruikt. Tegelijkertijd en op een ander spectrum zijn er mensen die de MIT-licentie niet helemaal vrij vinden. They do so because there are circumstances where the code can be permissibly changed and not returned to the community - in a sense "imprisoning" the code.
+Afhankelijk van je perspectief is de Gnu Public License niet ABSOLUUT vrij, omdat het wordt geleverd met de eis dat je wijzigingen die je aanbrengt in de code terug moet geven aan de gemeenschap - en vrij zijn zou betekenen dat je kunt beslissen hoe je te werk gaat en wat je doet met de code die je gebruikt. Tegelijkertijd en op een ander spectrum zijn er mensen die de MIT-licentie niet helemaal vrij vinden. Ze vinden dit omdat er omstandigheden zijn waarin de code op geoorloofde wijze kan worden gewijzigd en niet aan de gemeenschap kan worden teruggegeven - in zekere zin "gevangenneming" van de code.
 
-> There is no right or wrong answer here, because it is a matter of perspective - however every developer and every organisation needs to decide for themselves where they want to put the focus of their attention. At the Quasar Framework, we are not purists in the sense that we believe Code is in and of itself a spiritual being deserving of transferrable rights. If perhaps we were working on the Linux kernel that might be different - but we are more concerned with the human side of code and believe that the people who use our project should have the ultimate freedom of choice to do what they want. This is why we have taken the "permissive" approach and chosen the MIT license.
+> Er is hier geen goed of fout antwoord, want het is een kwestie van perspectief - maar elke ontwikkelaar en elke organisatie moet zelf beslissen waar ze de aandacht op willen richten. In het Quasar Framework zijn we geen puristen in de zin dat we geloven dat Code op zichzelf een spiritueel wezen is dat overdraagbare rechten verdient. Als we misschien aan de Linux-kernel zouden werken zou dat anders kunnen zijn - maar we zijn meer bezig met de menselijke kant van code en geloven dat de mensen die ons project gebruiken de ultieme keuzevrijheid moeten hebben om te doen wat ze willen. This is why we have taken the "permissive" approach and chosen the MIT license.
 
-There is often a great deal of discussion around "how free to make the code". I propose that you ask yourself four questions:
+Er is vaak veel discussie over "hoe vrij om de code te maken". Ik stel voor dat je jezelf vier vragen stelt:
 
-1. Do you prefer to work alone?
-2. Are you worried about people stealing your idea?
-3. Have you written all of the code yourself, including the libraries?
+1. Werk je liever alleen?
+2. Maak je je zorgen over mensen die je idee stelen?
+3. Heb je alle code zelf geschreven, inclusief de bibliotheken?
 4. Have you signed any type of Non Disclosure Agreement regarding the work in question?
 
 If you answered **no** to any of these questions, then using an open source license for your work is a great way to go.
