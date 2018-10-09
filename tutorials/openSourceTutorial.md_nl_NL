@@ -110,9 +110,9 @@ Een van de meest voorkomende misvattingen over het licenseren van je project met
 
 MIT, BSD en Apache zijn wat de open source-softwaregemeenschap "soepele" licenties noemt. Soepel betekent dat de auteur je veel rechten geeft om de software die ze delen te gebruiken, zelfs het recht om het te gebruiken voor het maken van winst en om het aan te passen aan je intenties. Zolang je kopieën van de originele licentie bewaart en de geïnteresseerden ervan op de hoogte brengt dat je die specifieke software gebruikt, kun je alles doen met de code - zelfs de code wijzigen en niemand vertellen dat je dat hebt gedaan.
 
-> Copyleft is the practice of offering people the right to freely distribute copies and modified versions of a work with the stipulation that the same rights be preserved in [derivative works](https://en.wikipedia.org/wiki/Derivative_works) created later. https://en.wikipedia.org/wiki/Copyleft
+> Copyleft is de praktijk van mensen het recht te bieden om vrijelijk kopieën en gewijzigde versies van een werk te verspreiden met de bepaling dat dezelfde rechten behouden blijven in [afgeleide werken](https://en.wikipedia.org/wiki/Derivative_works) die later worden gemaakt. https://en.wikipedia.org/wiki/Copyleft
 
-This type of "protective" licensing goes beyond the "permissive" licensing seen with MIT and APACHE by seeking to protect the code and the community's rights. Any modifications made to the source code must be returned to the community, and you may not sublicense the code. GPL and CC-SA are two licenses that work this way.
+Dit type van "beschermende" licenties gaat verder dan de "soepele" licenties zoals we zien met MIT en APACHE door te proberen de code en de rechten van de gemeenschap te beschermen. Alle wijzigingen aan de broncode moeten worden teruggegeven aan de gemeenschap, en je mag de code niet in sublicentie geven. GPL en CC-SA zijn twee licenties die op deze manier werken.
 
 ### Licenties ontdekken en licentievereisten
 
