@@ -130,7 +130,7 @@ Als je een licentierapport gegenereerd door de **fossa CLI** in je versie-contro
     $ fossa report licenses > fossa.txt
     
 
-[Hier is een rapport gemaakt van de Quasar versie-controle met behulp van de **fossa cli** aanpak.](https://raw.githubusercontent.com/nothingismagick/quasar-articles/master/tutorials/fossa_report_licenses_quasar.txt.md) Zoals je kunt zien, gebruiken de meeste modules de MIT-licentie, maar een aantal zijn niet duidelijk uit het rapport alleen: 15 van de projecten werden niet automatisch gedetecteerd door **fossa**. I followed each of the links, tracked down their licenses, and made a note not only of the license, but that I was the one who did it.
+[Hier is een rapport gemaakt van de Quasar versie-controle met behulp van de **fossa cli** aanpak.](https://raw.githubusercontent.com/nothingismagick/quasar-articles/master/tutorials/fossa_report_licenses_quasar.txt.md) Zoals je kunt zien, gebruiken de meeste modules de MIT-licentie, maar een aantal zijn niet duidelijk uit het rapport alleen: 15 van de projecten werden niet automatisch gedetecteerd door **fossa**. Ik volgde elk van de links, volgde hun licenties, en maakte niet alleen een aantekening van de licentie, maar ook dat ik degene was die het deed.
 
 Furthermore, I detected that only one of our libraries (stylint) requires a GPL license, but the developers have a license conflict in the declaration in the package.json (GPL-2) and the actual license file (GPL-3).
 
