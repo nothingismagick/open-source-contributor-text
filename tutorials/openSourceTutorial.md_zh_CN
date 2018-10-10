@@ -136,17 +136,17 @@ MIT、BSD 和 Apache 是开源软件社区所称的 "宽容性" 许可证。 “
 
 这也是你将需要做的。 如果许可证文件不包含在项目中, 并且你找不到, 那么与作者联系是明智的选择。
 
-**A word of caution**: These automated systems are not foolproof (e.g. a module about license detection may detect multiple licenses, even though it is itself using another license). If you are bound by regulatory compliance, you need to go through them all by hand - and don't be afraid to reach out to the author if you need clarification - or even a different license. This is sometimes possible. Just remember, it's better to ask permission than forgiveness.
+** 警示 **: 这些自动化系统不是万无一失的 (例如, 许可证检测模块可能会检测到多个许可证, 即使它本身使用的是其他许可证)。 如果你受到监管合规的约束, 你需要手动检查所有文件。如果你需要解释说明，或者甚至需要另一种许可证，都尽管去联系作者。 有时这是可能的。 记住, 请求许可比请求宽恕更好。
 
-### Using open-source
+### 使用开放源码
 
-If you use anything that is open-source, you must declare its use and make the original licenses easily accessible. If you are using, for example, node modules in your project, then these licenses are available in the source code of the project when someone downloads the project files and "installs" the dependencies. You can usually find it as a file named `LICENSE` in the root folder or in the "license" field in the `package.json`
+如果使用的是开源的任何内容, 则必须声明其使用, 并使原始许可证易于访问。 If you are using, for example, node modules in your project, then these licenses are available in the source code of the project when someone downloads the project files and "installs" the dependencies. 通常它在根文件夹中的文件名为 `LICENSE` ，或者你也可以在 `package.json` 中的 "许可证（license）" 字段里找到它。
 
-Generally this is enough, however if you make any changes to the original library, you may be required to notify and / or submit these changes back to the community. This depends on the license type, but we will cover licensing specifics in the final section.
+一般来说, 这就足够了。但如果你对原始库进行任何更改, 你可能需要通知和/或提交这些更改到社区。 这取决于许可证类型, 但我们将在最后一部分涵盖授权的具体内容。
 
 > **Stack Overflow**: A common pitfall is to merely copy and paste things that you find on stackoverflow.com - but this is dangerous, because even though it is implied that the user is sharing this information, you do not know with 100% certainty that it is appropriate (or permitted) to use the code example 1 to 1. The common practice of citing the resource is better than nothing, but you should really consider rewriting the example to fit your code style, the needs of your project AND reference the source as "inspiration".
 
-## Your Identity and Rights
+## 你的身份和权利
 
 ### What is a "Non-Disclosure Agreement" (NDA)
 
