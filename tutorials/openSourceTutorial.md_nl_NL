@@ -142,7 +142,7 @@ Dat is wat jij ook moet doen. Indien een licentiebestand niet in het project is 
 
 Als je iets gebruikt dat open source is, moet je het gebruik ervan verklaren en de originele licenties gemakkelijk toegankelijk maken. Als je bijvoorbeeld node-modules gebruikt in je project, dan zijn deze licenties beschikbaar in de broncode van het project wanneer iemand de projectbestanden downloadt en de afhankelijkheden "installeert". Je kunt het meestal vinden als een bestand met de naam `LICENSE` in de hoofdmap of in het veld "license" in de `package.json`
 
-Generally this is enough, however if you make any changes to the original library, you may be required to notify and / or submit these changes back to the community. This depends on the license type, but we will cover licensing specifics in the final section.
+Generally this is enough, however if you make any changes to the original library, you may be required to notify and / or submit these changes back to the community. Dit is afhankelijk van het type licentie, maar we behandelen de licentie-specificaties in het laatste deel.
 
 > **Stack Overflow**: A common pitfall is to merely copy and paste things that you find on stackoverflow.com - but this is dangerous, because even though it is implied that the user is sharing this information, you do not know with 100% certainty that it is appropriate (or permitted) to use the code example 1 to 1. The common practice of citing the resource is better than nothing, but you should really consider rewriting the example to fit your code style, the needs of your project AND reference the source as "inspiration".
 
@@ -150,7 +150,7 @@ Generally this is enough, however if you make any changes to the original librar
 
 ### Wat is een "geheimhoudingsovereenkomst" (NDA)
 
-A non-disclosure agreement is a contract that you may be required to sign if you will be working with an organisation that has trade secrets to protect. As the signee of the NDA, you will be bound by the contract to maintain secrecy about the information you have been given, and it may include clauses about non-competition in a similar industry for a specific amount of time. Although this is generally uncommon in the open-source industry, it may be required if you are given access to "secrets" like API keys, logins and the like.
+Een geheimhoudingsovereenkomst is een contract dat je mogelijk moet ondertekenen als je werkt met een organisatie die bedrijfsgeheimen te beschermen heeft. As the signee of the NDA, you will be bound by the contract to maintain secrecy about the information you have been given, and it may include clauses about non-competition in a similar industry for a specific amount of time. Although this is generally uncommon in the open-source industry, it may be required if you are given access to "secrets" like API keys, logins and the like.
 
 > If you are presented with a NDA, as with any contract, it is wise to read everything, ask questions and ask a lawyer for their opinion. Quasar zal nooit vereisen dat je een NDA ondertekent.
 
@@ -168,11 +168,11 @@ By adding the `signed-off-by` flag to your git commit, you are saying that you a
 
 Some IDE's, like [Webstorm](https://www.jetbrains.com/help/webstorm/2017.2/using-git-integration.html#commit), offer you the ability to add this flag directly from the commit window when you are reviewing your code. It will add the following line to the end of the commit message: `Signed off by: <username>`
 
-Please note, if the managers of the project you are working on ask you to sign off, check to make sure that they really want you to sign off with every commit, or if it is enough to sign-off on tags or PR's. Technically speaking, the person doing the merge is the one who is required to sign-off, but by adding your name to the individual commits it becomes clear who was really responsible for which changes. It is a matter of preference.
+Please note, if the managers of the project you are working on ask you to sign off, check to make sure that they really want you to sign off with every commit, or if it is enough to sign-off on tags or PR's. Technically speaking, the person doing the merge is the one who is required to sign-off, but by adding your name to the individual commits it becomes clear who was really responsible for which changes. Het is een kwestie van voorkeur.
 
-> At Quasar we ask you to sign-off on all commits.
+> Bij Quasar vragen wij je om alle commits af te tekenen.
 
-### Become a "verified" contributor
+### Word een "geverifieerde" bijdrager
 
 Verified contributors on Github or Gitlab are developers who have added a GPG key to their account and use this GPG key to sign their commits. Although it is not necessary for integration, some project managers may require it - especially since it is easier to steal someone's login credentials and modify a critical repository than it is steal their GPG key.
 
