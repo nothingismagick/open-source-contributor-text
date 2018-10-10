@@ -178,16 +178,16 @@ Github 或 Gitlab 上已通过审核的贡献者是为其帐户添加了GPG密�
 
 The following links will show you how to create a GPG key and use them with Github or Gitlab, as needed.
 
-- [Add a GPG Key to Github](https://help.github.com/articles/adding-a-new-gpg-key-to-your-github-account/)
-- [Signing commits on Gitlab](https://docs.gitlab.com/ee/user/project/repository/gpg_signed_commits/index.html)
+- [向 Github 添加一个GPG密钥](https://help.github.com/articles/adding-a-new-gpg-key-to-your-github-account/)
+- [在 Gitlab 上签署提交](https://docs.gitlab.com/ee/user/project/repository/gpg_signed_commits/index.html)
 - https://blog.github.com/2016-04-05-gpg-signature-verification/
 - https://stackoverflow.com/questions/10161198/is-there-a-way-to-autosign-commits-in-git-with-a-gpg-key
 
-### When do I need to get "release" forms
+### 何时需要获取“让渡”书
 
-A release form is generally required when making photographs of people and private property - and using them for any non-private purpose. Although specifics vary from jurisdiction to jurisdiction, it is very important that you get people to sign a release form, and if it is clear WHERE the picture was taken, then you might need to get permission of the owner.
+在给人和私有财产拍照片并将其用于任何非私人用途时, 通常需要让渡书。 虽然各管辖权的具体细节不同, 但让人们签署一份让渡书是非常重要的。如果照片的拍摄地点很清楚, 那么你可能需要获得所有者的许可。
 
-> One clever way to deal with a release form for humans (if they genuinely want to support you) is a so-called "reciprocal pay". Before the photo-shooting, prepare two receipts. On one receipt you pay them e.g. 5 EUR for being a model. On the other receipt, they pay you e.g. 5 EUR for a copy of the photograph. The rule (got the cash, keep the copy) applies, so each party has one original receipt and one copy receipt. You send them a digital copy of the final image as a link to the open-source repository where it was used, and note this on the copy of the receipt they gave you. Keep this in your own records, and everybody is happy.
+> 所谓的 "互惠薪酬" 是一种巧妙处理肖像让渡书 (如果他们确实想支持你) 的方式。 在拍摄前, 准备两张收据。 其中一张收据上写明你支付他们比如5欧元作为模特的酬劳。 在另一张收据上, 写明他们付给你比如5欧元购买照片副本。 规则 (得到现金, 保存副本) 适用, 所以每一方有一张原始收据和一张副本收据。 你将最终图像的数字副本的链接发送到使用它的开源代码库, 并在他们给你的收据副本上记下来。 将此保存在自己的记录里, 于是皆大欢喜。
 
 If you do use photographs of people that you have made and submit them to open source projects, you need to be able to prove that the person gave you permission, and you should keep their release form on file and available.
 
