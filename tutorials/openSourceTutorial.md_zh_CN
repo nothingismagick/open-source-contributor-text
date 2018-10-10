@@ -158,7 +158,7 @@ MIT、BSD 和 Apache 是开源软件社区所称的 "宽容性" 许可证。 “
 
 贡献者许可协议是项目所有者和代码贡献者之间的合约。 和保密协议 (这是限制性的) 正好相反, 贡献者许可协议是 "互惠" 的, 因为它实际上是在保护所有者和贡献者双方的权利。 在贡献者许可协议中，贡献者明确地允许所有者使用其贡献, 并且所有者明确地允许贡献者使用他们认为合适的贡献。
 
-但是, 许多开发人员认为贡献者许可协议是有问题的, 因为他们赋予所有者的权利中包括更改代码许可证的能力。 [Here is a great writeup by gitlab](https://about.gitlab.com/2017/11/01/gitlab-switches-to-dco-license/) about why they switched from a CLA to a DCO - and here is their [in-depth analysis from a project-management perspective](https://docs.google.com/a/gitlab.com/document/d/1zpjDzL7yhGBZz3_7jCjWLfRQ1Jryg1mlIVmG8y6B1_Q/edit?usp=sharing).
+但是, 许多开发人员认为贡献者许可协议是有问题的, 因为他们赋予所有者的权利中包括更改代码许可证的能力。 [ 这里是 gitlab 的一份很棒的报告书 ](https://about.gitlab.com/2017/11/01/gitlab-switches-to-dco-license/), 说明了他们为什么从贡献者许可协议切换到开发人员原产地证书 - 这是他们的 [ 项目管理角度的深入分析 ](https://docs.google.com/a/gitlab.com/document/d/1zpjDzL7yhGBZz3_7jCjWLfRQ1Jryg1mlIVmG8y6B1_Q/edit?usp=sharing)。
 
 ### 什么是 "开发人员原产地证书" (DCO)
 
