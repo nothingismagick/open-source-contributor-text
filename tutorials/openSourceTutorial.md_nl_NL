@@ -144,21 +144,21 @@ Als je iets gebruikt dat open source is, moet je het gebruik ervan verklaren en 
 
 Over het algemeen is dit voldoende, maar als je wijzigingen aanbrengt in de oorspronkelijke bibliotheek, kan het zijn dat je verplicht bent om deze wijzigingen te melden en/of terug te sturen naar de gemeenschap. Dit is afhankelijk van het type licentie, maar we behandelen de licentie-specificaties in het laatste deel.
 
-> **Stack Overflow**: A common pitfall is to merely copy and paste things that you find on stackoverflow.com - but this is dangerous, because even though it is implied that the user is sharing this information, you do not know with 100% certainty that it is appropriate (or permitted) to use the code example 1 to 1. The common practice of citing the resource is better than nothing, but you should really consider rewriting the example to fit your code style, the needs of your project AND reference the source as "inspiration".
+> **Stack Overflow**: Een veelvoorkomende valkuil is het kopiëren en plakken van dingen die je op stackoverflow.com vindt - maar dit is gevaarlijk, want ook al wordt gesuggereerd dat de gebruiker deze informatie deelt, je weet niet met 100% zekerheid dat het gepast (of toegestaan) is om de voorbeeld-code 1 op 1 te gebruiken. De gangbare praktijk van het citeren van de bron is beter dan niets, maar je moet echt overwegen om het voorbeeld te herschrijven zodat het past bij je codestijl, de behoeften van je project EN de bron als "inspiratie" te noemen.
 
 ## Je identiteit en rechten
 
 ### Wat is een "geheimhoudingsovereenkomst" (NDA)
 
-Een geheimhoudingsovereenkomst is een contract dat je mogelijk moet ondertekenen als je werkt met een organisatie die bedrijfsgeheimen te beschermen heeft. As the signee of the NDA, you will be bound by the contract to maintain secrecy about the information you have been given, and it may include clauses about non-competition in a similar industry for a specific amount of time. Although this is generally uncommon in the open-source industry, it may be required if you are given access to "secrets" like API keys, logins and the like.
+Een geheimhoudingsovereenkomst is een contract dat je mogelijk moet ondertekenen als je werkt met een organisatie die bedrijfsgeheimen te beschermen heeft. Als ondertekenaar van de NDA ben je vanwege het contract verplicht tot geheimhouding van de informatie die je hebt ontvangen, en het kan clausules bevatten over niet-concurrentiebeding in een soortgelijke sector gedurende een bepaalde periode. Hoewel dit over het algemeen ongewoon is in de open source-industrie, kan het nodig zijn als je toegang krijgt tot "geheimen" zoals API-sleutels, logins en dergelijke.
 
 > Als je een NDA krijgt voorgelegd is het, zoals bij elk contract, verstandig om alles te lezen, vragen te stellen en een advocaat om advies te vragen. Quasar zal nooit vereisen dat je een NDA ondertekent.
 
-### What is a "Contributor License Agreement" (CLA)
+### Wat is een "Bijdragerslicentieovereenkomst" (CLA)
 
-A Contributor License Agreement is a contract between the owner of a project and code contributors. As opposed to a NDA (which is restrictive), a CLA is "reciprocal" in that it is actually there to protect the rights of both owner and contributor. With a CLA, contributors explicitly give the owner permission to use the contribution, and owners explicitly permit the contributor to use their contributions as they see fit.
+Een bijdragerslicentieovereenkomst is een contract tussen de eigenaar van een project en de codebijdragers. In tegenstelling tot een NDA (die restrictief is), is een CLA "wederkerig" in die zin dat zij er eigenlijk is om de rechten van zowel de eigenaar als de bijdrager te beschermen. Met een CLA geven bijdragers expliciet toestemming aan de eigenaar om de bijdrage te gebruiken, en eigenaars geven de bijdrager expliciet toestemming om hun bijdragen naar eigen inzicht te gebruiken.
 
-However, many developers consider a CLA to be problematic because of the rights that they confer upon the owner, which include the ability to change the license of the code. [Here is a great writeup by gitlab](https://about.gitlab.com/2017/11/01/gitlab-switches-to-dco-license/) about why they switched from a CLA to a DCO - and here is their [in-depth analysis from a project-management perspective](https://docs.google.com/a/gitlab.com/document/d/1zpjDzL7yhGBZz3_7jCjWLfRQ1Jryg1mlIVmG8y6B1_Q/edit?usp=sharing).
+Veel ontwikkelaars vinden een CLA echter problematisch vanwege de rechten die zij aan de eigenaar toekennen, waaronder de mogelijkheid om de licentie van de code te wijzigen. [Here is a great writeup by gitlab](https://about.gitlab.com/2017/11/01/gitlab-switches-to-dco-license/) about why they switched from a CLA to a DCO - and here is their [in-depth analysis from a project-management perspective](https://docs.google.com/a/gitlab.com/document/d/1zpjDzL7yhGBZz3_7jCjWLfRQ1Jryg1mlIVmG8y6B1_Q/edit?usp=sharing).
 
 ### What is a "Developer Certificate of Origin" (DCO)
 
