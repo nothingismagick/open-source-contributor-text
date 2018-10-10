@@ -144,7 +144,7 @@ MIT、BSD 和 Apache 是开源软件社区所称的 "宽容性" 许可证。 “
 
 一般来说, 这就足够了。但如果你对原始库进行任何更改, 你可能需要通知和/或提交这些更改到社区。 这取决于许可证类型, 但我们将在最后一部分涵盖授权的具体内容。
 
-> **Stack Overflow**: A common pitfall is to merely copy and paste things that you find on stackoverflow.com - but this is dangerous, because even though it is implied that the user is sharing this information, you do not know with 100% certainty that it is appropriate (or permitted) to use the code example 1 to 1. 引用资源的常见做法比什么都没有好, 但是你确实应该考虑重写示例以适应自己的代码风格和项目需要，并将来源列为 "灵感"。
+> ** Stack Overflow **: 一个常见的陷阱是只复制和粘贴你在 stackoverflow.com 上找到的东西 - 但这是危险的, 因为即使它暗示用户共享此信息, 你也不能百分百确定使用1对1的代码示例是否适当 (或被允许) 。 引用资源的常见做法比什么都没有好, 但是你确实应该考虑重写示例以适应自己的代码风格和项目需要，并将来源列为 "灵感"。
 
 ## 你的身份和权利
 
@@ -152,11 +152,11 @@ MIT、BSD 和 Apache 是开源软件社区所称的 "宽容性" 许可证。 “
 
 保密协议是一份合同。如果你将与需要保护商业机密的组织合作, 就可能需要签署一份合约。 作为保密协议的签署人, 你将受到合同的约束, 以对提供给你的信息保密, 并且可能包括在特定时间段内类似行业中的非竞争条款。 尽管这在开源行业中通常是不常见的, 但如果你被授予访问 API 密钥、登录等 "机密" 的权限, 则可能需要签署协议。
 
-> If you are presented with a NDA, as with any contract, it is wise to read everything, ask questions and ask a lawyer for their opinion. Quasar 不会要求你签署保密协议。
+> 如果你面前有份保密协议, 就像对待任何合同 - 阅读一切条款、问问题并征求律师意见都是明智的。 Quasar 不会要求你签署保密协议。
 
 ### 什么是贡献者许可协议 (CLA)
 
-贡献者许可协议是项目所有者和代码贡献者之间的合约。 As opposed to a NDA (which is restrictive), a CLA is "reciprocal" in that it is actually there to protect the rights of both owner and contributor. 在贡献者许可协议中，贡献者明确地允许所有者使用其贡献, 并且所有者明确地允许贡献者使用他们认为合适的贡献。
+贡献者许可协议是项目所有者和代码贡献者之间的合约。 和保密协议 (这是限制性的) 正好相反, 贡献者许可协议是 "互惠" 的, 因为它实际上是在保护所有者和贡献者双方的权利。 在贡献者许可协议中，贡献者明确地允许所有者使用其贡献, 并且所有者明确地允许贡献者使用他们认为合适的贡献。
 
 但是, 许多开发人员认为贡献者许可协议是有问题的, 因为他们赋予所有者的权利中包括更改代码许可证的能力。 [Here is a great writeup by gitlab](https://about.gitlab.com/2017/11/01/gitlab-switches-to-dco-license/) about why they switched from a CLA to a DCO - and here is their [in-depth analysis from a project-management perspective](https://docs.google.com/a/gitlab.com/document/d/1zpjDzL7yhGBZz3_7jCjWLfRQ1Jryg1mlIVmG8y6B1_Q/edit?usp=sharing).
 
@@ -174,9 +174,9 @@ MIT、BSD 和 Apache 是开源软件社区所称的 "宽容性" 许可证。 “
 
 ### 成为一名“通过审核”的贡献者
 
-Github 或 Gitlab 上已通过审核的贡献者是为其帐户添加了GPG密钥的开发人员, 他们使用此GPG密钥对其提交进行签名。 Although it is not necessary for integration, some project managers may require it - especially since it is easier to steal someone's login credentials and modify a critical repository than it is steal their GPG key.
+Github 或 Gitlab 上已通过审核的贡献者是为其帐户添加了GPG密钥的开发人员, 他们使用此GPG密钥对其提交进行签名。 虽然这不是集成所要求的，但有些项目经理可能需要它 - 尤其是因为窃取他人的登录凭据并修改关键代码库比窃取其GPG密钥更容易。
 
-The following links will show you how to create a GPG key and use them with Github or Gitlab, as needed.
+下面的链接将展示如何创建一个GPG密钥, 并在需要时将其用于 Github 或 Gitlab。
 
 - [向 Github 添加一个GPG密钥](https://help.github.com/articles/adding-a-new-gpg-key-to-your-github-account/)
 - [在 Gitlab 上签署提交](https://docs.gitlab.com/ee/user/project/repository/gpg_signed_commits/index.html)
