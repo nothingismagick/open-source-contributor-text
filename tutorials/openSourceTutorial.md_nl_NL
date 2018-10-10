@@ -134,7 +134,7 @@ Als je een licentierapport gegenereerd door de **fossa CLI** in je versie-contro
 
 Furthermore, I detected that only one of our libraries (stylint) requires a GPL license, but the developers have a license conflict in the declaration in the package.json (GPL-2) and the actual license file (GPL-3).
 
-That is what you will need to do as well. Should a license file not be included in the project, and you cannot find one, it is wise to contact the author.
+Dat is wat jij ook moet doen. Should a license file not be included in the project, and you cannot find one, it is wise to contact the author.
 
 **A word of caution**: These automated systems are not foolproof (e.g. a module about license detection may detect multiple licenses, even though it is itself using another license). If you are bound by regulatory compliance, you need to go through them all by hand - and don't be afraid to reach out to the author if you need clarification - or even a different license. This is sometimes possible. Just remember, it's better to ask permission than forgiveness.
 
