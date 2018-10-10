@@ -148,33 +148,33 @@ MIT、BSD 和 Apache 是开源软件社区所称的 "宽容性" 许可证。 “
 
 ## 你的身份和权利
 
-### What is a "Non-Disclosure Agreement" (NDA)
+### 什么是 "保密协议" (NDA)
 
-A non-disclosure agreement is a contract that you may be required to sign if you will be working with an organisation that has trade secrets to protect. As the signee of the NDA, you will be bound by the contract to maintain secrecy about the information you have been given, and it may include clauses about non-competition in a similar industry for a specific amount of time. Although this is generally uncommon in the open-source industry, it may be required if you are given access to "secrets" like API keys, logins and the like.
+保密协议是一份合同。如果你将与需要保护商业机密的组织合作, 就可能需要签署一份合约。 作为保密协议的签署人, 你将受到合同的约束, 以对提供给你的信息保密, 并且可能包括在特定时间段内类似行业中的非竞争条款。 尽管这在开源行业中通常是不常见的, 但如果你被授予访问 API 密钥、登录等 "机密" 的权限, 则可能需要签署协议。
 
-> If you are presented with a NDA, as with any contract, it is wise to read everything, ask questions and ask a lawyer for their opinion. Quasar will never require you to sign an NDA.
+> If you are presented with a NDA, as with any contract, it is wise to read everything, ask questions and ask a lawyer for their opinion. Quasar 不会要求你签署保密协议。
 
-### What is a "Contributor License Agreement" (CLA)
+### 什么是贡献者许可协议 (CLA)
 
-A Contributor License Agreement is a contract between the owner of a project and code contributors. As opposed to a NDA (which is restrictive), a CLA is "reciprocal" in that it is actually there to protect the rights of both owner and contributor. With a CLA, contributors explicitly give the owner permission to use the contribution, and owners explicitly permit the contributor to use their contributions as they see fit.
+贡献者许可协议是项目所有者和代码贡献者之间的合约。 As opposed to a NDA (which is restrictive), a CLA is "reciprocal" in that it is actually there to protect the rights of both owner and contributor. 在贡献者许可协议中，贡献者明确地允许所有者使用其贡献, 并且所有者明确地允许贡献者使用他们认为合适的贡献。
 
-However, many developers consider a CLA to be problematic because of the rights that they confer upon the owner, which include the ability to change the license of the code. [Here is a great writeup by gitlab](https://about.gitlab.com/2017/11/01/gitlab-switches-to-dco-license/) about why they switched from a CLA to a DCO - and here is their [in-depth analysis from a project-management perspective](https://docs.google.com/a/gitlab.com/document/d/1zpjDzL7yhGBZz3_7jCjWLfRQ1Jryg1mlIVmG8y6B1_Q/edit?usp=sharing).
+但是, 许多开发人员认为贡献者许可协议是有问题的, 因为他们赋予所有者的权利中包括更改代码许可证的能力。 [Here is a great writeup by gitlab](https://about.gitlab.com/2017/11/01/gitlab-switches-to-dco-license/) about why they switched from a CLA to a DCO - and here is their [in-depth analysis from a project-management perspective](https://docs.google.com/a/gitlab.com/document/d/1zpjDzL7yhGBZz3_7jCjWLfRQ1Jryg1mlIVmG8y6B1_Q/edit?usp=sharing).
 
-### What is a "Developer Certificate of Origin" (DCO)
+### 什么是 "开发人员原产地证书" (DCO)
 
-A Developer Certificate of Origin is a legal statement made by a contributor where they certify that they themselves have authored the contribution and that they have legal authority to contribute this code. As with the Gitlab example above, this is usually made in combination with a license such as MIT or Apache. You can read the entire license here (it's brief): https://developercertificate.org/
+开发人员原产地证书是由贡献者作出的一项法律声明, 他们证明自己撰写了该项贡献, 而且他们有法律权力来贡献这一代码。 正如上述Gitlab的例子，这通常与MIT或Apache之类的许可证结合在一起。 你可以在此阅读整个许可证 (很简短): https://developercertificate.org/
 
-By adding the `signed-off-by` flag to your git commit, you are saying that you are acting in accordance with the DCO. Although not necessary for every commit, it is there to provide a sort of "blame-chain" in case things go wrong. Best practice suggests using the real name of the contributor. You can read more about the details of doing this here: https://stackoverflow.com/a/1962112
+将 ` signed-off-by ` 标志添加到Git提交, 意味着你在根据开发人员原产地证书操作。 虽然不是每一次提交都有必要, 但是它在提供一种 "责任链", 以防事情出错。 最佳实践建议使用贡献者的真实姓名。 在此你可以阅读更多执行此操作的详细信息: https://stackoverflow.com/a/1962112
 
-Some IDE's, like [Webstorm](https://www.jetbrains.com/help/webstorm/2017.2/using-git-integration.html#commit), offer you the ability to add this flag directly from the commit window when you are reviewing your code. It will add the following line to the end of the commit message: `Signed off by: <username>`
+某些 IDE (比如 [ Webstorm ](https://www.jetbrains.com/help/webstorm/2017.2/using-git-integration.html#commit))，可为你提供在审阅代码时直接从提交窗口添加此标志的功能。 它将在提交消息的末尾添加以下行: ` Signed off by: <username> `
 
-Please note, if the managers of the project you are working on ask you to sign off, check to make sure that they really want you to sign off with every commit, or if it is enough to sign-off on tags or PR's. Technically speaking, the person doing the merge is the one who is required to sign-off, but by adding your name to the individual commits it becomes clear who was really responsible for which changes. It is a matter of preference.
+请注意, 如果你正在处理的项目的经理要求你签名，务必核对，明确他们确实是希望你签署每项提交, 还是只需签署标签或PR's就可以。 从技术上讲, 进行合并的人是需要签名的人, 但通过添加你的姓名到单次提交中, 就可以清楚地知道谁对哪些更改负有责任。 这是一个喜好的问题。
 
-> At Quasar we ask you to sign-off on all commits.
+> 在Quasar, 我们要求你签署所有提交。
 
-### Become a "verified" contributor
+### 成为一名“通过审核”的贡献者
 
-Verified contributors on Github or Gitlab are developers who have added a GPG key to their account and use this GPG key to sign their commits. Although it is not necessary for integration, some project managers may require it - especially since it is easier to steal someone's login credentials and modify a critical repository than it is steal their GPG key.
+Github 或 Gitlab 上已通过审核的贡献者是为其帐户添加了GPG密钥的开发人员, 他们使用此GPG密钥对其提交进行签名。 Although it is not necessary for integration, some project managers may require it - especially since it is easier to steal someone's login credentials and modify a critical repository than it is steal their GPG key.
 
 The following links will show you how to create a GPG key and use them with Github or Gitlab, as needed.
 
