@@ -132,15 +132,15 @@ Als je een licentierapport gegenereerd door de **fossa CLI** in je versie-contro
 
 [Hier is een rapport gemaakt van de Quasar versie-controle met behulp van de **fossa cli** aanpak.](https://raw.githubusercontent.com/nothingismagick/quasar-articles/master/tutorials/fossa_report_licenses_quasar.txt.md) Zoals je kunt zien, gebruiken de meeste modules de MIT-licentie, maar een aantal zijn niet duidelijk uit het rapport alleen: 15 van de projecten werden niet automatisch gedetecteerd door **fossa**. Ik volgde elk van de links, volgde hun licenties, en maakte niet alleen een aantekening van de licentie, maar ook dat ik degene was die het deed.
 
-Furthermore, I detected that only one of our libraries (stylint) requires a GPL license, but the developers have a license conflict in the declaration in the package.json (GPL-2) and the actual license file (GPL-3).
+Verder ontdekte ik dat slechts één van onze bibliotheken (stylint) een GPL-licentie nodig heeft, maar de ontwikkelaars hebben een licentieconflict in de verklaring in de package.json (GPL-2) en het eigenlijke licentiebestand (GPL-3).
 
-Dat is wat jij ook moet doen. Should a license file not be included in the project, and you cannot find one, it is wise to contact the author.
+Dat is wat jij ook moet doen. Indien een licentiebestand niet in het project is opgenomen en je kunt er geen vinden, is het verstandig om contact op te nemen met de auteur.
 
-**A word of caution**: These automated systems are not foolproof (e.g. a module about license detection may detect multiple licenses, even though it is itself using another license). If you are bound by regulatory compliance, you need to go through them all by hand - and don't be afraid to reach out to the author if you need clarification - or even a different license. This is sometimes possible. Just remember, it's better to ask permission than forgiveness.
+**Een waarschuwing**: Deze geautomatiseerde systemen zijn niet waterdicht (zo kan een module over licentiedetectie meerdere licenties detecteren, ook al gebruikt hij zelf een andere licentie). Als je gebonden bent aan de naleving van regelgeving, moet je ze allemaal met de hand doornemen - en wees niet bang om de auteur te benaderen als je opheldering nodig hebt - of zelfs een andere licentie. Dit is soms mogelijk. Vergeet niet dat het beter is om toestemming te vragen dan om vergeving.
 
-### Using open-source
+### Gebruik van open source
 
-If you use anything that is open-source, you must declare its use and make the original licenses easily accessible. If you are using, for example, node modules in your project, then these licenses are available in the source code of the project when someone downloads the project files and "installs" the dependencies. You can usually find it as a file named `LICENSE` in the root folder or in the "license" field in the `package.json`
+Als je iets gebruikt dat open source is, moet je het gebruik ervan verklaren en de originele licenties gemakkelijk toegankelijk maken. Als je bijvoorbeeld node-modules gebruikt in je project, dan zijn deze licenties beschikbaar in de broncode van het project wanneer iemand de projectbestanden downloadt en de afhankelijkheden "installeert". You can usually find it as a file named `LICENSE` in the root folder or in the "license" field in the `package.json`
 
 Generally this is enough, however if you make any changes to the original library, you may be required to notify and / or submit these changes back to the community. This depends on the license type, but we will cover licensing specifics in the final section.
 
