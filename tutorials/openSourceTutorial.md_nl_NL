@@ -140,7 +140,7 @@ Dat is wat jij ook moet doen. Indien een licentiebestand niet in het project is 
 
 ### Gebruik van open source
 
-Als je iets gebruikt dat open source is, moet je het gebruik ervan verklaren en de originele licenties gemakkelijk toegankelijk maken. Als je bijvoorbeeld node-modules gebruikt in je project, dan zijn deze licenties beschikbaar in de broncode van het project wanneer iemand de projectbestanden downloadt en de afhankelijkheden "installeert". You can usually find it as a file named `LICENSE` in the root folder or in the "license" field in the `package.json`
+Als je iets gebruikt dat open source is, moet je het gebruik ervan verklaren en de originele licenties gemakkelijk toegankelijk maken. Als je bijvoorbeeld node-modules gebruikt in je project, dan zijn deze licenties beschikbaar in de broncode van het project wanneer iemand de projectbestanden downloadt en de afhankelijkheden "installeert". Je kunt het meestal vinden als een bestand met de naam `LICENSE` in de hoofdmap of in het veld "license" in de `package.json`
 
 Generally this is enough, however if you make any changes to the original library, you may be required to notify and / or submit these changes back to the community. This depends on the license type, but we will cover licensing specifics in the final section.
 
