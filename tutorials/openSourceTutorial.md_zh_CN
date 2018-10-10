@@ -140,11 +140,11 @@ MIT、BSD 和 Apache 是开源软件社区所称的 "宽容性" 许可证。 “
 
 ### 使用开放源码
 
-如果使用的是开源的任何内容, 则必须声明其使用, 并使原始许可证易于访问。 If you are using, for example, node modules in your project, then these licenses are available in the source code of the project when someone downloads the project files and "installs" the dependencies. 通常它在根文件夹中的文件名为 `LICENSE` ，或者你也可以在 `package.json` 中的 "许可证（license）" 字段里找到它。
+如果使用的是开源的任何内容, 则必须声明其使用, 并使原始许可证易于访问。 例如, 如果你正在使用项目中的node模块, 则当有人下载项目文件并 "安装" 依赖项时, 这些许可证在项目的源代码中就是可用的。 通常它在根文件夹中的文件名为 `LICENSE` ，或者你也可以在 `package.json` 中的 "许可证（license）" 字段里找到它。
 
 一般来说, 这就足够了。但如果你对原始库进行任何更改, 你可能需要通知和/或提交这些更改到社区。 这取决于许可证类型, 但我们将在最后一部分涵盖授权的具体内容。
 
-> **Stack Overflow**: A common pitfall is to merely copy and paste things that you find on stackoverflow.com - but this is dangerous, because even though it is implied that the user is sharing this information, you do not know with 100% certainty that it is appropriate (or permitted) to use the code example 1 to 1. The common practice of citing the resource is better than nothing, but you should really consider rewriting the example to fit your code style, the needs of your project AND reference the source as "inspiration".
+> **Stack Overflow**: A common pitfall is to merely copy and paste things that you find on stackoverflow.com - but this is dangerous, because even though it is implied that the user is sharing this information, you do not know with 100% certainty that it is appropriate (or permitted) to use the code example 1 to 1. 引用资源的常见做法比什么都没有好, 但是你确实应该考虑重写示例以适应自己的代码风格和项目需要，并将来源列为 "灵感"。
 
 ## 你的身份和权利
 
