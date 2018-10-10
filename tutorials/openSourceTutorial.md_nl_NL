@@ -142,7 +142,7 @@ Dat is wat jij ook moet doen. Indien een licentiebestand niet in het project is 
 
 Als je iets gebruikt dat open source is, moet je het gebruik ervan verklaren en de originele licenties gemakkelijk toegankelijk maken. Als je bijvoorbeeld node-modules gebruikt in je project, dan zijn deze licenties beschikbaar in de broncode van het project wanneer iemand de projectbestanden downloadt en de afhankelijkheden "installeert". Je kunt het meestal vinden als een bestand met de naam `LICENSE` in de hoofdmap of in het veld "license" in de `package.json`
 
-Generally this is enough, however if you make any changes to the original library, you may be required to notify and / or submit these changes back to the community. Dit is afhankelijk van het type licentie, maar we behandelen de licentie-specificaties in het laatste deel.
+Over het algemeen is dit voldoende, maar als je wijzigingen aanbrengt in de oorspronkelijke bibliotheek, kan het zijn dat je verplicht bent om deze wijzigingen te melden en/of terug te sturen naar de gemeenschap. Dit is afhankelijk van het type licentie, maar we behandelen de licentie-specificaties in het laatste deel.
 
 > **Stack Overflow**: A common pitfall is to merely copy and paste things that you find on stackoverflow.com - but this is dangerous, because even though it is implied that the user is sharing this information, you do not know with 100% certainty that it is appropriate (or permitted) to use the code example 1 to 1. The common practice of citing the resource is better than nothing, but you should really consider rewriting the example to fit your code style, the needs of your project AND reference the source as "inspiration".
 
@@ -152,7 +152,7 @@ Generally this is enough, however if you make any changes to the original librar
 
 Een geheimhoudingsovereenkomst is een contract dat je mogelijk moet ondertekenen als je werkt met een organisatie die bedrijfsgeheimen te beschermen heeft. As the signee of the NDA, you will be bound by the contract to maintain secrecy about the information you have been given, and it may include clauses about non-competition in a similar industry for a specific amount of time. Although this is generally uncommon in the open-source industry, it may be required if you are given access to "secrets" like API keys, logins and the like.
 
-> If you are presented with a NDA, as with any contract, it is wise to read everything, ask questions and ask a lawyer for their opinion. Quasar zal nooit vereisen dat je een NDA ondertekent.
+> Als je een NDA krijgt voorgelegd is het, zoals bij elk contract, verstandig om alles te lezen, vragen te stellen en een advocaat om advies te vragen. Quasar zal nooit vereisen dat je een NDA ondertekent.
 
 ### What is a "Contributor License Agreement" (CLA)
 
