@@ -184,7 +184,7 @@ Dealing with provenance for designers is important, as rights to visual images a
 ## License Types
 
 ### Major licenses for code
-This introduction cannot possibly explain the subtle differences between all of the different licenses for code, because there are dozens. A license is added to code by either placing a reference to it in the header of the file being licensed in the case of distributables, in a LICENSE file in the root level of a repository, in the README about the project and potentially in the package.json (if using node).
+This introduction cannot possibly explain the subtle differences between all of the different licenses for code, because there are dozens. A license is added to code by either placing a reference to it in the header of the file being licensed in the case of distributables, in a LICENSE file in the root level of a repository, in the README about the project or potentially in the package.json (if using node).
 
 If you skipped ahead and didn't read the earlier chapters, here is a quick recap of the three main license types and a popular example of each, along with two links that go into more detail and analysis.
 
