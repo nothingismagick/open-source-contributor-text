@@ -203,7 +203,7 @@ Per i designer è importante gestire la provenienza, in quanto i diritti sulle i
 
 ### Principali licenze per il codice
 
-Questa introduzione non può spiegare le sottili differenze tra tutte le diverse licenze per il codice, perché ce ne sono decine. Una licenza viene aggiunta al codice inserendo un riferimento ad essa nell'intestazione del file per cui si sta creando la licenza nel caso dei distribuibili, in un file LICENSE nel livello principale di un repository, nel README riguardante il progetto e potenzialmente nel package.json (se si sta usando node).
+Questa introduzione non può spiegare le sottili differenze tra tutte le diverse licenze per il codice, perché ce ne sono decine. A license is added to code by either placing a reference to it in the header of the file being licensed in the case of distributables, in a LICENSE file in the root level of a repository, in the README about the project or potentially in the package.json (if using node).
 
 Se avete saltato qualche parte e non avete letto i capitoli precedenti, ecco un rapido riassunto dei tre principali tipi di licenza e un esempio popolare di ciascuno di essi, insieme a due link che vanno più in dettaglio e analisi.
 
