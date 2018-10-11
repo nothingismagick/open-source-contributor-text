@@ -140,15 +140,15 @@ https://opensource.com/resources/what-open-source
 
 ### استخدام المصدر المفتوح
 
-إذا كنت تستخدم أي شيء مفتوح المصدر، عليك بالتصريع عن الأشياء التي يُستخدم فيها، إلى جانب تسهيل عملية الوصول إلى التراخيص الاصلية. على سبيل المثال، إذا كنت تستخدم وحدات node في مشروعك، فستكون هذه التراخيص متوفرة في شفرة مصدر المشروع عندما يقوم شخص ما بتنزيل ملفات المشروع و "تثبيت" التبعيات. You can usually find it as a file named `LICENSE` in the root folder or in the "license" field in the `package.json`
+إذا كنت تستخدم أي شيء مفتوح المصدر، عليك بالتصريع عن الأشياء التي يُستخدم فيها، إلى جانب تسهيل عملية الوصول إلى التراخيص الاصلية. على سبيل المثال، إذا كنت تستخدم وحدات node في مشروعك، فستكون هذه التراخيص متوفرة في شفرة مصدر المشروع عندما يقوم شخص ما بتنزيل ملفات المشروع و "تثبيت" التبعيات. يمكنك عادةً العثور عليه كملف يسمى `LICENSE` في المجلد الجذر أو في حقل الترخيص "license" في `package.json`
 
-Generally this is enough, however if you make any changes to the original library, you may be required to notify and / or submit these changes back to the community. This depends on the license type, but we will cover licensing specifics in the final section.
+عادة ما يكون هذا كافياً، لكن مع ذلك إذا قمت بإجراء تعديلات على المكتبة الأصلية، فقد تحتاج إلى إبلاغ و/ أو إرسال هذه التعديلات إلى المجتمع. يعتمد هذا على نوع الترخيص، لكننا سنغطي مواصفات الترخيص في القسم الأخير.
 
-> **Stack Overflow**: A common pitfall is to merely copy and paste things that you find on stackoverflow.com - but this is dangerous, because even though it is implied that the user is sharing this information, you do not know with 100% certainty that it is appropriate (or permitted) to use the code example 1 to 1. The common practice of citing the resource is better than nothing, but you should really consider rewriting the example to fit your code style, the needs of your project AND reference the source as "inspiration".
+> **Stack Overflow**: من الشائع نسخ ولصق الأشياء الموجودة على stackoverflow.com - ولكن هذا أمر خطير، لأنه حتى لو كان ذلك يعني ضمنا أن المستخدم يشارك هذه المعلومات، فلا يمكنك التأكد بنسبة 100٪ إذا كان من المناسب (أو المسموح به) استخدام مثال الشفرة 1 إلى 1. إن الممارسة الشائعة المتمثلة في ذكر المصدر أفضل من لا شيء، ولكن يجب عليك أن تفكر في إعادة كتابة المثال لتكييفه مع نمط شفرتك، واحتياجات مشروعك، واستشهد بالمصدر على أنه "مصدر إلهام".
 
-## Your Identity and Rights
+## هويتك وحقوقك
 
-### What is a "Non-Disclosure Agreement" (NDA)
+### ما هي "اتفاقية عدم الإفصاح" (NDA)
 
 A non-disclosure agreement is a contract that you may be required to sign if you will be working with an organisation that has trade secrets to protect. As the signee of the NDA, you will be bound by the contract to maintain secrecy about the information you have been given, and it may include clauses about non-competition in a similar industry for a specific amount of time. Although this is generally uncommon in the open-source industry, it may be required if you are given access to "secrets" like API keys, logins and the like.
 
