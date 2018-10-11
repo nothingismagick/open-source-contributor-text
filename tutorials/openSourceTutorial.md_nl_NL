@@ -195,25 +195,25 @@ Als je foto's gebruikt van mensen die jij hebt gemaakt en ze indient voor open s
 
 Herkomst is een woord dat de geschiedenis van een werk beschrijft. Code die wordt gedeeld onder een open source-licentie en binnen de context van een git-repository documenteert min of meer zichzelf. Beelden zijn minder voor de hand liggend, en het is vooral lastig bij digitale collages die een aantal bronnen combineren.
 
-Dealing with provenance for designers is important, as rights to visual images are hotly contested and often times lead to legal battles. Even if only public-domain resources are being used, it is still a good practice to record your work in a provenance document. This type of document is like the bibliography in a scientific paper, in which the ideas and authors are recorded. Although there is no "standardised" approach, the best method is to not only record the sources and the times accessed, but also track down the licenses for each component. If you want an example of this, feel free to look at the citations section [in this graphics breakdown](https://busy.org/@nothingismagick/qcensus2018-campaign-graphics-breakdown) written in the @utopian-io style.
+De omgang met herkomst van ontwerpers is belangrijk, omdat de rechten op visuele beelden fel worden bestreden en vaak leiden tot juridische gevechten. Zelfs als er alleen publieke domein-bronnen worden gebruikt, is het nog steeds een goede gewoonte om je werk vast te leggen in een herkomstdocument. Dit type document is als de bibliografie in een wetenschappelijk artikel, waarin de ideeën en auteurs zijn vastgelegd. Hoewel er geen "gestandaardiseerde" aanpak is, is de beste methode om niet alleen de bronnen en de tijden waarop ze zijn geraadpleegd vast te leggen, maar ook de licenties voor elk onderdeel op te sporen. Als je hier een voorbeeld van wilt hebben, kijk dan gerust naar de sectie citaten [in deze uitsplitsing van een afbeelding](https://busy.org/@nothingismagick/qcensus2018-campaign-graphics-breakdown) geschreven in de @utopian-io stijl.
 
-> The last thing anyone wants is a legal battle because it drains resources like time and money. If you are contributing to an open-source project, make sure that you are not putting them in hot-water. At Quasar, you can rest assured that the Art Department takes this VERY seriously, and violations of this trust are likely to lead to blacklisting or hammerbanning.
+> Het laatste wat iedereen wil is een juridische strijd omdat het middelen als tijd en geld uitput. Als je bijdraagt aan een open source-project, zorg er dan voor dat je ze niet in de problemen brengt. Bij Quasar, kun je er zeker van zijn dat de kunstafdeling dit zeer serieus neemt en dat schendingen van dit vertrouwen waarschijnlijk zullen leiden tot een plek op de zwarte lijst of een ban.
 
-## License Types
+## Licensiesoorten
 
-### Major licenses for code
+### Belangrijkste licenties voor code
 
-This introduction cannot possibly explain the subtle differences between all of the different licenses for code, because there are dozens. A license is added to code by either placing a reference to it in the header of the file being licensed in the case of distributables, in a LICENSE file in the root level of a repository, in the README about the project or potentially in the package.json (if using node).
+Deze inleiding kan onmogelijk de subtiele verschillen tussen alle verschillende licenties voor code uitleggen, want er zijn er tientallen. A license is added to code by either placing a reference to it in the header of the file being licensed in the case of distributables, in a LICENSE file in the root level of a repository, in the README about the project or potentially in the package.json (if using node).
 
-If you skipped ahead and didn't read the earlier chapters, here is a quick recap of the three main license types and a popular example of each, along with two links that go into more detail and analysis.
+Als je vooruit bent gesprongen en de eerdere hoofdstukken niet hebt gelezen, dan is hier een snelle samenvatting van de drie belangrijkste licentietypen en een populair voorbeeld van elk, samen met twee links die verder gaan in detail en analyse.
 
-- **Permissive**: [MIT](http://www.opensource.org/licenses/MIT)
-- **Protective**: [GPL-3](https://www.gnu.org/licenses/gpl-3.0.en.html)
-- **Public Domain**: [WTFPL](http://www.wtfpl.net/)
-- [Github's License Helper](https://choosealicense.com/)
-- [The exhaustive list by the GNU Foundation](https://www.gnu.org/licenses/license-list.html)
+- **Soepel**: [MIT](http://www.opensource.org/licenses/MIT)
+- **Beschermend**: [GPL-3](https://www.gnu.org/licenses/gpl-3.0.en.html)
+- **Publiek Domein**: [WTFPL](http://www.wtfpl.net/)
+- [Github's Licentiehulp](https://choosealicense.com/)
+- [De uitputtende lijst van de GNU Foundation](https://www.gnu.org/licenses/license-list.html)
 
-> At the Quasar Framework all contributions to the core libraries are required to be MIT. By contributing anything, you are agreeing to this license.
+> In het Quasar Framework moeten alle bijdragen aan de kernbibliotheken MIT zijn. By contributing anything, you are agreeing to this license.
 
 ### Important licenses for text / documentation
 
