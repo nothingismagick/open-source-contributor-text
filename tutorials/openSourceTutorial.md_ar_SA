@@ -123,7 +123,7 @@ https://opensource.com/resources/what-open-source
     $ nlf --summary detail > nlf.txt
     
 
-[Here is a report made from the Quasar repo using the **nlf** approach.](https://raw.githubusercontent.com/nothingismagick/quasar-articles/master/tutorials/nlf_report_licenses_quasar.txt.md)
+[هنا تقرير صادر عن مستودع Quasar باستخدام مقاربة**nlf**.](https://raw.githubusercontent.com/nothingismagick/quasar-articles/master/tutorials/nlf_report_licenses_quasar.txt.md)
 
 إذا كنت ترغب في عرض تقرير ترخيص تم إنشاؤه بواسطة **fossa CLI** في مستودعك، بعد اتباع إرشادات التثبيت الخاصة بهم، يمكنك ببساطة استخدام هذا الأمر:
 
@@ -136,7 +136,7 @@ https://opensource.com/resources/what-open-source
 
 هذا ما يجب عليك فعله أيضًا. إذا لم يكن ملف الترخيص مدرجًا في المشروع أو لم تتمكنك من العثور عليه، فإن الاتصال بالمؤلف هو خيار حكيم.
 
-**A word of caution**: These automated systems are not foolproof (e.g. a module about license detection may detect multiple licenses, even though it is itself using another license). إذا كنت مطالبًا بالامتثال لدواعي قانونية، فسيتعين عليك الاطلاع عليها يدويًا - ولا تتردد في التواصل مع المؤلف إذا كنت في حاجة إلى تفسير - أو حتى الحصول على ترخيص مختلف. في بعض الأحيان يمكن أن يحدث هذا. فقط تذكر، أن طلب الإذن يعد أفضل من الإعتذار.
+**تحذير**: هذه الأنظمة الآلية يمكن أن تكون عرضة للوقوع في الأخطاء (على سبيل المثال، يمكن لوحدة اكتشاف التراخيص أن تكتشف تراخيص متعددة، حتى إذا كانت هي نفسها تستخدم ترخيصاً أخر). إذا كنت مطالبًا بالامتثال لدواعي قانونية، فسيتعين عليك الاطلاع عليها يدويًا - ولا تتردد في التواصل مع المؤلف إذا كنت في حاجة إلى تفسير - أو حتى الحصول على ترخيص مختلف. في بعض الأحيان يمكن أن يحدث هذا. فقط تذكر، أن طلب الإذن يعد أفضل من الإعتذار.
 
 ### استخدام المصدر المفتوح
 
