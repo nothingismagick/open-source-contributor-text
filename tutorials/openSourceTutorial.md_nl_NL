@@ -213,47 +213,47 @@ Als je vooruit bent gesprongen en de eerdere hoofdstukken niet hebt gelezen, dan
 - [Github's Licentiehulp](https://choosealicense.com/)
 - [De uitputtende lijst van de GNU Foundation](https://www.gnu.org/licenses/license-list.html)
 
-> In het Quasar Framework moeten alle bijdragen aan de kernbibliotheken MIT zijn. By contributing anything, you are agreeing to this license.
+> In het Quasar Framework moeten alle bijdragen aan de kernbibliotheken MIT zijn. Door iets bij te dragen, ga je akkoord met deze licentie.
 
-### Important licenses for text / documentation
+### Belangrijke licenties voor tekst / documentatie
 
-Text and documentation is also a creative work, and is also generally protected under copyright laws. You can transfer these rights to third parties or to project owners to whom you will be giving your contributions by choosing either a Creative Commons resource or the Free Document License.
+Tekst en documentatie is ook een creatief werk en wordt over het algemeen ook beschermd door het auteursrecht. Je kunt deze rechten overdragen aan derden of aan projecteigenaren aan wie je jouw bijdragen levert door te kiezen voor een Creative Commons-bron of de Free Document License.
 
-It is considered best practice to name the license and author(s) at the end of the document being licensed.
+Het wordt als best practice beschouwd om de licentie en de auteur(s) te noemen aan het einde van het document waarvoor de licentie wordt verleend.
 
 - [Creative Commons](https://creativecommons.org/)
 - [Free Documentation License](https://www.gnu.org/licenses/fdl.html)
 
-> At the Quasar Framework all documentation is (or will be) licensed under the FDL.
+> Bij het Quasar Framework is (of wordt) alle documentatie gelicenseerd onder de FDL.
 
-### Licensing artwork / design / video
+### Licenseren van kunstwerk / ontwerp / video
 
-There are literally as many legal regulations for this type of contribution as there are countries on the planet, so it is absolutely inappropriate to go into detail about how things are different from nation to nation. No matter what, the person that made the image can never lose the right to say that they were the owner (unless an absolutely draconian contract prevents it - and in some cases this won't stand up in court). This is why there is one common rule that will : Cite the author and name the license. If you can't do that, then don't use the asset.
+Er zijn letterlijk evenveel wettelijke regels voor dit soort bijdragen als er landen op aarde zijn, dus het is absoluut ongepast om in detail te treden over hoe de zaken van land tot land verschillen. Hoe dan ook, de persoon die het beeld heeft gemaakt kan nooit het recht verliezen om te zeggen dat hij of zij de eigenaar was (tenzij een absoluut draconisch contract dit verhindert - en in sommige gevallen zal dit geen stand houden in een rechtbank). Dit is de reden waarom er één algemene regel is die geldt: vermeld de auteur en noem de licentie. Als je dat niet kunt doen, gebruik het dan niet.
 
-Depending on where and how the contribution is to be used, there are a number of ways in which this citation can be made:
+Afhankelijk van waar en hoe de bijdrage zal worden gebruikt, zijn er een aantal manieren waarop die verwijzing kan worden gemaakt:
 
-1. Name the file accordingly
-2. Put license information in a watermark in the file
-3. Inject the information into the metadata of the file
-4. Cite the image sources / licenses directly after the image if possible
-5. Put this same information in a footnote / endnote / linked document
-6. Place license information or licenses and release form-cover-sheets in the repository in the same folder as the image or some other delegated location
+1. Noem het bestand naar behoren
+2. Zet licentie-informatie in een watermerk in het bestand
+3. Injecteer de informatie in de metadata van het bestand
+4. Vermeld de afbeeldingsbronnen/licenties zo mogelijk direct na de afbeelding
+5. Zet dezelfde informatie in een voetnoot / eindnoot / gelinkt document
+6. Plaats licentie-informatie of licenties en release-formulieren in de repository in dezelfde map als de afbeelding of een andere gedelegeerde locatie
 
-Common licenses to use for Images / Designs / Videos are:
+Veelgebruikte licenties om te gebruiken voor afbeeldingen / ontwerpen / video's zijn:
 
 - [Creative Commons](https://creativecommons.org/)
-- [Public Domain / CC0](https://creativecommons.org/share-your-work/public-domain/cc0/)
+- [Publiek Domein / CC0](https://creativecommons.org/share-your-work/public-domain/cc0/)
 - [Apache v2](https://apache.org/licenses/LICENSE-2.0)
 
-> Quasar prefers CC-BY or CC0 licenses.
+> Quasar geeft de voorkeur aan CC-BY of CC0-licenties.
 
-### Font licenses
+### Lettertype-licenties
 
-Of the hundreds of fonts listed at [Google Fonts](https://fonts.google.com/attribution), there are exactly two different licenses used: Either the Apache License v2, or the SIL Open Font License v1.1. The vast majority are OFL, and it is basically the same type of permissive license as MIT.
+Van de honderden lettertypen in [Google Fonts](https://fonts.google.com/attribution) zijn er precies twee verschillende licenties gebruikt: Ofwel de Apache License v2, ofwel de SIL Open Font License v1.1. De overgrote meerderheid is OFL, en het is in principe hetzelfde type soepele licentie als MIT.
 
-If you are using a font, you need to make sure that you really have the license for it, as some professional font forges will sell different types of licenses depending on the application. (As in one license for desktop publishing, another for websites, etc.) If you are using an open-source font, best-practice is to put a copy of the license in the folder where you are maintaining your fonts.
+Als je een lettertype gebruikt, moet je er zeker van zijn dat je er echt een licentie voor hebt, aangezien sommige professionele lettertype-webshops verschillende soorten licenties zullen verkopen, afhankelijk van de toepassing. (Zoals een licentie voor desktop-publicaties, een andere voor websites, enz.) Als je een open source-lettertype gebruikt, is het de beste praktijk om een kopie van de licentie te plaatsen in de map waar je je lettertypen onderhoudt.
 
-Furthermore, some services like FontSquirrel offer a [WebfontGenerator](https://www.fontsquirrel.com/tools/webfont-generator) that enables designers to make a set of font-files so that individual browsers can select the type that they are most well-equipped to use. They require you to verify that you have the right to convert the font to other formats. The SIL OFL does permit this. If there is no license that you can find, assume that you do not have the right to use the font.
+Bovendien bieden sommige diensten zoals FontSquirrel een [WebfontGenerator](https://www.fontsquirrel.com/tools/webfont-generator) aan die ontwerpers in staat stelt om een set lettertype-bestanden te maken zodat individuele browsers het type kunnen selecteren waar ze het best voor zijn uitgerust om te gebruiken. They require you to verify that you have the right to convert the font to other formats. The SIL OFL does permit this. If there is no license that you can find, assume that you do not have the right to use the font.
 
 - [OFL-FAQ web version (1.1-update5)](https://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web)
 
