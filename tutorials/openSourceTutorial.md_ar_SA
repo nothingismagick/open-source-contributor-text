@@ -166,7 +166,7 @@ https://opensource.com/resources/what-open-source
 
 بإضافة العلامة `موقع بواسطة (signed-off-by)` في التزام git الخاص بك، فإنك تقول أنك تتصرف وفقًا لشهادة المنشأ للمطور (DCO). على الرغم من أنها ليست ضرورية لكل التزام، إلا أنها موجودة لتقدم "سلسلة لَوْم" في حالة حدوث خطأ ما. من الممارسات الجيدة استخدام الاسم الحقيقي للمساهم. يمكنك معرفة المزيد من التفاصيل حول هذه العملية من هنا: https://stackoverflow.com/a/1962112
 
-Some IDE's, like [Webstorm](https://www.jetbrains.com/help/webstorm/2017.2/using-git-integration.html#commit), offer you the ability to add this flag directly from the commit window when you are reviewing your code. It will add the following line to the end of the commit message: `Signed off by: <username>`
+تمنحك بعض بيئاة التطوير المتكاملة (IDE's)، مثل [Webstorm](https://www.jetbrains.com/help/webstorm/2017.2/using-git-integration.html#commit) القدرة على إضافة هذه العلامة مباشرة من نافذة الالتزام أثناء مراجعة الشفرة الخاصة بك. It will add the following line to the end of the commit message: `Signed off by: <username>`
 
 Please note, if the managers of the project you are working on ask you to sign off, check to make sure that they really want you to sign off with every commit, or if it is enough to sign-off on tags or PR's. Technically speaking, the person doing the merge is the one who is required to sign-off, but by adding your name to the individual commits it becomes clear who was really responsible for which changes. It is a matter of preference.
 
