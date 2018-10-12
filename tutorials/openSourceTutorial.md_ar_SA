@@ -150,11 +150,11 @@ https://opensource.com/resources/what-open-source
 
 ### ما هي "اتفاقية عدم الإفصاح" (NDA)
 
-اتفاقية عدم الإفصاح هي عقد قد يُطلب منك توقيعه إذا كنت تعمل مع منظمة لديها أسرار تجارية لحمايتها. بصفتك أحد الموقعين على اتفاقية عدم الإفصاح، سوف تكون ملزمًا بالعقد للحفاظ على سرية المعلومات التي تحصلت عليها، وقد تتضمن بنودًا متعلقة بعدم المنافسة في حقل مشابه لفترة زمنية محددة. Although this is generally uncommon in the open-source industry, it may be required if you are given access to "secrets" like API keys, logins and the like.
+اتفاقية عدم الإفصاح هي عقد قد يُطلب منك توقيعه إذا كنت تعمل مع منظمة لديها أسرار تجارية لحمايتها. بصفتك أحد الموقعين على اتفاقية عدم الإفصاح، سوف تكون ملزمًا بالعقد للحفاظ على سرية المعلومات التي تحصلت عليها، وقد تتضمن بنودًا متعلقة بعدم المنافسة في حقل مشابه لفترة زمنية محددة. على الرغم من أن هذا الأمر يعد عادةً أمرا نادر الحصول في صناعة المصادر المفتوحة، إلا أنه قد يكون مطلوبًا إذا أعطي لك حق الولوج إلى "أسرار" معينة مثل ما هو الحال مع مفاتيح واجهة برمجة التطبيقات (API)، وبيانات اعتماد تسجيل الدخول، وما شابه ذلك.
 
-> If you are presented with a NDA, as with any contract, it is wise to read everything, ask questions and ask a lawyer for their opinion. Quasar will never require you to sign an NDA.
+> إذا عرضت عليك اتفاقية عدم إفصاح لإمضائها، كما هو الحال مع أي عقد، فمن الحكمة قراءة كل شيء وطرح الأسئلة وطلب المشورة من أحد المحامين. لن يطلب منك Quasar أبداً توقيع اتفاقية عدم الإفصاح.
 
-### What is a "Contributor License Agreement" (CLA)
+### ما هي "اتفاقية ترخيص المساهم" (CLA)
 
 A Contributor License Agreement is a contract between the owner of a project and code contributors. As opposed to a NDA (which is restrictive), a CLA is "reciprocal" in that it is actually there to protect the rights of both owner and contributor. With a CLA, contributors explicitly give the owner permission to use the contribution, and owners explicitly permit the contributor to use their contributions as they see fit.
 
