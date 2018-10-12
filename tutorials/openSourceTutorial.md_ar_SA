@@ -158,9 +158,9 @@ https://opensource.com/resources/what-open-source
 
 اتفاقية ترخيص المساهم هي عقد بين مالك المشروع والمساهمين في الشفرة. على خلاف اتفاقية عدم الإفصاح (التي تكون مقيدة)، فإن اتفاقية ترخيص المساهم (CLA) "تبادلية" وهي في الحقيقة موجودة لحماية حقوق المالك والمساهم معاً. مع اتفاقية ترخيص المساهم (CLA)، يمنح المساهمون تصريح للمالك لاستخدام المساهمة، ويسمح المالكون بشكل واضح للمساهمين باستخدام مساهماتهم حسب ما يرونه مناسبًا.
 
-ومع ذلك، يعتقد العديد من المطورين أن اتفاقية ترخيص المساهم (CLA) تمثل مشكلة بسبب الحقوق التي تمنحها للمالك، خاصة تلك الحقوق التي تتضمن القدرة على تغيير ترخيص الشفرة. [Here is a great writeup by gitlab](https://about.gitlab.com/2017/11/01/gitlab-switches-to-dco-license/) about why they switched from a CLA to a DCO - and here is their [in-depth analysis from a project-management perspective](https://docs.google.com/a/gitlab.com/document/d/1zpjDzL7yhGBZz3_7jCjWLfRQ1Jryg1mlIVmG8y6B1_Q/edit?usp=sharing).
+ومع ذلك، يعتقد العديد من المطورين أن اتفاقية ترخيص المساهم (CLA) تمثل مشكلة بسبب الحقوق التي تمنحها للمالك، خاصة تلك الحقوق التي تتضمن القدرة على تغيير ترخيص الشفرة. [ إليك تقرير ممتاز من gitlab](https://about.gitlab.com/2017/11/01/gitlab-switches-to-dco-license/) عن سبب انتقالهم من اتفاقيةمن إعتماد ترخيص المساهم (CLA) إلى شهادة المنشأ للمطور (DCO) - ويمكنك أن تجد هنا [تحليل معملق لوجهة نظر إدارة المشروع فيما يخص هذا الأمر](https://docs.google.com/a/gitlab.com/document/d/1zpjDzL7yhGBZz3_7jCjWLfRQ1Jryg1mlIVmG8y6B1_Q/edit?usp=sharing).
 
-### What is a "Developer Certificate of Origin" (DCO)
+### ما هي "شهادة المنشأ للمطور" (DCO)
 
 A Developer Certificate of Origin is a legal statement made by a contributor where they certify that they themselves have authored the contribution and that they have legal authority to contribute this code. As with the Gitlab example above, this is usually made in combination with a license such as MIT or Apache. You can read the entire license here (it's brief): https://developercertificate.org/
 
