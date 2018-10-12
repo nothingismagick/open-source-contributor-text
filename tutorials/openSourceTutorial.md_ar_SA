@@ -164,7 +164,7 @@ https://opensource.com/resources/what-open-source
 
 شهادة المنشأ للمطوِّر، هي مذكرة قانونية صادرة عن أحد المساهمين يشهد فيها بأنه صاحب المساهمة وأنه يتمتع بالسلطة القانونية للإسهام في هذه الشفرة. كما هو الحال مع مثال Gitlab أعلاه، عادة ما يتم ذلك مع ترخيص مثل ترخيص معهد ماساتشوستس للتكنولوجيا (MIT) أو ترخيص أباتشي (APACHE). يمكنك قراءة الرخصة الكاملة هنا (انها قصيرة): https://developercertificate.org/
 
-بإضافة العلامة `موقع بواسطة (signed-off-by)` في التزام git الخاص بك، فإنك تقول أنك تتصرف وفقًا لشهادة المنشأ للمطور (DCO). Although not necessary for every commit, it is there to provide a sort of "blame-chain" in case things go wrong. Best practice suggests using the real name of the contributor. You can read more about the details of doing this here: https://stackoverflow.com/a/1962112
+بإضافة العلامة `موقع بواسطة (signed-off-by)` في التزام git الخاص بك، فإنك تقول أنك تتصرف وفقًا لشهادة المنشأ للمطور (DCO). على الرغم من أنها ليست ضرورية لكل التزام، إلا أنها موجودة لتقدم "سلسلة لَوْم" في حالة حدوث خطأ ما. من الممارسات الجيدة استخدام الاسم الحقيقي للمساهم. يمكنك معرفة المزيد من التفاصيل حول هذه العملية من هنا: https://stackoverflow.com/a/1962112
 
 Some IDE's, like [Webstorm](https://www.jetbrains.com/help/webstorm/2017.2/using-git-integration.html#commit), offer you the ability to add this flag directly from the commit window when you are reviewing your code. It will add the following line to the end of the commit message: `Signed off by: <username>`
 
