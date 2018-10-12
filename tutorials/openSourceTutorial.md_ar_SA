@@ -150,7 +150,7 @@ https://opensource.com/resources/what-open-source
 
 ### ما هي "اتفاقية عدم الإفصاح" (NDA)
 
-A non-disclosure agreement is a contract that you may be required to sign if you will be working with an organisation that has trade secrets to protect. As the signee of the NDA, you will be bound by the contract to maintain secrecy about the information you have been given, and it may include clauses about non-competition in a similar industry for a specific amount of time. Although this is generally uncommon in the open-source industry, it may be required if you are given access to "secrets" like API keys, logins and the like.
+اتفاقية عدم الإفصاح هي عقد قد يُطلب منك توقيعه إذا كنت تعمل مع منظمة لديها أسرار تجارية لحمايتها. As the signee of the NDA, you will be bound by the contract to maintain secrecy about the information you have been given, and it may include clauses about non-competition in a similar industry for a specific amount of time. Although this is generally uncommon in the open-source industry, it may be required if you are given access to "secrets" like API keys, logins and the like.
 
 > If you are presented with a NDA, as with any contract, it is wise to read everything, ask questions and ask a lawyer for their opinion. Quasar will never require you to sign an NDA.
 
