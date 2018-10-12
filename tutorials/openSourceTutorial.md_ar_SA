@@ -156,9 +156,9 @@ https://opensource.com/resources/what-open-source
 
 ### ما هي "اتفاقية ترخيص المساهم" (CLA)
 
-A Contributor License Agreement is a contract between the owner of a project and code contributors. As opposed to a NDA (which is restrictive), a CLA is "reciprocal" in that it is actually there to protect the rights of both owner and contributor. With a CLA, contributors explicitly give the owner permission to use the contribution, and owners explicitly permit the contributor to use their contributions as they see fit.
+اتفاقية ترخيص المساهم هي عقد بين مالك المشروع والمساهمين في الشفرة. على خلاف اتفاقية عدم الإفصاح (التي تكون مقيدة)، فإن اتفاقية ترخيص المساهم (CLA) "تبادلية" وهي في الحقيقة موجودة لحماية حقوق المالك والمساهم معاً. مع اتفاقية ترخيص المساهم (CLA)، يمنح المساهمون تصريح للمالك لاستخدام المساهمة، ويسمح المالكون بشكل واضح للمساهمين باستخدام مساهماتهم حسب ما يرونه مناسبًا.
 
-However, many developers consider a CLA to be problematic because of the rights that they confer upon the owner, which include the ability to change the license of the code. [Here is a great writeup by gitlab](https://about.gitlab.com/2017/11/01/gitlab-switches-to-dco-license/) about why they switched from a CLA to a DCO - and here is their [in-depth analysis from a project-management perspective](https://docs.google.com/a/gitlab.com/document/d/1zpjDzL7yhGBZz3_7jCjWLfRQ1Jryg1mlIVmG8y6B1_Q/edit?usp=sharing).
+ومع ذلك، يعتقد العديد من المطورين أن اتفاقية ترخيص المساهم (CLA) تمثل مشكلة بسبب الحقوق التي تمنحها للمالك، خاصة تلك الحقوق التي تتضمن القدرة على تغيير ترخيص الشفرة. [Here is a great writeup by gitlab](https://about.gitlab.com/2017/11/01/gitlab-switches-to-dco-license/) about why they switched from a CLA to a DCO - and here is their [in-depth analysis from a project-management perspective](https://docs.google.com/a/gitlab.com/document/d/1zpjDzL7yhGBZz3_7jCjWLfRQ1Jryg1mlIVmG8y6B1_Q/edit?usp=sharing).
 
 ### What is a "Developer Certificate of Origin" (DCO)
 
