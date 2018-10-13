@@ -174,26 +174,26 @@ https://opensource.com/resources/what-open-source
 
 ### كن مساهمًا "موثوقا"
 
-Verified contributors on Github or Gitlab are developers who have added a GPG key to their account and use this GPG key to sign their commits. Although it is not necessary for integration, some project managers may require it - especially since it is easier to steal someone's login credentials and modify a critical repository than it is steal their GPG key.
+المساهمون الذين تم التحقق منهم على Github أو Gitlab هم المطورين الذين أضافوا مفتاح حارس خصوصيّة جنو (GPG) إلى حسابهم واستخدموا هذا المفتاح للتوقيع على إلتزاماتهم. على الرغم من أنه ليس ضروريًا للتكامل، فقد يطلب بعض مديري المشاريع ذلك - خاصة أنه من الأسهل سرقة بيانات اعتماد تسجيل الدخول لشخص ما وتعديل مستودع هام بدلاً من سرقة مفتاح حارس خصوصية جنو (GPG) الخاص بهم.
 
-The following links will show you how to create a GPG key and use them with Github or Gitlab, as needed.
+ستوضح لك الروابط التالية كيفية إنشاء مفتاح حارس خصوصية جنو (GPG) واستخدامه مع Github أو Gitlab، حسب الحاجة.
 
-- [Add a GPG Key to Github](https://help.github.com/articles/adding-a-new-gpg-key-to-your-github-account/)
-- [Signing commits on Gitlab](https://docs.gitlab.com/ee/user/project/repository/gpg_signed_commits/index.html)
+- [إضافة مفتاح حارس خصوصية جنو (GPG) إلى Github](https://help.github.com/articles/adding-a-new-gpg-key-to-your-github-account/)
+- [توقيع الإلتزامات في Gitlab](https://docs.gitlab.com/ee/user/project/repository/gpg_signed_commits/index.html)
 - https://blog.github.com/2016-04-05-gpg-signature-verification/
 - https://stackoverflow.com/questions/10161198/is-there-a-way-to-autosign-commits-in-git-with-a-gpg-key
 
-### When do I need to get "release" forms
+### متى أحتاج إلى الحصول على نماذج "الإصدار"
 
-A release form is generally required when making photographs of people and private property - and using them for any non-private purpose. Although specifics vary from jurisdiction to jurisdiction, it is very important that you get people to sign a release form, and if it is clear WHERE the picture was taken, then you might need to get permission of the owner.
+عادة ما يكون نموذج الإصدار مطلوبًا عند التقاط صور للأشخاص والممتلكات الخاصة - واستخدامها لأي أغراض غير خاصة. Although specifics vary from jurisdiction to jurisdiction, it is very important that you get people to sign a release form, and if it is clear WHERE the picture was taken, then you might need to get permission of the owner.
 
 > One clever way to deal with a release form for humans (if they genuinely want to support you) is a so-called "reciprocal pay". Before the photo-shooting, prepare two receipts. On one receipt you pay them e.g. 5 EUR for being a model. On the other receipt, they pay you e.g. 5 EUR for a copy of the photograph. The rule (got the cash, keep the copy) applies, so each party has one original receipt and one copy receipt. You send them a digital copy of the final image as a link to the open-source repository where it was used, and note this on the copy of the receipt they gave you. Keep this in your own records, and everybody is happy.
 
 If you do use photographs of people that you have made and submit them to open source projects, you need to be able to prove that the person gave you permission, and you should keep their release form on file and available.
 
-### How can I document "provenance"
+### كيف يمكنني توثيق "المصدر"
 
-Provenance is a word that describes the history of a work. Code that is shared under an open-source license and within the context of a git repository is more or less self-documenting. Images are less obvious, and it is especially tricky with digital-collage works that combine a number of resources.
+المصدر (Provenance) هي كلمة تصف تاريخ عمل ما. Code that is shared under an open-source license and within the context of a git repository is more or less self-documenting. Images are less obvious, and it is especially tricky with digital-collage works that combine a number of resources.
 
 Dealing with provenance for designers is important, as rights to visual images are hotly contested and often times lead to legal battles. Even if only public-domain resources are being used, it is still a good practice to record your work in a provenance document. This type of document is like the bibliography in a scientific paper, in which the ideas and authors are recorded. Although there is no "standardised" approach, the best method is to not only record the sources and the times accessed, but also track down the licenses for each component. If you want an example of this, feel free to look at the citations section [in this graphics breakdown](https://busy.org/@nothingismagick/qcensus2018-campaign-graphics-breakdown) written in the @utopian-io style.
 
