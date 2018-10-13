@@ -166,13 +166,13 @@ https://opensource.com/resources/what-open-source
 
 بإضافة العلامة `موقع بواسطة (signed-off-by)` في التزام git الخاص بك، فإنك تقول أنك تتصرف وفقًا لشهادة المنشأ للمطور (DCO). على الرغم من أنها ليست ضرورية لكل التزام، إلا أنها موجودة لتقدم "سلسلة لَوْم" في حالة حدوث خطأ ما. من الممارسات الجيدة استخدام الاسم الحقيقي للمساهم. يمكنك معرفة المزيد من التفاصيل حول هذه العملية من هنا: https://stackoverflow.com/a/1962112
 
-تمنحك بعض بيئاة التطوير المتكاملة (IDE's)، مثل [Webstorm](https://www.jetbrains.com/help/webstorm/2017.2/using-git-integration.html#commit) القدرة على إضافة هذه العلامة مباشرة من نافذة الالتزام أثناء مراجعة الشفرة الخاصة بك. It will add the following line to the end of the commit message: `Signed off by: <username>`
+تمنحك بعض بيئاة التطوير المتكاملة (IDE's)، مثل [Webstorm](https://www.jetbrains.com/help/webstorm/2017.2/using-git-integration.html#commit) القدرة على إضافة هذه العلامة مباشرة من نافذة الالتزام أثناء مراجعة الشفرة الخاصة بك. سيضاف هذا السطر التالي في نهاية رسالة الالتزام: `موقع بواسطة (signed off by): <username>`
 
-Please note, if the managers of the project you are working on ask you to sign off, check to make sure that they really want you to sign off with every commit, or if it is enough to sign-off on tags or PR's. Technically speaking, the person doing the merge is the one who is required to sign-off, but by adding your name to the individual commits it becomes clear who was really responsible for which changes. It is a matter of preference.
+يرجى ملاحظة أنه إذا طلب منك مدراء المشروع الذي تعمل عليه التوقيع، فتحقق مما إذا كانوا يريدون منك التوقيع على كل التزام، أو إذا كان يكفي فقط التوقيع على الوسوم أو طلبات السحب (PR's). من الناحية الفنية، الشخص الذي يقوم بعملية الدمج هو الشخص الذي يتطلب منه التوقيع، ولكن إضافة اسمك إلى الإلتزامات الفردية سيوضح بشكل اكثر دقة من كان المسؤول عن كل تعديل. إنها مسألة تفضيل.
 
-> At Quasar we ask you to sign-off on all commits.
+> في Quasar نطلب منك التوقيع على جميع الإلتزامات.
 
-### Become a "verified" contributor
+### كن مساهمًا "موثوقا"
 
 Verified contributors on Github or Gitlab are developers who have added a GPG key to their account and use this GPG key to sign their commits. Although it is not necessary for integration, some project managers may require it - especially since it is easier to steal someone's login credentials and modify a critical repository than it is steal their GPG key.
 
