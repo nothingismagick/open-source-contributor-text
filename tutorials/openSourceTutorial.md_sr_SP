@@ -195,7 +195,7 @@ MIT, BSD и Apache су оно што заједница отвореног ко
 
 Порекло је реч која описује прошлост дела. Код који је подељен у оквиру лиценце отвореног кода и у складу са контекстом git складишта је мање-више самодокументован. Слике су мање очигледне, и нарочито је незгодно у случају са дигиталним колажима који представљају комбинацију више извора.
 
-За дизајнере је битно бављење пореклом, јер су права на слике јако спорна и често доводе до правних сукоба. Even if only public-domain resources are being used, it is still a good practice to record your work in a provenance document. Ова врста документа је као библиографија у научном чланку, где су забележене идеје и аутори. Иако не постоји ''стандардизован'' приступ, најбољи метод би био не само да забележите изворе и времена приступа, већ такође да проверите лиценцу за сваку компоненту. Ако желите пример, слободно погледајте одељак са цитатима [у овој графичком приказу](https://busy.org/@nothingismagick/qcensus2018-campaign-graphics-breakdown) написаном у стилу @utopian-io.
+За дизајнере је битно бављење пореклом, јер су права на слике јако спорна и често доводе до правних сукоба. Чак иако су само коришћени извори из јавног домена, опет је добра пракса забележити ваш рад у документу о пореклу. Ова врста документа је као библиографија у научном чланку, где су забележене идеје и аутори. Иако не постоји ''стандардизован'' приступ, најбољи метод би био не само да забележите изворе и времена приступа, већ такође да проверите лиценцу за сваку компоненту. Ако желите пример, слободно погледајте одељак са цитатима [у овој графичком приказу](https://busy.org/@nothingismagick/qcensus2018-campaign-graphics-breakdown) написаном у стилу @utopian-io.
 
 > Последња ствар коју ико жели је правни сукоб, јер троши ресурсе као што су време и новац. Уколико сарађујете на пројекту отвореног кода, потрудите се да га не доводите у незгодну ситуацију. At Quasar, you can rest assured that the Art Department takes this VERY seriously, and violations of this trust are likely to lead to blacklisting or hammerbanning.
 
@@ -228,54 +228,54 @@ MIT, BSD и Apache су оно што заједница отвореног ко
 
 ### Лиценцирање цртежа / дизајна / видео снимака
 
-Буквално, постоји онолико законских регулатива које се односе на тип овог доприноса колико и држава на свету, тако да је заиста непотребно да залазимо у детаље о томе шта се све разликује од државе до државе. No matter what, the person that made the image can never lose the right to say that they were the owner (unless an absolutely draconian contract prevents it - and in some cases this won't stand up in court). This is why there is one common rule that will : Cite the author and name the license. If you can't do that, then don't use the asset.
+Буквално, постоји онолико законских регулатива које се односе на тип овог доприноса колико и држава на свету, тако да је заиста непотребно да залазимо у детаље о томе шта се све разликује од државе до државе. Без обзира на све, особа која је направила слику не може никада да изгуби право да каже да је била власник исте (осим ако је неки потпуно драконски уговор спречава - и у неким случајевима то неће проћи на суду). Управо зато постоји једно опште правило: Наведите аутора и назив лиценце. Ако не можете то да урадите, немојте користити то средство.
 
-Depending on where and how the contribution is to be used, there are a number of ways in which this citation can be made:
+У зависности од тога где и како ће допринос бити коришћен, постоји више начина на које можете то навести:
 
-1. Name the file accordingly
-2. Put license information in a watermark in the file
-3. Inject the information into the metadata of the file
-4. Cite the image sources / licenses directly after the image if possible
-5. Put this same information in a footnote / endnote / linked document
-6. Place license information or licenses and release form-cover-sheets in the repository in the same folder as the image or some other delegated location
+1. Именујте прописно датотеку
+2. Ставите информацију о лиценци у водени жиг (eng. watermark) у датотеци
+3. Убаците информацију у метаподатке датотеке
+4. Наведите изворе слика / лиценце директно након слика, ако је то могуће
+5. Ставите ту исту информацију у фусноту / завршну ноту / повезани документ
+6. Ставите информацију о лиценци или лиценце и форме објављивања у складиште у исти фолдер где се налази и слика или на неку другу одређену локацију
 
-Common licenses to use for Images / Designs / Videos are:
+Сличне лиценце за употребу за слике / дизајне / видео снимке су:
 
 - [Creative Commons](https://creativecommons.org/)
 - [Public Domain / CC0](https://creativecommons.org/share-your-work/public-domain/cc0/)
 - [Apache v2](https://apache.org/licenses/LICENSE-2.0)
 
-> Quasar prefers CC-BY or CC0 licenses.
+> Quasar преферира CC-BY или CC0 лиценце.
 
-### Font licenses
+### Лиценце фонтова
 
-Of the hundreds of fonts listed at [Google Fonts](https://fonts.google.com/attribution), there are exactly two different licenses used: Either the Apache License v2, or the SIL Open Font License v1.1. The vast majority are OFL, and it is basically the same type of permissive license as MIT.
+За стотине фонтова који су наведени на [Google Fonts](https://fonts.google.com/attribution), постоје тачно две лиценце које су коришћене: или Apache License v2 или SIL Open Font License v1.1. Велика већина њих су OFL, а то је практично исти тип пермисивне лиценце као MIT.
 
-If you are using a font, you need to make sure that you really have the license for it, as some professional font forges will sell different types of licenses depending on the application. (As in one license for desktop publishing, another for websites, etc.) If you are using an open-source font, best-practice is to put a copy of the license in the folder where you are maintaining your fonts.
+Уколико користите фонт, морате да се постарате да заиста имате лиценцу за њега, јер ће неки професионални аутори фонтова продати различите типове лиценци, у зависности од апликације. (На пример једну лиценцу за аналогно објављивање, другу за интернет сајтове итд.) Уколико користите фонт отвореног кода, најбоља пракса је да убаците копију лиценце у фолдер где чувате ваше фонтове.
 
-Furthermore, some services like FontSquirrel offer a [WebfontGenerator](https://www.fontsquirrel.com/tools/webfont-generator) that enables designers to make a set of font-files so that individual browsers can select the type that they are most well-equipped to use. They require you to verify that you have the right to convert the font to other formats. The SIL OFL does permit this. If there is no license that you can find, assume that you do not have the right to use the font.
+Поред тога, неки сервиси као FontSquirrel нуде [WebfontGenerator](https://www.fontsquirrel.com/tools/webfont-generator) који омогућава дизајнерима да направе сет датотека са фонтовима тако да претраживачи индивидуално могу да изаберу тип са којим су највише компатибилни. Неопходно је да потврдите да имате право да конвертујете одређени фонт у друге формате. SIL OFL дозвољава ово. Уколико не можете да пронађете лиценцу, претпоставите да немате право да користите тај фонт.
 
-- [OFL-FAQ web version (1.1-update5)](https://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web)
+- [OFL-FAQ веб верзија (1.1-update5)](https://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web)
 
-# Final Words
+# Завршне речи
 
-Just because you "open" your work to collaboration from others, this is not the end of the story. Just because you slap a Creative Commons license on a photoshop file does not mean it is open and free. The degree of openness of an asset or project is also determined by the operating system and the software needed to use and or modify the file. Please consider publishing not only the results of the process of your work, but also inform people about how you did it.
+Само зато што "отварате" свој посао у сарадњи са другима, прича се ту не завршава. Само зато што сте залепили Creative Commons лиценцу на фотошопирану датотеку, не значи да је то слободно и бесплатно. Степен приступачности средства или пројекта је такође одређен оперативним системом и софтвером који је потребан како би се користила и модификовала одређена датотека. Молимо да размотрите не само објављивање резултата вашег рада, већ такође и информације о томе како сте то урадили.
 
-Furthermore, please do not use pirated software when working on open-source projects. Not only is it "uncool" and damaging to the honour of the entire open-source community, you are putting yourself and your colleagues at risk, especially if you have high-value credentials, like server logins etc. There is no better way to get yourself (and possibly your team) hacked than to use cracks.
+Поред тога, молимо да не користите пиратске софтвере током рада на пројекту отвореног кода. Не само да то ''није кул'' и да штети репутацији целе заједнице отвореног кода, већ тиме угрожавате себе и ваше колеге, нарочито ако имате велике акредитиве, као на пример пријављивање на серверу итд. Не постоји лакши начин да доведете себе (и вероватно свој тим) у позицију да будете хаковани, од коришћења пиратског софтвера.
 
-# Further Resources
+# Додатни извори
 
-In case you want to go more into depth about these topics, we have a few additional resources that we highly recommend:
+У случају да желите да се детаљније информишете о овим темама, имамо неколико додатних извора које бисмо препоручили:
 
-- Stallman's distinction between [FLOSS and FOSS](https://www.gnu.org/philosophy/floss-and-foss.en.html)
-- This chapter of the [ZeroMQ Guide](http://zguide.zeromq.org/page:all#toc141) goes into great detail about governance in open-source projects with the specific example of their community
+- Stallman-ова разлика између [FLOSS и FOSS](https://www.gnu.org/philosophy/floss-and-foss.en.html)
+- Ово поглавље [ZeroMQ водича](http://zguide.zeromq.org/page:all#toc141) детаљно разматра управљање у пројектима отвореног кода са конкретним примерима њихове заједнице
 
-#### Proof of Work Done (Authorship)
+#### Доказ да је посао завршен (ауторство)
 
-The original version of this article has been compiled and written by @nothingismagick https://github.com/nothingismagick
+Оригиналну верзију овог чланка је написао @nothingismagick https://github.com/nothingismagick
 
-#### License
+#### Лиценце
 
-This work and all derivatives are [licensed under the FDL 1.3](https://github.com/nothingismagick/quasar-articles/blob/master/LICENSE).
+Ово дело и све што из њега настане је [лиценцирано у оквиру FDL 1.3](https://github.com/nothingismagick/quasar-articles/blob/master/LICENSE).
 
-> Written with [StackEdit](https://stackedit.io/).
+> Написано помоћу [StackEdit-а](https://stackedit.io/).
