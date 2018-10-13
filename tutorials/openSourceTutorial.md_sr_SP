@@ -205,30 +205,30 @@ MIT, BSD и Apache су оно што заједница отвореног ко
 
 Овај увод не може да објасни све фине разлике између свих лиценци за код, пошто их постоји гомила. Лиценца се додаје коду тако што се или убаци референца у заглавље датотеке за коју креирате лиценцу у случају дистрибутива, или у LICENSE датотеци на главном нивоу складишта, или у README датотеци која се односи на пројекат или потенцијално у package.json (ако користите чвор).
 
-If you skipped ahead and didn't read the earlier chapters, here is a quick recap of the three main license types and a popular example of each, along with two links that go into more detail and analysis.
+Ако сте прескочили претходна поглавља, ево га кратак резиме главних типова лиценци и добар пример за сваку од њих, заједно са два линка која залазе мало више у детаље.
 
-- **Permissive**: [MIT](http://www.opensource.org/licenses/MIT)
-- **Protective**: [GPL-3](https://www.gnu.org/licenses/gpl-3.0.en.html)
-- **Public Domain**: [WTFPL](http://www.wtfpl.net/)
-- [Github's License Helper](https://choosealicense.com/)
-- [The exhaustive list by the GNU Foundation](https://www.gnu.org/licenses/license-list.html)
+- **Пермисивна**: [MIT](http://www.opensource.org/licenses/MIT)
+- **Протективна**: [GPL-3](https://www.gnu.org/licenses/gpl-3.0.en.html)
+- **Јавни домен**: [WTFPL](http://www.wtfpl.net/)
+- [Github-ова помоћ за лиценце](https://choosealicense.com/)
+- [Обимна листа GNU фондације](https://www.gnu.org/licenses/license-list.html)
 
-> At the Quasar Framework all contributions to the core libraries are required to be MIT. By contributing anything, you are agreeing to this license.
+> У Quasar Framework-у, неопходно је да сви доприноси основним библиотекама буду MIT. Уколико доприносите пројекту, истовремено се слажете са условима ове лиценце.
 
-### Important licenses for text / documentation
+### Важне лиценце за текст / документацију
 
-Text and documentation is also a creative work, and is also generally protected under copyright laws. You can transfer these rights to third parties or to project owners to whom you will be giving your contributions by choosing either a Creative Commons resource or the Free Document License.
+Текст и документација су такође креативни продукт, и самим тим су заштићени ауторским правима. Можете да проследите ова права трећим лицима или власницима пројекта, са којим ћете сарађивати, избором или Creative Commons извора или Free Document лиценце.
 
-It is considered best practice to name the license and author(s) at the end of the document being licensed.
+Сматра се да је најбоља пракса да именујете лиценцу и ауторе на крају документа који се лиценцира.
 
 - [Creative Commons](https://creativecommons.org/)
-- [Free Documentation License](https://www.gnu.org/licenses/fdl.html)
+- [Free Documentation лиценца](https://www.gnu.org/licenses/fdl.html)
 
-> At the Quasar Framework all documentation is (or will be) licensed under the FDL.
+> У Quasar Frameworku-у, сва документација је (или ће бити) лиценцирана као FDL.
 
-### Licensing artwork / design / video
+### Лиценцирање цртежа / дизајна / видео снимака
 
-There are literally as many legal regulations for this type of contribution as there are countries on the planet, so it is absolutely inappropriate to go into detail about how things are different from nation to nation. No matter what, the person that made the image can never lose the right to say that they were the owner (unless an absolutely draconian contract prevents it - and in some cases this won't stand up in court). This is why there is one common rule that will : Cite the author and name the license. If you can't do that, then don't use the asset.
+Буквално, постоји онолико законских регулатива које се односе на тип овог доприноса колико и држава на свету, тако да је заиста непотребно да залазимо у детаље о томе шта се све разликује од државе до државе. No matter what, the person that made the image can never lose the right to say that they were the owner (unless an absolutely draconian contract prevents it - and in some cases this won't stand up in court). This is why there is one common rule that will : Cite the author and name the license. If you can't do that, then don't use the asset.
 
 Depending on where and how the contribution is to be used, there are a number of ways in which this citation can be made:
 
