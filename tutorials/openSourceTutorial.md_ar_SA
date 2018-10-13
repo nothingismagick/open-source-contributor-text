@@ -193,7 +193,7 @@ https://opensource.com/resources/what-open-source
 
 ### كيف يمكنني توثيق "المصدر"
 
-المصدر (Provenance) هي كلمة تصف تاريخ عمل ما. Code that is shared under an open-source license and within the context of a git repository is more or less self-documenting. Images are less obvious, and it is especially tricky with digital-collage works that combine a number of resources.
+المصدر (Provenance) هي كلمة تصف تاريخ عمل ما. الشفرة التي تتم مشاركتها تحت رخصة مفتوحة المصدر وفي سياق مستودع git هي أكثر أو أقل توثيقًا ذاتيًا(self-documenting). تكون الصور أقل وضوحًا، ويصعب على وجه الخصوص إجراء أعمال التجميع الرقمي التي تجمع بين مجموعة متنوعة من الموارد.
 
 يعد التعامل مع المصدر أمرًا مهمًا للمصممين، حيث إن حقوق الصور المرئية متنازع عليها كثيرًا وغالبًا ما تؤدي إلى منازعات قانونية. Even if only public-domain resources are being used, it is still a good practice to record your work in a provenance document. This type of document is like the bibliography in a scientific paper, in which the ideas and authors are recorded. Although there is no "standardised" approach, the best method is to not only record the sources and the times accessed, but also track down the licenses for each component. If you want an example of this, feel free to look at the citations section [in this graphics breakdown](https://busy.org/@nothingismagick/qcensus2018-campaign-graphics-breakdown) written in the @utopian-io style.
 
