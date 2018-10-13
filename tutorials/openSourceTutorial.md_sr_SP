@@ -187,23 +187,23 @@ MIT, BSD и Apache су оно што заједница отвореног ко
 
 Образац објављивања је углавном неопходан код фотографисања људи и приватне својине - и коришћења тих фотографија у јавне сврхе. Иако се детаљи разликују од надлежности до надлежности, веома је важно да вам људи потпишу образац објављивања, и ако је јасно ГДЕ је фотографија направљена, онда је можда потребно да добијете дозволу власника.
 
-> One clever way to deal with a release form for humans (if they genuinely want to support you) is a so-called "reciprocal pay". Before the photo-shooting, prepare two receipts. On one receipt you pay them e.g. 5 EUR for being a model. On the other receipt, they pay you e.g. 5 EUR for a copy of the photograph. The rule (got the cash, keep the copy) applies, so each party has one original receipt and one copy receipt. You send them a digital copy of the final image as a link to the open-source repository where it was used, and note this on the copy of the receipt they gave you. Keep this in your own records, and everybody is happy.
+> Један добар начин како да се изборите са обрасцем објављивања (уколико људи желе да вас подрже) је такозвана ''реципрочна исплата''. Пре фотографисања, припремите две признанице. On one receipt you pay them e.g. 5 EUR for being a model. На другој признаници, плаћају вама нпр. 5 евра за копију фотографије. Правило (узми новац, задржи копију) се примењује, тако да свака страна има једну оригиналну и једну копију признанице. Затим им пошаљете дигиталну копију завршне фотографије као линк до складишта отвореног кода у ком је коришћена, и забележите то на копији признанице коју сте добили. Чувајте све то у вашој архиви, и сви ће бити задовољни.
 
-If you do use photographs of people that you have made and submit them to open source projects, you need to be able to prove that the person gave you permission, and you should keep their release form on file and available.
+Уколико користите фотографије људи, које сте ви направили и поставили у пројекат отвореног кода, морате бити у могућности да докажете да вам је та особа дала дозволу, и требало би да чувате њихов образац објављивања у фајлу као доступан.
 
-### How can I document "provenance"
+### Како могу да документујем ''порекло''
 
-Provenance is a word that describes the history of a work. Code that is shared under an open-source license and within the context of a git repository is more or less self-documenting. Images are less obvious, and it is especially tricky with digital-collage works that combine a number of resources.
+Порекло је реч која описује прошлост дела. Код који је подељен у оквиру лиценце отвореног кода и у складу са контекстом git складишта је мање-више самодокументован. Слике су мање очигледне, и нарочито је незгодно у случају са дигиталним колажима који представљају комбинацију више извора.
 
-Dealing with provenance for designers is important, as rights to visual images are hotly contested and often times lead to legal battles. Even if only public-domain resources are being used, it is still a good practice to record your work in a provenance document. This type of document is like the bibliography in a scientific paper, in which the ideas and authors are recorded. Although there is no "standardised" approach, the best method is to not only record the sources and the times accessed, but also track down the licenses for each component. If you want an example of this, feel free to look at the citations section [in this graphics breakdown](https://busy.org/@nothingismagick/qcensus2018-campaign-graphics-breakdown) written in the @utopian-io style.
+За дизајнере је битно бављење пореклом, јер су права на слике јако спорна и често доводе до правних сукоба. Even if only public-domain resources are being used, it is still a good practice to record your work in a provenance document. Ова врста документа је као библиографија у научном чланку, где су забележене идеје и аутори. Иако не постоји ''стандардизован'' приступ, најбољи метод би био не само да забележите изворе и времена приступа, већ такође да проверите лиценцу за сваку компоненту. Ако желите пример, слободно погледајте одељак са цитатима [у овој графичком приказу](https://busy.org/@nothingismagick/qcensus2018-campaign-graphics-breakdown) написаном у стилу @utopian-io.
 
-> The last thing anyone wants is a legal battle because it drains resources like time and money. If you are contributing to an open-source project, make sure that you are not putting them in hot-water. At Quasar, you can rest assured that the Art Department takes this VERY seriously, and violations of this trust are likely to lead to blacklisting or hammerbanning.
+> Последња ствар коју ико жели је правни сукоб, јер троши ресурсе као што су време и новац. Уколико сарађујете на пројекту отвореног кода, потрудите се да га не доводите у незгодну ситуацију. At Quasar, you can rest assured that the Art Department takes this VERY seriously, and violations of this trust are likely to lead to blacklisting or hammerbanning.
 
-## License Types
+## Типови лиценци
 
-### Major licenses for code
+### Главне лиценце за код
 
-This introduction cannot possibly explain the subtle differences between all of the different licenses for code, because there are dozens. A license is added to code by either placing a reference to it in the header of the file being licensed in the case of distributables, in a LICENSE file in the root level of a repository, in the README about the project or potentially in the package.json (if using node).
+Овај увод не може да објасни све фине разлике између свих лиценци за код, пошто их постоји гомила. Лиценца се додаје коду тако што се или убаци референца у заглавље датотеке за коју креирате лиценцу у случају дистрибутива, или у LICENSE датотеци на главном нивоу складишта, или у README датотеци која се односи на пројекат или потенцијално у package.json (ако користите чвор).
 
 If you skipped ahead and didn't read the earlier chapters, here is a quick recap of the three main license types and a popular example of each, along with two links that go into more detail and analysis.
 
