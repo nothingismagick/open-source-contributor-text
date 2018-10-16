@@ -195,13 +195,13 @@ https://opensource.com/resources/what-open-source
 
 المصدر (Provenance) هي كلمة تصف تاريخ عمل ما. الشفرة التي تتم مشاركتها تحت رخصة مفتوحة المصدر وفي سياق مستودع git هي أكثر أو أقل توثيقًا ذاتيًا(self-documenting). تكون الصور أقل وضوحًا، ويصعب على وجه الخصوص إجراء أعمال التجميع الرقمي التي تجمع بين مجموعة متنوعة من الموارد.
 
-يعد التعامل مع المصدر أمرًا مهمًا للمصممين، حيث إن حقوق الصور المرئية متنازع عليها كثيرًا وغالبًا ما تؤدي إلى منازعات قانونية. حتى إذا تم استخدام موارد المجال العام فقط، فلا يزال من الممارسات الجيدة تسجيل عملك في وثيقة المصدر. هذا النوع من الوثائق يشبه الببليوغرافيا في مقال علمي، حيث يتم تسجيل الأفكار والمؤلفين. Although there is no "standardised" approach, the best method is to not only record the sources and the times accessed, but also track down the licenses for each component. If you want an example of this, feel free to look at the citations section [in this graphics breakdown](https://busy.org/@nothingismagick/qcensus2018-campaign-graphics-breakdown) written in the @utopian-io style.
+يعد التعامل مع المصدر أمرًا مهمًا للمصممين، حيث إن حقوق الصور المرئية متنازع عليها كثيرًا وغالبًا ما تؤدي إلى منازعات قانونية. حتى إذا تم استخدام موارد المجال العام فقط، فلا يزال من الممارسات الجيدة تسجيل عملك في وثيقة المصدر. هذا النوع من الوثائق يشبه الببليوغرافيا في مقال علمي، حيث يتم تسجيل الأفكار والمؤلفين. على الرغم من عدم وجود مقاربة "قياسية"، فإن أفضل طريقة هي عدم تسجيل المصادر وأوقات الوصول فحسب، بل أيضًا تتبع التراخيص لكل مكون. إذا كنت تريد مثالاً على ذلك، فلا تتردد في إلقاء نظرة على قسم الاستشهادات [في هذا الرسم البياني](https://busy.org/@nothingismagick/qcensus2018-campaign-graphics-breakdown) المكتوب بأسلوب utopian-io@.
 
-> The last thing anyone wants is a legal battle because it drains resources like time and money. If you are contributing to an open-source project, make sure that you are not putting them in hot-water. At Quasar, you can rest assured that the Art Department takes this VERY seriously, and violations of this trust are likely to lead to blacklisting or hammerbanning.
+> آخر شيء يريده أي شخص هو نزاع قانوني، لأن هذا الأمر يستنزف الموارد مثل ما هو الحال مع الوقت والمال. إذا كنت تساهم في مشروع مفتوح المصدر، تأكد من أنك لن تعرضهم للمشاكل. في Quasar، يمكنك أن تكون على يقين من أن قسم الفنون يأخذ هذا الأمر بجدية كبيرة، وأن انتهاك هذه الثقة المتبادلة يمكن أن يؤدي إلى الإدراج في القائمة السوداء أو الحظر الفوري.
 
-## License Types
+## أنواع التراخيض
 
-### Major licenses for code
+### التراخيص الرئيسية للشفرة
 
 This introduction cannot possibly explain the subtle differences between all of the different licenses for code, because there are dozens. A license is added to code by either placing a reference to it in the header of the file being licensed in the case of distributables, in a LICENSE file in the root level of a repository, in the README about the project or potentially in the package.json (if using node).
 
