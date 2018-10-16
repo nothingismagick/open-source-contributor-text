@@ -203,7 +203,7 @@ De omgang met herkomst van ontwerpers is belangrijk, omdat de rechten op visuele
 
 ### Belangrijkste licenties voor code
 
-Deze inleiding kan onmogelijk de subtiele verschillen tussen alle verschillende licenties voor code uitleggen, want er zijn er tientallen. A license is added to code by either placing a reference to it in the header of the file being licensed in the case of distributables, in a LICENSE file in the root level of a repository, in the README about the project or potentially in the package.json (if using node).
+Deze inleiding kan onmogelijk de subtiele verschillen tussen alle verschillende licenties voor code uitleggen, want er zijn er tientallen. Een licentie wordt aan de code toegevoegd door er een verwijzing naar te plaatsen in de header van het bestand dat gelicenseerd wordt in het geval van distributables, in een LICENSE-bestand in het root-niveau van een repository, in de LEESMIJ over het project of mogelijk in de package.json (als er een node gebruikt wordt).
 
 Als je vooruit bent gesprongen en de eerdere hoofdstukken niet hebt gelezen, dan is hier een snelle samenvatting van de drie belangrijkste licentietypen en een populair voorbeeld van elk, samen met twee links die verder gaan in detail en analyse.
 
