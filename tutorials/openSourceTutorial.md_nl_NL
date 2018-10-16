@@ -253,29 +253,29 @@ Van de honderden lettertypen in [Google Fonts](https://fonts.google.com/attribut
 
 Als je een lettertype gebruikt, moet je er zeker van zijn dat je er echt een licentie voor hebt, aangezien sommige professionele lettertype-webshops verschillende soorten licenties zullen verkopen, afhankelijk van de toepassing. (Zoals een licentie voor desktop-publicaties, een andere voor websites, enz.) Als je een open source-lettertype gebruikt, is het de beste praktijk om een kopie van de licentie te plaatsen in de map waar je je lettertypen onderhoudt.
 
-Bovendien bieden sommige diensten zoals FontSquirrel een [WebfontGenerator](https://www.fontsquirrel.com/tools/webfont-generator) aan die ontwerpers in staat stelt om een set lettertype-bestanden te maken zodat individuele browsers het type kunnen selecteren waar ze het best voor zijn uitgerust om te gebruiken. They require you to verify that you have the right to convert the font to other formats. The SIL OFL does permit this. If there is no license that you can find, assume that you do not have the right to use the font.
+Bovendien bieden sommige diensten zoals FontSquirrel een [WebfontGenerator](https://www.fontsquirrel.com/tools/webfont-generator) aan die ontwerpers in staat stelt om een set lettertype-bestanden te maken zodat individuele browsers het type kunnen selecteren waar ze het best voor zijn uitgerust om te gebruiken. Ze vereisen dat je controleert of je het recht hebt om het lettertype te converteren naar andere formaten. De SIL OFL staat dit wel toe. Als er geen licentie is die je kunt vinden, ga er dan vanuit dat je niet het recht hebt om het lettertype te gebruiken.
 
-- [OFL-FAQ web version (1.1-update5)](https://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web)
+- [OFL-FAQ web versie (1.1-update5)](https://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web)
 
-# Final Words
+# Laatste woorden
 
-Just because you "open" your work to collaboration from others, this is not the end of the story. Just because you slap a Creative Commons license on a photoshop file does not mean it is open and free. The degree of openness of an asset or project is also determined by the operating system and the software needed to use and or modify the file. Please consider publishing not only the results of the process of your work, but also inform people about how you did it.
+Alleen omdat je je werk "openstelt" voor samenwerking van anderen, is dat niet het einde van het verhaal. Alleen omdat je een Creative Commons-licentie op een photoshop-bestand plakt betekent dit niet dat het open en vrij is. De mate van openheid van een object of project wordt ook bepaald door het besturingssysteem en de software die nodig is om het bestand te gebruiken en/of aan te passen. Overweeg om niet alleen de resultaten van het proces van je werk te publiceren, maar ook om mensen te informeren over hoe je het gedaan hebt.
 
-Furthermore, please do not use pirated software when working on open-source projects. Not only is it "uncool" and damaging to the honour of the entire open-source community, you are putting yourself and your colleagues at risk, especially if you have high-value credentials, like server logins etc. There is no better way to get yourself (and possibly your team) hacked than to use cracks.
+Bovendien, gebruik alsjeblieft geen illegale software bij het werken aan open source-projecten. Niet alleen is het "uncool" en schadelijk voor de eer van de hele open source-gemeenschap, je brengt jezelf en je collega's in gevaar, vooral als je waardevolle referenties hebt, zoals server logins etc. There is no better way to get yourself (and possibly your team) hacked than to use cracks.
 
-# Further Resources
+# Meer bronnen
 
-In case you want to go more into depth about these topics, we have a few additional resources that we highly recommend:
+Voor het geval dat je dieper op deze onderwerpen in wilt gaan hebben we een paar extra bronnen die we ten zeerste aanbevelen:
 
-- Stallman's distinction between [FLOSS and FOSS](https://www.gnu.org/philosophy/floss-and-foss.en.html)
-- This chapter of the [ZeroMQ Guide](http://zguide.zeromq.org/page:all#toc141) goes into great detail about governance in open-source projects with the specific example of their community
+- Stallmans onderscheid tussen [FLOSS en FOSS](https://www.gnu.org/philosophy/floss-and-foss.en.html)
+- Dit hoofdstuk van de [ZeroMQ Guide](http://zguide.zeromq.org/page:all#toc141) gaat in detail in op beheer in open source-projecten met het specifieke voorbeeld van hun gemeenschap
 
-#### Proof of Work Done (Authorship)
+#### Bewijs van gedaan werk (auteurschap)
 
-The original version of this article has been compiled and written by @nothingismagick https://github.com/nothingismagick
+De originele versie van dit artikel is samengesteld en geschreven door @nothingismagick https://github.com/nothingismagick
 
-#### License
+#### Licentie
 
-This work and all derivatives are [licensed under the FDL 1.3](https://github.com/nothingismagick/quasar-articles/blob/master/LICENSE).
+Dit werk en alle afgeleide producten zijn [gelicenseerd onder de FDL 1.3](https://github.com/nothingismagick/quasar-articles/blob/master/LICENSE).
 
-> Written with [StackEdit](https://stackedit.io/).
+> Geschreven met [StackEdit](https://stackedit.io/).
