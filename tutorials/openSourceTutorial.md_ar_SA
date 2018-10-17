@@ -205,13 +205,13 @@ https://opensource.com/resources/what-open-source
 
 لا يمكن لهذه المقدمة أن تشرح كل الفروق الدقيقة بين جميع التراخيص المختلفة للشفرة، بسبب وجود العشرات منها. A license is added to code by either placing a reference to it in the header of the file being licensed in the case of distributables, in a LICENSE file in the root level of a repository, in the README about the project or potentially in the package.json (if using node).
 
-If you skipped ahead and didn't read the earlier chapters, here is a quick recap of the three main license types and a popular example of each, along with two links that go into more detail and analysis.
+إذا كنت قد تخطيت الفصول السابقة ولم تقرأها، فإليك ملخصًا سريعًا لأنواع التراخيص الرئيسية الثلاثة ومثالًا شائعًا لكل منها، بالإضافة إلى رابطين يخوضان في التفاصيل والتحليل.
 
 - **المتساهلة**: [ترخيص معهد ماساتشوستس للتكنولوجيا (MIT)](http://www.opensource.org/licenses/MIT)
 - **المحمية**: [رخصة جنو العمومية النسخة الثالثة (GPL-3)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 - **المجال العام**: [إفعل ما تريد بترخيص المجال العام (WTFPL)](http://www.wtfpl.net/)
-- [Github's License Helper](https://choosealicense.com/)
-- [The exhaustive list by the GNU Foundation](https://www.gnu.org/licenses/license-list.html)
+- [مساعد Github للترخيص](https://choosealicense.com/)
+- [القائمة الشاملة لمؤسسة رخصة جنو العمومية (GNU)](https://www.gnu.org/licenses/license-list.html)
 
 > At the Quasar Framework all contributions to the core libraries are required to be MIT. By contributing anything, you are agreeing to this license.
 
