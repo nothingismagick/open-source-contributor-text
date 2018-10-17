@@ -203,7 +203,7 @@ https://opensource.com/resources/what-open-source
 
 ### التراخيص الرئيسية للشفرة
 
-لا يمكن لهذه المقدمة أن تشرح كل الفروق الدقيقة بين جميع التراخيص المختلفة للشفرة، بسبب وجود العشرات منها. A license is added to code by either placing a reference to it in the header of the file being licensed in the case of distributables, in a LICENSE file in the root level of a repository, in the README about the project or potentially in the package.json (if using node).
+لا يمكن لهذه المقدمة أن تشرح كل الفروق الدقيقة بين جميع التراخيص المختلفة للشفرة، بسبب وجود العشرات منها. يتم إضافة ترخيص إلى الشفرة عن طريق إدخال مرجع إليها في رأس الملف الذي تقوم بإنشاء الترخيص له عند توزيعه، وأيضاً في ملف LICENSE على مستوى المستودع الرئيسي، وفي ملف README الذي يقدم ويشرح المشروع، وربما في ملف package.json (في حالة استخدام node).
 
 إذا كنت قد تخطيت الفصول السابقة ولم تقرأها، فإليك ملخصًا سريعًا لأنواع التراخيص الرئيسية الثلاثة ومثالًا شائعًا لكل منها، بالإضافة إلى رابطين يخوضان في التفاصيل والتحليل.
 
