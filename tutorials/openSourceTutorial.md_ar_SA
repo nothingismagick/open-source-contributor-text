@@ -203,28 +203,28 @@ https://opensource.com/resources/what-open-source
 
 ### التراخيص الرئيسية للشفرة
 
-This introduction cannot possibly explain the subtle differences between all of the different licenses for code, because there are dozens. A license is added to code by either placing a reference to it in the header of the file being licensed in the case of distributables, in a LICENSE file in the root level of a repository, in the README about the project or potentially in the package.json (if using node).
+لا يمكن لهذه المقدمة أن تشرح كل الفروق الدقيقة بين جميع التراخيص المختلفة للشفرة، بسبب وجود العشرات منها. A license is added to code by either placing a reference to it in the header of the file being licensed in the case of distributables, in a LICENSE file in the root level of a repository, in the README about the project or potentially in the package.json (if using node).
 
 If you skipped ahead and didn't read the earlier chapters, here is a quick recap of the three main license types and a popular example of each, along with two links that go into more detail and analysis.
 
-- **Permissive**: [MIT](http://www.opensource.org/licenses/MIT)
-- **Protective**: [GPL-3](https://www.gnu.org/licenses/gpl-3.0.en.html)
-- **Public Domain**: [WTFPL](http://www.wtfpl.net/)
+- **المتساهلة**: [ترخيص معهد ماساتشوستس للتكنولوجيا (MIT)](http://www.opensource.org/licenses/MIT)
+- **المحمية**: [رخصة جنو العمومية النسخة الثالثة (GPL-3)](https://www.gnu.org/licenses/gpl-3.0.en.html)
+- **المجال العام**: [إفعل ما تريد بترخيص المجال العام (WTFPL)](http://www.wtfpl.net/)
 - [Github's License Helper](https://choosealicense.com/)
 - [The exhaustive list by the GNU Foundation](https://www.gnu.org/licenses/license-list.html)
 
 > At the Quasar Framework all contributions to the core libraries are required to be MIT. By contributing anything, you are agreeing to this license.
 
-### Important licenses for text / documentation
+### تراخيص مهمة للنص / الوثائق
 
 Text and documentation is also a creative work, and is also generally protected under copyright laws. You can transfer these rights to third parties or to project owners to whom you will be giving your contributions by choosing either a Creative Commons resource or the Free Document License.
 
 It is considered best practice to name the license and author(s) at the end of the document being licensed.
 
-- [Creative Commons](https://creativecommons.org/)
-- [Free Documentation License](https://www.gnu.org/licenses/fdl.html)
+- [المشاع الإبداعي](https://creativecommons.org/)
+- [الترخيص المجاني للوثائق](https://www.gnu.org/licenses/fdl.html)
 
-> At the Quasar Framework all documentation is (or will be) licensed under the FDL.
+> في Quasar Framework تكون جميع الوثائق (أو سوف تكون) مرخصة بموجب الترخيص المجاني للوثائق (FDL).
 
 ### Licensing artwork / design / video
 
