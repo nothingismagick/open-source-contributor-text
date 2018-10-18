@@ -189,15 +189,15 @@ Github 或 Gitlab 上已通过审核的贡献者是为其帐户添加了GPG密�
 
 > 所谓的 "互惠薪酬" 是一种巧妙处理肖像让渡书 (如果他们确实想支持你) 的方式。 在拍摄前, 准备两张收据。 其中一张收据上写明你支付他们比如5欧元作为模特的酬劳。 在另一张收据上, 写明他们付给你比如5欧元购买照片副本。 规则 (得到现金, 保存副本) 适用, 所以每一方有一张原始收据和一张副本收据。 你将最终图像的数字副本的链接发送到使用它的开源代码库, 并在他们给你的收据副本上记下来。 将此保存在自己的记录里, 于是皆大欢喜。
 
-If you do use photographs of people that you have made and submit them to open source projects, you need to be able to prove that the person gave you permission, and you should keep their release form on file and available.
+如果你确实使用了自己拍摄的肖像照片，并将其提交给开源项目, 则你需要能够证明该肖像主体给予了你许可, 并且你应该将其让渡书存档以随时可用。
 
-### How can I document "provenance"
+### 如何记录 "出处"
 
-Provenance is a word that describes the history of a work. Code that is shared under an open-source license and within the context of a git repository is more or less self-documenting. Images are less obvious, and it is especially tricky with digital-collage works that combine a number of resources.
+"出处" 是描述作品历史的一个词。 在开源许可证下和 git 代码库范围内共享的代码大致是自文档的。 图片没有那么明显, 如果是结合几处资源的数码拼贴作品，就更加棘手。
 
-Dealing with provenance for designers is important, as rights to visual images are hotly contested and often times lead to legal battles. Even if only public-domain resources are being used, it is still a good practice to record your work in a provenance document. This type of document is like the bibliography in a scientific paper, in which the ideas and authors are recorded. Although there is no "standardised" approach, the best method is to not only record the sources and the times accessed, but also track down the licenses for each component. If you want an example of this, feel free to look at the citations section [in this graphics breakdown](https://busy.org/@nothingismagick/qcensus2018-campaign-graphics-breakdown) written in the @utopian-io style.
+处理出处问题对于设计师来说很重要, 因为对视觉图像的权利有激烈的争议, 而且经常会导致法律纠纷。 Even if only public-domain resources are being used, it is still a good practice to record your work in a provenance document. 这种类型的文件就像科学论文中的书目, 思想和作者被记录其中。 虽然没有 "标准化" 的方法, 但最好的方法是不仅记录访问的源头和次数, 还跟踪每个组件的许可证。 If you want an example of this, feel free to look at the citations section [in this graphics breakdown](https://busy.org/@nothingismagick/qcensus2018-campaign-graphics-breakdown) written in the @utopian-io style.
 
-> The last thing anyone wants is a legal battle because it drains resources like time and money. If you are contributing to an open-source project, make sure that you are not putting them in hot-water. At Quasar, you can rest assured that the Art Department takes this VERY seriously, and violations of this trust are likely to lead to blacklisting or hammerbanning.
+> 人们最不希望发生的事就是法律纠纷, 因为它会耗费时间和金钱等资源。 如果你正在为开源项目做贡献, 请确保不要让其卷入纠纷。 At Quasar, you can rest assured that the Art Department takes this VERY seriously, and violations of this trust are likely to lead to blacklisting or hammerbanning.
 
 ## License Types
 
