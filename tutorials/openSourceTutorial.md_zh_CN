@@ -210,8 +210,8 @@ This introduction cannot possibly explain the subtle differences between all of 
 - ** 宽容性 **: [ MIT ](http://www.opensource.org/licenses/MIT)
 - ** 保护性 **: [ GPL-3 ](https://www.gnu.org/licenses/gpl-3.0.en.html)
 - ** 公有领域 **: [ WTFPL ](http://www.wtfpl.net/)
-- [Github's License Helper](https://choosealicense.com/)
-- [The exhaustive list by the GNU Foundation](https://www.gnu.org/licenses/license-list.html)
+- [Github 许可证帮助程序](https://choosealicense.com/)
+- [GNU 基金会的详尽列表](https://www.gnu.org/licenses/license-list.html)
 
 > 在Quasar框架中, 所有对核心库的贡献都必须是MIT的。 你参与贡献就表明你认可这个许可证。
 
@@ -255,27 +255,27 @@ If you are using a font, you need to make sure that you really have the license 
 
 此外, 像 FontSquirrel 这样的一些服务提供了一个 [ 网络字体生成器 ](https://www.fontsquirrel.com/tools/webfont-generator), 使设计师能够制作一组字体文件, 以便各个浏览器可以选择最适合使用的类型。 它们要求你验证自己有权将字体转换为其他格式。 SIL OFL 确实允许这样做。 如果没有可以找到的许可证, 则假定你无权使用该字体。
 
-- [OFL-FAQ web version (1.1-update5)](https://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web)
+- [OFL-常见问题 web 版本 (1.1- 更新5)](https://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web)
 
 # 写在最后
 
 只是因为你 "开放" 你的作品以供别人协作, 这还不够。 只是因为你往Photoshop文件上贴上许可证并不意味着它就是公开免费的。 素材或项目的开放性程度也取决于操作系统，以及使用和修改文件所需的软件。 请考虑不仅发布你工作过程的结果, 但也告诉人们你是如何做到的。
 
-此外, 从事开源项目工作时, 请勿使用盗版软件。 Not only is it "uncool" and damaging to the honour of the entire open-source community, you are putting yourself and your colleagues at risk, especially if you have high-value credentials, like server logins etc. There is no better way to get yourself (and possibly your team) hacked than to use cracks.
+此外, 从事开源项目工作时, 请勿使用盗版软件。 这不仅 "不酷"，损害整个开源社区的名誉, 还让你自己和同事面临风险, 特别是如果你有高价值的认证信息, 如服务器登录等。 这样钻空子用盗版很容易让你自己 (也可能是你的团队) 被黑客攻击。
 
-# Further Resources
+# 更多资源
 
-In case you want to go more into depth about these topics, we have a few additional resources that we highly recommend:
+如果你想更深入地了解这些话题，我们强烈推荐下列额外资源：
 
-- Stallman's distinction between [FLOSS and FOSS](https://www.gnu.org/philosophy/floss-and-foss.en.html)
-- This chapter of the [ZeroMQ Guide](http://zguide.zeromq.org/page:all#toc141) goes into great detail about governance in open-source projects with the specific example of their community
+- 斯托曼解释的 [ FLOSS 和 FOSS ](https://www.gnu.org/philosophy/floss-and-foss.en.html) 之间的区别
+- [ ZeroMQ 指南 ](http://zguide.zeromq.org/page:all#toc141) 的本章用其社区的具体示例详细介绍了开源项目中的治理。
 
-#### Proof of Work Done (Authorship)
+#### 完成工作证明 (作者)
 
-The original version of this article has been compiled and written by @nothingismagick https://github.com/nothingismagick
+本文的原始版本由 @nothingismagick 编写 https://github.com/nothingismagick
 
-#### License
+#### 许可证
 
-This work and all derivatives are [licensed under the FDL 1.3](https://github.com/nothingismagick/quasar-articles/blob/master/LICENSE).
+此文和所有衍生品均为 [ FDL1.3授权 ](https://github.com/nothingismagick/quasar-articles/blob/master/LICENSE)。
 
-> Written with [StackEdit](https://stackedit.io/).
+> 使用 [ StackEdit ](https://stackedit.io/) 编写。
