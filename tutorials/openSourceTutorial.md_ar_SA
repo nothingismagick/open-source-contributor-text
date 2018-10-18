@@ -226,7 +226,7 @@ https://opensource.com/resources/what-open-source
 
 > في Quasar Framework تكون جميع الوثائق (أو سوف تكون) مرخصة بموجب الترخيص المجاني للوثائق (FDL).
 
-### Licensing artwork / design / video
+### ترخيص العمل الفني/ التصميم/ الفيديو
 
 There are literally as many legal regulations for this type of contribution as there are countries on the planet, so it is absolutely inappropriate to go into detail about how things are different from nation to nation. No matter what, the person that made the image can never lose the right to say that they were the owner (unless an absolutely draconian contract prevents it - and in some cases this won't stand up in court). This is why there is one common rule that will : Cite the author and name the license. If you can't do that, then don't use the asset.
 
@@ -241,13 +241,13 @@ Depending on where and how the contribution is to be used, there are a number of
 
 Common licenses to use for Images / Designs / Videos are:
 
-- [Creative Commons](https://creativecommons.org/)
-- [Public Domain / CC0](https://creativecommons.org/share-your-work/public-domain/cc0/)
-- [Apache v2](https://apache.org/licenses/LICENSE-2.0)
+- [المشاع الإبداعي](https://creativecommons.org/)
+- [المجال العام / ملكية عامة (CC0)](https://creativecommons.org/share-your-work/public-domain/cc0/)
+- [أباتشي Apache) v2)](https://apache.org/licenses/LICENSE-2.0)
 
 > Quasar prefers CC-BY or CC0 licenses.
 
-### Font licenses
+### تراخيص الخط
 
 Of the hundreds of fonts listed at [Google Fonts](https://fonts.google.com/attribution), there are exactly two different licenses used: Either the Apache License v2, or the SIL Open Font License v1.1. The vast majority are OFL, and it is basically the same type of permissive license as MIT.
 
@@ -255,17 +255,17 @@ If you are using a font, you need to make sure that you really have the license 
 
 Furthermore, some services like FontSquirrel offer a [WebfontGenerator](https://www.fontsquirrel.com/tools/webfont-generator) that enables designers to make a set of font-files so that individual browsers can select the type that they are most well-equipped to use. They require you to verify that you have the right to convert the font to other formats. The SIL OFL does permit this. If there is no license that you can find, assume that you do not have the right to use the font.
 
-- [OFL-FAQ web version (1.1-update5)](https://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web)
+- [OFL-FAQ نسخة الويب (1.1-update5)](https://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web)
 
-# Final Words
+# كلمات ختامية
 
 Just because you "open" your work to collaboration from others, this is not the end of the story. Just because you slap a Creative Commons license on a photoshop file does not mean it is open and free. The degree of openness of an asset or project is also determined by the operating system and the software needed to use and or modify the file. Please consider publishing not only the results of the process of your work, but also inform people about how you did it.
 
 Furthermore, please do not use pirated software when working on open-source projects. Not only is it "uncool" and damaging to the honour of the entire open-source community, you are putting yourself and your colleagues at risk, especially if you have high-value credentials, like server logins etc. There is no better way to get yourself (and possibly your team) hacked than to use cracks.
 
-# Further Resources
+# موارد أخرى
 
-In case you want to go more into depth about these topics, we have a few additional resources that we highly recommend:
+إذا كنت ترغب التعمق في هذه المواضيع، فلدينا بعض الموارد الإضافية التي نوصي بها بشدة:
 
 - Stallman's distinction between [FLOSS and FOSS](https://www.gnu.org/philosophy/floss-and-foss.en.html)
 - This chapter of the [ZeroMQ Guide](http://zguide.zeromq.org/page:all#toc141) goes into great detail about governance in open-source projects with the specific example of their community
