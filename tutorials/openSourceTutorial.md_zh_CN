@@ -197,19 +197,19 @@ Github 或 Gitlab 上已通过审核的贡献者是为其帐户添加了GPG密�
 
 处理出处问题对于设计师来说很重要, 因为对视觉图像的权利有激烈的争议, 而且经常会导致法律纠纷。 Even if only public-domain resources are being used, it is still a good practice to record your work in a provenance document. 这种类型的文件就像科学论文中的书目, 思想和作者被记录其中。 虽然没有 "标准化" 的方法, 但最好的方法是不仅记录访问的源头和次数, 还跟踪每个组件的许可证。 If you want an example of this, feel free to look at the citations section [in this graphics breakdown](https://busy.org/@nothingismagick/qcensus2018-campaign-graphics-breakdown) written in the @utopian-io style.
 
-> 人们最不希望发生的事就是法律纠纷, 因为它会耗费时间和金钱等资源。 如果你正在为开源项目做贡献, 请确保不要让其卷入纠纷。 At Quasar, you can rest assured that the Art Department takes this VERY seriously, and violations of this trust are likely to lead to blacklisting or hammerbanning.
+> 人们最不希望发生的事就是法律纠纷, 因为它会耗费时间和金钱等资源。 如果你正在为开源项目做贡献, 请确保不要让其卷入纠纷。 在Quasar, 你大可放心, 因为艺术部非常重视这一点, 违反这种信任可能导致进入黑名单或被吊销账户。 
 
-## License Types
+## 许可证类型
 
-### Major licenses for code
+### 代码的主要许可证
 
 This introduction cannot possibly explain the subtle differences between all of the different licenses for code, because there are dozens. A license is added to code by either placing a reference to it in the header of the file being licensed in the case of distributables, in a LICENSE file in the root level of a repository, in the README about the project or potentially in the package.json (if using node).
 
-If you skipped ahead and didn't read the earlier chapters, here is a quick recap of the three main license types and a popular example of each, along with two links that go into more detail and analysis.
+如果你直接跳过而没读前面的章节，这里有三种主要许可证类型的简要复述，以及每种许可证常见的示例，还有两个链接提供更加深入的分析。
 
-- **Permissive**: [MIT](http://www.opensource.org/licenses/MIT)
-- **Protective**: [GPL-3](https://www.gnu.org/licenses/gpl-3.0.en.html)
-- **Public Domain**: [WTFPL](http://www.wtfpl.net/)
+- ** 宽容性 **: [ MIT ](http://www.opensource.org/licenses/MIT)
+- ** 保护性 **: [ GPL-3 ](https://www.gnu.org/licenses/gpl-3.0.en.html)
+- ** 公有领域 **: [ WTFPL ](http://www.wtfpl.net/)
 - [Github's License Helper](https://choosealicense.com/)
 - [The exhaustive list by the GNU Foundation](https://www.gnu.org/licenses/license-list.html)
 
