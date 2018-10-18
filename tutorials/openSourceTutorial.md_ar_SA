@@ -251,7 +251,7 @@ https://opensource.com/resources/what-open-source
 
 من بين مئات الخطوط المدرجة في [ Google Fonts ](https://fonts.google.com/attribution)، هناك نوعان من التراخيص المختلفة المستخدمة: إما ترخيص أباتشي Apache) v2) أو SIL Open Font License v1.1. والغالبية العظمى منها تستخدم ترخيص الخط المفتوح (OFL)، وهو في الأساس نفس النوع من الترخيص المتساهل مثل ترخيص معهد ماساتشوستس للتكنولوجيا.
 
-If you are using a font, you need to make sure that you really have the license for it, as some professional font forges will sell different types of licenses depending on the application. (As in one license for desktop publishing, another for websites, etc.) If you are using an open-source font, best-practice is to put a copy of the license in the folder where you are maintaining your fonts.
+إذا كنت تستخدم خطًا، فأنت بحاجة إلى التأكد من أنه لديك بالفعل ترخيصًا له، حيث أن بعص صناع الخطوط المحترفين سيبيعون أنواعا مختلفة من التراخيص، وذلك إعتمادا على نوع التطبيق. (مثال: ترخيص للنشر المكتبي، وآخر لمواقع الويب، إلخ.) إذا كنت تستخدم خطًا مفتوح المصدر، فمن الجيد وضع نسخة من الترخيص في المجلد الذي يتم حفظ الخطوط به.
 
 Furthermore, some services like FontSquirrel offer a [WebfontGenerator](https://www.fontsquirrel.com/tools/webfont-generator) that enables designers to make a set of font-files so that individual browsers can select the type that they are most well-equipped to use. They require you to verify that you have the right to convert the font to other formats. The SIL OFL does permit this. If there is no license that you can find, assume that you do not have the right to use the font.
 
