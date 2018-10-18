@@ -253,15 +253,15 @@ This introduction cannot possibly explain the subtle differences between all of 
 
 If you are using a font, you need to make sure that you really have the license for it, as some professional font forges will sell different types of licenses depending on the application. (As in one license for desktop publishing, another for websites, etc.) If you are using an open-source font, best-practice is to put a copy of the license in the folder where you are maintaining your fonts.
 
-Furthermore, some services like FontSquirrel offer a [WebfontGenerator](https://www.fontsquirrel.com/tools/webfont-generator) that enables designers to make a set of font-files so that individual browsers can select the type that they are most well-equipped to use. They require you to verify that you have the right to convert the font to other formats. The SIL OFL does permit this. If there is no license that you can find, assume that you do not have the right to use the font.
+此外, 像 FontSquirrel 这样的一些服务提供了一个 [ 网络字体生成器 ](https://www.fontsquirrel.com/tools/webfont-generator), 使设计师能够制作一组字体文件, 以便各个浏览器可以选择最适合使用的类型。 它们要求你验证自己有权将字体转换为其他格式。 SIL OFL 确实允许这样做。 如果没有可以找到的许可证, 则假定你无权使用该字体。
 
 - [OFL-FAQ web version (1.1-update5)](https://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web)
 
-# Final Words
+# 写在最后
 
-Just because you "open" your work to collaboration from others, this is not the end of the story. Just because you slap a Creative Commons license on a photoshop file does not mean it is open and free. The degree of openness of an asset or project is also determined by the operating system and the software needed to use and or modify the file. Please consider publishing not only the results of the process of your work, but also inform people about how you did it.
+只是因为你 "开放" 你的作品以供别人协作, 这还不够。 只是因为你往Photoshop文件上贴上许可证并不意味着它就是公开免费的。 素材或项目的开放性程度也取决于操作系统，以及使用和修改文件所需的软件。 请考虑不仅发布你工作过程的结果, 但也告诉人们你是如何做到的。
 
-Furthermore, please do not use pirated software when working on open-source projects. Not only is it "uncool" and damaging to the honour of the entire open-source community, you are putting yourself and your colleagues at risk, especially if you have high-value credentials, like server logins etc. There is no better way to get yourself (and possibly your team) hacked than to use cracks.
+此外, 从事开源项目工作时, 请勿使用盗版软件。 Not only is it "uncool" and damaging to the honour of the entire open-source community, you are putting yourself and your colleagues at risk, especially if you have high-value credentials, like server logins etc. There is no better way to get yourself (and possibly your team) hacked than to use cracks.
 
 # Further Resources
 
