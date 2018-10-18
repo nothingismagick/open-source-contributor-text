@@ -195,7 +195,7 @@ Github 或 Gitlab 上已通过审核的贡献者是为其帐户添加了GPG密�
 
 "出处" 是描述作品历史的一个词。 在开源许可证下和 git 代码库范围内共享的代码大致是自文档的。 图片没有那么明显, 如果是结合几处资源的数码拼贴作品，就更加棘手。
 
-处理出处问题对于设计师来说很重要, 因为对视觉图像的权利有激烈的争议, 而且经常会导致法律纠纷。 Even if only public-domain resources are being used, it is still a good practice to record your work in a provenance document. 这种类型的文件就像科学论文中的书目, 思想和作者被记录其中。 虽然没有 "标准化" 的方法, 但最好的方法是不仅记录访问的源头和次数, 还跟踪每个组件的许可证。 If you want an example of this, feel free to look at the citations section [in this graphics breakdown](https://busy.org/@nothingismagick/qcensus2018-campaign-graphics-breakdown) written in the @utopian-io style.
+处理出处问题对于设计师来说很重要, 因为对视觉图像的权利有激烈的争议, 而且经常会导致法律纠纷。 即使只使用公有领域资源, 在"出处"文档中记录你的工作仍然是一个很好的做法。 这种类型的文件就像科学论文中的书目, 思想和作者被记录其中。 虽然没有 "标准化" 的方法, 但最好的方法是不仅记录访问的源头和次数, 还跟踪每个组件的许可证。 If you want an example of this, feel free to look at the citations section [in this graphics breakdown](https://busy.org/@nothingismagick/qcensus2018-campaign-graphics-breakdown) written in the @utopian-io style.
 
 > 人们最不希望发生的事就是法律纠纷, 因为它会耗费时间和金钱等资源。 如果你正在为开源项目做贡献, 请确保不要让其卷入纠纷。 在Quasar, 你大可放心, 因为艺术部非常重视这一点, 违反这种信任可能导致进入黑名单或被吊销账户。 
 
