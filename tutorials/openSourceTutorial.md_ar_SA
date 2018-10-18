@@ -217,7 +217,7 @@ https://opensource.com/resources/what-open-source
 
 ### تراخيص مهمة للنص / الوثائق
 
-Text and documentation is also a creative work, and is also generally protected under copyright laws. يمكنك نقل هذه الحقوق إلى أطراف ثالثة أو لمالكي المشاريع التي ستساهم فيها عن طريق الاختيار بين موارد المشاع الإبداعي أو الترخيص المجاني للوثائق.
+النصوص والوثائق هي بمثابة أعمال إبداعية أيضا، وهي محمية بشكل عام بموجب قوانين حقوق النشر. يمكنك نقل هذه الحقوق إلى أطراف ثالثة أو لمالكي المشاريع التي ستساهم فيها عن طريق الاختيار بين موارد المشاع الإبداعي أو الترخيص المجاني للوثائق.
 
 يعتبر من الممارسات الجيدة إضافة إسم الترخيص والمؤلف (المؤلفين) في نهاية المستند الذي يتم ترخيصه.
 
@@ -228,28 +228,28 @@ Text and documentation is also a creative work, and is also generally protected 
 
 ### ترخيص العمل الفني/ التصميم/ الفيديو
 
-There are literally as many legal regulations for this type of contribution as there are countries on the planet, so it is absolutely inappropriate to go into detail about how things are different from nation to nation. ومهما حدث، فإن الشخص الذي أنشأ الصورة لا يمكن أن يفقد مطلقًا الحق في القول بأنه المالك (إلا إذا منعه عقد صارم تمامًا من القيام بذلك - وفي بعض الحالات، لن يؤدي هذا إلى الوقوف في المحكمة). This is why there is one common rule that will : Cite the author and name the license. If you can't do that, then don't use the asset.
+هناك بالفعل العديد من اللوائح القانونية لهذا النوع من المساهمات بقدر عدد الدول الموجودة في العالم. لذلك، فمن الغير منطقي الخوض في كل التفاصيل المتعلقة بمدى الإختلاف الموجود بين كل الدول. ومهما حدث، فإن الشخص الذي أنشأ الصورة لا يمكن أن يفقد مطلقًا الحق في القول بأنه المالك (إلا إذا منعه عقد صارم تمامًا من القيام بذلك - وفي بعض الحالات، لن يؤدي هذا إلى الوقوف في المحكمة). لهذا السبب هناك قاعدة مشتركة والتي تقوم على: ذكر المؤلف وتسمية الترخيص. إذا لم تكن قادرا على فعل ذلك، فلا تقم بإستخدام الموارد إذا.
 
-Depending on where and how the contribution is to be used, there are a number of ways in which this citation can be made:
+اعتمادا على مكان وكيفية استخدام المساهمة، هناك العديد من الطرق لإنشاء هذا الاستشهاد:
 
-1. Name the file accordingly
-2. Put license information in a watermark in the file
-3. Inject the information into the metadata of the file
-4. Cite the image sources / licenses directly after the image if possible
-5. Put this same information in a footnote / endnote / linked document
+1. قم بتسمية الملف وفقًا لذلك
+2. ضع معلومات الترخيص في علامة مائية داخل الملف
+3. إدخال المعلومات في البيانات الوصفية للملف
+4. إذا أمكن، أذكر مصادر الصورة / التراخيص فورًا بعد الصورة
+5. ضع نفس المعلومات في الهامش / الحاشية / وثيقة مرتبطة
 6. Place license information or licenses and release form-cover-sheets in the repository in the same folder as the image or some other delegated location
 
-Common licenses to use for Images / Designs / Videos are:
+التراخيص الشائعة المستخدمة للصور / التصاميم / الفيديوهات هي:
 
 - [المشاع الإبداعي](https://creativecommons.org/)
 - [المجال العام / ملكية عامة (CC0)](https://creativecommons.org/share-your-work/public-domain/cc0/)
 - [أباتشي Apache) v2)](https://apache.org/licenses/LICENSE-2.0)
 
-> Quasar prefers CC-BY or CC0 licenses.
+> وتفضل Quasar الرخص العامة مثل CC-BY أو CC0.
 
 ### تراخيص الخط
 
-Of the hundreds of fonts listed at [Google Fonts](https://fonts.google.com/attribution), there are exactly two different licenses used: Either the Apache License v2, or the SIL Open Font License v1.1. The vast majority are OFL, and it is basically the same type of permissive license as MIT.
+من بين مئات الخطوط المدرجة في [ Google Fonts ](https://fonts.google.com/attribution)، هناك نوعان من التراخيص المختلفة المستخدمة: إما ترخيص أباتشي Apache) v2) أو SIL Open Font License v1.1. والغالبية العظمى منها تستخدم ترخيص الخط المفتوح (OFL)، وهو في الأساس نفس النوع من الترخيص المتساهل مثل ترخيص معهد ماساتشوستس للتكنولوجيا.
 
 If you are using a font, you need to make sure that you really have the license for it, as some professional font forges will sell different types of licenses depending on the application. (As in one license for desktop publishing, another for websites, etc.) If you are using an open-source font, best-practice is to put a copy of the license in the folder where you are maintaining your fonts.
 
