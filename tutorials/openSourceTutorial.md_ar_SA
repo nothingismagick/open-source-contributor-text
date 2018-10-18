@@ -270,12 +270,12 @@ In case you want to go more into depth about these topics, we have a few additio
 - Stallman's distinction between [FLOSS and FOSS](https://www.gnu.org/philosophy/floss-and-foss.en.html)
 - This chapter of the [ZeroMQ Guide](http://zguide.zeromq.org/page:all#toc141) goes into great detail about governance in open-source projects with the specific example of their community
 
-#### Proof of Work Done (Authorship)
+#### إثبات العمل المنجز (التأليف)
 
-The original version of this article has been compiled and written by @nothingismagick https://github.com/nothingismagick
+تم تجميع النسخة الأصلية من هذه المقالة وكتابتها بواسطة @nothingismagick https://github.com/nothingismagick
 
-#### License
+#### الترخيص
 
 This work and all derivatives are [licensed under the FDL 1.3](https://github.com/nothingismagick/quasar-articles/blob/master/LICENSE).
 
-> Written with [StackEdit](https://stackedit.io/).
+> مكتوب بـ [ StackEdit ](https://stackedit.io/).
