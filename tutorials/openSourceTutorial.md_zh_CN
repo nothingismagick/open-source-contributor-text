@@ -247,9 +247,9 @@ This introduction cannot possibly explain the subtle differences between all of 
 
 > Quasar prefers CC-BY or CC0 licenses.
 
-### Font licenses
+### 字体许可证
 
-Of the hundreds of fonts listed at [Google Fonts](https://fonts.google.com/attribution), there are exactly two different licenses used: Either the Apache License v2, or the SIL Open Font License v1.1. The vast majority are OFL, and it is basically the same type of permissive license as MIT.
+[Google Fonts（谷歌字体）](https://fonts.google.com/attribution)列出的几百种字体中，明确用到两种不同的许可证：Apache许可证v2，或者SIL开放字体许可证（OFL）v1.1。绝大多数都是OFL，而且基本上是跟MIT同类的宽容性许可证。
 
 If you are using a font, you need to make sure that you really have the license for it, as some professional font forges will sell different types of licenses depending on the application. (As in one license for desktop publishing, another for websites, etc.) If you are using an open-source font, best-practice is to put a copy of the license in the folder where you are maintaining your fonts.
 
