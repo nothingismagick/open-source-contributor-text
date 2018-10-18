@@ -213,36 +213,36 @@ This introduction cannot possibly explain the subtle differences between all of 
 - [Github's License Helper](https://choosealicense.com/)
 - [The exhaustive list by the GNU Foundation](https://www.gnu.org/licenses/license-list.html)
 
-> At the Quasar Framework all contributions to the core libraries are required to be MIT. By contributing anything, you are agreeing to this license.
+> 在Quasar框架中, 所有对核心库的贡献都必须是MIT的。 你参与贡献就表明你认可这个许可证。
 
-### Important licenses for text / documentation
+### 重要的文本/文档许可证
 
-Text and documentation is also a creative work, and is also generally protected under copyright laws. You can transfer these rights to third parties or to project owners to whom you will be giving your contributions by choosing either a Creative Commons resource or the Free Document License.
+文本和文档也是一项创造性的工作, 而且一般受版权法保护。 你可以通过选择 "知识共享组织" (Creative Commons) 的资源或 "免费文档许可证", 来将这些权利转让给第三方，或转让给你将贡献的项目所有者。
 
-It is considered best practice to name the license and author(s) at the end of the document being licensed.
+最好的做法是在授权的文档末尾命名许可证和作者。
 
-- [Creative Commons](https://creativecommons.org/)
-- [Free Documentation License](https://www.gnu.org/licenses/fdl.html)
+- [知识共享组织（Creative Commons）](https://creativecommons.org/)
+- [免费文档许可证（FDL）](https://www.gnu.org/licenses/fdl.html)
 
-> At the Quasar Framework all documentation is (or will be) licensed under the FDL.
+> 在Quasar框架下, 所有文档都是 (或将被) FDL（免费文档许可证）授权的。
 
-### Licensing artwork / design / video
+### 授权艺术品/设计/视频
 
-There are literally as many legal regulations for this type of contribution as there are countries on the planet, so it is absolutely inappropriate to go into detail about how things are different from nation to nation. No matter what, the person that made the image can never lose the right to say that they were the owner (unless an absolutely draconian contract prevents it - and in some cases this won't stand up in court). This is why there is one common rule that will : Cite the author and name the license. If you can't do that, then don't use the asset.
+这类贡献的法律规定就如地球上的国家一样多, 因此, 要详细说明各国情况的不同之处是绝对不恰当的。 无论怎样, 创造图像的人绝不会失去宣称自己是所有者的权利 (除非一个绝对苛刻的合同阻止它 - 在某些情况下, 这不会在法庭上成立)。 这就是为什么存在一个共同规则: 引用作者和命名许可证。 如果你不能这样做, 则不要使用该素材。
 
-Depending on where and how the contribution is to be used, there are a number of ways in which this citation can be made:
+根据将被使用的贡献的位置和方式, 可以通过下列方式引用此文:
 
-1. Name the file accordingly
-2. Put license information in a watermark in the file
-3. Inject the information into the metadata of the file
-4. Cite the image sources / licenses directly after the image if possible
-5. Put this same information in a footnote / endnote / linked document
-6. Place license information or licenses and release form-cover-sheets in the repository in the same folder as the image or some other delegated location
+1. 相应地命名文件
+2. 将许可证信息包括在文件的水印中
+3. 将信息注入到文件的元数据中
+4. 如果可能, 在图像后直接引用图像源/许可证
+5. 将此相同信息放在脚注/尾注/链接文档中
+6. 将许可证信息或许可证和让渡书封面页置于代码库中，放在跟图像同一文件夹或其他指定位置。
 
-Common licenses to use for Images / Designs / Videos are:
+用于图像/设计/视频的常用许可证有:
 
-- [Creative Commons](https://creativecommons.org/)
-- [Public Domain / CC0](https://creativecommons.org/share-your-work/public-domain/cc0/)
+- [知识共享组织（Creative Commons）](https://creativecommons.org/)
+- [公有领域 / CC0](https://creativecommons.org/share-your-work/public-domain/cc0/)
 - [Apache v2](https://apache.org/licenses/LICENSE-2.0)
 
 > Quasar prefers CC-BY or CC0 licenses.
