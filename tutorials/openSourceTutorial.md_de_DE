@@ -91,7 +91,7 @@ Wenn man für einen Moment den nervigen Fakt vergisst, dass *frei* auch "kostet 
 
 Je nach Ansicht, ist die Gnu-Public-License nicht KOMPLETT umsonst, weil sie mit der Bedingung kommt, dass Sie Änderungen, die Sie am Code vorgenommen haben, an die Gemeinde zurückgeben müssen - und frei sein würde bedeuten, dass Sie entscheiden, wie Sie arbeiten und was Sie mit dem Code machen möchten. Zur gleichen Zeit und auf einem anderen Spektrum gibt es diejenigen, die eine MIT-Lizenz als nicht komplett frei betrachten. Sie tun dies, weil es Situationen gibt, in denen der Code zulässigerweise geändert und nicht an die Gemeinschaft zurückgegeben werden kann - der Code wird in gewisser Weise "eingesperrt".
 
-> Es gibt keine richtige oder falsche Antwort, da es auf die Perspektive ankommt - Jeder Entwickler und jede Organisation muss jedoch für sich entscheiden auf welchen Schwerpunkt sie sich konzentrieren wollen. Wir beim Quasar Framework sind kein Puristen im Sinne, dass wir glauben, Code ist an sich ein spirituelles Wesen, das übertragbare Rechte verdient. Wenn wir an einem Linux-Kernel arbeiten würden wäre dies vielleicht anders - aber wir sind mehr an der menschlichen Seite von Code interessiert und glauben, dass Menschen, die unser Projekt nutzen, die ultimative Entscheidungsfreiheit haben sollten, zu tun, was sie wollen. Darum haben wir den "liberalen" Ansatz gewählt und uns für die MIT-Lizenz entschieden.
+> Es gibt keine richtige oder falsche Antwort, da es auf die Perspektive ankommt - Jeder Entwickler und jede Organisation muss jedoch für sich entscheiden auf welchen Schwerpunkt sie sich konzentrieren wollen. Wir beim Quasar Framework sind kein Puristen im Sinne, dass wir glauben, Code ist an sich ein spirituelles Wesen, das übertragbare Rechte verdient. Wenn wir an einem Linux-Kernel arbeiten würden wäre dies vielleicht anders - aber wir sind mehr an der menschlichen Seite von Code interessiert und glauben, dass Menschen, die unser Projekt nutzen, die ultimative Entscheidungsfreiheit haben sollten, zu tun, was sie wollen. Darum haben wir den "offenen" Ansatz gewählt und uns für die MIT-Lizenz entschieden.
 
 Es wird oftmals ausführlich diskutiert, "wie frei man Code machen soll". Ich schlage vor, dass Sie sich selbst folgende Frage stellen:
 
@@ -104,41 +104,41 @@ Wenn Sie auf irgendeine dieser Fragen mit **nein** geantwortet haben, dann ist e
 
 Wenn Sie auf all diese Fragen mit **ja** geantwortet haben, dann ist das Lizenzieren als Open-Source immer noch eine der besten Methoden, um Ihre Arbeit zu schützen und sicherzustellen, dass es einen Einfluss auf den Rest der Welt hat. Sehen Sie es so: Wenn keine Software in Ihrem Arbeitsfeld Open-Source wäre, würden Sie noch in der Lage sein, wie bisher weiter zu arbeiten? Sind Sie es nicht der Gemeinschaft schuldig, Ihre Arbeit zu teilen?
 
-### Liberale vs. Geschützte Lizenzen
+### Offene vs. Geschützte Lizenzen
 
-Eine der häufigsten Missverständnisse über das Lizenzieren Ihres Projektes mit GPL ist, dass es Unternehmen daran hindert Ihre Idee zu übernehmen und mit ihr Geld zu verdienen - alles ohne Ihnen einen Anteil des Profits zu geben. Dies ist schlicht und einfach nicht wahr. Wenn jemand Ihren Code stehlen und das Gesetz brechen möchte, wird er es tun. If a corporation wants to use your GPL library, they can isolate it from the rest of their system and reveal nothing of their proprietary code. They can take your code, reverse engineer it and rewrite it. If this is your biggest concern, then stop, go back to the beginning of this tutorial and read carefully to decide if you want to participate in open-source - or merely profit from it.
+Eine der häufigsten Missverständnisse über das Lizenzieren Ihres Projektes mit GPL ist, dass es Unternehmen daran hindert Ihre Idee zu übernehmen und mit ihr Geld zu verdienen - alles ohne Ihnen einen Anteil des Profits zu geben. Dies ist schlicht und einfach nicht wahr. Wenn jemand Ihren Code stehlen und das Gesetz brechen möchte, wird er es tun. Wenn ein Unternehmen Ihre GPL-Bibliothek verwenden möchte, kann sie diese vom Rest ihres Systems isolieren und nichts von ihrem geschützten Code freigeben. Sie können Ihren Code nehmen, rekonstruieren und neu schreiben. Wenn dies Ihre größte Sorge ist, dann stoppen Sie, gehen Sie zum Anfang dieses Tutorials zurück und lesen Sie sorgfältig, um zu entscheiden, ob Sie an Open-Source teilnehmen - oder nur davon profitieren wollen.
 
-MIT, BSD and Apache are what the open-source software community calls "permissive" licenses. Permissive means that the author is permitting you a great deal of rights to use the software they are sharing, even the right to use it for making a profit and changing it to suit your purposes. As long as you retain copies of the original license and inform those who are interested that you are using that particular software, then you can do anything with the code - even change it and not tell anyone you have done so.
+MIT, BSD und Apache sind, was die Open-Source-Software-Gemeinschaft "offene" Lizenzen nennt. Offen bedeutet, dass der Autor Ihnen ein hohes Maß an Rechten gewährt, um die geteilte Software zu verwenden, sogar das Recht sie zu verwenden, um Gewinn zu machen und sie Ihren Zwecken anzupassen. Solange Sie eine Kopie der originalen Lizenz behalten und diejenigen, die daran interessiert sind, dass sie diese bestimmte Software benutzen, informieren, können Sie mit dem Code machen, was sie wollen - Sie können ihn sogar ändern und niemandem sagen, dass Sie dies getan haben.
 
-> Copyleft is the practice of offering people the right to freely distribute copies and modified versions of a work with the stipulation that the same rights be preserved in [derivative works](https://en.wikipedia.org/wiki/Derivative_works) created later. https://en.wikipedia.org/wiki/Copyleft
+> Copyleft bezeichnet die Praxis, Menschen die Rechte anzubieten Kopien und modifizierte Versionen einer Arbeit frei zu vertreiben, unter der Bedingung, dass dieselben Rechte in später erstellten [derivativen Arbeiten](https://en.wikipedia.org/wiki/Derivative_works) beibehalten werden. https://de.wikipedia.org/wiki/Copyleft
 
-This type of "protective" licensing goes beyond the "permissive" licensing seen with MIT and APACHE by seeking to protect the code and the community's rights. Any modifications made to the source code must be returned to the community, and you may not sublicense the code. GPL and CC-SA are two licenses that work this way.
+Diese Art von "geschützter" Lizenzierung geht über die "offene" Lizenzierung nach MIT und APACHE hinaus, indem es anstrebt den Code und die Rechte der Community zu schützen. Jegliche Modifizierungen des Quellcodes müssen an die Community zurückgegeben werden und Sie dürfen dem Code keine Unterlizenz hinzufügen. GPL und CC-SA sind zwei Lizenzen, die auf diese Weise funktionieren.
 
-### License discovery and licensing requirements
+### Auffinden von Lizenzen und Lizenzvereinbarungen
 
-Using open-source software in your projects is a great thing, but you need to stay diligent, especially when you are contributing work to another project. And this is doubly true if you are required to do reporting about license compliance (for example in the case of public agencies or within corporate legal firewalls). In any case, it can be a bit of a hassle to manually go through and track down all the license files.
+Das Verwenden von Open-Source-Software in Ihren Projekten ist eine großartige Sache, aber Sie müssen sorgfältig bleiben, vor allem wenn Sie Arbeit zu einem anderen Projekt beitragen. Und dies ist doppelt wahr, wenn von Ihnen verlangt wird, Berichterstattungen über das Einhalten von Lizenzbestimmungen zu verfassen (zum Beispiel für öffentliche Einrichtungen oder legale Firmen-Firewalls). Es kann auf jeden Fall ein bisschen umständlich sein, manuell alle Lizenzdateien aufzuspüren.
 
-There are a few projects that treat this issue of discovery, such as [nlf](https://www.npmjs.com/package/nlf) and [https://fossa.io/](https://fossa.io/ "https://fossa.io/") and specifically [their free **CLI** that does not require registration](https://github.com/fossas/fossa-cli).
+Ein gibt ein paar Projekte die dieses Thema des Auffinden behandeln, so wie [nlf](https://www.npmjs.com/package/nlf) und [https://fossa.io/](https://fossa.io/ "https://fossa.io/"), und besonders [deren freie **CLI**, welche keine Registrierung benötigt](https://github.com/fossas/fossa-cli).
 
     $ nlf --summary detail > nlf.txt
     
 
-[Here is a report made from the Quasar repo using the **nlf** approach.](https://raw.githubusercontent.com/nothingismagick/quasar-articles/master/tutorials/nlf_report_licenses_quasar.txt.md)
+[Hier ist ein Bericht vom Quasar-Repository, der den **nfl** Ansatz verwendet.](https://raw.githubusercontent.com/nothingismagick/quasar-articles/master/tutorials/nlf_report_licenses_quasar.txt.md)
 
-If you want to see a license report generated by the **fossa CLI** in your repository, after following their install instructions, you can just use this command:
+Wenn Sie den Lizenzbericht der **fossa CLI** in Ihrem Repository einsehen möchten, nachdem Sie die Installationsanweisungen befolgt haben, können Sie diesen Befehl verwenden:
 
     $ fossa report licenses > fossa.txt
     
 
-[Here is a report made from the Quasar repo using the **fossa cli** approach.](https://raw.githubusercontent.com/nothingismagick/quasar-articles/master/tutorials/fossa_report_licenses_quasar.txt.md) As you can see, the great majority of modules use the MIT license, but several are not clear from the report alone: 15 of the projects were not autodetected by **fossa**. I followed each of the links, tracked down their licenses, and made a note not only of the license, but that I was the one who did it.
+[Hier ist ein Bericht aus dem Quasar-Repository mit dem Ansatz der **fossa CLI**.](https://raw.githubusercontent.com/nothingismagick/quasar-articles/master/tutorials/fossa_report_licenses_quasar.txt.md) Wie Sie sehen können, verwendet die große Mehrheit der Module die MIT-Lizenz, aber einige gehen aus dem Bericht allein nicht klar hervor: 15 Projekte wurden nicht automatisch durch die **Fossa** erkannt. Ich folgte jedem der Links, spürte ihre Lizenzen auf und erstellte eine Notiz, nicht nur von der Lizenz, aber auch dass ich derjenige war, der es getan hat.
 
-Furthermore, I detected that only one of our libraries (stylint) requires a GPL license, but the developers have a license conflict in the declaration in the package.json (GPL-2) and the actual license file (GPL-3).
+Darüber hinaus entdeckte ich, dass nur für eine unserer Bibliotheken (Stylint) eine GPL-Lizenz erforderlich ist, aber die Entwickler haben einen Lizenz-Konflikt in der Erklärung im package.json (GPL-2) und in der tatsächlichen Lizenzdatei (GPL-3).
 
-That is what you will need to do as well. Should a license file not be included in the project, and you cannot find one, it is wise to contact the author.
+Das ist, was Sie ebenfalls tun müssen. Sollte eine Lizenz-Datei nicht in das Projekt einbezogen werden und Sie können keine finden, ist es ratsam den Autor zu kontaktieren.
 
-**A word of caution**: These automated systems are not foolproof (e.g. a module about license detection may detect multiple licenses, even though it is itself using another license). If you are bound by regulatory compliance, you need to go through them all by hand - and don't be afraid to reach out to the author if you need clarification - or even a different license. This is sometimes possible. Just remember, it's better to ask permission than forgiveness.
+**Ein Sicherheitshinweis**: Diese automatisierten Systeme sind nicht narrensicher (z. B. ein Lizenz-Erkennungsmodul erkennt möglicherweise mehrere Lizenzen, auch wenn es selbst eine andere Lizenz verwendet). Wenn Sie an die Einhaltung gesetzlicher Bestimmungen gebunden sind, müssen Sie diese per Hand prüfen - und scheuen Sie nicht den Autor zu kontaktieren, sollten Sie Klarstellungen benötigen - oder sogar eine andere Lizenz. Dies ist manchmal möglich. Erinnern Sie sich nur daran, es ist besser um Erlaubnis zu bitten, als um Vergebung.
 
-### Using open-source
+### Open-Source verwenden
 
 If you use anything that is open-source, you must declare its use and make the original licenses easily accessible. If you are using, for example, node modules in your project, then these licenses are available in the source code of the project when someone downloads the project files and "installs" the dependencies. You can usually find it as a file named `LICENSE` in the root folder or in the "license" field in the `package.json`
 
