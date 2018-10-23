@@ -168,22 +168,22 @@ In dem Sie eine `signed-off-by`-Flag zu Ihrem Git-Commit hinzufügen, geben Sie 
 
 Einige IDEs, so wie [Webstorm](https://www.jetbrains.com/help/webstorm/2017.2/using-git-integration.html#commit), bieten Ihnen die Möglichkeit diese Flag direkt beim Code-Review aus dem Commit hinzuzufügen. Hierdurch wird die folgende Zeile an das Ende der Commit-Nachricht angehängt: `Signed off by: <username>`
 
-Bitte beachten Sie, sollte der Manager des Projektes an dem Sie arbeiten, Sie um "sign off" bitten, vergewissern Sie sich, dass dies wirklich für alle Commits unternommen werden soll, oder ob das Abmelden von Tags oder PRs ausreicht. Technically speaking, the person doing the merge is the one who is required to sign-off, but by adding your name to the individual commits it becomes clear who was really responsible for which changes. It is a matter of preference.
+Bitte beachten Sie, sollte der Manager des Projektes an dem Sie arbeiten, Sie um "sign off" bitten, vergewissern Sie sich, dass dies wirklich für alle Commits unternommen werden soll, oder ob das Abmelden von Tags oder PRs ausreicht. Technisch gesehen, ist die für das Zusammenfügen zuständige Person für den Sign-off zuständig, aber durch das Hinzufügen des Namens der individuellen Commits wird es deutlicher, wer wirklich für die Änderungen verantwortlich ist. Es kommt auf die persönliche Vorliebe an.
 
-> At Quasar we ask you to sign-off on all commits.
+> Bei Quasar bitten wir Sie um sing-off von allen Commits.
 
-### Become a "verified" contributor
+### Ein "verifizierter" Beitragender werden
 
-Verified contributors on Github or Gitlab are developers who have added a GPG key to their account and use this GPG key to sign their commits. Although it is not necessary for integration, some project managers may require it - especially since it is easier to steal someone's login credentials and modify a critical repository than it is steal their GPG key.
+Verifizierte Beitragende auf Github oder Gitlab sind Entwickler, die einen GPG-Schlüssel zu ihrem Konto hinzugefügt haben und diesen verwenden, um ihre Commits zu unterschreiben. Auch wenn es für die Integration nicht notwendig ist, verlangen es vielleicht einige Manager - besonders, da es einfacher ist, jemandes Anmeldeinformationen zu stehlen und ein kritisches Repository zu modifizieren, als einen GPG-Schlüssel zu stehlen.
 
-The following links will show you how to create a GPG key and use them with Github or Gitlab, as needed.
+Die folgenden Links zeigen Ihnen, wie man einen GPG-Schlüssel erstellt und wie dieser mit Github oder Gitlab verwendet wird.
 
-- [Add a GPG Key to Github](https://help.github.com/articles/adding-a-new-gpg-key-to-your-github-account/)
-- [Signing commits on Gitlab](https://docs.gitlab.com/ee/user/project/repository/gpg_signed_commits/index.html)
+- [Einen GPG-Schlüssel zu Github hinzufügen](https://help.github.com/articles/adding-a-new-gpg-key-to-your-github-account/)
+- [Commits auf Gitlab unterzeichnen](https://docs.gitlab.com/ee/user/project/repository/gpg_signed_commits/index.html)
 - https://blog.github.com/2016-04-05-gpg-signature-verification/
 - https://stackoverflow.com/questions/10161198/is-there-a-way-to-autosign-commits-in-git-with-a-gpg-key
 
-### When do I need to get "release" forms
+### Wann benötige ich eine "Einverständniserklärung"
 
 A release form is generally required when making photographs of people and private property - and using them for any non-private purpose. Although specifics vary from jurisdiction to jurisdiction, it is very important that you get people to sign a release form, and if it is clear WHERE the picture was taken, then you might need to get permission of the owner.
 
