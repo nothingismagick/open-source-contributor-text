@@ -73,15 +73,15 @@ It is generally accepted in modern democratic society that a notice of copyright
 
 只要你作品 (網站、應用程式等) 的"消費者"被告知可以看到你用來建構作品的第三方項目授權，那你就不必提供這些授權。
 
-If you do decide to use anything done by a third-party within your work, except for public domain works (which I personally believe you should also cite), you are required (both legally and morally) to cite the source. This is called **attribution**, and a general rule of thumb is that you should include references to all of the code you are using. We will get more into this later on in the tutorial, because there are different requirements depending upon the domain of the resource being attributed.
+如果你決定在作品使用第三方來源的材料，除了公有領域的材料外 (但我個人認為你也應該引用)，你必須 (在法律上和道德上) 引用來源。 我們稱其為**署名**，在一般經驗法則下，你應包含所有使用代碼的引用。 我們將在本教材更多的了解這部份，因為取決於署名資源的領域，會有不同的要求。
 
-### "Free/Libre and Open Source Software"
+### "自由軟件和開源軟件"
 
-> The term "open source" refers to something people can modify and share because its design is publicly accessible.
+> "開源"一詞指的是人們可以修改及分享的資源，因它的設計是可公開訪問的。
 > 
 > https://opensource.com/resources/what-open-source
 
-There is a perpetual discussion by FLOSS hardliners about the degree of **freedom** inherent in "open" source - and even what **free** means. However, it is probably a good idea to go back in time to 1998 and [read this article](https://opensource.com/article/18/2/coining-term-open-source-software) by the woman who came up with the name "open source": Christine Peterson. Although Richard Stallman and Linus Torvalds are two of the most successful, visible and vocal proponents on the matter; the point is that even though the term began as a "marketing device", it stuck and changed the lives of everyone on the planet - arguably for the better.
+FLOSS死硬派一直對"開"源中固有的**自由**程度，甚至**自由**的含義，有著持續不休的爭論。 However, it is probably a good idea to go back in time to 1998 and [read this article](https://opensource.com/article/18/2/coining-term-open-source-software) by the woman who came up with the name "open source": Christine Peterson. Although Richard Stallman and Linus Torvalds are two of the most successful, visible and vocal proponents on the matter; the point is that even though the term began as a "marketing device", it stuck and changed the lives of everyone on the planet - arguably for the better.
 
 Stallman and the "Free Software Foundation" (FSF), who have arguably been around the longest, will define freedom as an important part of open source, because your freedom to use the code and change it is also a responsibility that you bear in the name of the entire community.
 
