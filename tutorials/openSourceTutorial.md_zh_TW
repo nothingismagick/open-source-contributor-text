@@ -69,9 +69,9 @@ Every act of creativity can be attributed to someone or to a group of people wor
 
 It is generally accepted in modern democratic society that a notice of copyright is required as a preface for all licenses, because someone has to be responsible for declaring how the thing being licensed can be used. In a strange (but somehow logical) twist, if you wish to share your work as Public Domain or Copyleft, you have to first declare that you are the owner of your work (and that everyone who contributed to it agrees with you on that matter).
 
-Once a copyright is declared, the copyright holder may inform readers and users of the code / text / art under which circumstances it is appropriate to use it. No matter what licensing approach the original author / copyright holder takes, it is always appropriate to retain copies of these licenses in the repository hosting your work should it use open-source licensed works of third parties. It is never ok to remove or edit license files or license references in the headers or metadata of source files - because that is literally stealing and a form of plagiarism.
+當完成了聲明版權，版權持有人可以通知代碼 / 文本 / 藝術品的讀者及使用者在什麼情況下可以適當地使用它。 無論原作者 / 版權持有人採用哪一種授權方式，如果作品使用了第三方的開源授權材料，就應在作品寄存庫中保留這些授權的副本。 在原始檔的標頭 (header) 或元數據 (metadata) 移除、編輯授權檔或授權參考是永不容許的事，因為這實際上是偷竊和剽竊的一種形式。
 
-As long as "consumers" of your built artefacts (website, app, etc.) are informed to where they can see the licenses of the third-party projects that you have used to build your project, you can avoid shipping these licenses.
+只要你作品 (網站、應用程式等) 的"消費者"被告知可以看到你用來建構作品的第三方項目授權，那你就不必提供這些授權。
 
 If you do decide to use anything done by a third-party within your work, except for public domain works (which I personally believe you should also cite), you are required (both legally and morally) to cite the source. This is called **attribution**, and a general rule of thumb is that you should include references to all of the code you are using. We will get more into this later on in the tutorial, because there are different requirements depending upon the domain of the resource being attributed.
 
