@@ -1,55 +1,55 @@
-*An in-depth introduction to Open-Source with some specific examples taken from the approach used by the Quasar Framework, as we intend to use this tutorial as training and reference for all forthcoming (and existing) contributors.*
+*這是一份關於開放源碼 (Open-Source) 的深入介紹，我們將通過Quasar框架中採用的一些具體例子來進行說明，因為我們打算使用這份教材來培訓未來(和現在) 的所有貢獻者並為他們提供參考。*
 
-### Repository
+### 資源庫
 
 https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSourceTutorial.md
 
 <center>
-  <img src="https://ipfs.busy.org/ipfs/QmNh5ir9k6hrJNZNnhYXKgvMGfAzUPWFiVyDmss2J3kacJ" alt="GPL_MIT_glow.png" /> Image: CC0 by @nothingismagick
+  <img src="https://ipfs.busy.org/ipfs/QmNh5ir9k6hrJNZNnhYXKgvMGfAzUPWFiVyDmss2J3kacJ" alt="GPL_MIT_glow.png" /> 圖片：CC0 由@nothingismagick提供
 </center>
 
-### What Will Be Discussed?
+### 我們將討論甚麼？
 
-> You will learn about Open Source and best-practices to make sure that your contributions are compliant.
+> 你將了解開源及其最佳實踐的相關知識，以確保你的貢獻符合要求。
 
-#### **Introduction**
+#### **簡介**
 
-- You will learn about the difference between copyright, licensing and attribution
-- You will discover the meaning of "Free/Libre and Open Source Software"
+- 你將了解版權(copyright)、授權(licensing) 及署名(attribution) 的分別
+- 你將了解"自由軟體和開源軟體"的含義
 - You will find out what the difference is between "Permissive" and "Protective" licenses
 - You will learn about license discovery and licensing agreements
 - You will learn how to use code and other assets that are open-source
 
-#### **Your Identity and Rights**
+#### **您的身份和權利**
 
-- You will learn about "Non-Disclosure Agreements" (NDA)
-- You will learn about "Contributor License Agreements" (CLA)
-- You will learn how to become a "verified" contributor
-- You will learn why "developer certificates of origin" are used
-- You will learn what "signed-off-by" means
+- 您將了解"保密協議" (NDA) 的相關知識
+- 您將了解"貢獻者授權協議" (CLA) 的相關知識
+- 你將了解如何成為一名"認證"貢獻者
+- 你將了解使用"開發者原創證書"的原因
+- 你將了解"由... 簽署"的意思
 - You will learn about "release" forms
 - You will learn about "provenance"
 
-#### **License Types**
+#### **授權類型**
 
-- Licenses for code
-- Licenses for text / documentation
-- Licenses for artwork / design / video
-- Licenses for fonts
+- 代碼授權
+- 文字 / 文件授權
+- 藝術品 / 設計 / 影片授權
+- 字體授權
 
-### Requirements
+### 要求
 
-- You must read English proficiently
-- A basic understanding of `git` 
-- Knowledge of file types relevant to your field of activity 
+- 能夠熟練閱讀英文
+- 對`git`有基本認識 
+- 擁有與你活動領域相關的檔案類型知識 
 
-### Difficulty
+### 難度
 
-- Basic to medium
+- 基礎到中級
 
-# Tutorial Contents
+# 教學內容
 
-> This tutorial is a primer for those who are interested in contributing to open-source projects. It may also be useful for active contributors who were always curious about advanced topics. And finally, because licensing can be very contentious, this is also a text for those who want to engage in a discussion about open-source. Although we are using specific examples from the "Quasar Framework", the issues herein are relevant across the spectrum of open-source software development.
+> This tutorial is a primer for those who are interested in contributing to open-source projects. 對於想了解高級主題的積極貢獻者，這教材也可能對你有幫助。 最後，由於授權很容易引起爭議，這也是供希望參與開源討論者的參考文本。 Although we are using specific examples from the "Quasar Framework", the issues herein are relevant across the spectrum of open-source software development.
 > 
 > Our hope is that you will gain deeper insight into all of the great things (and potential pitfalls) surrounding licenses in the world of open-source software. The Introduction is a great place to start, as it defines some of the terms this tutorial will constantly return to. It will also teach you about some simple methods for making sure that your contributions are compliant with the licensing scheme taken by the project you are working with. Then, it begins a discussion about you, the contributor, and the rights and responsibilities that you have. Finally, it will go into depth about various domains of licensing, including code, copy, design and fonts.
 
