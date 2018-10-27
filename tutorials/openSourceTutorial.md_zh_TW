@@ -51,7 +51,7 @@ https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSou
 
 > This tutorial is a primer for those who are interested in contributing to open-source projects. 對於想了解高級主題的積極貢獻者，這教材也可能對你有幫助。 最後，由於授權很容易引起爭議，這也是供希望參與開源討論者的參考文本。 雖然我們使用"Quasar框架"中的特定例子，但我們觸及的問題都是與開源軟體發展各個方面相關的。
 > 
-> Our hope is that you will gain deeper insight into all of the great things (and potential pitfalls) surrounding licenses in the world of open-source software. The Introduction is a great place to start, as it defines some of the terms this tutorial will constantly return to. It will also teach you about some simple methods for making sure that your contributions are compliant with the licensing scheme taken by the project you are working with. Then, it begins a discussion about you, the contributor, and the rights and responsibilities that you have. Finally, it will go into depth about various domains of licensing, including code, copy, design and fonts.
+> 我們希望你能在開源軟體授權的重要事情上 (及潛在陷阱) 有更深的認識。 從介紹部份開始閱讀會是很好的起步，因為它定義了一些本教材經常提及的用語。 它還會教你一些簡單方法來確保你的貢獻能符合參與計劃的授權方案。 然後，教學將討論到你，即貢獻者擁有的權利和責任。 Finally, it will go into depth about various domains of licensing, including code, copy, design and fonts.
 
 ## Preface
 
