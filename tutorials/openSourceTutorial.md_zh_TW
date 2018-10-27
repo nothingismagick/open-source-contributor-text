@@ -53,7 +53,7 @@ https://github.com/nothingismagick/quasar-articles/blob/master/tutorials/openSou
 > 
 > 我們希望你能在開源軟體授權的重要事情上 (及潛在陷阱) 有更深的認識。 從介紹部份開始閱讀會是很好的起步，因為它定義了一些本教材經常提及的用語。 它還會教你一些簡單方法來確保你的貢獻能符合參與計劃的授權方案。 然後，教學將討論到你，即貢獻者擁有的權利和責任。 Finally, it will go into depth about various domains of licensing, including code, copy, design and fonts.
 
-## Preface
+## 前言
 
 > Some software has source code that only the person, team, or organization who created it—and maintains exclusive control over it—can modify. People call this kind of software "proprietary" or "closed source" software. ... Open source software is different. Its authors [make its source code available](https://opensource.com/business/13/5/open-source-your-code) to others who would like to view that code, copy it, learn from it, alter it, or share it. [LibreOffice](https://www.libreoffice.org/) and the [GNU Image Manipulation Program](http://www.gimp.org/) are examples of open source software.
 
