@@ -195,19 +195,19 @@ Falls Sie Fotografien von Personen verwenden, die Sie selbst erstellt haben und 
 
 Herkunft ist ein Wort, welches die Geschichte einer Arbeit beschreibt. Ein unter einer Open-Source-Lizenz geteilter Code innerhalb des Kontextes eines git-Repositorys ist mehr oder weniger selbstdokumentierend. Abbildungen sind weniger eindeutig und es ist besonders knifflig mit digitalen Collage-Arbeiten, die mehrere Quellen kombinieren.
 
-Es ist wichtig sich mit der Herkunft fü Designer zu beschäftigen, da Rechte an visuellen Bildern stark umkämpft sind und oft zu Rechtsstreit führen. Selbst wenn eine öffentliche Domain verwendet wird, ist es trotzdem eine bewährte Verfahrensweise seine Arbeit in einem Herkunftsdokument einzutragen. This type of document is like the bibliography in a scientific paper, in which the ideas and authors are recorded. Although there is no "standardised" approach, the best method is to not only record the sources and the times accessed, but also track down the licenses for each component. If you want an example of this, feel free to look at the citations section [in this graphics breakdown](https://busy.org/@nothingismagick/qcensus2018-campaign-graphics-breakdown) written in the @utopian-io style.
+Es ist wichtig sich mit der Herkunft fü Designer zu beschäftigen, da Rechte an visuellen Bildern stark umkämpft sind und oft zu Rechtsstreit führen. Selbst wenn eine öffentliche Domain verwendet wird, ist es trotzdem eine bewährte Verfahrensweise seine Arbeit in einem Herkunftsdokument einzutragen. Diese Art von Dokument ist vergleichbar zum Literaturverzeichnis in einem wissenschaftlichen Artikes, in dem die Ideen und Autoren dokumentiert sind. Obwohl es kein "standardisiertes" Verfahren gibt, ist die beste Methode nicht nur die Quelle und den Zugriffszeitpunkt zu dokumentieren, sondern auch die Lizenzen der einzelnen Komponenten. Falls Sie ein Beispiel dafür wünschen, können Sie sich gerne den Zitierabschnitt [in dieser Grafikübersicht](https://busy.org/@nothingismagick/qcensus2018-campaign-graphics-breakdown) ansehen, der im @utopian-io Stil geschrieben ist.
 
-> The last thing anyone wants is a legal battle because it drains resources like time and money. If you are contributing to an open-source project, make sure that you are not putting them in hot-water. At Quasar, you can rest assured that the Art Department takes this VERY seriously, and violations of this trust are likely to lead to blacklisting or hammerbanning.
+> Das Letzte, was man möchte, ist ein Rechtsstreit, der unnötig Zeit und Geld verschwendet. Wenn Sie zu einem Open-Source-Projekt beitragen, stellen Sie sicher, dass Sie dieses nicht unnötig in Gefahr bringen. Bei Quasar können Sie vergewissert sein, dass die Kunstabteilung dies SEHR ernst nimmt und Verstöße gegen dieses Vertrauen zum Blacklisting oder Bann führen können.
 
-## License Types
+## Lizenztypen
 
-### Major licenses for code
+### Wesentliche Lizenzen für Code
 
-This introduction cannot possibly explain the subtle differences between all of the different licenses for code, because there are dozens. A license is added to code by either placing a reference to it in the header of the file being licensed in the case of distributables, in a LICENSE file in the root level of a repository, in the README about the project or potentially in the package.json (if using node).
+Diese Einführung kann unmöglich die feinen Unterschiede zwischen all den verschiedenen Lizenzen für Code erklären, da es Dutzende verschiedene gibt. Eine Lizenz wird einem Code hinzugefügt, indem eine Quelle entweder im Header der zu lizenzierenden Datei, im Falle von Distributables, in einer LIZENZ-Datei im Root-Level des Repository, im README des Projektes, oder möglicherweise in der package.json (falls node verwendet wird) eingefügt wird.
 
-If you skipped ahead and didn't read the earlier chapters, here is a quick recap of the three main license types and a popular example of each, along with two links that go into more detail and analysis.
+Falls Sie die letzten Kapitel übersprungen haben, ist hier eine kurze Zusammenfassung der drei Haupt-Lizenztypen und ein beliebtes Beispiel für jeden, sowie zwei Links, die das Thema detaillierter analysieren.
 
-- **Permissive**: [MIT](http://www.opensource.org/licenses/MIT)
+- **Offen**: [MIT](http://www.opensource.org/licenses/MIT)
 - **Protective**: [GPL-3](https://www.gnu.org/licenses/gpl-3.0.en.html)
 - **Public Domain**: [WTFPL](http://www.wtfpl.net/)
 - [Github's License Helper](https://choosealicense.com/)
