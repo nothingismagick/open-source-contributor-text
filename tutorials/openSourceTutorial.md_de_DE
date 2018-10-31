@@ -239,29 +239,29 @@ Je nachdem, wo und wie der Beitrag verwendet wird, gibt es eine Reihe von Mögli
 5. Setzen Sie diese Informationen in eine Fußnote / Endnote / verlinktes Dokument
 6. Platzieren Sie Lizenzinformationen oder Lizenzen und Freigabe-Form-Deckblätter im Repository im selben Ordner wie das Bild, oder einem anderen zugewiesenen Speicherort
 
-Common licenses to use for Images / Designs / Videos are:
+Übliche Lizenzen für Bilder / Designs / Videos sind:
 
 - [Creative Commons](https://creativecommons.org/)
-- [Public Domain / CC0](https://creativecommons.org/share-your-work/public-domain/cc0/)
+- [Öffentliche Domain: WTFPL](https://creativecommons.org/share-your-work/public-domain/cc0/)
 - [Apache v2](https://apache.org/licenses/LICENSE-2.0)
 
-> Quasar prefers CC-BY or CC0 licenses.
+> Quasar bevorzugt CC-BY oder CC0 Lizenzen.
 
-### Font licenses
+### Schriftart-Lizenzen
 
-Of the hundreds of fonts listed at [Google Fonts](https://fonts.google.com/attribution), there are exactly two different licenses used: Either the Apache License v2, or the SIL Open Font License v1.1. The vast majority are OFL, and it is basically the same type of permissive license as MIT.
+Für die hunderten, auf [Google Fonts](https://fonts.google.com/attribution) aufgelisteten, Schriftarten werden genau zwei verschiedene Lizenzen verwendet: Entweder die Apache-Lizenz v2, oder die SIL Open Font Lizenz v1.1. Die große Mehrheit sind OFL, welche im Grunde die gleiche Art von offener Lizenz ist wie MIT.
 
-If you are using a font, you need to make sure that you really have the license for it, as some professional font forges will sell different types of licenses depending on the application. (As in one license for desktop publishing, another for websites, etc.) If you are using an open-source font, best-practice is to put a copy of the license in the folder where you are maintaining your fonts.
+Wenn Sie eine Schriftart verwenden, müssen Sie sicherstellen, dass Sie wirklich die Lizenz dafür haben, da einige professionelle Font-Forges verschiedene Arten von Lizenzen, je nach Anwendung, verkaufen. (Wie eine Lizenz für Desktop-Publishing, eine andere für Webseiten, usw.) Wenn Sie eine Open-Source-Schriftart verwenden, ist die bewährte Methode, die Lizenz in den Ordner zu legen, in dem Sie Ihre Schriftarten aufbewahren.
 
-Furthermore, some services like FontSquirrel offer a [WebfontGenerator](https://www.fontsquirrel.com/tools/webfont-generator) that enables designers to make a set of font-files so that individual browsers can select the type that they are most well-equipped to use. They require you to verify that you have the right to convert the font to other formats. The SIL OFL does permit this. If there is no license that you can find, assume that you do not have the right to use the font.
+Darüber hinaus bieten einige Dienste, wie FontSquirrel, einen [WebfontGenerator](https://www.fontsquirrel.com/tools/webfont-generator), der es Designern ermöglicht eine Reihe von Schriftart-Dateien zu erstellen, sodass einzelne Browser die Schriftart auswählen können, für dessen Nutzung sie am besten ausgerüstet sind. Dies setzt voraus, dass Sie die Rechte haben, Schriftarten in andere Formate zu konvertieren. Die SIL OFL lässt dies zu. Wenn Sie keine Lizenz finden können, gehen Sie davon aus, dass Sie nicht das Recht haben diese Schriftart zu verwenden.
 
 - [OFL-FAQ web version (1.1-update5)](https://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web)
 
-# Final Words
+# Abschließende Worte
 
-Just because you "open" your work to collaboration from others, this is not the end of the story. Just because you slap a Creative Commons license on a photoshop file does not mean it is open and free. The degree of openness of an asset or project is also determined by the operating system and the software needed to use and or modify the file. Please consider publishing not only the results of the process of your work, but also inform people about how you did it.
+Nur weil Sie Ihre Arbeit für die Zusammenarbeit mit anderen "öffnen", ist dies nicht das Ende der Geschichte. Nur weil Sie eine Creative Commons-Lizenz auf eine Photoshop-Datei kleben, bedeutet das nicht, dass sie offen und kostenlos ist. Der Grad der Offenheit eines Assets oder Projekts wird auch durch das Betriebssystem und die, für das Verwenden der Datei benötigte, Software bestimmt. Bitte erwägen Sie, nicht nur die Ergebnisse Ihrer Arbeit zu veröffentlichen, sondern auch andere über Ihren Arbeitsweg zu informieren.
 
-Furthermore, please do not use pirated software when working on open-source projects. Not only is it "uncool" and damaging to the honour of the entire open-source community, you are putting yourself and your colleagues at risk, especially if you have high-value credentials, like server logins etc. There is no better way to get yourself (and possibly your team) hacked than to use cracks.
+Darüber hinaus verwenden Sie bitte keine Software-Raubkopien bei der Arbeit an Open-Source-Projekten. Not only is it "uncool" and damaging to the honour of the entire open-source community, you are putting yourself and your colleagues at risk, especially if you have high-value credentials, like server logins etc. There is no better way to get yourself (and possibly your team) hacked than to use cracks.
 
 # Further Resources
 
