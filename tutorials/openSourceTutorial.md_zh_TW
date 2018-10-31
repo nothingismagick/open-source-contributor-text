@@ -89,24 +89,24 @@ FLOSS死硬派一直對"開"源中固有的**自由**程度，甚至**自由**�
 
 就算你忽略了*Free*也意味著"不花任何錢"(這是加上Libre的主要原因) 的事實，我們仍有一個未解決的語義問題，事實上，這是一個可能永遠不能解決的問題：
 
-如以你的觀點出發，Gnu公共授權並不是完全免費的，因為它附帶著的要求讓你必須把代碼的更改帶回社區 - 而Free則意味著你可以自行決定如何使用及處理那些代碼。 同時在另一個角度，有人則認為MIT授權並不完全免費。 They do so because there are circumstances where the code can be permissibly changed and not returned to the community - in a sense "imprisoning" the code.
+如以你的觀點出發，Gnu公共授權並不是完全免費的，因為它附帶著的要求讓你必須把代碼的更改帶回社區 - 而Free則意味著你可以自行決定如何使用及處理那些代碼。 同時在另一個角度，有人則認為MIT授權並不完全免費。 他們這樣認為是因為在某些情況下，代碼可獲准做出更改並不需帶回社區 - 這是某種意義的"囚禁"代碼。
 
-> There is no right or wrong answer here, because it is a matter of perspective - however every developer and every organisation needs to decide for themselves where they want to put the focus of their attention. At the Quasar Framework, we are not purists in the sense that we believe Code is in and of itself a spiritual being deserving of transferrable rights. If perhaps we were working on the Linux kernel that might be different - but we are more concerned with the human side of code and believe that the people who use our project should have the ultimate freedom of choice to do what they want. This is why we have taken the "permissive" approach and chosen the MIT license.
+> 其實並沒有正確或錯誤的答案，因為這是觀點的問題 - 然而每個開發人員及組織都需要自己決定他們要把注意力集中到哪兒。 在Quasar框架中，我們不是純化論者，認為代碼是應得到轉讓權的精神存在。 或者我們工作的Linux內核會有所不同 - 但我們更關注代碼的人性方面，並相信使用我們計劃的人應得到做想要做的事情的最終選擇自由。 這是為什麼我們採取了"寬容"的取向並選擇了MIT授權。
 
-There is often a great deal of discussion around "how free to make the code". I propose that you ask yourself four questions:
+我們經常有大量的討論關於"編寫代碼的自由度"。 我建議你問自己以下四個問題：
 
-1. Do you prefer to work alone?
-2. Are you worried about people stealing your idea?
-3. Have you written all of the code yourself, including the libraries?
-4. Have you signed any type of Non Disclosure Agreement regarding the work in question?
+1. 你喜歡獨自工作嗎？
+2. 你擔心別人偷取你的主意嗎？
+3. 你是否自己編寫了所有代碼，包括代碼庫？
+4. 你是否簽署了任何相關的保密協議？
 
-If you answered **no** to any of these questions, then using an open source license for your work is a great way to go.
+如你在任何一個問題的回答是**否**，那麼使用開源授權會是一個好方法。
 
-If you answered **yes** to all of these questions, then considering licensing your work as open-source is probably still one of the best ways to protect your work and make sure that it has an impact on the rest of the world. Just think of it this way: if all of the software around you today was not open source, would you still be able to work as you do? Don't you owe it to the community to share your work?
+如你所有問題都回答**是**，那麼考慮將你的作品授權為開源可能仍是其中一個最好的方法去保護你的作品，並確保它對世界其他地方產生影響。 試想一下：如果今天你身邊所有軟體都不是開源的，你還能像平時一樣工作嗎？ Don't you owe it to the community to share your work?
 
-### Permissive vs. Protective licensing
+### 寬鬆 VS. 保護授權
 
-One of the common misconceptions about licensing your project with GPL is that it will prevent corporations from taking your idea and using it to make money - all without giving you any cut of the profits. This is patently untrue. If someone wants to steal your code and break the law, they will. If a corporation wants to use your GPL library, they can isolate it from the rest of their system and reveal nothing of their proprietary code. They can take your code, reverse engineer it and rewrite it. If this is your biggest concern, then stop, go back to the beginning of this tutorial and read carefully to decide if you want to participate in open-source - or merely profit from it.
+有關使用GPL授權你的項目時最常見的其中一個誤解是它會防止企業得到你的想法並用之謀利 - 而不帶給你任何利潤。 This is patently untrue. 如果有人想違法盗取你的代碼，他們總會做的。 If a corporation wants to use your GPL library, they can isolate it from the rest of their system and reveal nothing of their proprietary code. They can take your code, reverse engineer it and rewrite it. If this is your biggest concern, then stop, go back to the beginning of this tutorial and read carefully to decide if you want to participate in open-source - or merely profit from it.
 
 MIT, BSD and Apache are what the open-source software community calls "permissive" licenses. Permissive means that the author is permitting you a great deal of rights to use the software they are sharing, even the right to use it for making a profit and changing it to suit your purposes. As long as you retain copies of the original license and inform those who are interested that you are using that particular software, then you can do anything with the code - even change it and not tell anyone you have done so.
 
