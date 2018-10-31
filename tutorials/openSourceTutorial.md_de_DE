@@ -261,21 +261,21 @@ Darüber hinaus bieten einige Dienste, wie FontSquirrel, einen [WebfontGenerator
 
 Nur weil Sie Ihre Arbeit für die Zusammenarbeit mit anderen "öffnen", ist dies nicht das Ende der Geschichte. Nur weil Sie eine Creative Commons-Lizenz auf eine Photoshop-Datei kleben, bedeutet das nicht, dass sie offen und kostenlos ist. Der Grad der Offenheit eines Assets oder Projekts wird auch durch das Betriebssystem und die, für das Verwenden der Datei benötigte, Software bestimmt. Bitte erwägen Sie, nicht nur die Ergebnisse Ihrer Arbeit zu veröffentlichen, sondern auch andere über Ihren Arbeitsweg zu informieren.
 
-Darüber hinaus verwenden Sie bitte keine Software-Raubkopien bei der Arbeit an Open-Source-Projekten. Not only is it "uncool" and damaging to the honour of the entire open-source community, you are putting yourself and your colleagues at risk, especially if you have high-value credentials, like server logins etc. There is no better way to get yourself (and possibly your team) hacked than to use cracks.
+Darüber hinaus verwenden Sie bitte keine Software-Raubkopien bei der Arbeit an Open-Source-Projekten. Dies ist nicht nur "uncool" und schädlich für die Ehre der gesamten Open-Source-Community, Sie gefährden auch sich und Ihre Kollegen, vor allem wenn Sie wertvolle Anmeldeinformationen haben, wie Server-Logins etc. Es gibt keinen besseren Weg für Sie (und wahrscheinlich Ihr Team), um gehackt zu werden, als Cracks zu verwenden.
 
-# Further Resources
+# Weitere Ressourcen
 
-In case you want to go more into depth about these topics, we have a few additional resources that we highly recommend:
+Für den Fall, dass Sie tiefer in dieses Thema eintauchen möchten, haben wir ein paar zusätzliche Ressourcen hinzugefügt, die wir sehr empfehlen:
 
-- Stallman's distinction between [FLOSS and FOSS](https://www.gnu.org/philosophy/floss-and-foss.en.html)
-- This chapter of the [ZeroMQ Guide](http://zguide.zeromq.org/page:all#toc141) goes into great detail about governance in open-source projects with the specific example of their community
+- Stallmans Unterscheidung zwischen [FLOSS und FOSS](https://www.gnu.org/philosophy/floss-and-foss.en.html)
+- Dieses Kapitel des [ZeroMQ Guide](http://zguide.zeromq.org/page:all#toc141) beschreibt sehr ausführlich die Steuerung in Open-Source-Projekten und gibt konkrete Beispiele aus der Community
 
-#### Proof of Work Done (Authorship)
+#### Nachweis der Arbeit (Autorschaft)
 
-The original version of this article has been compiled and written by @nothingismagick https://github.com/nothingismagick
+Die Originalversion dieses Artikels wurde zusammengestellt und geschrieben von @nothingismagick https://github.com/nothingismagick
 
-#### License
+#### Lizenz
 
-This work and all derivatives are [licensed under the FDL 1.3](https://github.com/nothingismagick/quasar-articles/blob/master/LICENSE).
+Diese Arbeit und alle Derivate sind [lizenziert unter der GNU FDL 1.3](https://github.com/nothingismagick/quasar-articles/blob/master/LICENSE).
 
-> Written with [StackEdit](https://stackedit.io/).
+> Mit [StackEdit](https://stackedit.io/) geschrieben.
