@@ -106,19 +106,19 @@ FLOSS死硬派一直對"開"源中固有的**自由**程度，甚至**自由**�
 
 ### 寬鬆 VS. 保護授權
 
-有關使用GPL授權你的項目時最常見的其中一個誤解是它會防止企業得到你的想法並用之謀利 - 而不帶給你任何利潤。 This is patently untrue. 如果有人想違法盗取你的代碼，他們總會做的。 If a corporation wants to use your GPL library, they can isolate it from the rest of their system and reveal nothing of their proprietary code. They can take your code, reverse engineer it and rewrite it. If this is your biggest concern, then stop, go back to the beginning of this tutorial and read carefully to decide if you want to participate in open-source - or merely profit from it.
+有關使用GPL授權你的項目時最常見的其中一個誤解是它會防止企業得到你的想法並用之謀利 - 而不帶給你任何利潤。 這明顯地是不正確的。 如果有人想違法盗取你的代碼，他們總會做的。 如果一家企業想使用你的GPL庫，他們可以將它與系統其餘部份分隔開來，並不顯示其專有代碼。 他們可以得到你的代碼，逆向分析並進行改寫。 如果這是你的最大顧慮，那請止步，回到教材的最開頭仔細閱讀，再決定你是否真的想參與開源 - 或僅僅只是想從中獲利。
 
-MIT, BSD and Apache are what the open-source software community calls "permissive" licenses. Permissive means that the author is permitting you a great deal of rights to use the software they are sharing, even the right to use it for making a profit and changing it to suit your purposes. As long as you retain copies of the original license and inform those who are interested that you are using that particular software, then you can do anything with the code - even change it and not tell anyone you have done so.
+MIT、BSD及Apache是開源軟體社區所稱的"寬鬆"授權。 寛鬆意指作者給予你很大權利去使用他們分享的軟體，甚至有權使用它來賺取利潤，及按你目的更改它。 只要你保留了原始授權的副本並通知那些對你使用那特定軟體感興趣的人，那麼你就可以對代碼做任何事情 - 甚至更改它而不需通知任何人。
 
 > Copyleft is the practice of offering people the right to freely distribute copies and modified versions of a work with the stipulation that the same rights be preserved in [derivative works](https://en.wikipedia.org/wiki/Derivative_works) created later. https://en.wikipedia.org/wiki/Copyleft
 
-This type of "protective" licensing goes beyond the "permissive" licensing seen with MIT and APACHE by seeking to protect the code and the community's rights. Any modifications made to the source code must be returned to the community, and you may not sublicense the code. GPL and CC-SA are two licenses that work this way.
+這類型的"保護"授權超越了如MIT和APACHE所看到的"寬鬆"授權，試圖保護代碼及社區的權利。 所有對原始代碼所做的修改必須帶回社區，而你並不能對代碼進行再授權。 GPL及CC-SA正是兩種使用這形式的授權。
 
-### License discovery and licensing requirements
+### 授權發現及授權要求
 
-Using open-source software in your projects is a great thing, but you need to stay diligent, especially when you are contributing work to another project. And this is doubly true if you are required to do reporting about license compliance (for example in the case of public agencies or within corporate legal firewalls). In any case, it can be a bit of a hassle to manually go through and track down all the license files.
+在你的項目中使用開源軟體是一件很棒的事情，但你需要保持勤奮，尤其是當你在為另一個項目作出貢獻的時候。 如你需要對授權合規性 (例如在公共機構或企業法定防火牆內) 作出報告，就更需要這樣做。 在任何情況下，手動瀏覽及追縱所有授權檔案都是有點麻煩。
 
-There are a few projects that treat this issue of discovery, such as [nlf](https://www.npmjs.com/package/nlf) and [https://fossa.io/](https://fossa.io/ "https://fossa.io/") and specifically [their free **CLI** that does not require registration](https://github.com/fossas/fossa-cli).
+有一些計劃可助你解決這發現問題，如[nlf](https://www.npmjs.com/package/nlf)及[https://fossa.io/](https://fossa.io/ "https://fossa.io/")，特別是</a>免費且不需要注冊的**CLI**。</p> 
 
     $ nlf --summary detail > nlf.txt
     
