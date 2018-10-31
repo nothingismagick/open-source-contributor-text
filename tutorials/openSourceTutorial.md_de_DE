@@ -208,27 +208,27 @@ Diese Einführung kann unmöglich die feinen Unterschiede zwischen all den versc
 Falls Sie die letzten Kapitel übersprungen haben, ist hier eine kurze Zusammenfassung der drei Haupt-Lizenztypen und ein beliebtes Beispiel für jeden, sowie zwei Links, die das Thema detaillierter analysieren.
 
 - **Offen**: [MIT](http://www.opensource.org/licenses/MIT)
-- **Protective**: [GPL-3](https://www.gnu.org/licenses/gpl-3.0.en.html)
-- **Public Domain**: [WTFPL](http://www.wtfpl.net/)
-- [Github's License Helper](https://choosealicense.com/)
-- [The exhaustive list by the GNU Foundation](https://www.gnu.org/licenses/license-list.html)
+- **Geschützt**: [GPL-3](https://www.gnu.org/licenses/gpl-3.0.en.html)
+- **Öffentliche Domain**: [WTFPL](http://www.wtfpl.net/)
+- [Githubs Lizenzhelfer](https://choosealicense.com/)
+- [Die vollständige Liste der GNU Foundation](https://www.gnu.org/licenses/license-list.html)
 
-> At the Quasar Framework all contributions to the core libraries are required to be MIT. By contributing anything, you are agreeing to this license.
+> Beim Quasar Framework müssen alle Beiträge zur Kernbibliothek MIT sein. Durch das Beitragen stimmen Sie dieser Lizenz zu.
 
-### Important licenses for text / documentation
+### Wichtige Lizenzen für Text / Dokumentation
 
-Text and documentation is also a creative work, and is also generally protected under copyright laws. You can transfer these rights to third parties or to project owners to whom you will be giving your contributions by choosing either a Creative Commons resource or the Free Document License.
+Text und Dokumentation ist ebenfalls eine kreative Arbeit und ist generell auch durch Urheberrechtsgesetze geschützt. Sie können diese Rechte auf Dritte oder Projektinhaber, denen Sie Ihren Beitrag geben möchten, übertragen, in dem Sie entweder eine Creative Commons Quelle oder eine Lizenz für die freie Dokumentation wählen.
 
-It is considered best practice to name the license and author(s) at the end of the document being licensed.
+Es gilt als bewährte Methode, die Lizenz und die Autoren am Ende des lizenzierten Dokuments zu nennen.
 
 - [Creative Commons](https://creativecommons.org/)
-- [Free Documentation License](https://www.gnu.org/licenses/fdl.html)
+- [Lizenz für freie Dokumentation](https://www.gnu.org/licenses/fdl.html)
 
-> At the Quasar Framework all documentation is (or will be) licensed under the FDL.
+> Beim Quasar Framework sind (oder werden) alle Dokumentationen unter dem FDL lizenziert.
 
-### Licensing artwork / design / video
+### Lizenzierung für Kunstwerke / Design / Video
 
-There are literally as many legal regulations for this type of contribution as there are countries on the planet, so it is absolutely inappropriate to go into detail about how things are different from nation to nation. No matter what, the person that made the image can never lose the right to say that they were the owner (unless an absolutely draconian contract prevents it - and in some cases this won't stand up in court). This is why there is one common rule that will : Cite the author and name the license. If you can't do that, then don't use the asset.
+Es gibt buchstäblich so viele Rechtsvorschriften für diese Art des Beitrags, wie Länder auf dem Planeten und es ist daher völlig unangemessen ins Detail zu gehen, welche Dinge von Nation zu Nation unterschiedlich sind. Egal was passiert, die Person, die das Bild erstellt hat, kann nie das Recht verlieren, zu sagen, dass sie der Eigentümer ist (es sei denn, ein absolut drakonischer Vertrag verhindert es - und in einigen Fällen wird dies vor Gericht nicht standhalten). This is why there is one common rule that will : Cite the author and name the license. If you can't do that, then don't use the asset.
 
 Depending on where and how the contribution is to be used, there are a number of ways in which this citation can be made:
 
