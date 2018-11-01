@@ -102,7 +102,7 @@ FLOSS死硬派一直對"開"源中固有的**自由**程度，甚至**自由**�
 
 如你在任何一個問題的回答是**否**，那麼使用開源授權會是一個好方法。
 
-如你所有問題都回答**是**，那麼考慮將你的作品授權為開源可能仍是其中一個最好的方法去保護你的作品，並確保它對世界其他地方產生影響。 試想一下：如果今天你身邊所有軟體都不是開源的，你還能像平時一樣工作嗎？ Don't you owe it to the community to share your work?
+如你所有問題都回答**是**，那麼考慮將你的作品授權為開源可能仍是其中一個最好的方法去保護你的作品，並確保它對世界其他地方產生影響。 試想一下：如果今天你身邊所有軟體都不是開源的，你還能像平時一樣工作嗎？ 難道你不應該反饋社區而分享你的作品嗎？
 
 ### 寬鬆 VS. 保護授權
 
@@ -110,7 +110,7 @@ FLOSS死硬派一直對"開"源中固有的**自由**程度，甚至**自由**�
 
 MIT、BSD及Apache是開源軟體社區所稱的"寬鬆"授權。 寛鬆意指作者給予你很大權利去使用他們分享的軟體，甚至有權使用它來賺取利潤，及按你目的更改它。 只要你保留了原始授權的副本並通知那些對你使用那特定軟體感興趣的人，那麼你就可以對代碼做任何事情 - 甚至更改它而不需通知任何人。
 
-> Copyleft is the practice of offering people the right to freely distribute copies and modified versions of a work with the stipulation that the same rights be preserved in [derivative works](https://en.wikipedia.org/wiki/Derivative_works) created later. https://en.wikipedia.org/wiki/Copyleft
+> 著佐權 (Copyleft) 賦予人們自由分發副本及修改版本的權利，並規定在之後創作的[衍生作品](https://en.wikipedia.org/wiki/Derivative_works)保留相同的權利。 https://en.wikipedia.org/wiki/Copyleft
 
 這類型的"保護"授權超越了如MIT和APACHE所看到的"寬鬆"授權，試圖保護代碼及社區的權利。 所有對原始代碼所做的修改必須帶回社區，而你並不能對代碼進行再授權。 GPL及CC-SA正是兩種使用這形式的授權。
 
