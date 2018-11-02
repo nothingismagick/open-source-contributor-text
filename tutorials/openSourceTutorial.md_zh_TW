@@ -67,7 +67,7 @@ https://opensource.com/resources/what-open-source
 
 ### 版權、授權及署名
 
-在現代民主社會，我們並遍認為版權聲明是所有授權的第一步，因為我們必須有人負責宣佈如何使用被授權的東西。 矛盾 (但某程度又很符合邏輯) 的事，如你想將你的作品以公有領域或著作權的形式分享，你先需要聲明你是作品的擁有者 (同時每個曾為作品貢獻的人都同意)。
+在現代民主社會，我們並遍認為版權聲明是所有授權的第一步，因為我們必須有人負責宣佈如何使用被授權的東西。 In a strange (but somehow logical) twist, if you wish to share your work as Public Domain or Copyleft, you have to first declare that you are the owner of your work (and that everyone who contributed to it agrees with you on that matter).
 
 當完成了聲明版權，版權持有人可以通知代碼 / 文本 / 藝術品的讀者及使用者在什麼情況下可以適當地使用它。 無論原作者 / 版權持有人採用哪一種授權方式，如果作品使用了第三方的開源授權材料，就應在作品寄存庫中保留這些授權的副本。 在原始檔的標頭 (header) 或元數據 (metadata) 移除、編輯授權檔或授權參考是永不容許的事，因為這實際上是偷竊和剽竊的一種形式。
 
