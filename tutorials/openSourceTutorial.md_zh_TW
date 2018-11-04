@@ -160,9 +160,9 @@ MIT、BSD及Apache是開源軟體社區所稱的"寬鬆"授權。 寛鬆意指�
 
 然而，很多開發人員認為貢獻者授權協議是有問題的，因為它賦予持有人包括更改代碼授權的權利。 [這裡有一份gitlab出色的書面說明](https://about.gitlab.com/2017/11/01/gitlab-switches-to-dco-license/)，講述它們為什麼從貢獻者授權協議轉換到開發者原創證書(DCO) - 這是它們[從項目管理角度的深入分析](https://docs.google.com/a/gitlab.com/document/d/1zpjDzL7yhGBZz3_7jCjWLfRQ1Jryg1mlIVmG8y6B1_Q/edit?usp=sharing)。
 
-### What is a "Developer Certificate of Origin" (DCO)
+### 什麼是 "開發者原創證書" (DCO)
 
-A Developer Certificate of Origin is a legal statement made by a contributor where they certify that they themselves have authored the contribution and that they have legal authority to contribute this code. As with the Gitlab example above, this is usually made in combination with a license such as MIT or Apache. You can read the entire license here (it's brief): https://developercertificate.org/
+開發者原創證書是由貢獻者作出的法律聲明，証明他們自己編寫了這貢獻，及擁有法律權力來貢獻這代碼。 正如上面Gitlab的例子，它通常與MIT或Apache等的授權結合使用。 You can read the entire license here (it's brief): https://developercertificate.org/
 
 By adding the `signed-off-by` flag to your git commit, you are saying that you are acting in accordance with the DCO. Although not necessary for every commit, it is there to provide a sort of "blame-chain" in case things go wrong. Best practice suggests using the real name of the contributor. You can read more about the details of doing this here: https://stackoverflow.com/a/1962112
 
