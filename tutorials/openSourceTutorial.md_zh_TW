@@ -67,7 +67,7 @@ https://opensource.com/resources/what-open-source
 
 ### 版權、授權及署名
 
-在現代民主社會，我們並遍認為版權聲明是所有授權的第一步，因為我們必須有人負責宣佈如何使用被授權的東西。 In a strange (but somehow logical) twist, if you wish to share your work as Public Domain or Copyleft, you have to first declare that you are the owner of your work (and that everyone who contributed to it agrees with you on that matter).
+在現代民主社會，我們並遍認為版權聲明是所有授權的第一步，因為我們必須有人負責宣佈如何使用被授權的東西。 矛盾 (但某程度又很符合邏輯) 的事，如你想將你的作品以公有領域或著佐權(Copyleft) 的形式分享，你先需要聲明你是作品的擁有者 (同時每個曾為作品貢獻的人都同意)。
 
 當完成了聲明版權，版權持有人可以通知代碼 / 文本 / 藝術品的讀者及使用者在什麼情況下可以適當地使用它。 無論原作者 / 版權持有人採用哪一種授權方式，如果作品使用了第三方的開源授權材料，就應在作品寄存庫中保留這些授權的副本。 在原始檔的標頭 (header) 或元數據 (metadata) 移除、編輯授權檔或授權參考是永不容許的事，因為這實際上是偷竊和剽竊的一種形式。
 
@@ -138,27 +138,27 @@ MIT、BSD及Apache是開源軟體社區所稱的"寬鬆"授權。 寛鬆意指�
 
 **警告**：這些自動化系統並不是萬無一失的 (例如授權檢測模組可能會檢測出多個授權，即使它本身正使用其他授權)。 如你受到法則符合性的約束，你需要手動進行檢查 - 如你需要任何說明甚或是不同的授權，請與作者聯絡。 這在有些時候是可能的。 記住，請求許可比請求原諒更好。
 
-### Using open-source
+### 使用開源
 
-If you use anything that is open-source, you must declare its use and make the original licenses easily accessible. If you are using, for example, node modules in your project, then these licenses are available in the source code of the project when someone downloads the project files and "installs" the dependencies. You can usually find it as a file named `LICENSE` in the root folder or in the "license" field in the `package.json`
+如果你使用任何開源的東西，你必須聲明它的用途及讓其原始授權易於訪問。 例如，如果你在項目中使用節點模組，則當有人下載項目檔案並"安裝"其依賴項時，這些授權應可在項目源代碼中使用。 你通常可以在根文件夾中稱為`LICENSE`的檔案，或在`package.json`中的"授權(license)"欄中找到它。
 
-Generally this is enough, however if you make any changes to the original library, you may be required to notify and / or submit these changes back to the community. This depends on the license type, but we will cover licensing specifics in the final section.
+一般來說這就已經足夠，但如果你對原始庫進行了任何更改，則需要通知及/或提交這些更改到社區。 這視乎授權類型而定，我們將在最後一節中介紹授權的具體內容。
 
-> **Stack Overflow**: A common pitfall is to merely copy and paste things that you find on stackoverflow.com - but this is dangerous, because even though it is implied that the user is sharing this information, you do not know with 100% certainty that it is appropriate (or permitted) to use the code example 1 to 1. The common practice of citing the resource is better than nothing, but you should really consider rewriting the example to fit your code style, the needs of your project AND reference the source as "inspiration".
+> **堆疊溢位(Stack Overflow)**：一個常見的陷阱是只複製和貼上你在stackoverflow.com上找到的東西 - 但這是很危險的，因為就算它暗示用戶分享了這資訊，你也不能百分百確定是否能適當地(或被允許）完全一樣的使用該代碼例子。 引用來源的常見做法比什麼都不做好，但你確實應該考慮重寫該代碼例子以符合你的代碼格式、項目的需要及將可將來源視為"靈感"。
 
-## Your Identity and Rights
+## 您的身份和權利
 
-### What is a "Non-Disclosure Agreement" (NDA)
+### 什麼是 "保密協議" (NDA)
 
-A non-disclosure agreement is a contract that you may be required to sign if you will be working with an organisation that has trade secrets to protect. As the signee of the NDA, you will be bound by the contract to maintain secrecy about the information you have been given, and it may include clauses about non-competition in a similar industry for a specific amount of time. Although this is generally uncommon in the open-source industry, it may be required if you are given access to "secrets" like API keys, logins and the like.
+保密協議是當你將與一個有商業秘密要保護的組織合作時，你可能需要簽署的一份合約。 作為保密協議的簽署人，你將受協議約束，保密所有你得到的資訊，當中可能包括類似行業在指定時間的非競爭條款。 雖然這在開源行業一般來說是不常見的，但如你得到"秘密"權限如API金鑰、登入資料等，這就是需要的。
 
-> If you are presented with a NDA, as with any contract, it is wise to read everything, ask questions and ask a lawyer for their opinion. Quasar will never require you to sign an NDA.
+> 如你眼前有一份保密協議，就像對待任何合約一樣，仔細閱讀所有內容，發出提問，及徵求律師的意見。 Quasar 永遠都不會要求你簽署保密協議。
 
-### What is a "Contributor License Agreement" (CLA)
+### 什麼是 "貢獻者授權協議" (CLA)
 
-A Contributor License Agreement is a contract between the owner of a project and code contributors. As opposed to a NDA (which is restrictive), a CLA is "reciprocal" in that it is actually there to protect the rights of both owner and contributor. With a CLA, contributors explicitly give the owner permission to use the contribution, and owners explicitly permit the contributor to use their contributions as they see fit.
+貢獻者授權協議是一份項目持有人及代碼貢獻者之間的合約。 與保密協議的限制性相反的是，貢獻者授權協議是雙方互惠的，它實際上是保障了持有人及貢獻者的權利。 在貢獻者授權協議下，貢獻者明確地授權持有人使用他們的貢獻，同時持有人也明確地允許貢獻者在合適時使用他們的貢獻。
 
-However, many developers consider a CLA to be problematic because of the rights that they confer upon the owner, which include the ability to change the license of the code. [Here is a great writeup by gitlab](https://about.gitlab.com/2017/11/01/gitlab-switches-to-dco-license/) about why they switched from a CLA to a DCO - and here is their [in-depth analysis from a project-management perspective](https://docs.google.com/a/gitlab.com/document/d/1zpjDzL7yhGBZz3_7jCjWLfRQ1Jryg1mlIVmG8y6B1_Q/edit?usp=sharing).
+然而，很多開發人員認為貢獻者授權協議是有問題的，因為它賦予持有人包括更改代碼授權的權利。 [這裡有一份gitlab出色的書面說明](https://about.gitlab.com/2017/11/01/gitlab-switches-to-dco-license/)，講述它們為什麼從貢獻者授權協議轉換到開發者原創證書(DCO) - 這是它們[從項目管理角度的深入分析](https://docs.google.com/a/gitlab.com/document/d/1zpjDzL7yhGBZz3_7jCjWLfRQ1Jryg1mlIVmG8y6B1_Q/edit?usp=sharing)。
 
 ### What is a "Developer Certificate of Origin" (DCO)
 
