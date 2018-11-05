@@ -168,28 +168,28 @@ MIT、BSD及Apache是開源軟體社區所稱的"寬鬆"授權。 寛鬆意指�
 
 部份IDE如[Webstorm](https://www.jetbrains.com/help/webstorm/2017.2/using-git-integration.html#commit)讓你在查看代碼時就能從提交視窗直接添加這標誌。 它將在提交訊息的最尾添加以下一行：`Signed off by: <username>`
 
-Please note, if the managers of the project you are working on ask you to sign off, check to make sure that they really want you to sign off with every commit, or if it is enough to sign-off on tags or PR's. Technically speaking, the person doing the merge is the one who is required to sign-off, but by adding your name to the individual commits it becomes clear who was really responsible for which changes. It is a matter of preference.
+請注意，如果你正在處理的項目的經理要求你登出，請了解清楚他們是希望你每次提交都登出，還是只需簽署標簽或PR就可以了。 技術上來說，進行合併的人是需要登出的，但通過添加你的名字到個人提交中，就可以清楚地了解誰真正對哪些變化負責。 這是偏好的問題。
 
-> At Quasar we ask you to sign-off on all commits.
+> 在Quasar我們要求你簽署所有提交。
 
-### Become a "verified" contributor
+### 成為"認證"貢獻者
 
-Verified contributors on Github or Gitlab are developers who have added a GPG key to their account and use this GPG key to sign their commits. Although it is not necessary for integration, some project managers may require it - especially since it is easier to steal someone's login credentials and modify a critical repository than it is steal their GPG key.
+Github或Gitlab的認證貢獻者是添加了GPG金鑰到帳戶的開發人員，他們使用這GPG金鑰來簽署他們的提交。 Although it is not necessary for integration, some project managers may require it - especially since it is easier to steal someone's login credentials and modify a critical repository than it is steal their GPG key.
 
-The following links will show you how to create a GPG key and use them with Github or Gitlab, as needed.
+以下的連結將為你展示如何創建GPG金鑰及在有需要時於Github或Gitlab使用。
 
-- [Add a GPG Key to Github](https://help.github.com/articles/adding-a-new-gpg-key-to-your-github-account/)
-- [Signing commits on Gitlab](https://docs.gitlab.com/ee/user/project/repository/gpg_signed_commits/index.html)
+- [添加GPG金鑰到Github](https://help.github.com/articles/adding-a-new-gpg-key-to-your-github-account/)
+- [在Gitlab簽署提交](https://docs.gitlab.com/ee/user/project/repository/gpg_signed_commits/index.html)
 - https://blog.github.com/2016-04-05-gpg-signature-verification/
 - https://stackoverflow.com/questions/10161198/is-there-a-way-to-autosign-commits-in-git-with-a-gpg-key
 
-### When do I need to get "release" forms
+### 我何時需要得到"豁免"書
 
-A release form is generally required when making photographs of people and private property - and using them for any non-private purpose. Although specifics vary from jurisdiction to jurisdiction, it is very important that you get people to sign a release form, and if it is clear WHERE the picture was taken, then you might need to get permission of the owner.
+在為私人財產和人拍攝照片，並以非私人目的使用時，一般都需要一份"豁免"書。 雖然各管轄區之間的具體細節都不同，但讓人簽署一份豁免書十分重要。如果照片的拍攝地點很清楚，那麼你可能需要得到獲有者的同意。
 
-> One clever way to deal with a release form for humans (if they genuinely want to support you) is a so-called "reciprocal pay". Before the photo-shooting, prepare two receipts. On one receipt you pay them e.g. 5 EUR for being a model. On the other receipt, they pay you e.g. 5 EUR for a copy of the photograph. The rule (got the cash, keep the copy) applies, so each party has one original receipt and one copy receipt. You send them a digital copy of the final image as a link to the open-source repository where it was used, and note this on the copy of the receipt they gave you. Keep this in your own records, and everybody is happy.
+> 有一種巧妙地處理肖像轄免書(如果肖像擁有人真的想支持你) 的方法，就是所謂的"互惠支付"。 在拍攝前，先準備兩張收據。 在一張收據上，你寫上例如5歐元作為他作為模特的報酬。 在另一張收據上，他同樣寫上5歐元以購買一份照片的副本。 規則 (得到現金，保留副本）適用，所以雙方都有一張正本收據及一張副本收據。 你將最後圖像的數碼副本連結發送到使用它的開源存儲庫，並備注在他們給你的收據副本上。 將這保留在你自己的紀錄上，大家高興。
 
-If you do use photographs of people that you have made and submit them to open source projects, you need to be able to prove that the person gave you permission, and you should keep their release form on file and available.
+如果你確實使用了你拍攝的肖像照並提交到開源項目，你需要能夠證明肖像的主人已給予你授權，並已保存其豁免書可隨時使用。
 
 ### How can I document "provenance"
 
