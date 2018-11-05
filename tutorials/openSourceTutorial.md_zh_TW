@@ -162,9 +162,9 @@ MIT、BSD及Apache是開源軟體社區所稱的"寬鬆"授權。 寛鬆意指�
 
 ### 什麼是 "開發者原創證書" (DCO)
 
-開發者原創證書是由貢獻者作出的法律聲明，証明他們自己編寫了這貢獻，及擁有法律權力來貢獻這代碼。 正如上面Gitlab的例子，它通常與MIT或Apache等的授權結合使用。 You can read the entire license here (it's brief): https://developercertificate.org/
+開發者原創證書是由貢獻者作出的法律聲明，証明他們自己編寫了這貢獻，及擁有法律權力來貢獻這代碼。 正如上面Gitlab的例子，它通常與MIT或Apache等的授權結合使用。 你可以在此閱讀整個授權 (很短的)：https://developercertificate.org/
 
-當你把`signed-off-by`標誌添加到git的提交時，這代表你以開發者原創證書行事。 Although not necessary for every commit, it is there to provide a sort of "blame-chain" in case things go wrong. 最好的實踐建議是使用貢獻者的真實名字。 你可在此閱讀更多相關資訊：https://stackoverflow.com/a/1962112
+當你把`signed-off-by`標誌添加到git的提交時，這代表你以開發者原創證書行事。 雖然這不是每個提交都需要，但它提供了一種"問責鏈"以防事情出錯。 最好的實踐建議是使用貢獻者的真實名字。 你可在此閱讀更多相關資訊：https://stackoverflow.com/a/1962112
 
 部份IDE如[Webstorm](https://www.jetbrains.com/help/webstorm/2017.2/using-git-integration.html#commit)讓你在查看代碼時就能從提交視窗直接添加這標誌。 它將在提交訊息的最尾添加以下一行：`Signed off by: <username>`
 
@@ -174,7 +174,7 @@ MIT、BSD及Apache是開源軟體社區所稱的"寬鬆"授權。 寛鬆意指�
 
 ### 成為"認證"貢獻者
 
-Github或Gitlab的認證貢獻者是添加了GPG金鑰到帳戶的開發人員，他們使用這GPG金鑰來簽署他們的提交。 Although it is not necessary for integration, some project managers may require it - especially since it is easier to steal someone's login credentials and modify a critical repository than it is steal their GPG key.
+Github或Gitlab的認證貢獻者是添加了GPG金鑰到帳戶的開發人員，他們使用這GPG金鑰來簽署他們的提交。 雖然這不是整合需要，但部份項目經理可能需要它 - 尤其是竊取某人登入憑據及修改關鍵存儲庫比竊取GPG金鑰更容易的情況下。
 
 以下的連結將為你展示如何創建GPG金鑰及在有需要時於Github或Gitlab使用。
 
