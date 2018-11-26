@@ -195,23 +195,23 @@ Github或Gitlab的認證貢獻者是添加了GPG金鑰到帳戶的開發人員�
 
 出處是用來描述作品歷史的一個詞。 在開源授權下和git存儲庫中共用的程式碼大致是自文檔的。 圖像則沒有那麼明顯，尤其是結合了數個資源的數碼拼貼作品，更是棘手。
 
-處理設計師的出處十分重要，因為視覺圖像的權利競爭激烈，往往導致法律糾紛。 即使是只使用公共領域資源，在出處文件中紀錄你的工作仍是一個很好的做法。 這類型的文件就像科學論文中的參考書目，紀錄了作者及想法。 雖然沒有"標準化"的方法，但最好的方法是不僅記錄來源及存取時間，並跟踪每個元件的授權。 If you want an example of this, feel free to look at the citations section [in this graphics breakdown](https://busy.org/@nothingismagick/qcensus2018-campaign-graphics-breakdown) written in the @utopian-io style.
+處理設計師的出處十分重要，因為視覺圖像的權利競爭激烈，往往導致法律糾紛。 即使是只使用公共領域資源，在出處文件中紀錄你的工作仍是一個很好的做法。 這類型的文件就像科學論文中的參考書目，紀錄了作者及想法。 雖然沒有"標準化"的方法，但最好的方法是不僅記錄來源及存取時間，並跟踪每個元件的授權。 如果您想要例子, 請隨時查看以 @utopian-io 樣式編寫的  細分此圖形 </0 > 的引文部分。</p> 
 
-> The last thing anyone wants is a legal battle because it drains resources like time and money. If you are contributing to an open-source project, make sure that you are not putting them in hot-water. At Quasar, you can rest assured that the Art Department takes this VERY seriously, and violations of this trust are likely to lead to blacklisting or hammerbanning.
+> 人們最不希望的就是法律糾紛，因為它消耗了時間和金錢等資源。 如果你在為開源項目做貢獻, 確保你不要陷入其中。 在Quasar，你則大可放心，因為藝術部門非常重視這個問題，所有違反這種信任都很可能導致進入黑名單或封禁帳戶。
 
-## License Types
+## 授權類型
 
-### Major licenses for code
+### 代碼的主要授權
 
-This introduction cannot possibly explain the subtle differences between all of the different licenses for code, because there are dozens. A license is added to code by either placing a reference to it in the header of the file being licensed in the case of distributables, in a LICENSE file in the root level of a repository, in the README about the project or potentially in the package.json (if using node).
+本介紹不可能解釋所有不同代碼授權之間的細微差異，因為有多達數十個授權存在。 A license is added to code by either placing a reference to it in the header of the file being licensed in the case of distributables, in a LICENSE file in the root level of a repository, in the README about the project or potentially in the package.json (if using node).
 
 If you skipped ahead and didn't read the earlier chapters, here is a quick recap of the three main license types and a popular example of each, along with two links that go into more detail and analysis.
 
-- **Permissive**: [MIT](http://www.opensource.org/licenses/MIT)
-- **Protective**: [GPL-3](https://www.gnu.org/licenses/gpl-3.0.en.html)
-- **Public Domain**: [WTFPL](http://www.wtfpl.net/)
-- [Github's License Helper](https://choosealicense.com/)
-- [The exhaustive list by the GNU Foundation](https://www.gnu.org/licenses/license-list.html)
+- **寛鬆性**: [MIT](http://www.opensource.org/licenses/MIT)
+- **保護性**: [GPL-3](https://www.gnu.org/licenses/gpl-3.0.en.html)
+- **公有領域**: [WTFPL](http://www.wtfpl.net/)
+- [Github 的授權助手](https://choosealicense.com/)
+- [GNU 基金會的詳盡列表](https://www.gnu.org/licenses/license-list.html)
 
 > At the Quasar Framework all contributions to the core libraries are required to be MIT. By contributing anything, you are agreeing to this license.
 
