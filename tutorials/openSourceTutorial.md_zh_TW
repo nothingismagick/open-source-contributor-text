@@ -193,9 +193,9 @@ Github或Gitlab的認證貢獻者是添加了GPG金鑰到帳戶的開發人員�
 
 ### 如何記錄 "出處"
 
-出處是用來描述作品歷史的一個詞。 Code that is shared under an open-source license and within the context of a git repository is more or less self-documenting. Images are less obvious, and it is especially tricky with digital-collage works that combine a number of resources.
+出處是用來描述作品歷史的一個詞。 在開源授權下和git存儲庫中共用的程式碼大致是自文檔的。 圖像則沒有那麼明顯，尤其是結合了數個資源的數碼拼貼作品，更是棘手。
 
-Dealing with provenance for designers is important, as rights to visual images are hotly contested and often times lead to legal battles. Even if only public-domain resources are being used, it is still a good practice to record your work in a provenance document. This type of document is like the bibliography in a scientific paper, in which the ideas and authors are recorded. Although there is no "standardised" approach, the best method is to not only record the sources and the times accessed, but also track down the licenses for each component. If you want an example of this, feel free to look at the citations section [in this graphics breakdown](https://busy.org/@nothingismagick/qcensus2018-campaign-graphics-breakdown) written in the @utopian-io style.
+處理設計師的出處十分重要，因為視覺圖像的權利競爭激烈，往往導致法律糾紛。 即使是只使用公共領域資源，在出處文件中紀錄你的工作仍是一個很好的做法。 這類型的文件就像科學論文中的參考書目，紀錄了作者及想法。 雖然沒有"標準化"的方法，但最好的方法是不僅記錄來源及存取時間，並跟踪每個元件的授權。 If you want an example of this, feel free to look at the citations section [in this graphics breakdown](https://busy.org/@nothingismagick/qcensus2018-campaign-graphics-breakdown) written in the @utopian-io style.
 
 > The last thing anyone wants is a legal battle because it drains resources like time and money. If you are contributing to an open-source project, make sure that you are not putting them in hot-water. At Quasar, you can rest assured that the Art Department takes this VERY seriously, and violations of this trust are likely to lead to blacklisting or hammerbanning.
 
