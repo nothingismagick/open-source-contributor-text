@@ -228,7 +228,7 @@ Github或Gitlab的認證貢獻者是添加了GPG金鑰到帳戶的開發人員�
 
 ### 授權藝術品/設計/影片
 
-There are literally as many legal regulations for this type of contribution as there are countries on the planet, so it is absolutely inappropriate to go into detail about how things are different from nation to nation. 無論如何，創作圖像的那位絕不會失去說自己是擁有者的權利 (除非有一份絕對嚴厲的合約阻止了這一點 - 在某些情況下，這在法庭上是站不住腳的)。 這就是為什麼會有一條通用規則：引用作者並命名授權。 如果你做不到這一點，那就不要使用該資產。
+對於這類貢獻，當中的法律規定就像地球上的國家一樣多，所以詳細瞭解各國之間的不同是絕不合適的。 無論如何，創作圖像的那位絕不會失去說自己是擁有者的權利 (除非有一份絕對嚴厲的合約阻止了這一點 - 在某些情況下，這在法庭上是站不住腳的)。 這就是為什麼會有一條通用規則：引用作者並命名授權。 如果你做不到這一點，那就不要使用該資產。
 
 根據貢獻被使用地點和方式，可以通過多種方法進行引用：
 
@@ -249,7 +249,7 @@ There are literally as many legal regulations for this type of contribution as t
 
 ### 字體授權
 
-Of the hundreds of fonts listed at [Google Fonts](https://fonts.google.com/attribution), there are exactly two different licenses used: Either the Apache License v2, or the SIL Open Font License v1.1. The vast majority are OFL, and it is basically the same type of permissive license as MIT.
+在 [Google Fonts (谷歌字體) ](https://fonts.google.com/attribution) 列出的數百種字體中，準確有兩個不同的授權被使用：Apache 授權 v2 ，或 SIL 開源字體授權 v1.1。它們絕大多數是OFL (Open Font License 開源字體授權)，基本上是與MIT相同類型的寬鬆授權。
 
 如果您使用一種字體，就需要確保你確實擁有該字體的授權，因為某些專業字體創造將根據其應用來銷售不同類型的授權。 (如桌面發佈的一個授權、網站發佈的另一個授權等) 如果你使用的是開源字體，最佳做法是將授權的副本放在字體的資料夾中。
 
@@ -261,7 +261,7 @@ Of the hundreds of fonts listed at [Google Fonts](https://fonts.google.com/attri
 
 僅僅因為你 "開放" 了你的作品讓別人協作，還不是最後。 僅僅因為你在 Photoshop 文件上拍上了共享創意授權，並不意味著它是開放和免費的。 資產或項目的開放程度也由作業系統以及使用和修改文件所需的軟體決定。 請考慮不僅公佈你的工作過程的結果，而且告訴人們你是如何做到的。
 
-此外，在從事開源項目時，請不要使用盜版軟體。 Not only is it "uncool" and damaging to the honour of the entire open-source community, you are putting yourself and your colleagues at risk, especially if you have high-value credentials, like server logins etc. 沒有比使用盗版更好的方法來讓駭客攻擊自己了 (可能還有你的團隊)。
+此外，在從事開源項目時，請不要使用盜版軟體。 這不僅是 "不酷"，損害了整個開源社區的榮譽，而且讓你自己和你的同事處於危險之中，特別是如果你有高價值的憑據，如伺服器登錄等。 沒有比使用盗版更好的方法來讓駭客攻擊自己了 (可能還有你的團隊)。
 
 # 更多資源
 
