@@ -226,28 +226,28 @@ If you skipped ahead and didn't read the earlier chapters, here is a quick recap
 
 > At the Quasar Framework all documentation is (or will be) licensed under the FDL.
 
-### Licensing artwork / design / video
+### 授權藝術品/設計/影片
 
-There are literally as many legal regulations for this type of contribution as there are countries on the planet, so it is absolutely inappropriate to go into detail about how things are different from nation to nation. No matter what, the person that made the image can never lose the right to say that they were the owner (unless an absolutely draconian contract prevents it - and in some cases this won't stand up in court). This is why there is one common rule that will : Cite the author and name the license. If you can't do that, then don't use the asset.
+There are literally as many legal regulations for this type of contribution as there are countries on the planet, so it is absolutely inappropriate to go into detail about how things are different from nation to nation. No matter what, the person that made the image can never lose the right to say that they were the owner (unless an absolutely draconian contract prevents it - and in some cases this won't stand up in court). 這就是為什麼會有一條通用規則：引用作者並命名授權。 If you can't do that, then don't use the asset.
 
-Depending on where and how the contribution is to be used, there are a number of ways in which this citation can be made:
+根據貢獻被使用地點和方式，可以通過多種方法進行引用：
 
-1. Name the file accordingly
-2. Put license information in a watermark in the file
-3. Inject the information into the metadata of the file
-4. Cite the image sources / licenses directly after the image if possible
-5. Put this same information in a footnote / endnote / linked document
-6. Place license information or licenses and release form-cover-sheets in the repository in the same folder as the image or some other delegated location
+1. 相應地命名文件
+2. 將授權資料包含到文件水印中
+3. 將資訊注入到文件的元數據
+4. 如果可以的話，直接在圖像後面引用圖像來源/授權
+5. 將相同資訊包含到註腳/結束說明/連結文件
+6. 將授權資訊或授權和豁免書封面頁放置在存儲庫與圖像同一個資料夾中，或其他指定位置
 
-Common licenses to use for Images / Designs / Videos are:
+用於圖像/設計/影片的常見授權包括：
 
-- [Creative Commons](https://creativecommons.org/)
-- [Public Domain / CC0](https://creativecommons.org/share-your-work/public-domain/cc0/)
+- [共享創意](https://creativecommons.org/)
+- [公共領域/CC0](https://creativecommons.org/share-your-work/public-domain/cc0/)
 - [Apache v2](https://apache.org/licenses/LICENSE-2.0)
 
-> Quasar prefers CC-BY or CC0 licenses.
+> Quasar比較喜歡採用CC-BY 或 CC0 授權。
 
-### Font licenses
+### 字體授權
 
 Of the hundreds of fonts listed at [Google Fonts](https://fonts.google.com/attribution), there are exactly two different licenses used: Either the Apache License v2, or the SIL Open Font License v1.1. The vast majority are OFL, and it is basically the same type of permissive license as MIT.
 
