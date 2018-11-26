@@ -191,9 +191,9 @@ Github或Gitlab的認證貢獻者是添加了GPG金鑰到帳戶的開發人員�
 
 如果你確實使用了你拍攝的肖像照並提交到開源項目，你需要能夠證明肖像的主人已給予你授權，並已保存其豁免書可隨時使用。
 
-### How can I document "provenance"
+### 如何記錄 "出處"
 
-Provenance is a word that describes the history of a work. Code that is shared under an open-source license and within the context of a git repository is more or less self-documenting. Images are less obvious, and it is especially tricky with digital-collage works that combine a number of resources.
+出處是用來描述作品歷史的一個詞。 Code that is shared under an open-source license and within the context of a git repository is more or less self-documenting. Images are less obvious, and it is especially tricky with digital-collage works that combine a number of resources.
 
 Dealing with provenance for designers is important, as rights to visual images are hotly contested and often times lead to legal battles. Even if only public-domain resources are being used, it is still a good practice to record your work in a provenance document. This type of document is like the bibliography in a scientific paper, in which the ideas and authors are recorded. Although there is no "standardised" approach, the best method is to not only record the sources and the times accessed, but also track down the licenses for each component. If you want an example of this, feel free to look at the citations section [in this graphics breakdown](https://busy.org/@nothingismagick/qcensus2018-campaign-graphics-breakdown) written in the @utopian-io style.
 
