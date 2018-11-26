@@ -253,29 +253,29 @@ Of the hundreds of fonts listed at [Google Fonts](https://fonts.google.com/attri
 
 If you are using a font, you need to make sure that you really have the license for it, as some professional font forges will sell different types of licenses depending on the application. (As in one license for desktop publishing, another for websites, etc.) If you are using an open-source font, best-practice is to put a copy of the license in the folder where you are maintaining your fonts.
 
-Furthermore, some services like FontSquirrel offer a [WebfontGenerator](https://www.fontsquirrel.com/tools/webfont-generator) that enables designers to make a set of font-files so that individual browsers can select the type that they are most well-equipped to use. They require you to verify that you have the right to convert the font to other formats. The SIL OFL does permit this. If there is no license that you can find, assume that you do not have the right to use the font.
+Furthermore, some services like FontSquirrel offer a [WebfontGenerator](https://www.fontsquirrel.com/tools/webfont-generator) that enables designers to make a set of font-files so that individual browsers can select the type that they are most well-equipped to use. 它們要求你驗證自己是否有權將字體轉換為其他格式。 SIL及OFL確實允許這樣做。 如果你找不到授權，請假設你沒有使用該字體的權利。
 
-- [OFL-FAQ web version (1.1-update5)](https://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web)
+- [OFL - 常見問題網頁版本 (1.1-update5)](https://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web)
 
 # 結語
 
-僅僅因為你 "開放" 了你的作品讓別人協作，還不是最後。 僅僅因為你在 Photoshop 文件上拍上了共享創意授權，並不意味著它是開放和免費的。 The degree of openness of an asset or project is also determined by the operating system and the software needed to use and or modify the file. Please consider publishing not only the results of the process of your work, but also inform people about how you did it.
+僅僅因為你 "開放" 了你的作品讓別人協作，還不是最後。 僅僅因為你在 Photoshop 文件上拍上了共享創意授權，並不意味著它是開放和免費的。 The degree of openness of an asset or project is also determined by the operating system and the software needed to use and or modify the file. 請考慮不僅公佈你的工作過程的結果，而且告訴人們你是如何做到的。
 
-Furthermore, please do not use pirated software when working on open-source projects. Not only is it "uncool" and damaging to the honour of the entire open-source community, you are putting yourself and your colleagues at risk, especially if you have high-value credentials, like server logins etc. There is no better way to get yourself (and possibly your team) hacked than to use cracks.
+此外，在從事開源項目時，請不要使用盜版軟體。 Not only is it "uncool" and damaging to the honour of the entire open-source community, you are putting yourself and your colleagues at risk, especially if you have high-value credentials, like server logins etc. 沒有比使用盗版更好的方法來讓駭客攻擊自己了 (可能還有你的團隊)。
 
-# Further Resources
+# 更多資源
 
-In case you want to go more into depth about these topics, we have a few additional resources that we highly recommend:
+如果你想更深入地瞭解這些主題，我們強烈建議一些附加資源：
 
-- Stallman's distinction between [FLOSS and FOSS](https://www.gnu.org/philosophy/floss-and-foss.en.html)
-- This chapter of the [ZeroMQ Guide](http://zguide.zeromq.org/page:all#toc141) goes into great detail about governance in open-source projects with the specific example of their community
-
-#### Proof of Work Done (Authorship)
-
-The original version of this article has been compiled and written by @nothingismagick https://github.com/nothingismagick
-
-#### License
-
-This work and all derivatives are [licensed under the FDL 1.3](https://github.com/nothingismagick/quasar-articles/blob/master/LICENSE).
-
-> Written with [StackEdit](https://stackedit.io/).
+- 斯托曼解釋[FLOSS and FOSS](https://www.gnu.org/philosophy/floss-and-foss.en.html)之間的分別
+- ZeroMQ 指南</0 > 的這一章詳細介紹了開源項目的治理，並提供了其社區的具體例子</li> </ul> 
+    
+    #### 完成工作證明 (原創)
+    
+    本文的原始版本由 @nothingismagick 編寫 https://github.com/nothingismagick
+    
+    #### 授權
+    
+    本文和所有衍生產品都是 [FDL 1.3授權](https://github.com/nothingismagick/quasar-articles/blob/master/LICENSE)。
+    
+    > 使用[StackEdit](https://stackedit.io/)編寫
