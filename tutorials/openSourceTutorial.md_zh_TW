@@ -213,16 +213,16 @@ Github或Gitlab的認證貢獻者是添加了GPG金鑰到帳戶的開發人員�
 - [Github 的授權助手](https://choosealicense.com/)
 - [GNU 基金會的詳盡列表](https://www.gnu.org/licenses/license-list.html)
 
-> At the Quasar Framework all contributions to the core libraries are required to be MIT. 在參與任何貢獻時，已代表你同意此授權。
+> 在Quasar框架中，所有對核心庫的貢獻都必須是遵循MIT授權協議的。 在參與任何貢獻時，已代表你同意此授權。
 
 ### 文本/文檔的重要授權
 
-文本和文檔也是一項創造性的作品，一般情況下也受版權法的保護。 You can transfer these rights to third parties or to project owners to whom you will be giving your contributions by choosing either a Creative Commons resource or the Free Document License.
+文本和文檔也是一項創造性的作品，一般情況下也受版權法的保護。 您可以通過選擇共享創意 (Creative Commons) 資源或自由文檔授權 (Free Document License)，將這些權利轉讓給第三方或你將向其做出貢獻的項目擁有者。
 
 在授權文檔結尾命名授權和作者往往是最好做法。
 
 - [共享創意](https://creativecommons.org/)
-- [Free Documentation License](https://www.gnu.org/licenses/fdl.html)
+- [自由文檔授權](https://www.gnu.org/licenses/fdl.html)
 
 > At the Quasar Framework all documentation is (or will be) licensed under the FDL.
 
