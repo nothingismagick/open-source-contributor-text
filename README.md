@@ -1,2 +1,3 @@
-# quasar-articles
-A collection of quasar articles and their translations.
+# an article i wrote
+
+about open source
